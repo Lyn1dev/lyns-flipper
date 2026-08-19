@@ -151,23 +151,46 @@
         }
         .banner-meta {
             display: flex;
-            gap: 12px;
+            gap: 10px;
             align-items: center;
             font-size: 11px;
             color: var(--text-dim);
             flex-wrap: wrap;
         }
         .banner-meta b { color: var(--text); font-weight: 600; }
+        
         .key-btn {
             background: var(--surface-alt);
             border: 1px solid var(--border-bright);
             color: var(--text-dim);
             font-family: var(--mono);
             font-size: 10.5px;
-            padding: 2px 7px;
+            padding: 3px 8px;
             cursor: pointer;
         }
         .key-btn:hover { color: var(--blue); border-color: var(--blue); }
+
+        .github-star-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(218, 165, 32, 0.12);
+            border: 1px solid rgba(218, 165, 32, 0.4);
+            color: #f6e05e;
+            font-family: var(--mono);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 9px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all .12s ease;
+        }
+        .github-star-btn:hover {
+            background: rgba(218, 165, 32, 0.25);
+            border-color: #ecc94b;
+            color: #fff;
+            box-shadow: 0 0 8px rgba(236, 201, 75, 0.25);
+        }
 
         /* ─── Config Bar ─────────────────────────────────────────── */
         .ctrl-panel {
@@ -502,6 +525,8 @@
                 <span id="stat-batch">Target: <b id="stat-batch-val">10 units</b></span>
                 <span>|</span>
                 <button class="key-btn" onclick="openApiKeyModal()">🔑 API KEY</button>
+                <span>|</span>
+                <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="github-star-btn">★ Star this repo on GitHub</a>
             </div>
         </div>
 
