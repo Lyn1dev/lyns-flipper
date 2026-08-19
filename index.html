@@ -30,6 +30,32 @@
             --sans: 'Inter', system-ui, sans-serif;
         }
 
+        html {
+            scrollbar-width: thin;
+            scrollbar-color: #2a3342 #090a0f;
+        }
+
+        /* ─── Custom Barebones Terminal Scrollbar ──────────────────── */
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090a0f;
+            border-left: 1px solid #1c222d;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #262e3d;
+            border: 1px solid #384357;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b475c;
+            border-color: #58a6ff;
+        }
+        ::-webkit-scrollbar-corner {
+            background: #090a0f;
+        }
+
         body {
             background: var(--bg);
             color: var(--text);
@@ -152,7 +178,7 @@
         .banner-title {
             font-size: 14px;
             font-weight: 800;
-            letter-spacing: .03em;
+            letter-spacing: .02em;
             color: #fff;
             display: flex;
             align-items: center;
