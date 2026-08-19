@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHARD FUSION FLIP OPTIMIZER // HYPIXEL BAZAAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #090a0f;
+            --surface: #10131a;
+            --surface-hover: #161b24;
+            --surface-alt: #0c0e14;
+            --border: #232a36;
+            --border-bright: #3b4557;
+            --text: #e6edf3;
+            --text-dim: #7d8590;
+            --green: #3fb950;
+            --green-dim: rgba(63, 185, 80, 0.15);
+            --blue: #58a6ff;
+            --purple: #bc8cff;
+            --yellow: #d29922;
+            --red: #f85149;
+            --orange: #f0883e;
+            --mono: 'JetBrains Mono', 'Consolas', monospace;
+            --sans: 'Inter', system-ui, sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 12px;
+            line-height: 1.45;
+            padding: 12px;
+        }
+
+        .container {
+            max-width: 1560px;
+            margin: 0 auto;
+        }
+
+        /* ─── Startup / API Key Modal ─────────────────────────────── */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.88);
+            backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 16px;
+        }
+        .modal-box {
+            background: #10131a;
+            border: 1px solid #3b4557;
+            padding: 22px 24px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            font-family: var(--mono);
+        }
+        .modal-title {
+            font-size: 13.5px;
+            font-weight: 800;
+            color: #fff;
+            border-bottom: 1px solid #232a36;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            letter-spacing: .03em;
+        }
+        .modal-text {
+            font-size: 12px;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+        .modal-link {
+            color: var(--blue);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        .modal-link:hover { color: #fff; }
+        .modal-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+        .modal-input-row {
+            display: flex;
+            gap: 8px;
+            margin-top: 6px;
+        }
+        .modal-input {
+            flex: 1;
+            background: #090a0f;
+            border: 1px solid #3b4557;
+            color: var(--green);
+            font-family: var(--mono);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 7px 10px;
+            outline: none;
+        }
+        .modal-input:focus { border-color: var(--blue); }
+        .modal-btn {
+            background: #1f6feb;
+            border: 1px solid #388bfd;
+            color: #fff;
+            font-family: var(--mono);
+            font-size: 11.5px;
+            font-weight: 700;
+            padding: 7px 14px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .modal-btn:hover { background: #388bfd; }
+        .modal-err {
+            color: var(--red);
+            font-size: 11px;
+            margin-top: 8px;
+            display: none;
+        }
+
+        /* ─── Top Terminal Banner ─────────────────────────────────── */
+        .banner {
+            border: 1px solid var(--border);
+            background: var(--surface);
+            padding: 10px 14px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .banner-title {
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: .02em;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .banner-meta {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            font-size: 11px;
+            color: var(--text-dim);
+            flex-wrap: wrap;
+        }
+        .banner-meta b { color: var(--text); font-weight: 600; }
+        .key-btn {
+            background: var(--surface-alt);
+            border: 1px solid var(--border-bright);
+            color: var(--text-dim);
+            font-family: var(--mono);
+            font-size: 10.5px;
+            padding: 2px 7px;
+            cursor: pointer;
+        }
+        .key-btn:hover { color: var(--blue); border-color: var(--blue); }
+
+        /* ─── Config Bar ─────────────────────────────────────────── */
+        .ctrl-panel {
+            border: 1px solid var(--border);
+            background: var(--surface);
+            padding: 8px 12px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .ctrl-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .ctrl-lbl {
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: .05em;
+        }
+        .btn-group {
+            display: flex;
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+        }
+        .btn {
+            background: transparent;
+            border: none;
+            border-right: 1px solid var(--border);
+            color: var(--text-dim);
+            padding: 4px 9px;
+            font-family: var(--mono);
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn:last-child { border-right: none; }
+        .btn:hover:not(.active) { background: var(--surface-hover); color: var(--text); }
+        .btn.active {
+            background: #1f6feb;
+            color: #fff;
+            font-weight: 700;
+        }
+        .btn.active.g { background: #238636; }
+        .btn.active.p { background: #8957e5; }
+        .btn.active.b { background: #1f6feb; }
+
+        .qty-input {
+            background: var(--surface-alt);
+            border: 1px solid var(--border-bright);
+            color: var(--green);
+            font-family: var(--mono);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 3px 8px;
+            width: 80px;
+            outline: none;
+        }
+        .qty-input:focus { border-color: var(--green); }
+
+        .search-input {
+            background: var(--surface-alt);
+            border: 1px solid var(--border);
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 11.5px;
+            padding: 4px 10px;
+            width: 210px;
+            outline: none;
+        }
+        .search-input:focus { border-color: var(--blue); }
+
+        .refresh-btn {
+            background: var(--surface-alt);
+            border: 1px solid var(--border-bright);
+            color: var(--blue);
+            font-family: var(--mono);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 12px;
+            cursor: pointer;
+            margin-left: auto;
+        }
+        .refresh-btn:hover { background: #1f6feb22; border-color: var(--blue); }
+
+        /* ─── Status Row ─────────────────────────────────────────── */
+        .status-row {
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+            padding: 6px 12px;
+            margin-bottom: 10px;
+            font-size: 11px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--text-dim);
+        }
+        .status-text b { color: var(--text); }
+        .status-text .g { color: var(--green); font-weight: 700; }
+        .status-text .r { color: var(--red); font-weight: 700; }
+
+        /* ─── Cards Grid ─────────────────────────────────────────── */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+            gap: 8px;
+        }
+
+        .card {
+            border: 1px solid var(--border);
+            background: var(--surface);
+            padding: 10px 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        .card:hover { border-color: var(--border-bright); background: var(--surface-hover); }
+
+        /* Card Header */
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 12.5px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        .rank-num { color: var(--text-dim); font-size: 11px; }
+        .shard-icon { width: 18px; height: 18px; image-rendering: pixelated; vertical-align: middle; }
+        .rar-tag {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 1px 5px;
+            border: 1px solid var(--border);
+            text-transform: uppercase;
+        }
+        .rar-tag.legendary { color: var(--orange); border-color: #f0883e55; }
+        .rar-tag.epic { color: var(--purple); border-color: #bc8cff55; }
+        .rar-tag.rare { color: var(--blue); border-color: #58a6ff55; }
+        .rar-tag.uncommon { color: var(--green); border-color: #3fb95055; }
+        .rar-tag.common { color: var(--text-dim); border-color: #7d859055; }
+
+        .shard-name { font-weight: 700; }
+        .shard-name.legendary { color: var(--orange); }
+        .shard-name.epic { color: var(--purple); }
+        .shard-name.rare { color: var(--blue); }
+        .shard-name.uncommon { color: var(--green); }
+        .shard-name.common { color: #cbd5e1; }
+
+        .vol-stat { margin-left: auto; font-size: 10.5px; color: var(--text-dim); font-weight: 400; }
+
+        /* Order Book Pill */
+        .ob-badge {
+            font-size: 10.5px;
+            padding: 3px 6px;
+            border: 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .ob-badge.ok {
+            background: var(--green-dim);
+            border-color: #3fb95055;
+            color: var(--green);
+        }
+        .ob-badge.warn {
+            background: rgba(210, 153, 34, 0.12);
+            border-color: #d2992255;
+            color: var(--yellow);
+        }
+
+        /* Batch Metrics Box */
+        .metrics-block {
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+            padding: 6px 9px;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            font-size: 11px;
+        }
+        .mb-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .mb-profit {
+            font-size: 13.5px;
+            font-weight: 800;
+            color: var(--green);
+        }
+        .mb-roi {
+            font-weight: 700;
+            color: var(--green);
+            background: #23863628;
+            padding: 1px 5px;
+            border: 1px solid #23863655;
+        }
+
+        /* Timers Row */
+        .timers-block {
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+            padding: 4px 8px;
+            font-size: 10.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            color: var(--text-dim);
+        }
+        .timers-block b { color: var(--text); }
+        .timers-block .hl { color: var(--yellow); }
+
+        /* Craft Tree */
+        .tree-block {
+            border: 1px solid var(--border);
+            background: #08090d;
+            padding: 6px 9px;
+            font-size: 11px;
+        }
+        .tree-title {
+            font-size: 9.5px;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: .06em;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 3px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tree-row {
+            padding: 1px 0;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap;
+        }
+        .tree-node {
+            position: relative;
+            padding-left: 12px;
+        }
+        .tree-node::before {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 0;
+            bottom: 4px;
+            width: 1px;
+            background: #2e3646;
+        }
+        .tree-node::after {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 9px;
+            width: 7px;
+            height: 1px;
+            background: #2e3646;
+        }
+        .tree-node.root { padding-left: 0; }
+        .tree-node.root::before, .tree-node.root::after { display: none; }
+
+        .tag-fuse { color: #bc8cff; font-weight: 700; font-size: 9.5px; }
+        .tag-buy { color: #3fb950; font-weight: 700; font-size: 9.5px; }
+        .tag-insta { color: #58a6ff; font-weight: 700; font-size: 9.5px; }
+
+        /* Shopping List */
+        .mats-list {
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+            padding: 5px 8px;
+            font-size: 10.5px;
+            color: var(--text-dim);
+            line-height: 1.4;
+        }
+        .mats-list b { color: var(--text); }
+
+        /* Unit Breakdown Bar */
+        .unit-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 10.5px;
+            color: var(--text-dim);
+            padding-top: 3px;
+            border-top: 1px solid var(--border);
+        }
+        .unit-bar b { color: var(--text); }
+        .unit-bar .p { color: var(--green); font-weight: 700; }
+    </style>
+</head>
+
+<body>
+    <!-- Startup Modal for API Key -->
+    <div id="api-key-modal" class="modal-overlay" style="display:none">
+        <div class="modal-box">
+            <div class="modal-title">[ HYPIXEL API KEY REQUIRED ]</div>
+            <p class="modal-text">
+                you need a hypixel API key to use this site, you can get one for free at 
+                <a href="https://developer.hypixel.net" target="_blank" class="modal-link">https://developer.hypixel.net</a>,
+                copy paste the key in the box below:
+            </p>
+            <div class="modal-label">HYPIXEL API KEY:</div>
+            <div class="modal-input-row">
+                <input type="text" id="api-key-input" class="modal-input" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" autocomplete="off" spellcheck="false" />
+                <button class="modal-btn" onclick="saveApiKey()">[ SAVE & CONTINUE ]</button>
+            </div>
+            <div id="modal-err" class="modal-err"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Banner -->
+        <div class="banner">
+            <div class="banner-title">
+                <span>⚡</span>
+                <span>SKYBLOCK SHARD FUSION OPTIMIZER</span>
+            </div>
+            <div class="banner-meta">
+                <span id="stat-shards">Shards: <b>Loading...</b></span>
+                <span>|</span>
+                <span id="stat-recipes">Recipes: <b>Loading...</b></span>
+                <span>|</span>
+                <span id="stat-batch">Target: <b id="stat-batch-val">10 units</b></span>
+                <span>|</span>
+                <button class="key-btn" onclick="openApiKeyModal()">🔑 API KEY</button>
+            </div>
+        </div>
+
+        <!-- Controls Toolbar -->
+        <div class="ctrl-panel">
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Preset:</span>
+                <div class="btn-group">
+                    <button class="btn active g" id="preset-buyorder" onclick="applyPreset('buy_order')">💰 Max Profit</button>
+                    <button class="btn" id="preset-insta" onclick="applyPreset('insta')">⚡ Instant Flip</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Target Units:</span>
+                <input type="number" id="batch-qty" class="qty-input" min="1" max="100000" value="10" oninput="setBatchQty(this.value)" />
+            </div>
+
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Inputs:</span>
+                <div class="btn-group">
+                    <button class="btn active g" id="btn-buyorder" onclick="setInputMode('buy_order')">Buy Order</button>
+                    <button class="btn" id="btn-instabuy" onclick="setInputMode('instabuy')">InstaBuy</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Output:</span>
+                <div class="btn-group">
+                    <button class="btn active p" id="btn-sellorder" onclick="setOutputMode('sell_order')">Sell Order</button>
+                    <button class="btn" id="btn-instasell" onclick="setOutputMode('instasell')">InstaSell</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Sort:</span>
+                <div class="btn-group">
+                    <button class="btn active" id="btn-percent" onclick="setSortBy('percent')">ROI%</button>
+                    <button class="btn" id="btn-profit" onclick="setSortBy('profit')">Profit</button>
+                    <button class="btn" id="btn-fusions" onclick="setSortBy('fusions')">Fewest Fusions</button>
+                    <button class="btn" id="btn-time" onclick="setSortBy('time')">Fastest</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group">
+                <span class="ctrl-lbl">Rarity:</span>
+                <div class="btn-group">
+                    <button class="btn active" onclick="setRarityFilter('all', this)">All</button>
+                    <button class="btn" onclick="setRarityFilter('legendary', this)">Leg</button>
+                    <button class="btn" onclick="setRarityFilter('epic', this)">Epic</button>
+                    <button class="btn" onclick="setRarityFilter('rare', this)">Rare</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group">
+                <input type="text" id="fi" class="search-input" placeholder="Filter shard name (e.g. Starborn)..." oninput="renderResults()" />
+            </div>
+
+            <button class="refresh-btn" id="rbtn" onclick="refreshPrices()">[ ↻ REFRESH BAZAAR ]</button>
+        </div>
+
+        <!-- Status Row -->
+        <div class="status-row">
+            <div class="status-text" id="stext">Initializing data...</div>
+            <div id="sts">--:--:--</div>
+        </div>
+
+        <!-- Results Grid -->
+        <div id="area">
+            <div style="padding:40px;text-align:center;color:var(--text-dim)">
+                [ LOADING RECIPES & ORDER BOOKS... ]
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let fusionData = null;
+        let productsData = {};
+        let prices = {};
+        let optCost = {};
+        let optRecipe = {};
+        let allResults = [];
+        let lastUpdated = null;
+        let activeRarityFilter = 'all';
+
+        const MIN_VOL = 50;
+        const BAZAAR_TAX = 0.01125;
+
+        const cfg = {
+            inputMode: 'instabuy',
+            outputMode: 'instasell',
+            sortBy: 'percent',
+            topN: 50,
+            batchQty: 10,
+        };
+
+        function getApiKey() {
+            return (localStorage.getItem('hypixel_api_key') || '').trim();
+        }
+
+        function openApiKeyModal(errorMsg = '') {
+            const modal = document.getElementById('api-key-modal');
+            const input = document.getElementById('api-key-input');
+            const errEl = document.getElementById('modal-err');
+            input.value = getApiKey();
+            if (errorMsg) {
+                errEl.textContent = errorMsg;
+                errEl.style.display = 'block';
+            } else {
+                errEl.style.display = 'none';
+            }
+            modal.style.display = 'flex';
+            setTimeout(() => input.focus(), 50);
+        }
+
+        function closeApiKeyModal() {
+            document.getElementById('api-key-modal').style.display = 'none';
+        }
+
+        function saveApiKey() {
+            const input = document.getElementById('api-key-input');
+            const key = (input.value || '').trim();
+            const errEl = document.getElementById('modal-err');
+
+            if (!key) {
+                errEl.textContent = '[!] Please enter a valid Hypixel API key.';
+                errEl.style.display = 'block';
+                return;
+            }
+
+            localStorage.setItem('hypixel_api_key', key);
+            closeApiKeyModal();
+            refreshPrices();
+        }
+
+        async function init() {
+            const currentKey = getApiKey();
+            if (!currentKey) {
+                openApiKeyModal();
+            }
+
+            setStatus('Loading fusion-data.json...');
+            try {
+                const resp = await fetch('./fusion-data.json');
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                fusionData = await resp.json();
+                const ns = Object.keys(fusionData.shards).length;
+                const totalCombos = Object.values(fusionData.recipes).reduce((acc, q) => 
+                    acc + Object.values(q).reduce((a2, p) => a2 + p.length, 0), 0);
+
+                document.getElementById('stat-shards').innerHTML = `Shards: <b>${ns}</b>`;
+                document.getElementById('stat-recipes').innerHTML = `Recipes: <b>${totalCombos.toLocaleString()}</b>`;
+
+                applyPreset('insta');
+                setBatchQty(10);
+
+                if (getApiKey()) {
+                    setStatus(`Loaded <b>${ns}</b> shards · Fetching Bazaar live order books...`);
+                    await refreshPrices();
+                } else {
+                    setStatus(`<span class="r">Awaiting Hypixel API Key from startup modal...</span>`);
+                }
+            } catch (e) {
+                setStatus(`<span class="r">ERROR: Could not load fusion-data.json (${esc(e.message)})</span>`);
+                document.getElementById('area').innerHTML = `<div style="padding:30px;color:var(--red);border:1px solid var(--border)">
+                    [!] FAILED TO LOAD DATA: Ensure this folder is served via http.server (e.g. python -m http.server 8000)
+                </div>`;
+            }
+        }
+
+        async function refreshPrices() {
+            const apiKey = getApiKey();
+            if (!apiKey) {
+                openApiKeyModal();
+                return;
+            }
+
+            if (!fusionData) { init(); return; }
+            setStatus('Fetching live Bazaar order books and moving volume...');
+            try {
+                const headers = {};
+                if (apiKey) {
+                    headers['API-Key'] = apiKey;
+                }
+                const resp = await fetch('https://api.hypixel.net/v2/skyblock/bazaar', { headers });
+                if (!resp.ok) {
+                    if (resp.status === 403 || resp.status === 401) {
+                        openApiKeyModal('Invalid or expired Hypixel API key. Please check your key from https://developer.hypixel.net');
+                        throw new Error('Invalid API Key (HTTP ' + resp.status + ')');
+                    }
+                    throw new Error('Bazaar API: HTTP ' + resp.status);
+                }
+                const data = await resp.json();
+                productsData = data.products || {};
+                prices = buildPriceMap(productsData);
+                lastUpdated = new Date();
+                computeOptimalCrafts();
+                computeFlips();
+                renderResults();
+                setStatus(statusText());
+                updateTs();
+            } catch (e) {
+                setStatus(`<span class="r">ERROR: Bazaar fetch failed (${esc(e.message)})</span>`);
+            }
+        }
+
+        function buildPriceMap(products) {
+            const map = {};
+            for (const [id, prod] of Object.entries(products)) {
+                if (!id.startsWith('SHARD_')) continue;
+                const qs = prod.quick_status || {};
+                const ss = prod.sell_summary || [];
+                const bs = prod.buy_summary || [];
+
+                const buy_order_p = ss.length > 0 ? ss[0].pricePerUnit : (qs.sellPrice || 0);
+                const sell_offer_p = bs.length > 0 ? bs[0].pricePerUnit : (qs.buyPrice || 0);
+
+                const buy_moving_week = qs.buyMovingWeek || 0;
+                const sell_moving_week = qs.sellMovingWeek || 0;
+
+                const hourly_instasell = sell_moving_week > 0 ? (sell_moving_week / 168.0) : 1.0;
+                const hourly_instabuy  = buy_moving_week > 0 ? (buy_moving_week / 168.0) : 1.0;
+
+                const buy_queue_depth = ss.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+                const sell_queue_depth = bs.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+
+                const total_buy_avail = bs.reduce((acc, o) => acc + (o.amount || 0), 0);
+                const total_sell_avail = ss.reduce((acc, o) => acc + (o.amount || 0), 0);
+
+                if (buy_order_p <= 0 && sell_offer_p <= 0) continue;
+
+                map[id] = {
+                    buy_order_p,
+                    sell_offer_p,
+                    buy_summary: bs,
+                    sell_summary: ss,
+                    total_buy_avail,
+                    total_sell_avail,
+                    buy_moving_week,
+                    sell_moving_week,
+                    hourly_instasell,
+                    hourly_instabuy,
+                    buy_queue_depth,
+                    sell_queue_depth,
+                    volume: sell_moving_week + buy_moving_week
+                };
+            }
+            return map;
+        }
+
+        function calculateWeightedInstaBuy(buy_summary, required_qty) {
+            if (!buy_summary || required_qty <= 0) return { avgPrice: 0, filledQty: 0 };
+            let accumCost = 0.0;
+            let accumQty = 0;
+
+            for (const order of buy_summary) {
+                const avail = order.amount || 0;
+                const price = order.pricePerUnit || 0.0;
+                const take = Math.min(avail, required_qty - accumQty);
+                accumCost += take * price;
+                accumQty += take;
+                if (accumQty >= required_qty) break;
+            }
+
+            if (accumQty === 0) return { avgPrice: 0, filledQty: 0 };
+            return {
+                avgPrice: accumCost / accumQty,
+                filledQty: accumQty,
+                totalCost: accumCost
+            };
+        }
+
+        function calculateWeightedInstaSell(sell_summary, required_qty) {
+            if (!sell_summary || required_qty <= 0) return { avgPrice: 0, filledQty: 0 };
+            let accumRev = 0.0;
+            let accumQty = 0;
+
+            for (const order of sell_summary) {
+                const avail = order.amount || 0;
+                const price = order.pricePerUnit || 0.0;
+                const take = Math.min(avail, required_qty - accumQty);
+                accumRev += take * price;
+                accumQty += take;
+                if (accumQty >= required_qty) break;
+            }
+
+            if (accumQty === 0) return { avgPrice: 0, filledQty: 0 };
+            return {
+                avgPrice: accumRev / accumQty,
+                filledQty: accumQty,
+                totalRev: accumRev
+            };
+        }
+
+        function computeOptimalCrafts() {
+            if (!fusionData || !Object.keys(prices).length) return;
+            const { shards, recipes } = fusionData;
+            const isInsta = (cfg.inputMode === 'instabuy');
+
+            optCost = {};
+            optRecipe = {};
+
+            for (const [code, s] of Object.entries(shards)) {
+                const p = prices[s.internal_id];
+                if (!p) continue;
+                const directCost = isInsta ? p.sell_offer_p : p.buy_order_p;
+                if (directCost > 0) {
+                    optCost[code] = directCost;
+                }
+                optRecipe[code] = null;
+            }
+
+            for (let iter = 0; iter < 10; iter++) {
+                let updated = false;
+                for (const [outCode, qtyMap] of Object.entries(recipes)) {
+                    for (const [qtyStr, pairs] of Object.entries(qtyMap)) {
+                        const outQty = parseInt(qtyStr, 10);
+                        for (const [in1Code, in2Code] of pairs) {
+                            if (optCost[in1Code] !== undefined && optCost[in2Code] !== undefined) {
+                                const q1 = shards[in1Code].fuse_amount;
+                                const q2 = shards[in2Code].fuse_amount;
+                                const fusionCost = (q1 * optCost[in1Code] + q2 * optCost[in2Code]) / outQty;
+                                const currentCost = optCost[outCode] !== undefined ? optCost[outCode] : Infinity;
+
+                                if (fusionCost < currentCost - 1e-4) {
+                                    optCost[outCode] = fusionCost;
+                                    optRecipe[outCode] = {
+                                        in1: in1Code, q1,
+                                        in2: in2Code, q2,
+                                        outQty,
+                                        unitCost: fusionCost
+                                    };
+                                    updated = true;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (!updated) break;
+            }
+        }
+
+        function buildIntegerCraftTree(shardCode, depth = 0, visited = new Set()) {
+            const { shards } = fusionData;
+            const s = shards[shardCode];
+            const rec = optRecipe[shardCode];
+            const p = prices[s.internal_id];
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const directUnitCost = p ? (isInsta ? p.sell_offer_p : p.buy_order_p) : 0;
+
+            if (!rec || visited.has(shardCode) || depth >= 6) {
+                return {
+                    type: isInsta ? 'insta' : 'buy_order',
+                    code: shardCode,
+                    internal_id: s.internal_id,
+                    name: s.name,
+                    rarity: s.rarity,
+                    unit_price: directUnitCost,
+                    children: []
+                };
+            }
+
+            const newVisited = new Set(visited);
+            newVisited.add(shardCode);
+
+            const child1 = buildIntegerCraftTree(rec.in1, depth + 1, newVisited);
+            child1.req_qty = rec.q1;
+
+            const child2 = buildIntegerCraftTree(rec.in2, depth + 1, newVisited);
+            child2.req_qty = rec.q2;
+
+            return {
+                type: 'fuse',
+                code: shardCode,
+                internal_id: s.internal_id,
+                name: s.name,
+                rarity: s.rarity,
+                out_qty: rec.outQty,
+                unit_cost: rec.unitCost,
+                children: [child1, child2]
+            };
+        }
+
+        function calculateBatchTreeAndFusions(shardCode, neededUnits, depth = 0, visited = new Set(), accBaseMats = {}, accFusions = { total: 0, steps: {} }) {
+            const { shards } = fusionData;
+            const s = shards[shardCode];
+            const rec = optRecipe[shardCode];
+            const p = prices[s.internal_id];
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const directUnitCost = p ? (isInsta ? p.sell_offer_p : p.buy_order_p) : 0;
+
+            if (!rec || visited.has(shardCode) || depth >= 6) {
+                if (!accBaseMats[shardCode]) {
+                    accBaseMats[shardCode] = {
+                        code: shardCode,
+                        name: s.name,
+                        internal_id: s.internal_id,
+                        total_qty: 0,
+                        unit_price: directUnitCost
+                    };
+                }
+                accBaseMats[shardCode].total_qty += neededUnits;
+                return;
+            }
+
+            const newVisited = new Set(visited);
+            newVisited.add(shardCode);
+
+            const craftCycles = Math.ceil(neededUnits / rec.outQty);
+            
+            accFusions.total += craftCycles;
+            if (!accFusions.steps[shardCode]) {
+                accFusions.steps[shardCode] = { name: s.name, count: 0 };
+            }
+            accFusions.steps[shardCode].count += craftCycles;
+
+            const in1Needed = craftCycles * rec.q1;
+            const in2Needed = craftCycles * rec.q2;
+
+            calculateBatchTreeAndFusions(rec.in1, in1Needed, depth + 1, newVisited, accBaseMats, accFusions);
+            calculateBatchTreeAndFusions(rec.in2, in2Needed, depth + 1, newVisited, accBaseMats, accFusions);
+        }
+
+        function calculateDurations(baseMats, outInternalId, outQty) {
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+
+            if (isInsta && isInstaSell) {
+                return {
+                    buyHours: 0,
+                    sellHours: 0,
+                    totalHours: 0,
+                    buyStr: 'Instant',
+                    sellStr: 'Instant',
+                    totalStr: '< 5s'
+                };
+            }
+
+            let maxBuyHours = 0;
+            if (!isInsta) {
+                for (const mat of Object.values(baseMats)) {
+                    const p = prices[mat.internal_id];
+                    if (!p) continue;
+                    const queueDelay = p.buy_queue_depth / Math.max(1.0, p.hourly_instasell);
+                    const fillHours = (mat.total_qty / Math.max(0.5, p.hourly_instasell * 0.10)) + queueDelay;
+                    if (fillHours > maxBuyHours) maxBuyHours = fillHours;
+                }
+            }
+
+            let sellHours = 0;
+            if (!isInstaSell) {
+                const p = prices[outInternalId];
+                if (p) {
+                    const queueDelay = p.sell_queue_depth / Math.max(1.0, p.hourly_instabuy);
+                    sellHours = (outQty / Math.max(0.5, p.hourly_instabuy * 0.10)) + queueDelay;
+                }
+            }
+
+            const totalHours = maxBuyHours + sellHours;
+            return {
+                buyHours: maxBuyHours,
+                sellHours: sellHours,
+                totalHours: totalHours,
+                buyStr: formatDuration(maxBuyHours),
+                sellStr: formatDuration(sellHours),
+                totalStr: formatDuration(totalHours)
+            };
+        }
+
+        function formatDuration(hours) {
+            if (hours <= 0) return 'Instant';
+            const totalMins = Math.round(hours * 60);
+            if (totalMins < 1) return '< 1m';
+            if (totalMins < 60) return `~${totalMins}m`;
+            const h = Math.floor(totalMins / 60);
+            const m = totalMins % 60;
+            if (m === 0) return `~${h}h`;
+            return `~${h}h ${m}m`;
+        }
+
+        function computeFlips() {
+            if (!fusionData || !Object.keys(prices).length) return;
+            const { shards, recipes } = fusionData;
+            const userTargetQty = Math.max(1, parseInt(cfg.batchQty, 10) || 1);
+            const isInstaBuy = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+            const out = [];
+
+            for (const [outCode, qtyMap] of Object.entries(recipes)) {
+                const outShard = shards[outCode];
+                if (!outShard) continue;
+                const outId = outShard.internal_id;
+                const pOut = prices[outId];
+                if (!pOut) continue;
+
+                const outVol = pOut.volume;
+
+                for (const [qtyStr, pairs] of Object.entries(qtyMap)) {
+                    const minYield = parseInt(qtyStr, 10);
+                    for (const [in1Code, in2Code] of pairs) {
+                        const s1 = shards[in1Code], s2 = shards[in2Code];
+                        if (!s1 || !s2) continue;
+
+                        const q1 = s1.fuse_amount;
+                        const q2 = s2.fuse_amount;
+                        const cost1 = optCost[in1Code] !== undefined ? optCost[in1Code] : (prices[s1.internal_id] ? prices[s1.internal_id].buy_order_p : Infinity);
+                        const cost2 = optCost[in2Code] !== undefined ? optCost[in2Code] : (prices[s2.internal_id] ? prices[s2.internal_id].buy_order_p : Infinity);
+
+                        if (!isFinite(cost1) || !isFinite(cost2)) continue;
+
+                        const craftCycles = Math.max(1, Math.ceil(userTargetQty / minYield));
+                        const actualProducedUnits = craftCycles * minYield;
+
+                        const tree = {
+                            type: 'fuse',
+                            code: outCode,
+                            internal_id: outId,
+                            name: outShard.name,
+                            rarity: outShard.rarity,
+                            out_qty: minYield,
+                            children: [
+                                { ...buildIntegerCraftTree(in1Code, 1, new Set([outCode])), req_qty: q1 },
+                                { ...buildIntegerCraftTree(in2Code, 1, new Set([outCode])), req_qty: q2 }
+                            ]
+                        };
+
+                        const baseMats = {};
+                        const accFusions = { total: craftCycles, steps: { [outCode]: { name: outShard.name, count: craftCycles } } };
+                        const in1Needed = craftCycles * q1;
+                        const in2Needed = craftCycles * q2;
+                        calculateBatchTreeAndFusions(in1Code, in1Needed, 1, new Set([outCode]), baseMats, accFusions);
+                        calculateBatchTreeAndFusions(in2Code, in2Needed, 1, new Set([outCode]), baseMats, accFusions);
+
+                        const totalFusions = accFusions.total;
+                        const fusionStepsList = Object.values(accFusions.steps);
+                        const fusionsBreakdownStr = fusionStepsList.length > 1
+                            ? fusionStepsList.map(st => `${st.count}x ${st.name}`).join(' + ')
+                            : '';
+
+                        let totalBatchMatCost = 0.0;
+                        let maxExecutableCrafts = Infinity;
+                        const batchMatBreakdown = {};
+
+                        for (const [matCode, matInfo] of Object.entries(baseMats)) {
+                            const pMat = prices[matInfo.internal_id];
+                            if (!pMat) continue;
+                            const totalMatNeeded = matInfo.total_qty;
+
+                            let avgUnitMatPrice = pMat.sell_offer_p;
+                            let filledQty = totalMatNeeded;
+
+                            if (isInstaBuy) {
+                                const buyRes = calculateWeightedInstaBuy(pMat.buy_summary, totalMatNeeded);
+                                if (buyRes.filledQty > 0) {
+                                    avgUnitMatPrice = buyRes.avgPrice;
+                                    filledQty = buyRes.filledQty;
+                                }
+                                const perUnitRatio = Math.max(1, totalMatNeeded / actualProducedUnits);
+                                const craftsSupported = Math.floor(pMat.total_buy_avail / perUnitRatio);
+                                if (craftsSupported < maxExecutableCrafts) {
+                                    maxExecutableCrafts = craftsSupported;
+                                }
+                            } else {
+                                avgUnitMatPrice = pMat.buy_order_p;
+                            }
+
+                            const matTotalCost = avgUnitMatPrice * totalMatNeeded;
+                            totalBatchMatCost += matTotalCost;
+                            batchMatBreakdown[matCode] = {
+                                ...matInfo,
+                                total_qty: totalMatNeeded,
+                                avg_unit_price: avgUnitMatPrice,
+                                total_cost: matTotalCost,
+                                filled_qty: filledQty,
+                                total_avail: pMat.total_buy_avail
+                            };
+                        }
+
+                        let avgUnitSalePrice = pOut.sell_offer_p;
+                        let filledOutputQty = actualProducedUnits;
+
+                        if (isInstaSell) {
+                            const sellRes = calculateWeightedInstaSell(pOut.sell_summary, actualProducedUnits);
+                            if (sellRes.filledQty > 0) {
+                                avgUnitSalePrice = sellRes.avgPrice;
+                                filledOutputQty = sellRes.filledQty;
+                            }
+                            if (pOut.total_sell_avail < maxExecutableCrafts) {
+                                maxExecutableCrafts = pOut.total_sell_avail;
+                            }
+                        } else {
+                            avgUnitSalePrice = pOut.sell_offer_p;
+                        }
+
+                        if (maxExecutableCrafts === Infinity) maxExecutableCrafts = 999;
+
+                        const totalGrossBatchRev = avgUnitSalePrice * actualProducedUnits;
+                        const totalBatchTax = totalGrossBatchRev * BAZAAR_TAX;
+                        const totalNetBatchRev = totalGrossBatchRev - totalBatchTax;
+                        const totalBatchProfit = totalNetBatchRev - totalBatchMatCost;
+
+                        if (totalBatchProfit <= 0) continue;
+
+                        const unitCost = totalBatchMatCost / actualProducedUnits;
+                        const unitProfit = totalBatchProfit / actualProducedUnits;
+                        const roiPct = totalBatchMatCost > 0 ? (totalBatchProfit / totalBatchMatCost * 100.0) : 0;
+
+                        const durations = calculateDurations(baseMats, outId, actualProducedUnits);
+
+                        out.push({
+                            outCode,
+                            outName: outShard.name,
+                            outRarity: outShard.rarity,
+                            outInternalId: outId,
+                            outVol,
+                            in1Name: s1.name,
+                            in2Name: s2.name,
+                            minYield,
+                            craftCycles,
+                            actualProducedUnits,
+                            totalFusions,
+                            fusionsBreakdownStr,
+                            totalBatchCost: totalBatchMatCost,
+                            totalGrossBatchRev,
+                            totalBatchTax,
+                            totalBatchProfit,
+                            unitCost,
+                            avgUnitSalePrice,
+                            unitProfit,
+                            pct: roiPct,
+                            maxExecutableCrafts,
+                            isOrderBookFullyAvailable: (maxExecutableCrafts >= actualProducedUnits),
+                            tree,
+                            baseMats: batchMatBreakdown,
+                            durations
+                        });
+                    }
+                }
+            }
+
+            const bestPerShard = {};
+            for (const r of out) {
+                const existing = bestPerShard[r.outCode];
+                if (!existing || (cfg.sortBy === 'percent' ? r.pct > existing.pct : r.totalBatchProfit > existing.totalBatchProfit)) {
+                    bestPerShard[r.outCode] = r;
+                }
+            }
+
+            const deduped = Object.values(bestPerShard);
+
+            if (cfg.sortBy === 'percent') {
+                deduped.sort((a, b) => b.pct - a.pct);
+            } else if (cfg.sortBy === 'time') {
+                deduped.sort((a, b) => a.durations.totalHours - b.durations.totalHours);
+            } else if (cfg.sortBy === 'fusions') {
+                deduped.sort((a, b) => a.totalFusions - b.totalFusions);
+            } else {
+                deduped.sort((a, b) => b.totalBatchProfit - a.totalBatchProfit);
+            }
+
+            allResults = deduped;
+        }
+
+        function renderResults() {
+            const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
+            const area = document.getElementById('area');
+
+            if (!allResults.length && Object.keys(prices).length) {
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
+                    [!] No profitable fusions found for ${cfg.batchQty} units at current market prices.
+                </div>`;
+                return;
+            }
+            if (!allResults.length) return;
+
+            let list = allResults;
+
+            if (activeRarityFilter !== 'all') {
+                list = list.filter(r => r.outRarity.toLowerCase() === activeRarityFilter);
+            }
+
+            if (filter) {
+                list = list.filter(r =>
+                    r.outName.toLowerCase().includes(filter) ||
+                    r.in1Name.toLowerCase().includes(filter) ||
+                    r.in2Name.toLowerCase().includes(filter) ||
+                    Object.values(r.baseMats).some(m => m.name.toLowerCase().includes(filter))
+                );
+            }
+
+            const shown = list.slice(0, cfg.topN);
+
+            if (shown.length === 0) {
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
+                    [!] No results matching "${esc(filter)}"
+                </div>`;
+                return;
+            }
+
+            const grid = document.createElement('div');
+            grid.className = 'grid';
+            shown.forEach((r, i) => grid.appendChild(makeCard(r, i + 1)));
+            area.innerHTML = '';
+            area.appendChild(grid);
+        }
+
+        function makeCard(r, rank) {
+            const el = document.createElement('div');
+            el.className = 'card';
+            const rar = r.outRarity.toLowerCase();
+            const rarLbl = rar.slice(0, 3).toUpperCase();
+            const treeHtml = renderTreeHtml(r.tree, true);
+
+            const baseListStr = Object.values(r.baseMats)
+                .map(m => `<img src="./shardIcons/${m.code}.png" class="shard-icon" onerror="this.style.display='none'" /> <b>${Math.round(m.total_qty).toLocaleString()}x</b> ${esc(m.name)} (@ ${fmt(m.avg_unit_price)})`)
+                .join(' &nbsp;|&nbsp; ');
+
+            let obBadgeHtml = '';
+            if (cfg.inputMode === 'instabuy' && cfg.outputMode === 'instasell') {
+                if (r.isOrderBookFullyAvailable) {
+                    obBadgeHtml = `<div class="ob-badge ok">
+                        <span>[OK] ORDER BOOK: <b>${r.actualProducedUnits}/${r.actualProducedUnits} READY</b></span>
+                        <span style="opacity:0.75">MAX EXECUTABLE: ${r.maxExecutableCrafts} UNITS</span>
+                    </div>`;
+                } else {
+                    obBadgeHtml = `<div class="ob-badge warn">
+                        <span>[!] PARTIAL DEPTH: <b>ONLY ${r.maxExecutableCrafts}/${r.actualProducedUnits} AVAILABLE RIGHT NOW</b></span>
+                    </div>`;
+                }
+            }
+
+            el.innerHTML = `
+                <!-- Card Header -->
+                <div class="card-header">
+                    <span class="rank-num">#${rank}</span>
+                    <img src="./shardIcons/${r.outCode}.png" class="shard-icon" onerror="this.style.display='none'" />
+                    <span class="rar-tag ${rar}">${rarLbl}</span>
+                    <span class="shard-name ${rar}">${esc(r.outName)}</span>
+                    <span class="vol-stat">vol: ${fmt(r.outVol)}/wk</span>
+                </div>
+
+                ${obBadgeHtml}
+
+                <!-- Batch Metrics Box -->
+                <div class="metrics-block">
+                    <div class="mb-top">
+                        <span style="color:var(--text-dim);font-weight:700">BATCH [ ${r.actualProducedUnits}x UNITS // ⚡ ${r.totalFusions} FUSIONS ]</span>
+                        <span class="mb-roi">+${r.pct.toFixed(1)}% ROI</span>
+                    </div>
+                    <div class="mb-top">
+                        <span style="color:var(--text-dim)">Cost: ${fmt(r.totalBatchCost)} → Rev: ${fmt(r.totalGrossBatchRev)} (Tax: ${fmt(r.totalBatchTax)})</span>
+                        <span class="mb-profit">+${fmt(r.totalBatchProfit)}</span>
+                    </div>
+                    ${r.fusionsBreakdownStr ? `<div style="font-size:10px;color:var(--text-dim);margin-top:1px">↳ ${esc(r.fusionsBreakdownStr)}</div>` : ''}
+                </div>
+
+                <!-- Timers Row -->
+                <div class="timers-block">
+                    <span>IN: <b>${r.durations.buyStr}</b></span>
+                    <span>|</span>
+                    <span>OUT: <b>${r.durations.sellStr}</b></span>
+                    <span>|</span>
+                    <span>TOTAL: <b class="hl">${r.durations.totalStr}</b></span>
+                </div>
+
+                <!-- Craft Tree -->
+                <div class="tree-block">
+                    <div class="tree-title">
+                        <span>[ CRAFT TREE // 1 CYCLE ]</span>
+                        <span>MIN YIELD: ${r.minYield}x</span>
+                    </div>
+                    <div>
+                        ${treeHtml}
+                    </div>
+                </div>
+
+                <!-- Raw Shopping List -->
+                <div class="mats-list">
+                    <span style="color:var(--text-dim);font-weight:700;display:block;margin-bottom:2px">[RAW INGREDIENTS TO BUY]:</span>
+                    ${baseListStr}
+                </div>
+
+                <!-- Unit Bar -->
+                <div class="unit-bar">
+                    <span>PER UNIT: Cost <b>${fmt(r.unitCost)}</b> → Sell <b>${fmt(r.avgUnitSalePrice)}</b></span>
+                    <span>PROFIT: <b class="p">+${fmt(r.unitProfit)}</b></span>
+                </div>
+            `;
+            return el;
+        }
+
+        function renderTreeHtml(node, isRoot = false) {
+            const rar = (node.rarity || 'common').toLowerCase();
+            let tagClass = 'tag-fuse';
+            let tagText = '[FUSE]';
+            if (node.type === 'buy_order') { tagClass = 'tag-buy'; tagText = '[BUY]'; }
+            if (node.type === 'insta') { tagClass = 'tag-insta'; tagText = '[INSTA]'; }
+
+            const qtyStr = isRoot ? '' : `<span style="color:var(--text-dim);font-weight:700">${Math.round(node.req_qty || 1)}x</span>`;
+
+            let html = `
+                <div class="tree-node ${isRoot ? 'root' : ''}">
+                    <div class="tree-row">
+                        ${qtyStr}
+                        <img src="./shardIcons/${node.code}.png" class="shard-icon" onerror="this.style.display='none'" />
+                        <span class="shard-name ${rar}" style="font-size:11.5px">${esc(node.name)}</span>
+                        <span class="${tagClass}">${tagText}</span>
+                        ${node.type !== 'fuse' ? `<span style="color:var(--text-dim);font-size:10px">@ ${fmt(node.unit_price)}</span>` : ''}
+                    </div>
+            `;
+
+            if (node.children && node.children.length > 0) {
+                for (const child of node.children) {
+                    html += renderTreeHtml(child, false);
+                }
+            }
+
+            html += `</div>`;
+            return html;
+        }
+
+        function fmt(n) {
+            if (n === undefined || n === null || isNaN(n)) return '0';
+            const a = Math.abs(n);
+            if (a >= 1e9) return (n / 1e9).toFixed(2) + 'B';
+            if (a >= 1e6) return (n / 1e6).toFixed(2) + 'M';
+            if (a >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+            return Math.round(n).toLocaleString();
+        }
+
+        function esc(s) {
+            return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        function setStatus(html) {
+            document.getElementById('stext').innerHTML = html;
+        }
+
+        function statusText() {
+            const pc = Object.keys(prices).length;
+            const pf = allResults.length;
+            return `[BAZAAR LIVE] <b>${pc}</b> shards active | <span class="g">${pf.toLocaleString()}</span> profitable flips verified for <b>${cfg.batchQty} units</b>`;
+        }
+
+        function updateTs() {
+            if (!lastUpdated) return;
+            document.getElementById('sts').textContent = lastUpdated.toLocaleTimeString();
+        }
+
+        function setBatchQty(qty) {
+            const val = Math.max(1, parseInt(qty, 10) || 1);
+            cfg.batchQty = val;
+            const input = document.getElementById('batch-qty');
+            if (input && parseInt(input.value, 10) !== val && qty !== '') input.value = val;
+
+            document.getElementById('stat-batch-val').textContent = `${val} units`;
+            recompute();
+        }
+
+        function applyPreset(preset) {
+            if (preset === 'insta') {
+                cfg.inputMode = 'instabuy';
+                cfg.outputMode = 'instasell';
+                document.getElementById('preset-insta').className = 'btn active b';
+                document.getElementById('preset-buyorder').className = 'btn';
+            } else {
+                cfg.inputMode = 'buy_order';
+                cfg.outputMode = 'sell_order';
+                document.getElementById('preset-buyorder').className = 'btn active g';
+                document.getElementById('preset-insta').className = 'btn';
+            }
+            updateToggles();
+            recompute();
+        }
+
+        function updateToggles() {
+            const ib = document.getElementById('btn-instabuy');
+            const bo = document.getElementById('btn-buyorder');
+            const so = document.getElementById('btn-sellorder');
+            const is = document.getElementById('btn-instasell');
+
+            ib.className = 'btn' + (cfg.inputMode === 'instabuy' ? ' active b' : '');
+            bo.className = 'btn' + (cfg.inputMode === 'buy_order' ? ' active g' : '');
+            so.className = 'btn' + (cfg.outputMode === 'sell_order' ? ' active p' : '');
+            is.className = 'btn' + (cfg.outputMode === 'instasell' ? ' active b' : '');
+        }
+
+        function setInputMode(mode) {
+            cfg.inputMode = mode;
+            updateToggles();
+            recompute();
+        }
+
+        function setOutputMode(mode) {
+            cfg.outputMode = mode;
+            updateToggles();
+            recompute();
+        }
+
+        function setSortBy(sort) {
+            cfg.sortBy = sort;
+            ['percent', 'profit', 'fusions', 'time'].forEach(k => {
+                const b = document.getElementById(`btn-${k}`);
+                if (b) b.className = 'btn' + (sort === k ? ' active' : '');
+            });
+            recompute();
+        }
+
+        function setRarityFilter(rarity, btn) {
+            activeRarityFilter = rarity;
+            document.querySelectorAll('.ctrl-group .btn').forEach(p => {
+                if (['All', 'Leg', 'Epic', 'Rare'].includes(p.textContent)) p.classList.remove('active');
+            });
+            btn.classList.add('active');
+            renderResults();
+        }
+
+        function recompute() {
+            if (!fusionData || !Object.keys(prices).length) return;
+            computeOptimalCrafts();
+            computeFlips();
+            renderResults();
+            setStatus(statusText());
+        }
+
+        init();
+    </script>
+</body>
+</html>
