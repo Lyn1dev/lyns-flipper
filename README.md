@@ -1,5 +1,7 @@
 # shard-flipper
 
+<img width="1875" height="1004" alt="image" src="https://github.com/user-attachments/assets/2f3c1261-6c32-47b6-aa55-a2f22fb99c6d" />
+
 hypixel skyblock shard fusion flipper tracker thing. checks live bazaar prices, figures out if fusing sub-shards is cheaper than buying them directly, tells you how much profit you make, and checks if the order book actually has enough items so you dont get scammed by low volume.
 
 also calculates fulfillment timers and total fusion clicks needed so you know how much pain you're getting into.
