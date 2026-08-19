@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHARD FUSION FLIP OPTIMIZER // HYPIXEL BAZAAR</title>
+    <title>LYN'S SHARD FLIPPER // HYPIXEL BAZAAR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -86,6 +86,15 @@
             font-weight: 600;
         }
         .modal-link:hover { color: #fff; }
+        .modal-privacy {
+            display: block;
+            margin-top: 8px;
+            font-size: 11px;
+            color: #86efac;
+            background: rgba(74, 222, 128, 0.08);
+            border: 1px solid rgba(74, 222, 128, 0.25);
+            padding: 4px 8px;
+        }
         .modal-label {
             font-size: 11px;
             font-weight: 700;
@@ -143,7 +152,7 @@
         .banner-title {
             font-size: 14px;
             font-weight: 800;
-            letter-spacing: .02em;
+            letter-spacing: .03em;
             color: #fff;
             display: flex;
             align-items: center;
@@ -170,6 +179,11 @@
         }
         .key-btn:hover { color: var(--blue); border-color: var(--blue); }
 
+        .star-container {
+            position: relative;
+            display: inline-block;
+        }
+
         .github-star-btn {
             display: inline-flex;
             align-items: center;
@@ -190,6 +204,80 @@
             border-color: #ecc94b;
             color: #fff;
             box-shadow: 0 0 8px rgba(236, 201, 75, 0.25);
+        }
+
+        /* Star Callout Popup */
+        .star-callout {
+            position: absolute;
+            top: calc(100% + 8px);
+            right: 0;
+            width: 290px;
+            background: #111520;
+            border: 1px solid #ecc94b;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.85);
+            padding: 10px 12px;
+            z-index: 1000;
+            font-family: var(--mono);
+        }
+        .sc-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 11px;
+            font-weight: 700;
+            color: #f6e05e;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 4px;
+            margin-bottom: 6px;
+        }
+        .sc-close {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-family: var(--mono);
+            font-size: 12px;
+            cursor: pointer;
+            padding: 0 3px;
+        }
+        .sc-close:hover { color: #fff; }
+        .sc-text {
+            font-size: 10.5px;
+            color: var(--text);
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        .sc-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .sc-btn-star {
+            flex: 1;
+            background: rgba(218, 165, 32, 0.18);
+            border: 1px solid #f6e05e;
+            color: #f6e05e;
+            font-size: 10.5px;
+            font-weight: 700;
+            padding: 4px 8px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .sc-btn-star:hover {
+            background: rgba(218, 165, 32, 0.35);
+            color: #fff;
+        }
+        .sc-btn-dismiss {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            font-size: 10.5px;
+            padding: 4px 8px;
+            cursor: pointer;
+            font-family: var(--mono);
+        }
+        .sc-btn-dismiss:hover {
+            background: var(--surface-hover);
+            color: var(--text);
         }
 
         /* ─── Config Bar ─────────────────────────────────────────── */
@@ -500,6 +588,7 @@
                 you need a hypixel API key to use this site, you can get one for free at 
                 <a href="https://developer.hypixel.net" target="_blank" class="modal-link">https://developer.hypixel.net</a>,
                 copy paste the key in the box below:
+                <span class="modal-privacy">the api key is saved in your local browsers storage. it is not shared.</span>
             </p>
             <div class="modal-label">HYPIXEL API KEY:</div>
             <div class="modal-input-row">
@@ -515,7 +604,7 @@
         <div class="banner">
             <div class="banner-title">
                 <span>⚡</span>
-                <span>SKYBLOCK SHARD FUSION OPTIMIZER</span>
+                <span>LYN'S SHARD FLIPPER</span>
             </div>
             <div class="banner-meta">
                 <span id="stat-shards">Shards: <b>Loading...</b></span>
@@ -526,7 +615,24 @@
                 <span>|</span>
                 <button class="key-btn" onclick="openApiKeyModal()">🔑 API KEY</button>
                 <span>|</span>
-                <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="github-star-btn">★ Star this repo on GitHub</a>
+                <div class="star-container">
+                    <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="github-star-btn">★ Star this repo on GitHub</a>
+                    
+                    <!-- Star Callout Popup -->
+                    <div id="star-popup" class="star-callout" style="display:none">
+                        <div class="sc-header">
+                            <span>⭐ STAR ON GITHUB</span>
+                            <button class="sc-close" onclick="closeStarPopup()">✕</button>
+                        </div>
+                        <p class="sc-text">
+                            if this tracker helps you make coins, drop a quick star on github to support the project!
+                        </p>
+                        <div class="sc-actions">
+                            <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="sc-btn-star" onclick="closeStarPopup()">★ Star on GitHub</a>
+                            <button class="sc-btn-dismiss" onclick="closeStarPopup()">[ Dismiss ]</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -662,6 +768,22 @@
             refreshPrices();
         }
 
+        function triggerStarPopupIfNeeded() {
+            if (localStorage.getItem('has_dismissed_star_popup') === 'true') return;
+            const popup = document.getElementById('star-popup');
+            if (popup) {
+                setTimeout(() => {
+                    popup.style.display = 'block';
+                }, 600);
+            }
+        }
+
+        function closeStarPopup() {
+            const popup = document.getElementById('star-popup');
+            if (popup) popup.style.display = 'none';
+            localStorage.setItem('has_dismissed_star_popup', 'true');
+        }
+
         async function init() {
             const currentKey = getApiKey();
             if (!currentKey) {
@@ -728,6 +850,7 @@
                 renderResults();
                 setStatus(statusText());
                 updateTs();
+                triggerStarPopupIfNeeded();
             } catch (e) {
                 setStatus(`<span class="r">ERROR: Bazaar fetch failed (${esc(e.message)})</span>`);
             }
