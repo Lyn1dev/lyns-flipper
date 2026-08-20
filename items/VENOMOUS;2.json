@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{venomous:2},id:\"VENOMOUS;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Venomous II\",3:\"§7Reduces the target's walk speed\",4:\"§7by §a10% §7and deals §2+0.6% §7of\",5:\"§7your damage per second per hit,\",6:\"§7stacking globally up to §240\",7:\"§7hits. Lasts §65s§7.\",8:\"\",9:\"§6Source:\",10:\"§aI-V: §7Enchantment Table,\",11:\"§7Spider Eye Collection\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fSword\",15:\"§7- §fFishing Weapon\",16:\"§7- §fLongsword\",17:\"§7- §fGauntlet\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Venomous II",
+    "§7Reduces the target's walk speed",
+    "§7by §a10% §7and deals §2+0.6% §7of",
+    "§7your damage per second per hit,",
+    "§7stacking globally up to §240",
+    "§7hits. Lasts §65s§7.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Spider Eye Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "VENOMOUS;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Venomous"
+  ],
+  "parent": "VENOMOUS;4"
+}

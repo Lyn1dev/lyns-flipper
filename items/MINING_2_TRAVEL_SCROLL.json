@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:map",
+  "displayname": "§9Travel Scroll to Deep Caverns",
+  "nbttag": "{ExtraAttributes:{id:\"MINING_2_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aDeep Caverns\",5:\"§7Teleport: §eSpawn\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to Deep Caverns\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume this item to add its",
+    "§7destination to your Fast Travel",
+    "§7options.",
+    "",
+    "§7Island: §aDeep Caverns",
+    "§7Teleport: §eSpawn",
+    "",
+    "§9§lRARE TRAVEL SCROLL"
+  ],
+  "internalname": "MINING_2_TRAVEL_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Redstone Dust V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Travel_Scroll_to_Deep_Caverns"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_REDSTONE:16",
+      "A2": "ENCHANTED_REDSTONE:16",
+      "A3": "ENCHANTED_REDSTONE:16",
+      "B1": "ENCHANTED_LAPIS_LAZULI:16",
+      "B2": "ENCHANTED_ENDER_PEARL:16",
+      "B3": "ENCHANTED_LAPIS_LAZULI:16",
+      "C1": "ENCHANTED_LAPIS_LAZULI:16",
+      "C2": "ENCHANTED_LAPIS_LAZULI:16",
+      "C3": "ENCHANTED_LAPIS_LAZULI:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MINING_2_TRAVEL_SCROLL"
+    }
+  ]
+}

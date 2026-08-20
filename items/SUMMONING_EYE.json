@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Summoning Eye",
+  "nbttag": "{ExtraAttributes:{id:\"SUMMONING_EYE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/summoning_eye\",display:{Lore:[0:\"§7Use this at the §5Ender Altar §7in the\",1:\"§5Dragon's Nest §7to summon Ender\",2:\"§7Dragons!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Summoning Eye\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Use this at the §5Ender Altar §7in the",
+    "§5Dragon's Nest §7to summon Ender",
+    "§7Dragons!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SUMMONING_EYE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Summoning_Eye"
+  ]
+}

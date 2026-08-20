@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Titanium",
+  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_ORE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/titanium\",display:{Lore:[0:\"§7Its strength and resistance to\",1:\"§7corrosion are the highest of any\",2:\"§7metallic element.\",3:\"\",4:\"§9§lRARE DWARVEN METAL\"],Name:\"§9Titanium\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Its strength and resistance to",
+    "§7corrosion are the highest of any",
+    "§7metallic element.",
+    "",
+    "§9§lRARE DWARVEN METAL"
+  ],
+  "internalname": "TITANIUM_ORE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Titanium"
+  ]
+}

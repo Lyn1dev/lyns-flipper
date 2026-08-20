@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:prismarine_shard",
+  "displayname": "§5Enchanted Shark Fin",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SHARK_FIN\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/community_center/mayor/marina/shark_fin\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A razor-sharp shark fin designed to\",3:\"§7craft powerful items.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Enchanted Shark Fin\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A razor-sharp shark fin designed to",
+    "§7craft powerful items.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "ENCHANTED_SHARK_FIN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Shark_Fin"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SHARK_FIN:32",
+    "A3": "",
+    "B1": "SHARK_FIN:32",
+    "B2": "SHARK_FIN:32",
+    "B3": "SHARK_FIN:32",
+    "C1": "",
+    "C2": "SHARK_FIN:32",
+    "C3": ""
+  }
+}

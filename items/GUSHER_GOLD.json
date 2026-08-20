@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fGusher §6§lGOLD",
+  "nbttag": "{ExtraAttributes:{id:\"GUSHER_GOLD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/trophy/lava/gusher_gold\",display:{Lore:[0:\"§7Caught after a volcano eruption.\",1:\"\",2:\"§7Bring this to §fOdger §7at the top of the\",3:\"§6Blazing Volcano§7.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§f§lCOMMON TROPHY\"],Name:\"§fGusher §6§lGOLD\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Caught after a volcano eruption.",
+    "",
+    "§7Bring this to §fOdger §7at the top of the",
+    "§6Blazing Volcano§7.",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§f§lCOMMON TROPHY"
+  ],
+  "internalname": "GUSHER_GOLD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Trophy_Fishes"
+  ]
+}

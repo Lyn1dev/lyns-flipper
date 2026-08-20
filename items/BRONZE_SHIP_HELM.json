@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aBronze Ship Helm",
+  "nbttag": "{ExtraAttributes:{id:\"BRONZE_SHIP_HELM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/ship/bronze_ship_helm\",display:{Lore:[0:\"§8Ship Part\",1:\"\",2:\"§7Bring this item to §6Captain Baha§7.\",3:\"\",4:\"§7Grants §3+0.5☯ Fishing Wisdom §7when\",5:\"§7attached to your §6Ship§7.\",6:\"\",7:\"§8§l* §8Soulbound §8§l*\",8:\"§a§lUNCOMMON\"],Name:\"§aBronze Ship Helm\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Ship Part",
+    "",
+    "§7Bring this item to §6Captain Baha§7.",
+    "",
+    "§7Grants §3+0.5☯ Fishing Wisdom §7when",
+    "§7attached to your §6Ship§7.",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "BRONZE_SHIP_HELM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bronze_Ship_Helm"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "BRONZE_BOWL:1",
+    "A3": "",
+    "B1": "BRONZE_BOWL:1",
+    "B2": "LOG_2-1:64",
+    "B3": "BRONZE_BOWL:1",
+    "C1": "",
+    "C2": "BRONZE_BOWL:1",
+    "C3": ""
+  }
+}

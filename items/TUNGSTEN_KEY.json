@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Tungsten Key",
+  "nbttag": "{ExtraAttributes:{id:\"TUNGSTEN_KEY\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/tungsten/tungsten_key\",display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Tungsten lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Tungsten Key\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Can be used to open backpacks with",
+    "§7a Tungsten lock held by §bFrozen",
+    "§bCorpses §7in the §bGlacite Mineshafts§7.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "TUNGSTEN_KEY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Tungsten IV & HotM 7",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tungsten_Key"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_TUNGSTEN:192.0",
+        "BEJEWELED_HANDLE:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "TUNGSTEN_KEY",
+      "duration": 30
+    }
+  ]
+}

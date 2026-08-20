@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{first_strike:5},id:\"FIRST_STRIKE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9First Strike V\",3:\"§7Increases melee damage dealt by\",4:\"§a125% §7for the first hit on a\",5:\"§7mob.\",6:\"\",7:\"§6Source:\",8:\"§aV: §7Experiments\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cTriple-Strike\",18:\"\",19:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9First Strike V",
+    "§7Increases melee damage dealt by",
+    "§a125% §7for the first hit on a",
+    "§7mob.",
+    "",
+    "§6Source:",
+    "§aV: §7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cTriple-Strike",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "FIRST_STRIKE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/First_Strike"
+  ],
+  "parent": "FIRST_STRIKE;3"
+}

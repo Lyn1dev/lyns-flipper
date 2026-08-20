@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:dark_oak_stairs",
+  "displayname": "§fDark Oak Stairs",
+  "nbttag": "{ExtraAttributes:{id:\"DARK_OAK_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:dark_oak_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Oak Stairs\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DARK_OAK_STAIRS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD-5:1",
+    "A2": "",
+    "A3": "",
+    "B1": "WOOD-5:1",
+    "B2": "WOOD-5:1",
+    "B3": "",
+    "C1": "WOOD-5:1",
+    "C2": "WOOD-5:1",
+    "C3": "WOOD-5:1",
+    "count": 4
+  }
+}

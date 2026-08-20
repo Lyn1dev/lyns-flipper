@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:egg",
+  "displayname": "§9Metaphoric Egg",
+  "nbttag": "{ExtraAttributes:{id:\"METAPHORIC_EGG\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§7A ticking time bomb to new life.\",1:\"§7Acquired using Berberis Blowgun.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Metaphoric Egg\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A ticking time bomb to new life.",
+    "§7Acquired using Berberis Blowgun.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "METAPHORIC_EGG",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Metaphoric_Egg"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:rabbit_hide",
+  "displayname": "§9Enchanted Rabbit Hide",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_RABBIT_HIDE\"},HideFlags:254,ItemModel:\"minecraft:rabbit_hide\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Rabbit Hide\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_RABBIT_HIDE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Rabbit VI",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Rabbit_Hide"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "RABBIT_HIDE:32",
+      "A3": "",
+      "B1": "RABBIT_HIDE:32",
+      "B2": "RABBIT_HIDE:32",
+      "B3": "RABBIT_HIDE:32",
+      "C1": "",
+      "C2": "RABBIT_HIDE:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_RABBIT_HIDE"
+    }
+  ]
+}

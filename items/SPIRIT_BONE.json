@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Spirit Bone",
+  "nbttag": "{ExtraAttributes:{id:\"SPIRIT_BONE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/spirit_bone\",display:{Lore:[0:\"§7A Wolf Spirit is attached to this bone.\",1:\"§7Wolf Spirits always come back to\",2:\"§7their masters.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Spirit Bone\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A Wolf Spirit is attached to this bone.",
+    "§7Wolf Spirits always come back to",
+    "§7their masters.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC DUNGEON ITEM"
+  ],
+  "internalname": "SPIRIT_BONE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spirit_Bone"
+  ]
+}

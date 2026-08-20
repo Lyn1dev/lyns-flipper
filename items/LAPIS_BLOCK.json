@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:lapis_block",
+  "displayname": "§fLapis Lazuli Block",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§f§lCOMMON ORE\"],Name:\"§fLapis Lazuli Block\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON ORE"
+  ],
+  "internalname": "LAPIS_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "INK_SACK-4:1",
+    "A2": "INK_SACK-4:1",
+    "A3": "INK_SACK-4:1",
+    "B1": "INK_SACK-4:1",
+    "B2": "INK_SACK-4:1",
+    "B3": "INK_SACK-4:1",
+    "C1": "INK_SACK-4:1",
+    "C2": "INK_SACK-4:1",
+    "C3": "INK_SACK-4:1"
+  }
+}

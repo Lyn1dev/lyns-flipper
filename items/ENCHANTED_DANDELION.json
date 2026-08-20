@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:yellow_flower",
+  "displayname": "§aEnchanted Dandelion",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_DANDELION\"},HideFlags:254,ItemModel:\"minecraft:dandelion\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§8Machine Fuel\",3:\"\",4:\"§7Adds §2+360♢ Fuel §7to a refuelable\",5:\"§7machine.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Dandelion\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§8Machine Fuel",
+    "",
+    "§7Adds §2+360♢ Fuel §7to a refuelable",
+    "§7machine.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_DANDELION",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Dandelion"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "YELLOW_FLOWER:32",
+    "A3": "",
+    "B1": "YELLOW_FLOWER:32",
+    "B2": "YELLOW_FLOWER:32",
+    "B3": "YELLOW_FLOWER:32",
+    "C1": "",
+    "C2": "YELLOW_FLOWER:32",
+    "C3": ""
+  }
+}

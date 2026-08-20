@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Corrupted Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"CORRUPTED_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/corrupted_fragment\",display:{Lore:[0:\"§7Spreads fast.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Corrupted Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Spreads fast.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "CORRUPTED_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Corrupted_Fragment"
+  ]
+}

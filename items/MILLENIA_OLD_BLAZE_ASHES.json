@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Millennia-Old Blaze Ashes",
+  "nbttag": "{ExtraAttributes:{id:\"MILLENIA_OLD_BLAZE_ASHES\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/millenia_old_blaze_ashes\",display:{Lore:[0:\"§7Despite being ephemeral creatures,\",1:\"§7blaze ashes are eternal.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Millennia-Old Blaze Ashes\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Despite being ephemeral creatures,",
+    "§7blaze ashes are eternal.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "MILLENIA_OLD_BLAZE_ASHES",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Millennia-Old_Blaze_Ashes"
+  ]
+}

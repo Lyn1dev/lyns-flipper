@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Plasma",
+  "nbttag": "{ExtraAttributes:{id:\"PLASMA\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/plasma\",display:{Lore:[0:\"§7Stable magnetic field, but handle with\",1:\"§7caution.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Plasma\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Stable magnetic field, but handle with",
+    "§7caution.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "PLASMA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Plasma"
+  ]
+}

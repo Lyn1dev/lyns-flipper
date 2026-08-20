@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:cake",
+  "displayname": "§aEnchanted Cake",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CAKE\"},HideFlags:254,ItemModel:\"minecraft:cake\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Cake\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_CAKE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Chicken VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Cake"
+  ],
+  "recipe": {
+    "A1": "MILK_BUCKET:1",
+    "A2": "MILK_BUCKET:1",
+    "A3": "MILK_BUCKET:1",
+    "B1": "ENCHANTED_SUGAR:1",
+    "B2": "ENCHANTED_EGG:1",
+    "B3": "ENCHANTED_SUGAR:1",
+    "C1": "WHEAT:1",
+    "C2": "WHEAT:1",
+    "C3": "WHEAT:1"
+  }
+}

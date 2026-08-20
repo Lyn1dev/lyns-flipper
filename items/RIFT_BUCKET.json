@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:water_bucket",
+  "displayname": "§aPlumber's Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"RIFT_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:water_bucket\",display:{Lore:[0:\"§7Instructions:\",1:\" §b1. §7Empty water bucket.\",2:\" §b2. §7Do it again because it's infinite.\",3:\" §b3. §7Triple-bill client.\",4:\"\",5:\"§8Thanks Plumber Joe!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aPlumber's Bucket\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Instructions:",
+    " §b1. §7Empty water bucket.",
+    " §b2. §7Do it again because it's infinite.",
+    " §b3. §7Triple-bill client.",
+    "",
+    "§8Thanks Plumber Joe!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RIFT_BUCKET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Plumber%27s_Bucket"
+  ]
+}

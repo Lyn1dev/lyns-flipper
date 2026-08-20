@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Glacite Jewel",
+  "nbttag": "{ExtraAttributes:{id:\"GLACITE_JEWEL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/glacite_jewel\",display:{Lore:[0:\"§7It is said that there is a lost village\",1:\"§7made of Glacite, deep under the\",2:\"§7Dwarven Mines.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Glacite Jewel\"}}",
+  "damage": 0,
+  "lore": [
+    "§7It is said that there is a lost village",
+    "§7made of Glacite, deep under the",
+    "§7Dwarven Mines.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "GLACITE_JEWEL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Glacite_Jewel"
+  ]
+}

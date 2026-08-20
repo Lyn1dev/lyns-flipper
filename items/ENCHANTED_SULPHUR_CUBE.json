@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Enchanted Sulphur Cube",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SULPHUR_CUBE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/enchanted_sulphur_cube\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Sulphur Cube\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE ORE"
+  ],
+  "internalname": "ENCHANTED_SULPHUR_CUBE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sulphur VI",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Sulphur_Cube"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_SULPHUR:32",
+    "A3": "",
+    "B1": "ENCHANTED_SULPHUR:32",
+    "B2": "ENCHANTED_SULPHUR:32",
+    "B3": "ENCHANTED_SULPHUR:32",
+    "C1": "",
+    "C2": "ENCHANTED_SULPHUR:32",
+    "C3": ""
+  }
+}

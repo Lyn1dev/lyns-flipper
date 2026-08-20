@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_refrigerate:5},id:\"ULTIMATE_REFRIGERATE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§d§lRefrigerate V\",3:\"§7Convert §a6% §7of §b Mana §7used as §a\",4:\"§aDefense §7for §a10s§7.\",5:\"§8(Max 150 Defense)\",6:\"\",7:\"§cYou can only have 1 Ultimate\",8:\"§cEnchantment on an item!\",9:\"\",10:\"§6Source:\",11:\"§aI: §7Einary's Shop\",12:\"§aI-V: §7Bazaar\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fArmor\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§d§lRefrigerate V",
+    "§7Convert §a6% §7of §b Mana §7used as §a",
+    "§aDefense §7for §a10s§7.",
+    "§8(Max 150 Defense)",
+    "",
+    "§cYou can only have 1 Ultimate",
+    "§cEnchantment on an item!",
+    "",
+    "§6Source:",
+    "§aI: §7Einary's Shop",
+    "§aI-V: §7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ULTIMATE_REFRIGERATE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refrigerate"
+  ]
+}

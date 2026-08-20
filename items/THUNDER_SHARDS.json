@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Thunder Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"THUNDER_SHARDS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/thunder_fragment\",display:{Lore:[0:\"§7Wear gloves when handling, and be\",1:\"§7cautious around water pools.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Thunder Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Wear gloves when handling, and be",
+    "§7cautious around water pools.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "THUNDER_SHARDS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Thunder_Fragment"
+  ]
+}

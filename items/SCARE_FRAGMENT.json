@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:stained_glass",
+  "displayname": "§9Scare Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"SCARE_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:black_stained_glass\",display:{Lore:[0:\"§7Imbued with the pure essence of\",1:\"§7terror, this shard pulsates with an\",2:\"§7unsettling energy.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Scare Fragment\"}}",
+  "damage": 15,
+  "lore": [
+    "§7Imbued with the pure essence of",
+    "§7terror, this shard pulsates with an",
+    "§7unsettling energy.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SCARE_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scare_Fragment"
+  ]
+}

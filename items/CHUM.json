@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aChum",
+  "nbttag": "{ExtraAttributes:{id:\"CHUM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/farming_1/chum\",display:{Lore:[0:\"§7Obtained from killing a sea creature\",1:\"§7with a nearby Chum Bucket.\",2:\"\",3:\"§7Deposit it in any Chum Bucket to earn\",4:\"§6+20 Coins §7and §3+10 Fishing XP§7!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aChum\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Obtained from killing a sea creature",
+    "§7with a nearby Chum Bucket.",
+    "",
+    "§7Deposit it in any Chum Bucket to earn",
+    "§6+20 Coins §7and §3+10 Fishing XP§7!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CHUM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Chum"
+  ]
+}

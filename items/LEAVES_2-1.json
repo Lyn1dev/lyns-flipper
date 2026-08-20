@@ -1,0 +1,17 @@
+{
+  "itemid": "minecraft:leaves2",
+  "displayname": "§fDark Oak Leaves",
+  "nbttag": "{ExtraAttributes:{id:\"LEAVES_2-1\"},HideFlags:254,ItemModel:\"minecraft:dark_oak_leaves\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Oak Leaves\"}}",
+  "damage": 1,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "LEAVES_2-1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dark_Oak_Leaves"
+  ]
+}

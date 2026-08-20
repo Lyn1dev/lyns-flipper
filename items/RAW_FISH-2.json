@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§fTropical Fish",
+  "nbttag": "{ExtraAttributes:{id:\"RAW_FISH-2\"},HideFlags:254,ItemModel:\"minecraft:tropical_fish\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fTropical Fish\"}}",
+  "damage": 2,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAW_FISH-2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tropical_Fish"
+  ]
+}

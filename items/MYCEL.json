@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:mycelium",
+  "displayname": "§fMycelium",
+  "nbttag": "{ExtraAttributes:{id:\"MYCEL\"},HideFlags:254,ItemModel:\"minecraft:mycelium\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON BLOCK\"],Name:\"§fMycelium\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON BLOCK"
+  ],
+  "internalname": "MYCEL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mycelium"
+  ]
+}

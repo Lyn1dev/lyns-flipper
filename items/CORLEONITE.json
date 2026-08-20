@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Corleonite",
+  "nbttag": "{ExtraAttributes:{id:\"CORLEONITE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/corleonite\",display:{Lore:[0:\"§7For some reason, it's an ore.\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Corleonite\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7For some reason, it's an ore.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "CORLEONITE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Corleonite"
+  ]
+}

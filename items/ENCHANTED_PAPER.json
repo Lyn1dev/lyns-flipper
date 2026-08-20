@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aEnchanted Paper",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_PAPER\"},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Paper\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_PAPER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Paper"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "SUGAR_CANE:64",
+    "B1": "",
+    "B2": "SUGAR_CANE:64",
+    "B3": "",
+    "C1": "SUGAR_CANE:64",
+    "C2": "",
+    "C3": ""
+  }
+}

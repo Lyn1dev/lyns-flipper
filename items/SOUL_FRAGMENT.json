@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Soul Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"SOUL_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/soul_fragment\",display:{Lore:[0:\"§7Dropped by Grim Reaper sea\",1:\"§7creatures during the Spooky Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Soul Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Dropped by Grim Reaper sea",
+    "§7creatures during the Spooky Festival.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SOUL_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Soul_Fragment"
+  ]
+}

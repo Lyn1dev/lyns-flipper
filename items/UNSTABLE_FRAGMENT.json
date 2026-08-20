@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Unstable Dragon Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"UNSTABLE_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/unstable_dragon_fragment\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Unstable Dragon Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "UNSTABLE_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Unstable_Dragon_Fragment"
+  ]
+}

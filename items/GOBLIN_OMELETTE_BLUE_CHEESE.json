@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Blue Cheese Goblin Omelette",
+  "nbttag": "{ExtraAttributes:{id:\"GOBLIN_OMELETTE_BLUE_CHEESE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/mining_3/forge/omelettes/blue_cheese_goblin_omelette\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Adds §a+1 Level §7to all of your\",3:\"§7unlocked §5Heart of the Mountain §7perks.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§oMay cause illness\",9:\"\",10:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",11:\"§9§lRARE\"],Name:\"§9Blue Cheese Goblin Omelette\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§7Adds §a+1 Level §7to all of your",
+    "§7unlocked §5Heart of the Mountain §7perks.",
+    "",
+    "§7Put this item in the §6Upgrade Module",
+    "§7slot of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§7§oMay cause illness",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "GOBLIN_OMELETTE_BLUE_CHEESE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Blue_Cheese_Goblin_Omelette"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOBLIN_OMELETTE:1",
+        "FLAWLESS_SAPPHIRE_GEM:1",
+        "GOBLIN_EGG_BLUE:96"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOBLIN_OMELETTE_BLUE_CHEESE",
+      "duration": 64800
+    }
+  ]
+}

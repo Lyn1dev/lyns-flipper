@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Amber-Polished Drill Engine",
+  "nbttag": "{ExtraAttributes:{id:\"AMBER_POLISHED_DRILL_ENGINE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/amber_polished_drill_engine\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§6+600 Mining Speed\",3:\"§6+100 Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 9§c.\",9:\"§9§lRARE\"],Name:\"§9Amber-Polished Drill Engine\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§6+600 Mining Speed",
+    "§6+100 Mining Fortune",
+    "",
+    "§7Put this item in the §6Drill Engine §7slot",
+    "§7of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 9§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "AMBER_POLISHED_DRILL_ENGINE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 9",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Amber-Polished_Drill_Engine"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "DRILL_ENGINE:5.0",
+        "PERFECT_AMBER_GEM:5.0",
+        "PRECURSOR_APPARATUS:16.0",
+        "SAPPHIRE_POLISHED_DRILL_ENGINE:1.0",
+        "PLASMA:32.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "AMBER_POLISHED_DRILL_ENGINE",
+      "duration": 30
+    }
+  ]
+}

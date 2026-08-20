@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§5Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{growth:7},id:\"GROWTH;7\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Growth VII\",3:\"§7Grants §a+105 §c❤ Health§7.\",4:\"\",5:\"§6Source:\",6:\"§aVII: §7Experiments\",7:\"§7Scorpius\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fArmor\",11:\"\",12:\"§5§lEPIC\"],Name:\"§5Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Growth VII",
+    "§7Grants §a+105 §c❤ Health§7.",
+    "",
+    "§6Source:",
+    "§aVII: §7Experiments",
+    "§7Scorpius",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "GROWTH;7",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Growth"
+  ],
+  "parent": "GROWTH;4"
+}

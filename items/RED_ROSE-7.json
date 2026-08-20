@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:red_flower",
+  "displayname": "§fPink Tulip",
+  "nbttag": "{ExtraAttributes:{id:\"RED_ROSE-7\"},HideFlags:254,ItemModel:\"minecraft:pink_tulip\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Tulip\"}}",
+  "damage": 7,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "RED_ROSE-7",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

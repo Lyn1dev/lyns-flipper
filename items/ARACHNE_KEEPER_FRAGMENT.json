@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Arachne's Calling",
+  "nbttag": "{ExtraAttributes:{id:\"ARACHNE_KEEPER_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/combat_1/arachnes_calling\",display:{Lore:[0:\"§7Place §a4 §7of these at the §5Altar §7in\",1:\"§4Arachne's Sanctuary §7to summon her.\",2:\"\",3:\"§7§o\\\"It's time.\\\" §7- Uninformed Spider\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Arachne's Calling\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Place §a4 §7of these at the §5Altar §7in",
+    "§4Arachne's Sanctuary §7to summon her.",
+    "",
+    "§7§o\"It's time.\" §7- Uninformed Spider",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ARACHNE_KEEPER_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Arachne%27s_Calling"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Nether Wart Distillate",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_STALK_DISTILLATE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/minion/fuel/distillate/nether_wart_distillate\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Nether Wart Distillate\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "NETHER_STALK_DISTILLATE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Nether_Wart_Distillate"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:bow",
+  "displayname": "§aSavanna Bow",
+  "nbttag": "{ExtraAttributes:{id:\"SAVANA_BOW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/savanna_bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow is\",3:\"§adoubled§7.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+50",
+    "",
+    "§7All damage dealt with this bow is",
+    "§adoubled§7.",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON BOW"
+  ],
+  "internalname": "SAVANA_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Acacia Log VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Savanna_Bow"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ACACIA_LOG:1",
+    "A3": "ENCHANTED_STRING:1",
+    "B1": "ENCHANTED_ACACIA_LOG:1",
+    "B2": "",
+    "B3": "ENCHANTED_STRING:1",
+    "C1": "",
+    "C2": "ENCHANTED_ACACIA_LOG:1",
+    "C3": "ENCHANTED_STRING:1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Pounce (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"POUNCE_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b3bbb443-ed73-237f-9552-ce86dc08ebe3\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlkNzI3NDk3YjgxMTdmNGVmMDUwMzVlYzdhZjk1MGQzOTVmYWNhZDI0MzI3ZTk0MGUyYzM1NzdkYmM3OGMzMyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJiM2JiYjQ0M2VkNzMyMzdmOTU1MmNlODZkYzA4ZWJlMyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzg2NDcyMTk1MjM0fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Pounce (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "POUNCE_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament nogitversion+mc26.2",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pounce"
+  ],
+  "island": "foraging_2",
+  "x": -599,
+  "y": 127,
+  "z": -21
+}

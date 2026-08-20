@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:stone_button",
+  "displayname": "§fStone Button",
+  "nbttag": "{ExtraAttributes:{id:\"STONE_BUTTON\"},HideFlags:254,ItemModel:\"minecraft:stone_button\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStone Button\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "STONE_BUTTON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "STONE:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

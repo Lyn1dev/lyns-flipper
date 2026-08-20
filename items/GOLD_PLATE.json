@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:light_weighted_pressure_plate",
+  "displayname": "§fLight Weighted Pressure Plate",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_PLATE\"},HideFlags:254,ItemModel:\"minecraft:light_weighted_pressure_plate\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLight Weighted Pressure Plate\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "GOLD_PLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "GOLD_INGOT:1",
+    "A2": "GOLD_INGOT:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

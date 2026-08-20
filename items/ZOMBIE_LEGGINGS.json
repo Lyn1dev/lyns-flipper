@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:diamond_leggings",
+  "displayname": "§5Zombie Leggings",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+160\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Projectile Absorption §7(0/3)\",4:\"§7Heals the wearer for §a10§7 per second\",5:\"§7for §a5§7 seconds when hit by a\",6:\"§7projectile.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC LEGGINGS\"],Name:\"§5Zombie Leggings\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+160",
+    "§7Defense: §a+30",
+    "",
+    "§6Full Set Bonus: Projectile Absorption §7(0/3)",
+    "§7Heals the wearer for §a10§7 per second",
+    "§7for §a5§7 seconds when hit by a",
+    "§7projectile.",
+    "",
+    "§8This item can be reforged!",
+    "§5§lEPIC LEGGINGS"
+  ],
+  "internalname": "ZOMBIE_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Rotten Flesh VIII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zombie_Leggings"
+  ],
+  "recipe": {
+    "A1": "ZOMBIE_HEART:1",
+    "A2": "ZOMBIE_HEART:1",
+    "A3": "ZOMBIE_HEART:1",
+    "B1": "ENCHANTED_ROTTEN_FLESH:1",
+    "B2": "",
+    "B3": "ENCHANTED_ROTTEN_FLESH:1",
+    "C1": "ENCHANTED_ROTTEN_FLESH:1",
+    "C2": "",
+    "C3": "ENCHANTED_ROTTEN_FLESH:1"
+  }
+}

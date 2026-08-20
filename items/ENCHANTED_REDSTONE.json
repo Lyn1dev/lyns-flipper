@@ -1,0 +1,48 @@
+{
+  "itemid": "minecraft:redstone",
+  "displayname": "§aEnchanted Redstone Dust",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_REDSTONE\"},HideFlags:254,ItemModel:\"minecraft:redstone\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Redstone Dust\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON ORE"
+  ],
+  "internalname": "ENCHANTED_REDSTONE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Redstone Dust II",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Redstone_Dust"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "REDSTONE:32",
+      "A3": "",
+      "B1": "REDSTONE:32",
+      "B2": "REDSTONE:32",
+      "B3": "REDSTONE:32",
+      "C1": "",
+      "C2": "REDSTONE:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "REDSTONE_BLOCK:32",
+      "A3": "",
+      "B1": "REDSTONE_BLOCK:32",
+      "B2": "REDSTONE_BLOCK:32",
+      "B3": "REDSTONE_BLOCK:32",
+      "C1": "",
+      "C2": "REDSTONE_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
+}

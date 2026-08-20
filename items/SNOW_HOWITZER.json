@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Frosty the Howitzer",
+  "nbttag": "{ExtraAttributes:{ammo:0,donated_museum:0B,id:\"SNOW_HOWITZER\",rarity_upgrades:0,soulbound:0B},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"97c08d98-c648-34bb-ade5-169389f3bf52\",Properties:{textures:[0:{Name:\"textures\",Signature:\"rA3FMZcPDVWIkIuPhLA6GeYiIOB0NefoBg+nUNMlh14t8FNWnQQPSnoEVXi7boCjJK4Hb5XWVOl6ri4VzPi2axb2mkQ2Xqipm+UO+0xrXDs1OiB29+aLEwts/vtC4iCWa7WC90riV2ylbyeUgaNExd+5jhCDr/MMnnww1MLdGu6b8GFUgcYXRBp6JIVdcM2sIsdSWq48r6lZSTjUUxwyNc/KcRpyN4oF04PplavfsiwQ42f8rCRSCZ2e6TV4KnJG/DjR34uNadfNSp5zyxfGNpyL0su6/eBGSRzm817xefrY/TDhT8hprdsRnUHUEH0RjZE6uMLqR7ucvmZrV6Mr75/UuLupY8lSyNymxcxi0d9LHruINpzKAnE+t4oPaX4Dgtvy2kLFE/c7A+7E/dgcfswhfE29ljTw6JZu8iLi8S3D1VLgYh13rPMwP0keH/ebSXJPmYDmgTNl7vAYN71/o84/Ubx/aNUf+HFgXrdhTIw2D0srq3Zl39cN+p2HZ5Wkd+anmQE4YTB/eJjUI7SalaiH/fRBbmolKiNNsr1HtYsGN3pIAii1IEgWUrQKsT4eHeGieko7q35rEs+5ajo2lk7+891e/gosyQ3jG2aNkpEjat89C7FeOR/Y3xveuotjQ47ZemFCJq6jfR+JDTcZ13qgwDw1So3lSdHYpEWxS/Q=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NDM3MDk5MDg5NjYsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOGRjN2U3N2MyMWM0ZTMyMjhlMmMwMjUxYmZlMTc0NzQxZjdhMzNiZjMyNjdiMGNjMWY1OGUyMzRiYzJiOWM1In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holds and shoots Snowballs. When\",1:\"§7you pickup Snowballs, they increase\",2:\"§7the ammo held by this item. Blasts\",3:\"§7Snowballs at a higher velocity than a\",4:\"§7Snow Blaster!\",5:\"\",6:\"§7Snowballs: §f0§7/§f10,000\",7:\"\",8:\"§eRight click to shoot!\",9:\"\",10:\"§6§lLEGENDARY\"],Name:\"§6Frosty the Howitzer\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Holds and shoots Snowballs. When",
+    "§7you pickup Snowballs, they increase",
+    "§7the ammo held by this item. Blasts",
+    "§7Snowballs at a higher velocity than a",
+    "§7Snow Blaster!",
+    "",
+    "§7Snowballs: §f0§7/§f10,000",
+    "",
+    "§eRight click to shoot!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SNOW_HOWITZER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Frosty_the_Howitzer"
+  ],
+  "recipes": [
+    {
+      "A1": "WALNUT:8",
+      "A2": "CRYOPOWDER_SHARD:1",
+      "A3": "WALNUT:8",
+      "B1": "WALNUT:8",
+      "B2": "SNOW_BLASTER:1",
+      "B3": "WALNUT:8",
+      "C1": "WALNUT:8",
+      "C2": "HILT_OF_TRUE_ICE:1",
+      "C3": "WALNUT:8",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SNOW_HOWITZER"
+    }
+  ]
+}

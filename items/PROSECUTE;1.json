@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{PROSECUTE:1},id:\"PROSECUTE;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Prosecute I\",3:\"§7Increases damage dealt by §a0.1%\",4:\"§7for each percent of health\",5:\"§7your target has.\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cExecute\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Prosecute I",
+    "§7Increases damage dealt by §a0.1%",
+    "§7for each percent of health",
+    "§7your target has.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cExecute",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "PROSECUTE;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Prosecute"
+  ]
+}

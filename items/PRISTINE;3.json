@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{pristine:3},id:\"PRISTINE;3\",originTag:\"QUICK_CRAFTING\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Prismatic III\",3:\"§7Grants §5+1.5 ✧ Pristine§7, which\",4:\"§7increases the chance to improve the\",5:\"§7quality of dropped §dGemstones§7.\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Gemstone Collection,\",9:\"§7Bazaar\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fPickaxe\",13:\"§7- §fDrill\",14:\"§7- §fGauntlet\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Prismatic III",
+    "§7Grants §5+1.5 ✧ Pristine§7, which",
+    "§7increases the chance to improve the",
+    "§7quality of dropped §dGemstones§7.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Gemstone Collection,",
+    "§7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fPickaxe",
+    "§7- §fDrill",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "PRISTINE;3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Prismatic"
+  ]
+}

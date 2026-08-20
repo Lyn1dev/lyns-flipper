@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:glowstone_dust",
+  "displayname": "§fGlowstone Dust",
+  "nbttag": "{ExtraAttributes:{id:\"GLOWSTONE_DUST\"},HideFlags:254,ItemModel:\"minecraft:glowstone_dust\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON BLOCK\"],Name:\"§fGlowstone Dust\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON BLOCK"
+  ],
+  "internalname": "GLOWSTONE_DUST",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

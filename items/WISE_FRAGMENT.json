@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Wise Dragon Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"WISE_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/wise_dragon_fragment\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Wise Dragon Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "WISE_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wise_Dragon_Fragment"
+  ]
+}

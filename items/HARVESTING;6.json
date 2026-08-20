@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{harvesting:6},id:\"HARVESTING;6\",originTag:\"UNKNOWN\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Harvesting VI\",3:\"§7Grants §a+75 §6☘ Farming\",4:\"§6Fortune§7, which increases your\",5:\"§7chance for multiple crops.\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Shiny Pigs\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fHoe\",12:\"\",13:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Harvesting VI",
+    "§7Grants §a+75 §6☘ Farming",
+    "§6Fortune§7, which increases your",
+    "§7chance for multiple crops.",
+    "",
+    "§6Source:",
+    "§aVI: §7Shiny Pigs",
+    "",
+    "§6Applied To:",
+    "§7- §fHoe",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "HARVESTING;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Harvesting"
+  ]
+}

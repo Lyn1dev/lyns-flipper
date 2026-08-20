@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:nether_star",
+  "displayname": "§5Hyper Catalyst",
+  "nbttag": "{ExtraAttributes:{id:\"HYPER_CATALYST\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§7When in a minion, this increases the\",1:\"§7number of resources created by §a4x\",2:\"§7for §a6 hours§7!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Hyper Catalyst\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7When in a minion, this increases the",
+    "§7number of resources created by §a4x",
+    "§7for §a6 hours§7!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "HYPER_CATALYST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hyper_Catalyst"
+  ],
+  "recipe": {
+    "A1": "CATALYST:1",
+    "A2": "CATALYST:1",
+    "A3": "CATALYST:1",
+    "B1": "CATALYST:1",
+    "B2": "HYPER_CATALYST_UPGRADE:1",
+    "B3": "CATALYST:1",
+    "C1": "CATALYST:1",
+    "C2": "CATALYST:1",
+    "C3": "CATALYST:1",
+    "count": 8
+  }
+}

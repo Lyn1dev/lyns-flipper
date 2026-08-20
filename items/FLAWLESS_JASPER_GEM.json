@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5 Flawless Jasper Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_JASPER_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/jasper/flawless_jasper_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §dJasper§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§c Strength§7.\",7:\"\",8:\"§5§lEPIC GEMSTONE\"],Name:\"§5 Flawless Jasper Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A near perfect version of §dJasper§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§c Strength§7.",
+    "",
+    "§5§lEPIC GEMSTONE"
+  ],
+  "internalname": "FLAWLESS_JASPER_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone IX",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FINE_JASPER_GEM:16",
+    "A3": "",
+    "B1": "FINE_JASPER_GEM:16",
+    "B2": "FINE_JASPER_GEM:16",
+    "B3": "FINE_JASPER_GEM:16",
+    "C1": "",
+    "C2": "FINE_JASPER_GEM:16",
+    "C3": ""
+  }
+}

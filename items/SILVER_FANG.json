@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:ghast_tear",
+  "displayname": "§aSilver Fang",
+  "nbttag": "{ExtraAttributes:{id:\"SILVER_FANG\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/silver_fang\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§kX§5 Rift-Transferable §5§kX\",3:\"§a§lUNCOMMON\"],Name:\"§aSilver Fang\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§5§kX§5 Rift-Transferable §5§kX",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SILVER_FANG",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ghast Tear V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Silver_Fang"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_GHAST_TEAR:5",
+    "A3": "",
+    "B1": "ENCHANTED_GHAST_TEAR:5",
+    "B2": "ENCHANTED_GHAST_TEAR:5",
+    "B3": "ENCHANTED_GHAST_TEAR:5",
+    "C1": "",
+    "C2": "ENCHANTED_GHAST_TEAR:5",
+    "C3": ""
+  }
+}

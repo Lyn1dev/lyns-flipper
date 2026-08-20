@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§5Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{smite:7},id:\"SMITE;7\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Smite VII\",3:\"§7Increases damage dealt to §8☠ Wither§7,\",4:\"§2༕ Undead §7and §f🦴 Skeletal§7 mobs by\",5:\"§a50%§7.\",6:\"\",7:\"§6Applied To:\",8:\"§7- §fSword\",9:\"§7- §fLongsword\",10:\"§7- §fGauntlet\",11:\"\",12:\"§5§lEPIC\"],Name:\"§5Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Smite VII",
+    "§7Increases damage dealt to §8☠ Wither§7,",
+    "§2༕ Undead §7and §f🦴 Skeletal§7 mobs by",
+    "§a50%§7.",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SMITE;7",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Smite"
+  ]
+}

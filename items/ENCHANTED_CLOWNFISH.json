@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§aEnchanted Tropical Fish",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CLOWNFISH\"},HideFlags:254,ItemModel:\"minecraft:tropical_fish\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Tropical Fish\"},ench:[]}",
+  "damage": 2,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_CLOWNFISH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Tropical_Fish"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "RAW_FISH-2:32",
+    "A3": "",
+    "B1": "RAW_FISH-2:32",
+    "B2": "RAW_FISH-2:32",
+    "B3": "RAW_FISH-2:32",
+    "C1": "",
+    "C2": "RAW_FISH-2:32",
+    "C3": ""
+  }
+}

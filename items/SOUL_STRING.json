@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Soul String",
+  "nbttag": "{ExtraAttributes:{id:\"SOUL_STRING\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/soul_string\",display:{Lore:[0:\"§7Rare string that can be used to\",1:\"§7craft weapons that are infused with\",2:\"§7the power of Arachne.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Soul String\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Rare string that can be used to",
+    "§7craft weapons that are infused with",
+    "§7the power of Arachne.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SOUL_STRING",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Soul_String"
+  ]
+}

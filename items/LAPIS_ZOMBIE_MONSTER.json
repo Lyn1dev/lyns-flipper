@@ -1,0 +1,73 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Lapis Zombie (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7These zombies adapted to their\",1:\"§7environment, using the lapis\",2:\"§7around them as a defense\",3:\"§7mechanism.\",4:\"\",5:\"§7Mob Type: §2༕ Undead\",6:\"§c❤ Health§8: §c200\"],Name:\"§9Lapis Zombie (Monster)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7These zombies adapted to their",
+    "§7environment, using the lapis",
+    "§7around them as a defense",
+    "§7mechanism.",
+    "",
+    "§7Mob Type: §2༕ Undead",
+    "§c❤ Health§8: §c200"
+  ],
+  "internalname": "LAPIS_ZOMBIE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lapis_Zombie"
+  ],
+  "recipes": [
+    {
+      "level": 17,
+      "coins": 5,
+      "xp": 10,
+      "combat_xp": 12,
+      "name": "§cLapis Zombie",
+      "render": "@neurepo:mobs/lapis_zombie.json",
+      "panorama": "mining_2",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ROTTEN_FLESH",
+          "chance": "100%"
+        },
+        {
+          "id": "LAPIS_CRYSTAL",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "LAPIS_ARMOR_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "PET_ITEM_EXP_SHARE_DROP:1",
+          "chance": "0.01%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_EXPERIENCE;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Kill Lapis Zombie §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

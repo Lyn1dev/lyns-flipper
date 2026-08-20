@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Bayou Water Orb",
+  "nbttag": "{ExtraAttributes:{id:\"BAYOU_WATER_ORB\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/bobbin_time/bayou_water_orb\",display:{Lore:[0:\"§7A green mass of coagulated swamp.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Bayou Water Orb\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A green mass of coagulated swamp.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "BAYOU_WATER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bayou_Water_Orb"
+  ],
+  "recipes": [
+    {
+      "A1": "BUSTED_BELT_BUCKLE:8",
+      "A2": "OLD_LEATHER_BOOT:1",
+      "A3": "ALLIGATOR_SKIN:8",
+      "B1": "BRONZE_BOWL:16",
+      "B2": "WATER_ORB:1",
+      "B3": "TORN_CLOTH:16",
+      "C1": "CONDENSED_WATER_LILY:1",
+      "C2": "RUSTY_COIN:64",
+      "C3": "POISON_SAMPLE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BAYOU_WATER_ORB"
+    }
+  ]
+}

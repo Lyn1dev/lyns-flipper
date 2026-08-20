@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aEnchanted Bookshelf",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"},HideFlags:254,ItemModel:\"minecraft:bookshelf\",display:{Lore:[0:\"§8Legacy Item\",1:\"\",2:\"§cThis item is no longer used in the\",3:\"§cgame. It can be exchanged in your\",4:\"§cLegacy Trades menu - accessed with\",5:\"§e/legacytrades§c.\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Legacy Item",
+    "",
+    "§cThis item is no longer used in the",
+    "§cgame. It can be exchanged in your",
+    "§cLegacy Trades menu - accessed with",
+    "§e/legacytrades§c.",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_BOOKSHELF",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Bookshelf"
+  ]
+}

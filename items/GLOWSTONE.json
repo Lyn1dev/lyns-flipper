@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:glowstone",
+  "displayname": "§fGlowstone",
+  "nbttag": "{ExtraAttributes:{id:\"GLOWSTONE\"},HideFlags:254,ItemModel:\"minecraft:glowstone\",display:{Lore:[0:\"§f§lCOMMON BLOCK\"],Name:\"§fGlowstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON BLOCK"
+  ],
+  "internalname": "GLOWSTONE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "GLOWSTONE_DUST:1",
+    "A2": "GLOWSTONE_DUST:1",
+    "A3": "",
+    "B1": "GLOWSTONE_DUST:1",
+    "B2": "GLOWSTONE_DUST:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

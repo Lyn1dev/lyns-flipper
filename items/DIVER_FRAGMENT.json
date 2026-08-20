@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Emperor's Skull",
+  "nbttag": "{ExtraAttributes:{id:\"DIVER_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/emperors_skull\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Emperor's Skull\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "DIVER_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Emperor%27s_Skull"
+  ]
+}

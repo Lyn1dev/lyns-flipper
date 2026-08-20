@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aYoggie",
+  "nbttag": "{ExtraAttributes:{id:\"YOGGIE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/yoggie\",display:{Lore:[0:\"§7Harvested from the core of Yogs.\",1:\"§7Used to upgrade Magma equipment.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aYoggie\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Harvested from the core of Yogs.",
+    "§7Used to upgrade Magma equipment.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "YOGGIE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Yoggie"
+  ]
+}

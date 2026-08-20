@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Ritual Residue",
+  "nbttag": "{ExtraAttributes:{id:\"RITUAL_RESIDUE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/combat_3/ritual_residue\",display:{Lore:[0:\"§8§oIt's all that's left from a draconic\",1:\"§8§osacrifice.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Ritual Residue\"}}",
+  "damage": 0,
+  "lore": [
+    "§8§oIt's all that's left from a draconic",
+    "§8§osacrifice.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "RITUAL_RESIDUE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ritual_Residue"
+  ]
+}

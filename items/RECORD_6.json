@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:record_mall",
+  "displayname": "§aMusic Disc - Mall",
+  "nbttag": "{ExtraAttributes:{id:\"RECORD_6\"},HideFlags:254,ItemModel:\"minecraft:music_disc_mall\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aMusic Disc - Mall\"}}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RECORD_6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

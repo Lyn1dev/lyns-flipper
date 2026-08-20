@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:stonebrick",
+  "displayname": "§fCracked Stone Bricks",
+  "nbttag": "{ExtraAttributes:{id:\"SMOOTH_BRICK-2\"},HideFlags:254,ItemModel:\"minecraft:cracked_stone_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCracked Stone Bricks\"}}",
+  "damage": 2,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SMOOTH_BRICK-2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

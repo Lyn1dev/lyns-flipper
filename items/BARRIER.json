@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Barrier",
+  "nbttag": "{ExtraAttributes:{id:\"BARRIER\"},HideFlags:254,ItemModel:\"minecraft:barrier\",display:{Lore:[0:\"§8§l* §8Co-op Soulbound §8§l*\",1:\"§6§lLEGENDARY\"],Name:\"§6Barrier\"}}",
+  "damage": 0,
+  "lore": [
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "BARRIER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga97960bc",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Barrier"
+  ],
+  "vanilla": true
+}

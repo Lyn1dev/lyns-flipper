@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aHalf-Eaten Mushroom",
+  "nbttag": "{ExtraAttributes:{id:\"HALF_EATEN_MUSHROOM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/half_eaten_mushroom\",display:{Lore:[0:\"§7Bring §63,000 §7of these to §5Carrolyn §7in\",1:\"§5Scarleton §7on the §cCrimson Isle §7to\",2:\"§7permanently gain §c+5 Health §7and\",3:\"§6+12 Mushroom Fortune§7.\",4:\"\",5:\"§8§oWhatever was tasked with guarding\",6:\"§8§othis valuable mushroom looks to have\",7:\"§8§ogotten a little hungry.\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aHalf-Eaten Mushroom\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Bring §63,000 §7of these to §5Carrolyn §7in",
+    "§5Scarleton §7on the §cCrimson Isle §7to",
+    "§7permanently gain §c+5 Health §7and",
+    "§6+12 Mushroom Fortune§7.",
+    "",
+    "§8§oWhatever was tasked with guarding",
+    "§8§othis valuable mushroom looks to have",
+    "§8§ogotten a little hungry.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "HALF_EATEN_MUSHROOM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Half-Eaten_Mushroom"
+  ]
+}

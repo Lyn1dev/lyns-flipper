@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:packed_ice",
+  "displayname": "§9Enchanted Packed Ice",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_PACKED_ICE\"},HideFlags:254,ItemModel:\"minecraft:packed_ice\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE BLOCK\"],Name:\"§9Enchanted Packed Ice\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE BLOCK"
+  ],
+  "internalname": "ENCHANTED_PACKED_ICE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Packed_Ice"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_ICE:32",
+    "A3": "",
+    "B1": "ENCHANTED_ICE:32",
+    "B2": "ENCHANTED_ICE:32",
+    "B3": "ENCHANTED_ICE:32",
+    "C1": "",
+    "C2": "ENCHANTED_ICE:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Prismarine Sinker",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE_SINKER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/rod_part/sinker/prismarine_sinker\",display:{Lore:[0:\"§7Materializes §fPrismarine Shard§7 or\",1:\"§fPrismarine Crystals §7in your\",2:\"§7inventory whenever you catch\",3:\"§7something.\",4:\"\",5:\"§7Talk to §2Roddy §7in the §2Backwater\",6:\"§2Bayou §7to apply this §9Sinker §7to a\",7:\"§7Fishing Rod.\",8:\"\",9:\"§4❣ §cRequires §aFishing Skill 5§c.\",10:\"§9§lRARE ROD PART\"],Name:\"§9Prismarine Sinker\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Materializes §fPrismarine Shard§7 or",
+    "§fPrismarine Crystals §7in your",
+    "§7inventory whenever you catch",
+    "§7something.",
+    "",
+    "§7Talk to §2Roddy §7in the §2Backwater",
+    "§2Bayou §7to apply this §9Sinker §7to a",
+    "§7Fishing Rod.",
+    "",
+    "§4❣ §cRequires §aFishing Skill 5§c.",
+    "§9§lRARE ROD PART"
+  ],
+  "internalname": "PRISMARINE_SINKER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Prismarine Shard IV",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Prismarine_Sinker"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "WATER_LILY:16",
+    "A3": "",
+    "B1": "",
+    "B2": "PRISMARINE_CRYSTALS:8",
+    "B3": "",
+    "C1": "",
+    "C2": "PRISMARINE_SHARD:8",
+    "C3": ""
+  }
+}

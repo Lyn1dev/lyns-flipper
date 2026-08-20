@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:golden_carrot",
+  "displayname": "§5Superb Carrot Candy",
+  "nbttag": "{ExtraAttributes:{id:\"SUPERB_CARROT_CANDY\"},HideFlags:254,ItemModel:\"minecraft:golden_carrot\",display:{Lore:[0:\"§aCarrot Candy §7gives pets boosts of §ePet EXP§7!\",1:\"§7Pets can only eat §a10 §7candy in their lifetime!\",2:\"\",3:\"§7Grants §a750,000 §ePet EXP§7.\",4:\"\",5:\"§eRight-click on your summoned pet to\",6:\"§efeed it this candy!\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Superb Carrot Candy\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§aCarrot Candy §7gives pets boosts of §ePet EXP§7!",
+    "§7Pets can only eat §a10 §7candy in their lifetime!",
+    "",
+    "§7Grants §a750,000 §ePet EXP§7.",
+    "",
+    "§eRight-click on your summoned pet to",
+    "§efeed it this candy!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SUPERB_CARROT_CANDY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Carrot VIII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Superb_Carrot_Candy"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_GOLDEN_CARROT:3",
+    "A2": "ENCHANTED_GOLDEN_CARROT:3",
+    "A3": "ENCHANTED_GOLDEN_CARROT:3",
+    "B1": "ENCHANTED_GOLDEN_CARROT:3",
+    "B2": "GREAT_CARROT_CANDY:1",
+    "B3": "ENCHANTED_GOLDEN_CARROT:3",
+    "C1": "ENCHANTED_GOLDEN_CARROT:3",
+    "C2": "ENCHANTED_GOLDEN_CARROT:3",
+    "C3": "ENCHANTED_GOLDEN_CARROT:3"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:iron_pickaxe",
+  "displayname": "§fZombie Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_PICKAXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/zombie_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 3\",1:\"\",2:\"§7Mining Speed: §6+190\",3:\"\",4:\"§6Ability: Rotten \",5:\"§7Grants §6+5 Mining Fortune §7per\",6:\"§7Undead mob within 30 blocks of you.\",7:\"§8(Max 25 Mining Fortune)\",8:\"\",9:\"§8This item can be reforged!\",10:\"§f§lCOMMON PICKAXE\"],Name:\"§fZombie Pickaxe\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Breaking Power 3",
+    "",
+    "§7Mining Speed: §6+190",
+    "",
+    "§6Ability: Rotten ",
+    "§7Grants §6+5 Mining Fortune §7per",
+    "§7Undead mob within 30 blocks of you.",
+    "§8(Max 25 Mining Fortune)",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON PICKAXE"
+  ],
+  "internalname": "ZOMBIE_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Rotten Flesh II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zombie_Pickaxe"
+  ],
+  "recipe": {
+    "A1": "ROTTEN_FLESH:1",
+    "A2": "ROTTEN_FLESH:1",
+    "A3": "ROTTEN_FLESH:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
+}

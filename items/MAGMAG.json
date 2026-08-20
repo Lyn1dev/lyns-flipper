@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aMagmag",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMAG\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/magmag\",display:{Lore:[0:\"§7Used in love potions, and laxatives.\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aMagmag\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Used in love potions, and laxatives.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "MAGMAG",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magmag"
+  ]
+}

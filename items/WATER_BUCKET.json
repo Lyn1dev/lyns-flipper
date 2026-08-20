@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:water_bucket",
+  "displayname": "§fWater Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"WATER_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:water_bucket\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWater Bucket\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "WATER_BUCKET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

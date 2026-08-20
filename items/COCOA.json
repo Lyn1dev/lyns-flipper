@@ -1,0 +1,15 @@
+{
+  "itemid": "minecraft:wheat_seeds",
+  "displayname": "§fCocoa Plant",
+  "nbttag": "{ExtraAttributes:{id:\"COCOA\"},HideFlags:254,ItemModel:\"minecraft:wheat_seeds\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCocoa Plant\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "COCOA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
+}

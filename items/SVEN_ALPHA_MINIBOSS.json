@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Sven Alpha (Miniboss)",
+  "nbttag": "{ExtraAttributes:{id:\"SVEN_ALPHA_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7The Sven Alpha is a Sven Packmaster Miniboss that is\",1:\"§7rarely spawned upon killing a Wolf during a Sven \",2:\"§7Packmaster Tier IV Quest.\",3:\"\",4:\"§c❤ Health§8: §c450,000\"],Name:\"§5Sven Alpha (Miniboss)\"}}",
+  "damage": 3,
+  "lore": [
+    "§7The Sven Alpha is a Sven Packmaster Miniboss that is",
+    "§7rarely spawned upon killing a Wolf during a Sven ",
+    "§7Packmaster Tier IV Quest.",
+    "",
+    "§c❤ Health§8: §c450,000"
+  ],
+  "internalname": "SVEN_ALPHA_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sven_Alpha"
+  ],
+  "recipes": [
+    {
+      "name": "§4Sven Alpha",
+      "render": "Wolf",
+      "level": 350,
+      "type": "drops",
+      "panorama": "hub",
+      "drops": [
+        {
+          "id": "WOLF_TOOTH:5",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

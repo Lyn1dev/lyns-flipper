@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Subzero Inverter",
+  "nbttag": "{ExtraAttributes:{id:\"SUBZERO_INVERTER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/pets_related/subzero_inverter\",display:{Lore:[0:\"§7Drops extremely rarely from the\",1:\"§7Inferno Demonlord.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Subzero Inverter\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Drops extremely rarely from the",
+    "§7Inferno Demonlord.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SUBZERO_INVERTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Subzero_Inverter"
+  ]
+}

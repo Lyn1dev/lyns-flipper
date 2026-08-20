@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Hotspot Bait",
+  "nbttag": "{ExtraAttributes:{id:\"HOTSPOT_BAIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/bait/hotspot_bait\",display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Grants a §a+20% §7chance to catch\",4:\"§dHotspot Sea Creatures §7while fishing\",5:\"§7in a §dHotspot§7.\",6:\"\",7:\"§9§lRARE BAIT\"],Name:\"§9Hotspot Bait\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Fishing Bait",
+    "§8Consumes on Cast",
+    "",
+    "§7Grants a §a+20% §7chance to catch",
+    "§dHotspot Sea Creatures §7while fishing",
+    "§7in a §dHotspot§7.",
+    "",
+    "§9§lRARE BAIT"
+  ],
+  "internalname": "HOTSPOT_BAIT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Pufferfish VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hotspot_Bait"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "ENCHANTED_PUFFERFISH:1",
+    "B2": "SCORCHED_CRAB_STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 32
+  }
+}

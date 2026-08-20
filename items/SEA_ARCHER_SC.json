@@ -1,0 +1,72 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§3Sea Archer (Sea Creature)",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_ARCHER_SC\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7The Sea Archer is an Uncommon sea creature that\",1:\"§7spawns while fishing after unlocking Fishing level IX.\",2:\"§7He looks like a normal Skeleton, and carries an\",3:\"§7enchanted Bow. He also wears an Enchanted Armor,\",4:\"§7probably a dyed Leather Armor.\",5:\"\",6:\"§7Mob Types: §9⚓ Aquatic§7, §f🦴 Skeletal\",7:\"§c❤ Health§8: §c7,000\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§3Sea Archer (Sea Creature)\"}}",
+  "damage": 0,
+  "lore": [
+    "§7The Sea Archer is an Uncommon sea creature that",
+    "§7spawns while fishing after unlocking Fishing level IX.",
+    "§7He looks like a normal Skeleton, and carries an",
+    "§7enchanted Bow. He also wears an Enchanted Armor,",
+    "§7probably a dyed Leather Armor.",
+    "",
+    "§7Mob Types: §9⚓ Aquatic§7, §f🦴 Skeletal",
+    "§c❤ Health§8: §c7,000",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SEA_ARCHER_SC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sea_Archer"
+  ],
+  "recipes": [
+    {
+      "name": "§cSea Archer",
+      "level": 15,
+      "coins": 10,
+      "xp": 20,
+      "render": "@neurepo:mobs/sea_archer.json",
+      "panorama": "hub",
+      "type": "drops",
+      "extra": [
+        "§cRequirements:",
+        "§7- Fishing Skill 8",
+        "§7- §bFished from water"
+      ],
+      "drops": [
+        {
+          "id": "WATER_LILY",
+          "chance": "100%"
+        },
+        {
+          "id": "RAW_FISH:2",
+          "chance": "100%"
+        },
+        {
+          "id": "BONE:1",
+          "chance": "100%",
+          "extra": [
+            "§eDrop Count: §7x8-13"
+          ]
+        },
+        {
+          "id": "ENCHANTED_BONE",
+          "chance": "1%"
+        },
+        {
+          "id": "DYE_BONE",
+          "chance": "0.000033%"
+        },
+        {
+          "id": "DYE_AQUAMARINE",
+          "extra": [],
+          "chance": "0.00002%"
+        }
+      ]
+    }
+  ]
+}

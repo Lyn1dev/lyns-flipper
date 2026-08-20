@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:iron_hoe",
+  "displayname": "§fIron Hoe",
+  "nbttag": "{ExtraAttributes:{id:\"IRON_HOE\"},HideFlags:254,ItemModel:\"minecraft:iron_hoe\",Unbreakable:1B,display:{Lore:[0:\"§8This item can be reforged!\",1:\"§f§lCOMMON FARMING TOOL\"],Name:\"§fIron Hoe\"}}",
+  "damage": 0,
+  "lore": [
+    "§8This item can be reforged!",
+    "§f§lCOMMON FARMING TOOL"
+  ],
+  "internalname": "IRON_HOE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+gcd885b38",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "IRON_INGOT:1",
+    "A3": "",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
+}

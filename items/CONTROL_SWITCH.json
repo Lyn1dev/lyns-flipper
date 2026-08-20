@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Control Switch",
+  "nbttag": "{ExtraAttributes:{id:\"CONTROL_SWITCH\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/control_switch\",display:{Lore:[0:\"§7A key component needed by the\",1:\"§7Professor to repair §bAutomaton Prime\",2:\"§7in the §bLost Precursor City§7!\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Control Switch\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A key component needed by the",
+    "§7Professor to repair §bAutomaton Prime",
+    "§7in the §bLost Precursor City§7!",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "CONTROL_SWITCH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Control_Switch"
+  ]
+}

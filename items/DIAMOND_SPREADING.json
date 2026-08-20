@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:diamond",
+  "displayname": "§9Diamond Spreading",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_SPREADING\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§8Minion Upgrade\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade. Place it in any minion and it\",4:\"§7will occasionally generate Diamonds!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Diamond Spreading\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Minion Upgrade",
+    "",
+    "§7This item can be used as a minion",
+    "§7upgrade. Place it in any minion and it",
+    "§7will occasionally generate Diamonds!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "DIAMOND_SPREADING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond VI",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Diamond_Spreading"
+  ],
+  "recipe": {
+    "A1": "VINE:1",
+    "A2": "VINE:1",
+    "A3": "VINE:1",
+    "B1": "VINE:1",
+    "B2": "ENCHANTED_DIAMOND:1",
+    "B3": "VINE:1",
+    "C1": "VINE:1",
+    "C2": "VINE:1",
+    "C3": "VINE:1"
+  }
+}

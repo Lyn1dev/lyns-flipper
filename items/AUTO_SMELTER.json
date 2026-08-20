@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:furnace",
+  "displayname": "§fAuto Smelter",
+  "nbttag": "{ExtraAttributes:{id:\"AUTO_SMELTER\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§8Minion Upgrade\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade. This will automatically smelt\",4:\"§7materials that a minion produces.\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fAuto Smelter\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Minion Upgrade",
+    "",
+    "§7This item can be used as a minion",
+    "§7upgrade. This will automatically smelt",
+    "§7materials that a minion produces.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "AUTO_SMELTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cobblestone III",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Auto_Smelter"
+  ],
+  "recipe": {
+    "A1": "COBBLESTONE:8",
+    "A2": "COBBLESTONE:8",
+    "A3": "COBBLESTONE:8",
+    "B1": "COBBLESTONE:8",
+    "B2": "COAL:1",
+    "B3": "COBBLESTONE:8",
+    "C1": "COBBLESTONE:8",
+    "C2": "COBBLESTONE:8",
+    "C3": "COBBLESTONE:8"
+  }
+}

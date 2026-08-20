@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Shark Water Orb",
+  "nbttag": "{ExtraAttributes:{id:\"SHARK_WATER_ORB\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/bobbin_time/shark_water_orb\",display:{Lore:[0:\"§7A disgusting ball of mushed shark\",1:\"§7matter.\",2:\"\",3:\"§8Are those teeth sticking out?\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Shark Water Orb\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A disgusting ball of mushed shark",
+    "§7matter.",
+    "",
+    "§8Are those teeth sticking out?",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SHARK_WATER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Shark_Water_Orb"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_SHARK_FIN:1",
+      "A2": "GREAT_WHITE_SHARK_TOOTH:1",
+      "A3": "ENCHANTED_SHARK_FIN:1",
+      "B1": "BLUE_SHARK_TOOTH:6",
+      "B2": "WATER_ORB:1",
+      "B3": "NURSE_SHARK_TOOTH:12",
+      "C1": "ENCHANTED_SHARK_FIN:1",
+      "C2": "TIGER_SHARK_TOOTH:4",
+      "C3": "ENCHANTED_SHARK_FIN:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SHARK_WATER_ORB"
+    }
+  ]
+}

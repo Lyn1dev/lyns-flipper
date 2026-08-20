@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:coal_block",
+  "displayname": "§fBingo Display",
+  "nbttag": "{ExtraAttributes:{id:\"BINGO_DISPLAY\"},HideFlags:254,ItemModel:\"minecraft:coal_block\",display:{Lore:[0:\"§7Show off your total §6Bingo Points§7!\",1:\"\",2:\"§f§lCOMMON COSMETIC\"],Name:\"§fBingo Display\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Show off your total §6Bingo Points§7!",
+    "",
+    "§f§lCOMMON COSMETIC"
+  ],
+  "internalname": "BINGO_DISPLAY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bingo_Display"
+  ]
+}

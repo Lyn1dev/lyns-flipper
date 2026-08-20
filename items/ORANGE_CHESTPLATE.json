@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:leather_chestplate",
+  "displayname": "§5Orange Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"ORANGE_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+45s\",1:\"§7Intelligence: §b+5\",2:\"§7Mana Regen: §b+10%\",3:\"\",4:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Orange Chestplate\",color:16729600},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Rift Time: §a+45s",
+    "§7Intelligence: §b+5",
+    "§7Mana Regen: §b+10%",
+    "",
+    "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "ORANGE_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Half-Eaten Carrot II",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Orange_Chestplate"
+  ],
+  "recipe": {
+    "A1": "HALF_EATEN_CARROT:64",
+    "A2": "",
+    "A3": "HALF_EATEN_CARROT:64",
+    "B1": "HALF_EATEN_CARROT:64",
+    "B2": "ETALPTSEHC_NORI:1",
+    "B3": "HALF_EATEN_CARROT:64",
+    "C1": "HALF_EATEN_CARROT:64",
+    "C2": "HALF_EATEN_CARROT:64",
+    "C3": "HALF_EATEN_CARROT:64"
+  }
+}

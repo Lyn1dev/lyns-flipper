@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:golden_horse_armor",
+  "displayname": "§9Eternal Hoof",
+  "nbttag": "{ExtraAttributes:{id:\"ETERNAL_HOOF\"},HideFlags:254,ItemModel:\"minecraft:golden_horse_armor\",display:{Lore:[0:\"§7Accessory Power: §6+8\",1:\"\",2:\"§7Gain §a2% §7chance to find Trick or\",3:\"§7Treat Chests.\",4:\"\",5:\"§8Works while in Accessory Bag!\",6:\"§9§lRARE ACCESSORY\"],Name:\"§9Eternal Hoof\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Accessory Power: §6+8",
+    "",
+    "§7Gain §a2% §7chance to find Trick or",
+    "§7Treat Chests.",
+    "",
+    "§8Works while in Accessory Bag!",
+    "§9§lRARE ACCESSORY"
+  ],
+  "internalname": "ETERNAL_HOOF",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Eternal_Hoof"
+  ],
+  "recipe": {
+    "A1": "SOUL_FRAGMENT:1",
+    "A2": "SOUL_FRAGMENT:1",
+    "A3": "SOUL_FRAGMENT:1",
+    "B1": "SOUL_FRAGMENT:1",
+    "B2": "LUCKY_HOOF:1",
+    "B3": "SOUL_FRAGMENT:1",
+    "C1": "SOUL_FRAGMENT:1",
+    "C2": "SOUL_FRAGMENT:1",
+    "C3": "SOUL_FRAGMENT:1"
+  }
+}

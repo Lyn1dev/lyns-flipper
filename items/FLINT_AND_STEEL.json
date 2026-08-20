@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:flint_and_steel",
+  "displayname": "§fFlint and Steel",
+  "nbttag": "{ExtraAttributes:{id:\"FLINT_AND_STEEL\"},HideFlags:254,ItemModel:\"minecraft:flint_and_steel\",Unbreakable:1B,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFlint and Steel\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "FLINT_AND_STEEL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "FLINT:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

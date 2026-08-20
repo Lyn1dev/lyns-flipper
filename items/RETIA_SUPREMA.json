@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Astral Huntrap",
+  "nbttag": "{ExtraAttributes:{id:\"RETIA_SUPREMA\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/traps/astral_huntrap\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§6Ability: Retentio  §e§lRIGHT CLICK\",3:\"§cTraps §7can be placed near the spawn\",4:\"§7location of a §9Shard §7creature, with\",5:\"§7time it will eventually catch it.\",6:\"\",7:\"§6Ability: Suprema \",8:\"§7Reduces the time to capture by §c50%§7.\",9:\"\",10:\"§7§oSuprema inter retia, nulla praeda\",11:\"§7§oelabitur.\",12:\"\",13:\"§4❣ §cRequires §aHunting Skill 20§c.\",14:\"§6§lLEGENDARY TRAP\"],Name:\"§6Astral Huntrap\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Hunting Tool",
+    "",
+    "§6Ability: Retentio  §e§lRIGHT CLICK",
+    "§cTraps §7can be placed near the spawn",
+    "§7location of a §9Shard §7creature, with",
+    "§7time it will eventually catch it.",
+    "",
+    "§6Ability: Suprema ",
+    "§7Reduces the time to capture by §c50%§7.",
+    "",
+    "§7§oSuprema inter retia, nulla praeda",
+    "§7§oelabitur.",
+    "",
+    "§4❣ §cRequires §aHunting Skill 20§c.",
+    "§6§lLEGENDARY TRAP"
+  ],
+  "internalname": "RETIA_SUPREMA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Astral_Huntrap"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_TENDER_WOOD:1",
+      "A2": "ENCHANTED_FIG_LOG:32",
+      "A3": "ENCHANTED_TENDER_WOOD:1",
+      "B1": "ENCHANTED_FIG_LOG:32",
+      "B2": "RETIA_FORTA:1",
+      "B3": "ENCHANTED_FIG_LOG:32",
+      "C1": "ENCHANTED_TENDER_WOOD:1",
+      "C2": "ENCHANTED_FIG_LOG:32",
+      "C3": "ENCHANTED_TENDER_WOOD:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RETIA_SUPREMA"
+    }
+  ]
+}

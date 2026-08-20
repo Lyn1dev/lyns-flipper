@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:nether_brick_fence",
+  "displayname": "§fNether Brick Fence",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_FENCE\"},HideFlags:254,ItemModel:\"minecraft:nether_brick_fence\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Brick Fence\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "NETHER_FENCE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "NETHER_BRICK:1",
+    "A2": "NETHER_BRICK:1",
+    "A3": "NETHER_BRICK:1",
+    "B1": "NETHER_BRICK:1",
+    "B2": "NETHER_BRICK:1",
+    "B3": "NETHER_BRICK:1",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 6
+  }
+}

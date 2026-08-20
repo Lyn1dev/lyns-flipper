@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aCrude Gabagool",
+  "nbttag": "{ExtraAttributes:{id:\"CRUDE_GABAGOOL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"69056c83-0258-368b-a92e-f9ba1a87a1b5\",Properties:{textures:[0:{Name:\"textures\",Signature:\"O7CZqbuMkArG93flUqmibymKGPLvtUTcvNZ/q9PaDc5QC4p9mskh6V9MEBfYPz4g7/qSksij66JFbLxjcsj2VCZc03nwwGg4sNzYzcbXn/wGjF5IX6vWha7WEchRgikjgrxAYX4ECN5NlK4zZiPDFH8xiDLCOlCCkaCbcNAQlzozkWpzPH3Fylq/7KdPfP74XxDogBoT1Jz3T5HMiJKmg3h2LahyLOLwThciSFsV9nD07SSsPhZhxr4uWmoP8XV8CU94EQAmJgRZNdZR7wYygiMl/N1hLqsANP5mWacWW01gNOEJoG+XG/FzkNez9TjOgTn4szriDsNBEYvdEf86GUKlKC7GF+INcez/JXey1dQOJRTdXZbYQgXuLZAu4Mg7Nt0FUhJMOIG4XBH7JLt5WzyX9+/eLMZ6nNrqyZINspKOEd059EXXcswvIbf/v9j7LMpKf98+jFP9iV3xnU/CmhtK8UDZISPYYswObBenx15tCCljNJTuEs42QriVmUYXRFh8IWP3YtrAzkO4uoqhOczRSe4WeIlnmgO8FUgjJz/OlJBhWvwp1HOHNydBqDV1jvp6sgIgdSuV+ACnheIu6lPitCu8NRgkxzNT3wI0siAfjPcOYKOwCmuZPo/vu6jScforE0oIeKZfVfBryBHw0J3wiLDmNirb5uMZ8QogpdY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MTYwNjkyNjE3OSwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHd0FiaXlCZ2dnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlNjU2NGJiZmE3NDljOWUwZWYzYWMyYTNmMjExMDEzOWE1NTk0NDg0MWQxMDczNWNmOTAwZDFlMjkwMzk0MTgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Created by Inferno minions, use to\",1:\"§7feed Wisp pets or tier up into Fuel\",2:\"§7Gabagool.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aCrude Gabagool\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Created by Inferno minions, use to",
+    "§7feed Wisp pets or tier up into Fuel",
+    "§7Gabagool.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CRUDE_GABAGOOL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Crude_Gabagool"
+  ]
+}

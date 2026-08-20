@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:fire_charge",
+  "displayname": "§fFire Charge",
+  "nbttag": "{ExtraAttributes:{id:\"FIREBALL\"},HideFlags:254,ItemModel:\"minecraft:fire_charge\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFire Charge\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "FIREBALL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "SULPHUR:1",
+    "A2": "BLAZE_POWDER:1",
+    "A3": "COAL:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 3
+  }
+}

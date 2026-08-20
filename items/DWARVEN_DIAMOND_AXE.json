@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:diamond_axe",
+  "displayname": "§cScavenged Diamond Axe",
+  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_DIAMOND_AXE\"},HideFlags:254,ItemModel:\"minecraft:diamond_axe\",Unbreakable:1B,display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring to the §6Keeper of Diamond §7in\",3:\"§7the §2Mines of Divan§7.\",4:\"\",5:\"§c§lSPECIAL\"],Name:\"§cScavenged Diamond Axe\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Quest Item",
+    "",
+    "§7Bring to the §6Keeper of Diamond §7in",
+    "§7the §2Mines of Divan§7.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "DWARVEN_DIAMOND_AXE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scavenged_Diamond_Axe"
+  ]
+}

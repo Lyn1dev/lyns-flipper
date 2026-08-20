@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Tarantula Minion IX",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_GENERATOR_9\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"241109e2-1a7a-3f27-8487-428627669481\",Properties:{textures:[0:{Name:\"textures\",Signature:\"e92VcLDc0pIwJmEBV5lbdnPSpbyRGntubODjE94aON79b+iDdBRW2/6w90mz2y7W8A71TQ+etK1YOq+ESzHd4RWsvFPXDGHaTMJKSaGVKHyHwLoq1pBtTDacLr0bx4W0nnWoXxeoE01MNLEz2+IKWnLAIBHvxX49UVn+tLCyuhPhGh8oAxfdvNLDrmZ68LZYmMDWiK8UV5cHwCvekLbkf/ZiXxi491rK34I6ruuTAijgES2NFzlngqE32OfR2s34HvcuquZC/icknzNtzeTngJTkzqV4NIsUMadTkD1xy9oPMN88CnoPVdaf8uAUXOKTMlqcatrsEPSD9KkspgHFZ1gdPuZ00PXzkuyEBEZc+pNZJ3jJFyfotYgBAq+is7q4e+p1jfjkGIo88bNBXRxBqZETrzsvSJ2meO+qDzFqHgFF8voyItDb4zULmT/qMGDzaHgM9ETGOnJ+d8PSgYiTBMUTxVLn/e+qXhRugbBleVs001ylN4EzbK8b3wcWI/rvsOXmmZ4allaqDNpx0RXYwCDvPu94DepD3jaHUpN3z86/Q8+YyuVIufa9Ye5Mr1p7dkiTWurlY4nf0poS5zTjDKRGC+A/CF/Vge7hGDiLcNDJlPwFT4cUWEZQkgKXmsLC9c0pHwOITUT1fAQkiPhSDn7yXpwsVcRsBqQOIhVOlr4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQzODIyMzM4MSwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNjYjNhZmE3ZDgxYjcxNzUxYTI0NjI3OGQ0ZjhmM2E0MDZhODBhMTMwMjI5MWFjNjIwZmM0MmM2Y2YyYzE3OSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and squashing\",2:\"§7Tarantulas! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a14.5s\",6:\"§7Max Storage: §e768\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Tarantula Minion IX\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and squashing",
+    "§7Tarantulas! Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a14.5s",
+    "§7Max Storage: §e768",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "TARANTULA_GENERATOR_9",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tarantula_Minion"
+  ],
+  "recipe": {
+    "A1": "TARANTULA_SILK:16",
+    "A2": "TARANTULA_SILK:16",
+    "A3": "TARANTULA_SILK:16",
+    "B1": "TARANTULA_SILK:16",
+    "B2": "TARANTULA_GENERATOR_8:1",
+    "B3": "TARANTULA_SILK:16",
+    "C1": "TARANTULA_SILK:16",
+    "C2": "SPIDER_GENERATOR_8:1",
+    "C3": "TARANTULA_SILK:16"
+  },
+  "useneucraft": true
+}

@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Fisherwoman Enid (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"FISHERWOMAN_ENID_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7ecf6942-479d-222c-b3ce-b77d0b4af515\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM1Y2IzOGI4NmM0ZWJiNjM3ZmMwMmQzN2Y3M2RmYmZlYjE3ZjQ2MjY3ZDgxOWIzODI4YWRkNDY5ZDkzZTM5YSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3ZWNmNjk0MjQ3OWQyMjJjYjNjZWI3N2QwYjRhZjUxNSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MzIwMDczfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Fisherwoman Enid (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "FISHERWOMAN_ENID_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fisherwoman_Enid"
+  ],
+  "x": 41,
+  "y": 70,
+  "z": -23,
+  "island": "hub"
+}

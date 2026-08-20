@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fUmber",
+  "nbttag": "{ExtraAttributes:{id:\"UMBER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/umber/umber\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Hardy enough to flourish even in the\",3:\"§7harshest of conditions.\",4:\"\",5:\"§f§lCOMMON DWARVEN METAL\"],Name:\"§fUmber\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Hardy enough to flourish even in the",
+    "§7harshest of conditions.",
+    "",
+    "§f§lCOMMON DWARVEN METAL"
+  ],
+  "internalname": "UMBER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Umber"
+  ]
+}

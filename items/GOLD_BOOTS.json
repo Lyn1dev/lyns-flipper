@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:golden_boots",
+  "displayname": "§fGolden Boots",
+  "nbttag": "{ExtraAttributes:{id:\"GOLD_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:golden_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+5\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON BOOTS\"],Name:\"§fGolden Boots\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+5",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON BOOTS"
+  ],
+  "internalname": "GOLD_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "GOLD_INGOT:1",
+    "A2": "",
+    "A3": "GOLD_INGOT:1",
+    "B1": "GOLD_INGOT:1",
+    "B2": "",
+    "B3": "GOLD_INGOT:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "vanilla": true
+}

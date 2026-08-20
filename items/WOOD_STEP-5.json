@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:wooden_slab",
+  "displayname": "§fDark Oak Slab",
+  "nbttag": "{ExtraAttributes:{id:\"WOOD_STEP-5\"},HideFlags:254,ItemModel:\"minecraft:dark_oak_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Oak Slab\"}}",
+  "damage": 5,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "WOOD_STEP-5",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "WOOD_STEP",
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD-5:1",
+    "A2": "WOOD-5:1",
+    "A3": "WOOD-5:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 6
+  }
+}

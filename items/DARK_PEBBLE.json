@@ -1,0 +1,18 @@
+{
+  "itemid": "minecraft:flint",
+  "displayname": "§fDark Pebble",
+  "nbttag": "{ExtraAttributes:{id:\"DARK_PEBBLE\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§5§kX§5 Rift-Transferable §5§kX\",1:\"§f§lCOMMON\"],Name:\"§fDark Pebble\"}}",
+  "damage": 0,
+  "lore": [
+    "§5§kX§5 Rift-Transferable §5§kX",
+    "§f§lCOMMON"
+  ],
+  "internalname": "DARK_PEBBLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dark_Pebble"
+  ]
+}

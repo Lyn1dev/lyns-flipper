@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§aSewer Fish",
+  "nbttag": "{ExtraAttributes:{id:\"SEWER_FISH\"},HideFlags:254,ItemModel:\"minecraft:cod\",display:{Lore:[0:\"§7Where did you find these? They stink!\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§a§lUNCOMMON\"],Name:\"§aSewer Fish\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Where did you find these? They stink!",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SEWER_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sewer_Fish"
+  ]
+}

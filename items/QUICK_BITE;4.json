@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{quick_bite:4},id:\"QUICK_BITE;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Quick Bite IV\",3:\"§7Makes fish swim §a20% §7faster towards\",4:\"§7your bobber.\",5:\"\",6:\"§6Source:\",7:\"§aI-V: §7Fishing\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fFishing Rod\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Quick Bite IV",
+    "§7Makes fish swim §a20% §7faster towards",
+    "§7your bobber.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Fishing",
+    "",
+    "§6Applied To:",
+    "§7- §fFishing Rod",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "QUICK_BITE;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Quick_Bite"
+  ]
+}

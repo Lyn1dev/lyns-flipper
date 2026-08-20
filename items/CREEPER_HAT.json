@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fCreeper Hat",
+  "nbttag": "{ExtraAttributes:{id:\"CREEPER_HAT\"},HideFlags:254,ItemModel:\"minecraft:creeper_head\",display:{Lore:[0:\"§7Health: §c+5\",1:\"§7Defense: §a+5\",2:\"§7Strength: §c+5\",3:\"§7Crit Chance: §9+5%\",4:\"§7Crit Damage: §9+5%\",5:\"§7Intelligence: §b+5\",6:\"\",7:\"§7Grants immunity to explosion damage.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§f§lCOMMON HELMET\"],Name:\"§fCreeper Hat\"}}",
+  "damage": 4,
+  "lore": [
+    "§7Health: §c+5",
+    "§7Defense: §a+5",
+    "§7Strength: §c+5",
+    "§7Crit Chance: §9+5%",
+    "§7Crit Damage: §9+5%",
+    "§7Intelligence: §b+5",
+    "",
+    "§7Grants immunity to explosion damage.",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON HELMET"
+  ],
+  "internalname": "CREEPER_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gunpowder II",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Creeper_Hat"
+  ],
+  "recipe": {
+    "A1": "SULPHUR:1",
+    "A2": "SULPHUR:1",
+    "A3": "SULPHUR:1",
+    "B1": "SULPHUR:1",
+    "B2": "",
+    "B3": "SULPHUR:1",
+    "C1": "SULPHUR:1",
+    "C2": "SULPHUR:1",
+    "C3": "SULPHUR:1"
+  }
+}

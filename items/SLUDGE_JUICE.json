@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aSludge Juice",
+  "nbttag": "{ExtraAttributes:{id:\"SLUDGE_JUICE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/sludge_juice\",display:{Lore:[0:\"§7A green viscous substance highly\",1:\"§7valued by the Kalhuiki Tribe for its\",2:\"§7stickiness.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSludge Juice\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A green viscous substance highly",
+    "§7valued by the Kalhuiki Tribe for its",
+    "§7stickiness.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SLUDGE_JUICE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sludge_Juice"
+  ]
+}

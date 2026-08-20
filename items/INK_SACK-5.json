@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§fPurple Dye",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-5\"},HideFlags:254,ItemModel:\"minecraft:purple_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPurple Dye\"}}",
+  "damage": 5,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "parent": "INK_SACK",
+  "internalname": "INK_SACK-5",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "INK_SACK-4:1",
+    "A2": "INK_SACK-1:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

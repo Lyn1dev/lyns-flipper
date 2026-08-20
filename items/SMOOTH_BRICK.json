@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:stonebrick",
+  "displayname": "§fStone Bricks",
+  "nbttag": "{ExtraAttributes:{id:\"SMOOTH_BRICK\"},HideFlags:254,ItemModel:\"minecraft:stone_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStone Bricks\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SMOOTH_BRICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "STONE:1",
+    "A2": "STONE:1",
+    "A3": "",
+    "B1": "STONE:1",
+    "B2": "STONE:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 4
+  }
+}

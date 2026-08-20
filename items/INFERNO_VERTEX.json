@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Inferno Vertex",
+  "nbttag": "{ExtraAttributes:{id:\"INFERNO_VERTEX\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a24cd06c-d6f8-3efe-817e-901ec8e29408\",Properties:{textures:[0:{Name:\"textures\",Signature:\"qU9Y+pmXG70rx9x+7XrfN1iQsdRS6O55fB2+uH2SymGRiaba71IjiBkZVaoMIKsX1m/BVwq/aCn0nz9Hw7+2i1uRDvqqe2EKxl0kqI8I6hj7EM0cwGyn61k2+5kdOt2AtnCNhb+HdnQc1eTjfyxXpwAJ+4fy5BgUOrzpFOxyVbSiIyJ1EZoZS1QgrUZ3foIW5MAzrIxXPj6Ia2jFccwt8OgejNcGRl5gnJaW/YxsiWur3Q0teVfZIcpwD61gz23CHpvd120hFueWGP7mpFwjiv0px6YbCL/F+pG+q9A67oErc0c4WzZ9krduOix2bohdAlGRyvNdESL3Vpi5ibGaL5vbucHQ8ObBmOniMwgpJ37Yjn+PlTqz8lA4TdY1xSh61L9vmKI7jge428ioeb/ncvaVX4Vr82x36MimnhXmo6OCRGgOvOSPzeHobWA82RGgz7+i63wqOfbzniCBBKb+7BeJbOQd1wtqvrQOGYFEvZDAg6utvL5MtL684e90UzmgQHpovuOEY0+aqjHJbFKpGNsyAELHmC+baNyezXO7eWEW6shB9CjMn98tTKGucQvK+kNGIncKZuK60agEKGAT5N9CzWqo89BMT8BnqXdY8JmWAfSGygjMOAFy7ot9/kxlcY9enmmA2hOXpMrv+/ZRLqhRwfa/MBwXgI9xzcsA/+s=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjAyNDQ4MDQxOCwKICAicHJvZmlsZUlkIiA6ICI3MDQ0ZDlkY2I5OGI0YzgzYWFjNjIzNjFlYTY5YmNmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfV2F0cnlzaGthXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZTIyMWJiNzMzMTcyMjA3MzE1YWNlZGNjNWM5OTgzNmE2Mzk4NjJhMzcyN2RhNmQ1ZGYzNmI4NTFmYzE5MWM0IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Created once in a while by Inferno\",1:\"§7minions using Hypergolic-grade fuel.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Inferno Vertex\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Created once in a while by Inferno",
+    "§7minions using Hypergolic-grade fuel.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "INFERNO_VERTEX",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Inferno_Vertex"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MOLTEN_POWDER:16",
+    "A3": "",
+    "B1": "MOLTEN_POWDER:16",
+    "B2": "HYPERGOLIC_IONIZED_CERAMICS:6",
+    "B3": "MOLTEN_POWDER:16",
+    "C1": "",
+    "C2": "MOLTEN_POWDER:16",
+    "C3": ""
+  }
+}

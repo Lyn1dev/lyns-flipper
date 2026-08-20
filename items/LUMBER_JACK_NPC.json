@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Lumber Jack (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LUMBER_JACK_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"64976bc5-67a1-29ad-a53b-dd3391309f5e\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyNTAzMGU3NzUyZmFmN2Y4MTZhYzJhMjBiMTE0MzJhZjRiMmNkZTQ5MzJkYzBlOTIwODMxZTYyMTgwOGVlOCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2NDk3NmJjNTY3YTEyOWFkYTUzYmRkMzM5MTMwOWY1ZSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MDY5Njc1fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Lumber Jack (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LUMBER_JACK_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lumber_Jack"
+  ],
+  "x": -124,
+  "y": 73,
+  "z": -30,
+  "island": "hub"
+}

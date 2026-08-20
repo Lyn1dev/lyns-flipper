@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:log",
+  "displayname": "§fJungle Log",
+  "nbttag": "{ExtraAttributes:{id:\"LOG-3\"},HideFlags:254,ItemModel:\"minecraft:jungle_log\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fJungle Log\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "LOG-3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Jungle_Log"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Rosewater Flask",
+  "nbttag": "{ExtraAttributes:{id:\"ROSEWATER_FLASK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/wild_rose/rosewater_flask\",display:{Lore:[0:\"§7Consume to grow crops within the\",1:\"§aGreenhouse §7by several §2Growth\",2:\"§2Stages§7.\",3:\"\",4:\"§7Keep this item in your inventory to\",5:\"§7increase the bonus up to §24 Growth\",6:\"§2Stages§7, at which point the item\",7:\"§c§oevolves§7!\",8:\"\",9:\"§7Current Bonus: §2+0 Growth Stages\",10:\"\",11:\"§8Co-op wide 2h cooldown.\",12:\"\",13:\"§9§lRARE\"],Name:\"§9Rosewater Flask\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume to grow crops within the",
+    "§aGreenhouse §7by several §2Growth",
+    "§2Stages§7.",
+    "",
+    "§7Keep this item in your inventory to",
+    "§7increase the bonus up to §24 Growth",
+    "§2Stages§7, at which point the item",
+    "§c§oevolves§7!",
+    "",
+    "§7Current Bonus: §2+0 Growth Stages",
+    "",
+    "§8Co-op wide 2h cooldown.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ROSEWATER_FLASK",
+  "clickcommand": "",
+  "crafttext": "Requires: Wild Rose VI",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rosewater_Flask"
+  ],
+  "recipes": [
+    {
+      "A1": "COMPACTED_WILD_ROSE:4",
+      "A2": "COMPACTED_WILD_ROSE:4",
+      "A3": "COMPACTED_WILD_ROSE:4",
+      "B1": "COMPACTED_WILD_ROSE:4",
+      "B2": "NEW_BOTTLE_OF_JYRRE:1",
+      "B3": "COMPACTED_WILD_ROSE:4",
+      "C1": "COMPACTED_WILD_ROSE:4",
+      "C2": "COMPACTED_WILD_ROSE:4",
+      "C3": "COMPACTED_WILD_ROSE:4",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ROSEWATER_FLASK"
+    }
+  ]
+}

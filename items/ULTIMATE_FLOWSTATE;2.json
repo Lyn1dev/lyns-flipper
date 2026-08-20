@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_flowstate:2},id:\"ULTIMATE_FLOWSTATE;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§d§lFlowstate II\",3:\"§7Consecutive blocks broken grant\",4:\"§6+2⸕ Mining Speed§7. Stops after §a10s\",5:\"§7of not mining and caps at §a200 §7blocks.\",6:\"\",7:\"§cYou can only have 1 Ultimate\",8:\"§cEnchantment on an item!\",9:\"\",10:\"§6Source:\",11:\"§aI-III: §7Mining Events,\",12:\"§7Bazaar\",13:\"\",14:\"§6Applied To:\",15:\"§7- §fPickaxe\",16:\"§7- §fDrill\",17:\"§7- §fGauntlet\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§d§lFlowstate II",
+    "§7Consecutive blocks broken grant",
+    "§6+2⸕ Mining Speed§7. Stops after §a10s",
+    "§7of not mining and caps at §a200 §7blocks.",
+    "",
+    "§cYou can only have 1 Ultimate",
+    "§cEnchantment on an item!",
+    "",
+    "§6Source:",
+    "§aI-III: §7Mining Events,",
+    "§7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fPickaxe",
+    "§7- §fDrill",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "ULTIMATE_FLOWSTATE;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Flowstate"
+  ]
+}

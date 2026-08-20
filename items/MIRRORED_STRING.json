@@ -1,0 +1,17 @@
+{
+  "itemid": "minecraft:string",
+  "displayname": "§fgnirtS",
+  "nbttag": "{ExtraAttributes:{id:\"MIRRORED_STRING\"},HideFlags:254,ItemModel:\"minecraft:string\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fgnirtS\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "MIRRORED_STRING",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/gnirtS"
+  ]
+}

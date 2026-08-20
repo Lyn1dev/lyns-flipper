@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:golden_axe",
+  "displayname": "§9Pumpkin Dicer Mk. II",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_DICER_2\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/pumpkin_dicer_2\",Unbreakable:1B,display:{Lore:[0:\"§8Farming Tool\",1:\"\",2:\"§7Pumpkin Fortune: §6+4\",3:\"§7Farming Wisdom: §3+1\",4:\"\",5:\"§7§oSomeone once said, II is always\",6:\"§7§obetter than I!\",7:\"\",8:\"§eRight-click to view recipes!\",9:\"\",10:\"§7Level §a1 §8-> §62   §8(0/1k)\",11:\"§f§l§m                         §r §e0§6%\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aFarming Skill 15§c.\",15:\"§4❣ §cRequires §aGarden Level 4§c.\",16:\"§9§lRARE FARMING TOOL\"],Name:\"§9Pumpkin Dicer Mk. II\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Farming Tool",
+    "",
+    "§7Pumpkin Fortune: §6+4",
+    "§7Farming Wisdom: §3+1",
+    "",
+    "§7§oSomeone once said, II is always",
+    "§7§obetter than I!",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 15§c.",
+    "§4❣ §cRequires §aGarden Level 4§c.",
+    "§9§lRARE FARMING TOOL"
+  ],
+  "internalname": "PUMPKIN_DICER_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pumpkin_Dicer"
+  ],
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "POLISHED_PUMPKIN:5",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "POLISHED_PUMPKIN:5",
+      "B2": "PUMPKIN_DICER:1",
+      "B3": "POLISHED_PUMPKIN:5",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "POLISHED_PUMPKIN:5",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_DICER_2"
+    }
+  ]
+}

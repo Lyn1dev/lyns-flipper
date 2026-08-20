@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Starfall Seasoning",
+  "nbttag": "{ExtraAttributes:{id:\"STARFALL_SEASONING\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/uncategorized/starfall_seasoning\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Grants §6+25 Mining Speed §7and §6+10\",3:\"§6Mining Fortune§7. Doubled when within\",4:\"§a20 §7blocks of a §5Fallen Star§7.\",5:\"\",6:\"§7Put this item in the §6Upgrade Module\",7:\"§7slot of a Drill at a §2Drill Mechanic§7!\",8:\"\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 2§c.\",10:\"§9§lRARE\"],Name:\"§9Starfall Seasoning\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§7Grants §6+25 Mining Speed §7and §6+10",
+    "§6Mining Fortune§7. Doubled when within",
+    "§a20 §7blocks of a §5Fallen Star§7.",
+    "",
+    "§7Put this item in the §6Upgrade Module",
+    "§7slot of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 2§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "STARFALL_SEASONING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Starfall_Seasoning"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TREASURITE:16.0",
+        "STARFALL:64.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "STARFALL_SEASONING",
+      "duration": 64800
+    }
+  ]
+}

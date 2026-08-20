@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:golden_carrot",
+  "displayname": "§fGolden Carrot",
+  "nbttag": "{ExtraAttributes:{id:\"GOLDEN_CARROT\"},HideFlags:254,ItemModel:\"minecraft:golden_carrot\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fGolden Carrot\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "GOLDEN_CARROT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g610fbd78",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "GOLD_NUGGET:1",
+    "A2": "GOLD_NUGGET:1",
+    "A3": "GOLD_NUGGET:1",
+    "B1": "GOLD_NUGGET:1",
+    "B2": "CARROT_ITEM:1",
+    "B3": "GOLD_NUGGET:1",
+    "C1": "GOLD_NUGGET:1",
+    "C2": "GOLD_NUGGET:1",
+    "C3": "GOLD_NUGGET:1"
+  }
+}

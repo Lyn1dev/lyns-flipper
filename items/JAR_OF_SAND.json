@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Jar of Sand",
+  "nbttag": "{ExtraAttributes:{id:\"JAR_OF_SAND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3d717840-8580-3974-9ba9-b6be201b11e2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Wm0PVtZqH9BSPQAorypoP/iytcAXL2T9/l32pBcQram5Ha59fXb1sFyih2qIr0m9l5A70CtpuM3eQycyP6upXHosYuqSBPMRaNQxXYJi8BZX0fokruFGoNCIgxPZ5wbRnQkzpFfz/iDtoK3Sw0h/2Tem4auJLjjpw1CEV2QIJZe1y7VQxbpDqPM3jtAvhZwKqzLAJJWjkAzZDqu6smmv51ROUd93CjmhpVh8pV9u4ktigwBLwHvKM8iKJqI1at18C77QLXlddkWVaiB5Vpb9WUezbNPsYC2GfQrdxlWHK+7zC9GmYXIksBLKp5uDiPJQ4ltiAYP9BZKj18R65/HzXTsj3vS/quwRkEZxceng8Zaul+eoXNTbv392Vmf+j1XU91vgRABn8nneaMciEeilDmQMXoXzZq9TJ3xNeqDkgydp4SUyh+eB63Vy31X+rpo34CO3td98LXpiKZCEDCPgmWvTSCmSE51qJOSIikEMnbRx6Mf3kYmYHIAismQgh3YQ/Fu081bIW6d0Be5gs5NHxf/8rTxE3Z0TbgTX/QCh5qk/Yi8Be197ECPljXvsNvB6wpJt/nBfzRDhqUlXQVkgRhzof1awBT+c59QF5xLHkehZpoUcWKXOtAQh10o+alpVhs4mQGsyERW/4pSZQkV4wXczR5BtO3jP9czrZOu6fCE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjQ1ODAwMCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmIyZWIwYjZmMWRhN2YwMThlZDMxODg3ZDNmOGNhMGVmMDdmNGM3NmZhZTFiOWEzN2UwNzdmMzg5ZGZiNGFmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Decoration item\",1:\"\",2:\"§7Obtained during the §eCarnival§7 for\",3:\"§7placing within the §aTop 500 §7in §6Fruit\",4:\"§6Digging§7.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Jar of Sand\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Decoration item",
+    "",
+    "§7Obtained during the §eCarnival§7 for",
+    "§7placing within the §aTop 500 §7in §6Fruit",
+    "§6Digging§7.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "JAR_OF_SAND",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Jar_of_Sand"
+  ]
+}

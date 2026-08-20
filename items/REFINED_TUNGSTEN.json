@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Refined Tungsten",
+  "nbttag": "{ExtraAttributes:{id:\"REFINED_TUNGSTEN\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/tungsten/refined_tungsten\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§lEPIC DWARVEN METAL\"],Name:\"§5Refined Tungsten\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§5§lEPIC DWARVEN METAL"
+  ],
+  "internalname": "REFINED_TUNGSTEN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Tungsten III & HotM 7",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refined_Tungsten"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_TUNGSTEN:160.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "REFINED_TUNGSTEN",
+      "duration": 3600
+    }
+  ]
+}

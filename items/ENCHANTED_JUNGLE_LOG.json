@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:log",
+  "displayname": "§aEnchanted Jungle Log",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_JUNGLE_LOG\"},HideFlags:254,ItemModel:\"minecraft:jungle_log\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Jungle Log\"},ench:[]}",
+  "damage": 3,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_JUNGLE_LOG",
+  "clickcommand": "",
+  "crafttext": "Requires: Jungle Log VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Jungle_Log"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "LOG-3:32",
+      "A3": "",
+      "B1": "LOG-3:32",
+      "B2": "LOG-3:32",
+      "B3": "LOG-3:32",
+      "C1": "",
+      "C2": "LOG-3:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_JUNGLE_LOG"
+    }
+  ]
+}

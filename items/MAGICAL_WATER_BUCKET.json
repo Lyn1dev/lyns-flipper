@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:water_bucket",
+  "displayname": "§fMagical Water Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"MAGICAL_WATER_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:water_bucket\",display:{Lore:[0:\"§7This Magical Water Bucket will never\",1:\"§7run out of water, no matter how\",2:\"§7many times it is emptied.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fMagical Water Bucket\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7This Magical Water Bucket will never",
+    "§7run out of water, no matter how",
+    "§7many times it is emptied.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "MAGICAL_WATER_BUCKET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magical_Water_Bucket"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "IRON_INGOT:1",
+    "B2": "ENCHANTED_ICE:1",
+    "B3": "IRON_INGOT:1",
+    "C1": "",
+    "C2": "IRON_INGOT:1",
+    "C3": ""
+  }
+}

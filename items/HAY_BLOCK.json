@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:hay_block",
+  "displayname": "§fHay Bale",
+  "nbttag": "{ExtraAttributes:{id:\"HAY_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:hay_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fHay Bale\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "HAY_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WHEAT:1",
+    "A2": "WHEAT:1",
+    "A3": "WHEAT:1",
+    "B1": "WHEAT:1",
+    "B2": "WHEAT:1",
+    "B3": "WHEAT:1",
+    "C1": "WHEAT:1",
+    "C2": "WHEAT:1",
+    "C3": "WHEAT:1"
+  }
+}

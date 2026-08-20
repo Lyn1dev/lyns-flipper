@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:hopper",
+  "displayname": "§9Enchanted Hopper",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HOPPER\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§8Minion Shipping\",1:\"\",2:\"§7This item can be placed inside any\",3:\"§7minion. Automatically sells generated\",4:\"§7items when the minion has no space.\",5:\"§7Items are sold for §a70% §7of their\",6:\"§7selling price.\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Enchanted Hopper\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Minion Shipping",
+    "",
+    "§7This item can be placed inside any",
+    "§7minion. Automatically sells generated",
+    "§7items when the minion has no space.",
+    "§7Items are sold for §a70% §7of their",
+    "§7selling price.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_HOPPER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot IX",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Hopper"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_IRON_BLOCK:1",
+      "A2": "",
+      "A3": "ENCHANTED_IRON_BLOCK:1",
+      "B1": "ENCHANTED_IRON_BLOCK:1",
+      "B2": "BUDGET_HOPPER:1",
+      "B3": "ENCHANTED_IRON_BLOCK:1",
+      "C1": "",
+      "C2": "ENCHANTED_IRON_BLOCK:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_HOPPER"
+    }
+  ]
+}

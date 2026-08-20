@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§5Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{thunderlord:7},id:\"THUNDERLORD;7\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Thunderlord VII\",3:\"§7Every §c3 §7hits on a monster,\",4:\"§7strike §elightning§7, dealing\",5:\"§a60% §7of the hit's damage.\",6:\"\",7:\"§6Source:\",8:\"§aVII: §7Dungeons\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cThunderbolt\",18:\"\",19:\"§5§lEPIC\"],Name:\"§5Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Thunderlord VII",
+    "§7Every §c3 §7hits on a monster,",
+    "§7strike §elightning§7, dealing",
+    "§a60% §7of the hit's damage.",
+    "",
+    "§6Source:",
+    "§aVII: §7Dungeons",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cThunderbolt",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "THUNDERLORD;7",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Thunderlord"
+  ]
+}

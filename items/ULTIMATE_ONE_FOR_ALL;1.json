@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_one_for_all:1},id:\"ULTIMATE_ONE_FOR_ALL;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§d§lOne For All I\",3:\"§7Removes all other enchants but\",4:\"§7increases your weapon damage by\",5:\"§a500%§7.\",6:\"\",7:\"§cYou can only have 1 Ultimate\",8:\"§cEnchantment on an item!\",9:\"\",10:\"§e▲ §d§lOne For All cannot be combined!\",11:\"\",12:\"§6Source:\",13:\"§aI: §7Dungeons\",14:\"\",15:\"§6Applied To:\",16:\"§7- §fSword\",17:\"§7- §fLongsword\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§d§lOne For All I",
+    "§7Removes all other enchants but",
+    "§7increases your weapon damage by",
+    "§a500%§7.",
+    "",
+    "§cYou can only have 1 Ultimate",
+    "§cEnchantment on an item!",
+    "",
+    "§e▲ §d§lOne For All cannot be combined!",
+    "",
+    "§6Source:",
+    "§aI: §7Dungeons",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fLongsword",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "ULTIMATE_ONE_FOR_ALL;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/One_For_All"
+  ]
+}

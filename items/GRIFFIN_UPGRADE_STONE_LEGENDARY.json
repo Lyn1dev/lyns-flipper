@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Legendary Griffin Upgrade Stone",
+  "nbttag": "{ExtraAttributes:{id:\"GRIFFIN_UPGRADE_STONE_LEGENDARY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ed0db1da-fcad-39ce-9bf0-77be72292a94\",Properties:{textures:[0:{Name:\"textures\",Signature:\"EJ59aOGnrYQDZUgLtktpq48FZmkM4draL92tewggh2mXx7g1Zc0hczZkECyARe2k6/CePBDKqvCb6/tjEvbmsOns9sxUbBTVMoo3hynOwf7fTbiItPJ5RJ6WIY2V5v8KFbOaWYxfHJDMar8x2iaJin5U6U+/DwBDEj+ZRh4vL9ZYT0B0AbRHPjVA/5/YwtM9WHCfOusopAiIEdur/2ACbZYa6Hple7wHO/vdov/avoY9HHiHWHm71TiqFXI6d9WJ7G/ojTrYf+o9WiuGw3sxMrCRIR5JzKR1zL3IGoz1nYWwlll0I9RYF85vb0NIXh09lZhMx0uSM2XS+NfO/Rp/3M3Jx6a1IQi03YE6BANxdS+QTg1UdwOJZZLRdiHyHjtHRzqNOWyXc+D1WBlttxYJzH1otoKCGZe1UJJ/st9MJmFl7844AOERVDEbQZJAB8/YpPoOAEVSEfIN8Kh9OHzP9tw2eApVhlC5t3tlVzreiayQ5+5Ie0XhmVyi/ps5qcZG2OUz5+pjYdp/6W7ceiDp08CXsMQ3J7d7dMG5k7qx3VANlmNaINH76C2aWic7j8GbUoamnYQSUZac9gJ0VbEPGTyTD3sBH3qTaCT6xUHkROTCSowfHEWPEeqa8XqNzs0ab300S38JSfJTeNvhkz9XYmoPwwnv9yogcfIDJHH+bSY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTY0NzU4MTgyMywKICAicHJvZmlsZUlkIiA6ICIzNDY4Y2VjMWFlOTY0YWRmYWQyNjEzMGEwZGQ0NjRkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdXJlZWxta18iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAzNTJhN2ExNmQzZWRkNTAzMjE4YTFkYjgxZGIwNzkzYzIyNWRlOGM0NDkzZGIwYjI5YzBkYWVjNmRiNDBhNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eGriffin Pets\",1:\"§7from §5Epic §7to §6Legendary.\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Legendary Griffin Upgrade Stone\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Use at §bKat §7to upgrade §eGriffin Pets",
+    "§7from §5Epic §7to §6Legendary.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "GRIFFIN_UPGRADE_STONE_LEGENDARY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Legendary_Griffin_Upgrade_Stone"
+  ],
+  "recipes": [
+    {
+      "A1": "MYTHOS_FRAGMENT:8",
+      "A2": "BRAIDED_GRIFFIN_FEATHER:1",
+      "A3": "MYTHOS_FRAGMENT:8",
+      "B1": "ENCHANTED_ANCIENT_CLAW:16",
+      "B2": "BASE_GRIFFIN_UPGRADE_STONE:1",
+      "B3": "ENCHANTED_ANCIENT_CLAW:16",
+      "C1": "ENCHANTED_GOLD_BLOCK:32",
+      "C2": "ENCHANTED_GOLD_BLOCK:32",
+      "C3": "ENCHANTED_GOLD_BLOCK:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "GRIFFIN_UPGRADE_STONE_LEGENDARY"
+    }
+  ]
+}

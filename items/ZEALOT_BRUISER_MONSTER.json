@@ -1,0 +1,56 @@
+{
+  "itemid": "minecraft:ender_chest",
+  "displayname": "§9Zealot Bruiser (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"ZEALOT_BRUISER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:ender_chest\",display:{Lore:[0:\"§c❤ Health§8: §c65,000\"],Name:\"§9Zealot Bruiser (Monster)\"}}",
+  "damage": 0,
+  "lore": [
+    "§c❤ Health§8: §c65,000"
+  ],
+  "internalname": "ZEALOT_BRUISER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zealot_Bruiser"
+  ],
+  "recipes": [
+    {
+      "level": 100,
+      "coins": 24,
+      "xp": 20,
+      "combat_xp": 78,
+      "name": "§cZealot Bruiser",
+      "render": "Enderman",
+      "panorama": "combat_3",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ENDER_PEARL",
+          "extra": [
+            "x2-4"
+          ],
+          "chance": "100%"
+        },
+        {
+          "id": "ENCHANTED_ENDER_PEARL",
+          "extra": [],
+          "chance": "4%"
+        },
+        {
+          "id": "DYE_PEARLESCENT",
+          "extra": [],
+          "chance": "0.00001%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_ENDER;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Kill Zealot Bruiser §7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:arrow",
+  "displayname": "§fFlint Arrow",
+  "nbttag": "{ExtraAttributes:{id:\"ARROW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/flint_arrow\",display:{Lore:[0:\"§7Damage: §c+1\",1:\"\",2:\"§8Stats added when shot!\",3:\"§f§lCOMMON ARROW\"],Name:\"§fFlint Arrow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+1",
+    "",
+    "§8Stats added when shot!",
+    "§f§lCOMMON ARROW"
+  ],
+  "internalname": "ARROW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Arrows"
+  ],
+  "recipe": {
+    "A1": "FLINT:1",
+    "A2": "",
+    "A3": "",
+    "B1": "STICK:1",
+    "B2": "",
+    "B3": "",
+    "C1": "FEATHER:1",
+    "C2": "",
+    "C3": ""
+  },
+  "vanilla": true
+}

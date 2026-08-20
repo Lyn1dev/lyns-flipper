@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§9Grizzly Salmon",
+  "nbttag": "{ExtraAttributes:{id:\"GRIZZLY_BAIT\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Grizzly Salmon\"}}",
+  "damage": 1,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "GRIZZLY_BAIT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Grizzly_Salmon"
+  ]
+}

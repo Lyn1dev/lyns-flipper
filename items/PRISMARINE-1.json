@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:prismarine",
+  "displayname": "§aPrismarine Bricks",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE-1\"},HideFlags:254,ItemModel:\"minecraft:prismarine_bricks\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aPrismarine Bricks\"}}",
+  "damage": 1,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "PRISMARINE-1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "PRISMARINE",
+  "vanilla": true,
+  "recipe": {
+    "A1": "PRISMARINE_SHARD:1",
+    "A2": "PRISMARINE_SHARD:1",
+    "A3": "PRISMARINE_SHARD:1",
+    "B1": "PRISMARINE_SHARD:1",
+    "B2": "PRISMARINE_SHARD:1",
+    "B3": "PRISMARINE_SHARD:1",
+    "C1": "PRISMARINE_SHARD:1",
+    "C2": "PRISMARINE_SHARD:1",
+    "C3": "PRISMARINE_SHARD:1"
+  }
+}

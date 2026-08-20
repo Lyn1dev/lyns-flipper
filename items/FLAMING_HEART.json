@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Flaming Heart",
+  "nbttag": "{ExtraAttributes:{id:\"FLAMING_HEART\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/flaming_heart\",display:{Lore:[0:\"§7Burning passion.\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Flaming Heart\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Burning passion.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "FLAMING_HEART",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Flaming_Heart"
+  ]
+}

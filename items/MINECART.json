@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:minecart",
+  "displayname": "§fMinecart",
+  "nbttag": "{ExtraAttributes:{id:\"MINECART\"},HideFlags:254,ItemModel:\"minecraft:minecart\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "MINECART",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "",
+    "A3": "IRON_INGOT:1",
+    "B1": "IRON_INGOT:1",
+    "B2": "IRON_INGOT:1",
+    "B3": "IRON_INGOT:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

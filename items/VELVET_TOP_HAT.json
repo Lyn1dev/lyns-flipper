@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:leather_helmet",
+  "displayname": "§9Velvet Top Hat",
+  "nbttag": "{ExtraAttributes:{color:\"58:252:249\",id:\"VELVET_TOP_HAT\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+25\",1:\"§7Defense: §a+10\",2:\"\",3:\"§8This item can be reforged!\",4:\"§9§lRARE HELMET\"],Name:\"§9Velvet Top Hat\",color:3865849}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+25",
+    "§7Defense: §a+10",
+    "",
+    "§8This item can be reforged!",
+    "§9§lRARE HELMET"
+  ],
+  "internalname": "VELVET_TOP_HAT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Velvet_Top_Hat"
+  ]
+}

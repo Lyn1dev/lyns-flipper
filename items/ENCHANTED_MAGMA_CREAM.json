@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:magma_cream",
+  "displayname": "§aEnchanted Magma Cream",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MAGMA_CREAM\"},HideFlags:254,ItemModel:\"minecraft:magma_cream\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Magma Cream\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_MAGMA_CREAM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magma Cream V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Magma_Cream"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MAGMA_CREAM:32",
+    "A3": "",
+    "B1": "MAGMA_CREAM:32",
+    "B2": "MAGMA_CREAM:32",
+    "B3": "MAGMA_CREAM:32",
+    "C1": "",
+    "C2": "MAGMA_CREAM:32",
+    "C3": ""
+  }
+}

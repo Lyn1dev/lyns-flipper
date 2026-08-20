@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:tnt",
+  "displayname": "§5Infinityboom TNT",
+  "nbttag": "{ExtraAttributes:{id:\"INFINITE_SUPERBOOM_TNT\"},HideFlags:254,ItemModel:\"minecraft:tnt\",display:{Lore:[0:\"§7Instantly breaks weak walls. Can be\",1:\"§7used to blow up Crypts in §cThe\",2:\"§cCatacombs §7and §5Crystal Hollows§7.\",3:\"\",4:\"§8Cooldown: §a2s\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Infinityboom TNT\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Instantly breaks weak walls. Can be",
+    "§7used to blow up Crypts in §cThe",
+    "§cCatacombs §7and §5Crystal Hollows§7.",
+    "",
+    "§8Cooldown: §a2s",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "INFINITE_SUPERBOOM_TNT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Infinityboom_TNT"
+  ]
+}

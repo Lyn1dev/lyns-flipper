@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:redstone_lamp",
+  "displayname": "§9Enchanted Redstone Lamp",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_REDSTONE_LAMP\"},HideFlags:254,ItemModel:\"minecraft:redstone_lamp\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Redstone Lamp\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_REDSTONE_LAMP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Glowstone Dust VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Redstone_Lamp"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_REDSTONE:32",
+    "A3": "",
+    "B1": "ENCHANTED_REDSTONE:32",
+    "B2": "ENCHANTED_GLOWSTONE_DUST:32",
+    "B3": "ENCHANTED_REDSTONE:32",
+    "C1": "",
+    "C2": "ENCHANTED_REDSTONE:32",
+    "C3": ""
+  }
+}

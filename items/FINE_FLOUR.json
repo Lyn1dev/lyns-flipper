@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aFine Flour",
+  "nbttag": "{ExtraAttributes:{id:\"FINE_FLOUR\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/community_center/mayor/finnegan/fine_flour\",display:{Lore:[0:\"§7Bring §63,000 §7of these to §5Carrolyn §7in\",1:\"§5Scarleton §7on the §cCrimson Isle §7to\",2:\"§7permanently gain §c+5 Health §7and\",3:\"§6+12 Wheat Fortune§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aFine Flour\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Bring §63,000 §7of these to §5Carrolyn §7in",
+    "§5Scarleton §7on the §cCrimson Isle §7to",
+    "§7permanently gain §c+5 Health §7and",
+    "§6+12 Wheat Fortune§7.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "FINE_FLOUR",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fine_Flour"
+  ]
+}

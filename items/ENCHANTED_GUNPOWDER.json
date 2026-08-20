@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:gunpowder",
+  "displayname": "§aEnchanted Gunpowder",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_GUNPOWDER\"},HideFlags:254,ItemModel:\"minecraft:gunpowder\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Gunpowder\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_GUNPOWDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gunpowder IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Gunpowder"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SULPHUR:32",
+    "A3": "",
+    "B1": "SULPHUR:32",
+    "B2": "SULPHUR:32",
+    "B3": "SULPHUR:32",
+    "C1": "",
+    "C2": "SULPHUR:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:double_plant",
+  "displayname": "§fRose Bush",
+  "nbttag": "{ExtraAttributes:{id:\"DOUBLE_PLANT-4\"},HideFlags:254,ItemModel:\"minecraft:rose_bush\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRose Bush\"}}",
+  "damage": 4,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DOUBLE_PLANT-4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:sapling",
+  "displayname": "§fBirch Sapling",
+  "nbttag": "{ExtraAttributes:{id:\"SAPLING-2\"},HideFlags:254,ItemModel:\"minecraft:birch_sapling\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Sapling\"}}",
+  "damage": 2,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SAPLING-2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

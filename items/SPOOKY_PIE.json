@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:pumpkin_pie",
+  "displayname": "§cSpooky Pie (Year §k69§c)",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Obtained during the §6§k69\",1:\"§6Spooky Festival §7during\",2:\"§7SkyBlock Year §k69.\",3:\"\",4:\"§7Player: §6§kIRONM00N\",5:\"§7Position: §a#§k4,200\",6:\"§7Candy Score: §a§k420\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§c§lSPECIAL\"],Name:\"§cSpooky Pie (Year §k69§c)\"},ExtraAttributes:{leaderboard_score:420,leaderboard_player:\"§6IRONM00N\",leaderboard_position:4200,new_years_cake:69,id:\"SPOOKY_PIE\",event:\"spooky_festival_69\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Obtained during the §6§k69",
+    "§6Spooky Festival §7during",
+    "§7SkyBlock Year §k69.",
+    "",
+    "§7Player: §6§kIRONM00N",
+    "§7Position: §a#§k4,200",
+    "§7Candy Score: §a§k420",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "SPOOKY_PIE",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.1.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spooky_Pie"
+  ]
+}

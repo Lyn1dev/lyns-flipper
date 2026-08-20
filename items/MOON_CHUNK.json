@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:end_stone",
+  "displayname": "§fChunk of the Moon",
+  "nbttag": "{ExtraAttributes:{id:\"MOON_CHUNK\"},HideFlags:254,ItemModel:\"minecraft:end_stone\",display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\"\",4:\"§8§oWhere love is rife, the preconceived\",5:\"§8§olaws of physics mean nothing.\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§9§lRARE\"],Name:\"§fChunk of the Moon\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Quest Item",
+    "",
+    "§7Bring it to §eJuliette §7in §aThe Park§7.",
+    "",
+    "§8§oWhere love is rife, the preconceived",
+    "§8§olaws of physics mean nothing.",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§9§lRARE"
+  ],
+  "internalname": "MOON_CHUNK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Chunk_of_the_Moon"
+  ]
+}

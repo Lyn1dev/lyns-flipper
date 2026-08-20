@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§a Flawed Aquamarine Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FLAWED_AQUAMARINE_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/aquamarine/flawed_aquamarine_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A slightly better version of\",3:\"§3Aquamarine§7, but it could still use\",4:\"§7some work.\",5:\"\",6:\"§7Some say that when §eharnessed\",7:\"§eproperly§7, it can give its owner extra\",8:\"§b Fishing Speed§7; others say it might\",9:\"§7grant an §eadditional charge§7.\",10:\"\",11:\"§a§lUNCOMMON GEMSTONE\"],Name:\"§a Flawed Aquamarine Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A slightly better version of",
+    "§3Aquamarine§7, but it could still use",
+    "§7some work.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§b Fishing Speed§7; others say it might",
+    "§7grant an §eadditional charge§7.",
+    "",
+    "§a§lUNCOMMON GEMSTONE"
+  ],
+  "internalname": "FLAWED_AQUAMARINE_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ROUGH_AQUAMARINE_GEM:16",
+    "A3": "",
+    "B1": "ROUGH_AQUAMARINE_GEM:16",
+    "B2": "ROUGH_AQUAMARINE_GEM:16",
+    "B3": "ROUGH_AQUAMARINE_GEM:16",
+    "C1": "",
+    "C2": "ROUGH_AQUAMARINE_GEM:16",
+    "C3": ""
+  }
+}

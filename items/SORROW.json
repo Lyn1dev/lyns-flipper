@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:ghast_tear",
+  "displayname": "§9Sorrow",
+  "nbttag": "{ExtraAttributes:{id:\"SORROW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/sorrow\",display:{Lore:[0:\"§7To become a ghost, one must go\",1:\"§7through unimaginable distress.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Sorrow\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7To become a ghost, one must go",
+    "§7through unimaginable distress.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SORROW",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sorrow"
+  ]
+}

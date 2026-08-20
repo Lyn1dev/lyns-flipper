@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{fire_protection:6},id:\"FIRE_PROTECTION;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Fire Protection VI\",3:\"§7Grants §f+12 True Defense §7against\",4:\"§7fire and lava.\",5:\"\",6:\"§6Sources:\",7:\"§aVI§7: Fireproof Witch,\",8:\"§aVI-VII§7: Experiments,\",9:\"§aVI-VII§7: Bazaar\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fArmor\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cProtection\",16:\"§7- §cBlast Protection\",17:\"§7- §cProjectile Protection\",18:\"\",19:\"§9§lRARE\"],Name:\"§9Enchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Fire Protection VI",
+    "§7Grants §f+12 True Defense §7against",
+    "§7fire and lava.",
+    "",
+    "§6Sources:",
+    "§aVI§7: Fireproof Witch,",
+    "§aVI-VII§7: Experiments,",
+    "§aVI-VII§7: Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§6Conflicts:",
+    "§7- §cProtection",
+    "§7- §cBlast Protection",
+    "§7- §cProjectile Protection",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "FIRE_PROTECTION;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fire_Protection"
+  ],
+  "parent": "FIRE_PROTECTION;4"
+}

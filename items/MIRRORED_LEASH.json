@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:lead",
+  "displayname": "§fdaeL",
+  "nbttag": "{ExtraAttributes:{id:\"MIRRORED_LEASH\"},HideFlags:254,ItemModel:\"minecraft:lead\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fdaeL\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "MIRRORED_LEASH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/daeL"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MIRRORED_STRING:1",
+    "A3": "MIRRORED_STRING:1",
+    "B1": "",
+    "B2": "SLIME_BALL:1",
+    "B3": "MIRRORED_STRING:1",
+    "C1": "MIRRORED_STRING:1",
+    "C2": "",
+    "C3": ""
+  }
+}

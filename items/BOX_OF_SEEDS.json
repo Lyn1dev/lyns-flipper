@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Box of Seeds",
+  "nbttag": "{ExtraAttributes:{id:\"BOX_OF_SEEDS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/box_of_seeds\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Box of Seeds\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BOX_OF_SEEDS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Seeds VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Box_of_Seeds"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_SEEDS:32",
+    "A3": "",
+    "B1": "ENCHANTED_SEEDS:32",
+    "B2": "ENCHANTED_SEEDS:32",
+    "B3": "ENCHANTED_SEEDS:32",
+    "C1": "",
+    "C2": "ENCHANTED_SEEDS:32",
+    "C3": ""
+  }
+}

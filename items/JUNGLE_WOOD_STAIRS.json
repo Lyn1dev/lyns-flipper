@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:jungle_stairs",
+  "displayname": "§fJungle Stairs",
+  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_WOOD_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:jungle_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fJungle Stairs\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "JUNGLE_WOOD_STAIRS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD-3:1",
+    "A2": "",
+    "A3": "",
+    "B1": "WOOD-3:1",
+    "B2": "WOOD-3:1",
+    "B3": "",
+    "C1": "WOOD-3:1",
+    "C2": "WOOD-3:1",
+    "C3": "WOOD-3:1",
+    "count": 4
+  }
+}

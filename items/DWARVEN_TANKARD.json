@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Dwarven Tankard",
+  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_TANKARD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0ac2fceb-0d1f-3245-969b-96a2999d2ec0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"DJWtqCNcKFceHSpccyj1lYFZP0wH/zAHmb3p27D97mvPp5IEZKYT4zNPjJAc4uNJaxIA/XVdyA3O39qg+uXXUFKWgXUUSMMQPCpxilgjuhyw7ht6WC2Bk+A4aSpfpm39w9t219WfXKCS5d2MpY0G6SodZosHoQZU3gksFLySYe2LllVhzSmIBNw9Hq08jt+Mq0yBD/vZRJ2Nh1wGlZNf0p6DkvuM9xSkFJDB6hF0ipTOwkgrhGvK7kOJyniiyhZxfP/9YOywD7rkeeaFp6DZ84yWJgf2TtpKzTd9tGhnrxhrl6OSsGLbc0h2Ji7egDSEIfDv/+XBBz1JukfeObYA0hIN2MPqICancTwbicds1d+bRXjuCyoOaEZYCCreDx/jejTZtnnabKThgIF0Eq2o9cpDdCVhHYbob6uS0q528GGduvJsNWPIqRo5b0l/hHDED7DGFeqzm/MG09RftxeTkovC0ITTPgyhsH9oC9IsyEKD1AYTo7Y4j5ieXhcM1OiW70WcKYByHfbDaLlttPn8Nn8rEoLa89G4q8NZ0Y5luZ0LMtFi/2+s0jCd/uJ5cjKoKp7P2N+byAtUHxetBdHOdI4SP66Fmvz2xcVRL+VJBXqgE/Rk3JkmpQMUPVUNP4f2sGSrD1wEShFgmL3vRCgJ9QDlgC8e4uYbODZFTKXZKjI=\",Value:\"eyJ0aW1lc3RhbXAiOjE1ODY5OTk0NjE4OTQsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzNkMTYyY2FlNzMzMzlmNzc1OTE5ZmIxYjUwOGI3ZjFjMjhmZDQ2NTQ5ZTY2MzkwOTQ2ZDg3YWJmNjcxNWM2In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Decoration Item\",1:\"\",2:\"§7The most stylish Dwarven drinking\",3:\"§7implement built to hold as much ale as\",4:\"§7possible.\",5:\"\",6:\"§8§l* §8Co-op Soulbound §8§l*\",7:\"§5§lEPIC\"],Name:\"§5Dwarven Tankard\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Decoration Item",
+    "",
+    "§7The most stylish Dwarven drinking",
+    "§7implement built to hold as much ale as",
+    "§7possible.",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§5§lEPIC"
+  ],
+  "internalname": "DWARVEN_TANKARD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dwarven_Tankard"
+  ]
+}

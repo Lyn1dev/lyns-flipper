@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:stone",
+  "displayname": "§aEnchanted Hard Stone",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HARD_STONE\"},HideFlags:254,ItemModel:\"minecraft:stone\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A refined form of heavy rock from\",3:\"§7the darkest depths.\",4:\"\",5:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Hard Stone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A refined form of heavy rock from",
+    "§7the darkest depths.",
+    "",
+    "§a§lUNCOMMON BLOCK"
+  ],
+  "internalname": "ENCHANTED_HARD_STONE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Hard Stone III",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Hard_Stone"
+  ],
+  "recipe": {
+    "A1": "HARD_STONE:64",
+    "A2": "HARD_STONE:64",
+    "A3": "HARD_STONE:64",
+    "B1": "HARD_STONE:64",
+    "B2": "HARD_STONE:64",
+    "B3": "HARD_STONE:64",
+    "C1": "HARD_STONE:64",
+    "C2": "HARD_STONE:64",
+    "C3": "HARD_STONE:64"
+  }
+}

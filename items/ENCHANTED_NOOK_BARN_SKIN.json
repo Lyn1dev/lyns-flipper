@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:stained_glass",
+  "displayname": "§5Enchanted Nook Barn Skin",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_NOOK_BARN_SKIN\"},HideFlags:254,ItemModel:\"minecraft:purple_stained_glass\",display:{Lore:[0:\"§7Consume this item to unlock the\",1:\"§fEnchanted Nook Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§5§lEPIC COSMETIC\"],Name:\"§5Enchanted Nook Barn Skin\"}}",
+  "damage": 10,
+  "lore": [
+    "§7Consume this item to unlock the",
+    "§fEnchanted Nook Barn Skin §7on §aThe",
+    "§aGarden§7!",
+    "",
+    "§eClick to consume!",
+    "",
+    "§5§lEPIC COSMETIC"
+  ],
+  "internalname": "ENCHANTED_NOOK_BARN_SKIN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Nook_Barn_Skin"
+  ]
+}

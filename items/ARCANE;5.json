@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{arcane:5},id:\"ARCANE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Woodsplitter V\",3:\"§7Increases damage dealt to §2⸙\",4:\"§2Woodland§7 mobs by §a60%§7.\",5:\"\",6:\"§6Applied To:\",7:\"§7- §fAxe\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Woodsplitter V",
+    "§7Increases damage dealt to §2⸙",
+    "§2Woodland§7 mobs by §a60%§7.",
+    "",
+    "§6Applied To:",
+    "§7- §fAxe",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ARCANE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Woodsplitter"
+  ]
+}

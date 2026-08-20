@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cNope the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"NOPE_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§7Why did we follow Shrimp...\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§c§lSPECIAL\"],Name:\"§cNope the Fish\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7Why did we follow Shrimp...",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "NOPE_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+gf8a751d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Nope_The_Fish"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:6",
+      "result": "NOPE_THE_FISH"
+    }
+  ]
+}

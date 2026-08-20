@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:record_cat",
+  "displayname": "§aMusic Disc - Cat",
+  "nbttag": "{ExtraAttributes:{id:\"GREEN_RECORD\"},HideFlags:254,ItemModel:\"minecraft:music_disc_cat\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aMusic Disc - Cat\"}}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "GREEN_RECORD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

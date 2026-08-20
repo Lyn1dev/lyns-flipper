@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{thorns:2},id:\"THORNS;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Thorns II\",3:\"§7Grants a §a50% §7chance to\",4:\"§7rebound §a6% §7of damage dealt\",5:\"§7back at the attacker.\",6:\"\",7:\"§6Source:\",8:\"§aI-III: §7Enchantment Table,\",9:\"§7Cactus Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fArmor\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Thorns II",
+    "§7Grants a §a50% §7chance to",
+    "§7rebound §a6% §7of damage dealt",
+    "§7back at the attacker.",
+    "",
+    "§6Source:",
+    "§aI-III: §7Enchantment Table,",
+    "§7Cactus Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "THORNS;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Thorns"
+  ]
+}

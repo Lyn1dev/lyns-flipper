@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:netherbrick",
+  "displayname": "§9Livid Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"LIVID_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:nether_brick\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Livid Fragment\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE DUNGEON ITEM"
+  ],
+  "internalname": "LIVID_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Livid_Fragment"
+  ]
+}

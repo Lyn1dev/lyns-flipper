@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fGray Lamp",
+  "nbttag": "{ExtraAttributes:{id:\"LAMP_GRAY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0b2653c8-de64-3624-9dc6-e631a121a624\",Properties:{textures:[0:{Name:\"textures\",Signature:\"d+C77jbf4OVXK9FpNywIYK2oypi/Xh2sMsitVAQ8zJ3xlvwHp8xKn0N5TciDqXJNRSheBZuAy2o+p+Xgw5I0Yus0HNTzZ08B7udOjpFG0rbiEH7/jJuzcOHaYX+W4yUI5PiaBUh5f+fsZPw48oRpMYHXmvtwFgJ+xQDd0Doa/p3Ptx951hb0/J7H1qvbIjFTibfPA83lbnp1Hun0URsRViSDts0jCkZ8pUaQFf0i2y9RskZFOvwDKd4uGS679aEK5+fLqXnIynWcaPmhUw5CpOULBhnlVErmhIl7x8j0XubEIdo9/XZw1/QSS43iv8nAg4l6tkY2T/a/yXyqCn8GE0a3RMKwWzZB8YnsUO2q3IlKcP0zprxoAwC10bHn2tSMFbmlVAdug7j1Db3IMFOquVdZREKveDJ1epDhwu1+oavqhCXvDABOsL73AVelnJXtDnpjsOuVnhYbCecOTkIDiKjmr/DU1v57xFBTbD4sxJZzaWwcgiJiGGBmg+AkBZtPs5T91JDlZeiI12/OFP4CAW1zGnfM1aaxIGvp2NxJPY5IAljfQsu6wnrRNnYOsSAQfZCMnrHPjDfwyoMkluRhqtMFOF8dljHWLpjmdgMwDYcO+Z1tlU0fRhV+sRi9V5ysKiSkQ/R1SY3Cu1tzhgJxsSY51kwHlyZW/52hbVjOlrA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTczMzkyNDgyODYsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2NDM4MjcxMTM2YTY3MDlkM2E0MTFiYzgxMmQ4Y2I0ZGE3NDJlOWZjODlkZTczMTFlNjJiODQyNTZlZmNiMWQifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Decorate your island with this\",1:\"§7eco-friendly lamp!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fGray Lamp\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Decorate your island with this",
+    "§7eco-friendly lamp!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "LAMP_GRAY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gray_Lamp"
+  ]
+}

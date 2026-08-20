@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:melon_block",
+  "displayname": "§9Enchanted Melon",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MELON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Melon\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_MELON_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Melon Slice VI",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Melon"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_MELON:32",
+    "A3": "",
+    "B1": "ENCHANTED_MELON:32",
+    "B2": "ENCHANTED_MELON:32",
+    "B3": "ENCHANTED_MELON:32",
+    "C1": "",
+    "C2": "ENCHANTED_MELON:32",
+    "C3": ""
+  }
+}

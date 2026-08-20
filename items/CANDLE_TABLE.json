@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Candle Table",
+  "nbttag": "{ExtraAttributes:{id:\"CANDLE_TABLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2d881b9f-1701-3d60-a02f-b03631edbb28\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Ke7okyXpTuZTH99RYYeMX12l/EWPcSA56EAAIBlPFXq798ctPp7tzNjWgcH7zNr3ztvkSfTkCQzHPp9cq3uvmZsAiaBvWjnjv9e5eIcTKsO3p/EBfkSnBiGNyC/KW8iWBAmDEqmBZRzP3BwSf1Xpc0+qy5v05D3TexnSwIg/00UtMmzHXI/IfJ7ym9emOPNMCjXhqkwo0+RVltXRbQ1B5Ah7+T4anvZHYZqid1LDLsRtMb+//MSSnN0q2GDyB8d6Ha0p28KBxtzHRMY3wkRxKpFa22FQKOYgdvv7Suh39hGzqqOpw1S+htOJGsD5AgCpXFBlNaBsIvcOqxUsu/WG/w5WaQXQyR8WqgsYgdN3L6CQ6QKhqOyIB3Jg+IOYD8InLEAg9wfGN1Mz7uxC7cqwQY1N7w/q+YNEucrz9Xo6ajj8uQ8uJuzUnQ4D8qoHbkhSFooWhgth/p0d4ZAB4C82/dvT+9o2TGhzz3ivmIoMTg3tqqgF5rt2xVd/5fS9MLWUMG1YbMWvdanCF+lfz0q6CXtu/lOXkozcg6AKhI5R8HcdpixxPok0NoPwjlZVnihgBJNuLuCuFgIsrnsgxCbE51/vNK3Czabh4R7KFZGSencfhI5uzqksyyjHYyqS8e8fiLC10PwnAUHKEQ9nPpvDYcZJd9NMGpT0FW35gnmmEg0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzczOTE3MzY2NiwKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q3YWI1MTIwMjk2NjdiNGNjZjhiNTM3NDAzZDkyODlhMzE4N2RmZWY0ZWNkZTE4MDYyYjEwMjMzOWFiODliNzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Halloween Cosmetic\",2:\"\",3:\"§7This exclusive §6Halloween §7cosmetic\",4:\"§7can be placed on your island or\",5:\"§7traded.\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Candle Table\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Furniture",
+    "§8Halloween Cosmetic",
+    "",
+    "§7This exclusive §6Halloween §7cosmetic",
+    "§7can be placed on your island or",
+    "§7traded.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "CANDLE_TABLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Candle_Table"
+  ]
+}

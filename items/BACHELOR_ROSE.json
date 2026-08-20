@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:red_flower",
+  "displayname": "§cBachelor's Rose",
+  "nbttag": "{ExtraAttributes:{id:\"BACHELOR_ROSE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/wild_rose/bachelors_rose\",display:{Lore:[0:\"§7Can be gifted to any eligible NPC to\",1:\"§7invite them to visit your §aGarden§7.\",2:\"\",3:\"§eRight-click on an NPC to use!\",4:\"\",5:\"§c§lSPECIAL\"],Name:\"§cBachelor's Rose\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Can be gifted to any eligible NPC to",
+    "§7invite them to visit your §aGarden§7.",
+    "",
+    "§eRight-click on an NPC to use!",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "BACHELOR_ROSE",
+  "clickcommand": "",
+  "crafttext": "Requires: Wild Rose VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bachelor%27s_Rose"
+  ],
+  "recipes": [
+    {
+      "A1": "COMPACTED_WILD_ROSE:1",
+      "A2": "COMPACTED_WILD_ROSE:1",
+      "A3": "COMPACTED_WILD_ROSE:1",
+      "B1": "COMPACTED_WILD_ROSE:1",
+      "B2": "RED_ROSE:64",
+      "B3": "COMPACTED_WILD_ROSE:1",
+      "C1": "COMPACTED_WILD_ROSE:1",
+      "C2": "COMPACTED_WILD_ROSE:1",
+      "C3": "COMPACTED_WILD_ROSE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "BACHELOR_ROSE"
+    }
+  ]
+}

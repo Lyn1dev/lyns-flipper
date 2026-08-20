@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:flint",
+  "displayname": "§5Enchanted Ancient Claw",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_ANCIENT_CLAW\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§7The refined claw of an ancient\",1:\"§7beast, enchanted with bygone magic\",2:\"§7and honed through countless wars.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Enchanted Ancient Claw\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7The refined claw of an ancient",
+    "§7beast, enchanted with bygone magic",
+    "§7and honed through countless wars.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "ENCHANTED_ANCIENT_CLAW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Ancient_Claw"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ANCIENT_CLAW:32",
+    "A3": "",
+    "B1": "ANCIENT_CLAW:32",
+    "B2": "ANCIENT_CLAW:32",
+    "B3": "ANCIENT_CLAW:32",
+    "C1": "",
+    "C2": "ANCIENT_CLAW:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6 Perfect Aquamarine Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_AQUAMARINE_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/aquamarine/perfect_aquamarine_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §3refined Aquamarine§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§b Fishing Speed§7; others say it might\",7:\"§7grant an §eadditional charge§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6 Perfect Aquamarine Gemstone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A perfectly §3refined Aquamarine§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§b Fishing Speed§7; others say it might",
+    "§7grant an §eadditional charge§7.",
+    "",
+    "§6§lLEGENDARY GEMSTONE"
+  ],
+  "internalname": "PERFECT_AQUAMARINE_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "AQUAMARINE_CRYSTAL:1.0",
+        "FLAWLESS_AQUAMARINE_GEM:5.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "PERFECT_AQUAMARINE_GEM",
+      "duration": 72000
+    }
+  ]
+}

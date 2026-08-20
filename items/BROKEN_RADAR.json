@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Broken Radar",
+  "nbttag": "{ExtraAttributes:{id:\"BROKEN_RADAR\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/broken_radar\",display:{Lore:[0:\"§7Snapping Turtles will bite into just\",1:\"§7about anything, radars included.\",2:\"§7Maybe you can fix it?\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Broken Radar\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Snapping Turtles will bite into just",
+    "§7about anything, radars included.",
+    "§7Maybe you can fix it?",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BROKEN_RADAR",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Broken_Radar"
+  ]
+}

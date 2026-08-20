@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fTungsten",
+  "nbttag": "{ExtraAttributes:{id:\"TUNGSTEN\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/tungsten/tungsten\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Considered for a long time to be\",3:\"§7unbreakable prior to the discovery\",4:\"§7of the Crystal Hollows.\",5:\"\",6:\"§f§lCOMMON DWARVEN METAL\"],Name:\"§fTungsten\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Considered for a long time to be",
+    "§7unbreakable prior to the discovery",
+    "§7of the Crystal Hollows.",
+    "",
+    "§f§lCOMMON DWARVEN METAL"
+  ],
+  "internalname": "TUNGSTEN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tungsten"
+  ]
+}

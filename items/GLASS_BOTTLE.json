@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:glass_bottle",
+  "displayname": "§fGlass Bottle",
+  "nbttag": "{ExtraAttributes:{id:\"GLASS_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:glass_bottle\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fGlass Bottle\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "GLASS_BOTTLE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipes": [
+    {
+      "A1": "GLASS:1",
+      "A2": "",
+      "A3": "GLASS:1",
+      "B1": "",
+      "B2": "GLASS:1",
+      "B3": "",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 3,
+      "overrideOutputId": "GLASS_BOTTLE"
+    }
+  ]
+}

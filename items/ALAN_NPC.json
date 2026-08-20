@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Alan (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"ALAN_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5a02112a-0e84-2b74-b95b-6084f04b6a15\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUwYWUzNDgyZDgzODk4ZTBlNTVjMTUxNmIxZWFkMWE3ZDFjZDU0Y2NmNGMyNDM0Mzg2OWEyOGJkNTYyMWYwNCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1YTAyMTEyYTBlODQyYjc0Yjk1YjYwODRmMDRiNmExNSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzg2NDcyMjI0NzU1fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Alan (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ALAN_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament nogitversion+mc26.2",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Alan"
+  ],
+  "island": "foraging_2",
+  "x": -626,
+  "y": 116,
+  "z": -37
+}

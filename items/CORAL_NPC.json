@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:spawn_egg",
+  "displayname": "§9Coral (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"CORAL_NPC\"},HideFlags:254,ItemModel:\"minecraft:witch_spawn_egg\",display:{Lore:[0:\"\"],Name:\"§9Coral (NPC)\"}}",
+  "damage": 66,
+  "lore": [
+    ""
+  ],
+  "internalname": "CORAL_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+ge14f829d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Coral"
+  ],
+  "island": "foraging_2",
+  "x": -627,
+  "y": 99,
+  "z": -88
+}

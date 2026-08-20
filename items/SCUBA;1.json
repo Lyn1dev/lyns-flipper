@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{scuba:1},id:\"SCUBA;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Scuba I\",3:\"§7Grants §9+1 Pressure Resistance§7.\",4:\"\",5:\"§6Applied To:\",6:\"§7- §fArmor\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Scuba I",
+    "§7Grants §9+1 Pressure Resistance§7.",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SCUBA;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scuba"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "",
+      "A3": "",
+      "B1": "",
+      "B2": "PAPER:1",
+      "B3": "PAPER:1",
+      "C1": "",
+      "C2": "PAPER:1",
+      "C3": "ENCHANTED_SEA_LUMIES:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SCUBA;1"
+    }
+  ]
+}

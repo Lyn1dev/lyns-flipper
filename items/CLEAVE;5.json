@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{cleave:5},id:\"CLEAVE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Cleave V\",3:\"§7Deals §a25% §7of your damage\",4:\"§7dealt to other monsters within\",5:\"§a4.5 §7blocks of the target.\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Pufferfish Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Cleave V",
+    "§7Deals §a25% §7of your damage",
+    "§7dealt to other monsters within",
+    "§a4.5 §7blocks of the target.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Pufferfish Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CLEAVE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cleave"
+  ],
+  "parent": "CLEAVE;4"
+}

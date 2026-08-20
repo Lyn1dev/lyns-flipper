@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Dragonfly Shard",
+  "nbttag": "{ExtraAttributes:{attributes:{garden_wisdom:1},id:\"ATTRIBUTE_SHARD_GARDEN_WISDOM;1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f9e801b0-8a6f-3ff4-8b01-05c091a25622\",Properties:{textures:[0:{Name:\"textures\",Signature:\"gKl4sMOStLaxhbO00NW0UyMrYu5SpbYvMQ2wT/M1Cgf56M9K5GQJYmgeFhxQ9WXJ2AXpLxupIoc6bO3+KldoYbEnC+/3oUUMWZgTvymjz+J4eLDCXkxCw9WKwaaIRn5rvf2jv7UwXiJmuubnX7JtCNCbBdAt9HuSX6qpR1Mf5II3wvuvuZoJgS6lTmc/vfMcjhSRWJ61yntMZBDB/NxaZshHVzMTZ4cfRwthtV7fTx3TjjsgOxQxzT9Beq8g8ClZkpAkJ2iwGugbQyf9TxUy3RDXOdqzM6l3RuYTay/itmi5JBinxK5mJETznT6FjHxbMlm8mHoKymdyw7wAl8/FasFtN/wL0mKVYfpabagbGEWkT5ZasD4W1ErHlNMDyFyXSEtc5M4r6G5eaUoonhW08+xIV+m2dNoYXyoeWgeOXKIFxvqK//v9jnCSWUsjsUA0D8WNX5V/RpuqERLRXYbcB8RAqDAAyoim4/xRB93ru0LWv/U8f2nJAequ1vGi7Spg7Dnn73UWmoNe+FDGpwv7pZG+RyKyUjfeD0qkayfWWCYB38RVXUQSXrDPUcQhrFUc/OokSlhaLw4Q9DBTSDRjw1rmcpsKTD33nMspltcrfDPoNVV1MV1VEFutawYDx9yP3O1ob4qKotB7vINLPDBODjMK71TaH4l6WW8tIInZ5wc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDQ1MDQxODQzNywKICAicHJvZmlsZUlkIiA6ICIwNjY5Y2E1MGYyZWU0NTQxODhlYWQ3YTM3NTkzNDRlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcjR6eWNsb3duVFYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0YWZmNGMwYjJkY2UzYTY3MjM0OWNjMGVlOWU2ZjNhOWRlZWJlNGIzNTU2ZTg0NjExZWNhMjUwYTc4MjFiZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Garden Wisdom I\",1:\"§7Grants §3+0.5 ☯ Farming Wisdom§7.\",2:\"\",3:\"§7You can Syphon this shard from\",4:\"§7your §aHunting Box§7.\",5:\"\",6:\"§eRight-click to send to Hunting Box!\",7:\"§eShift Right-click to move all!\",8:\"\",9:\"§4❣ §cRequires §aHunting Skill 15§c.\",10:\"§5§lEPIC FOREST SHARD §8(ID E37)\"],Name:\"§5Dragonfly Shard\"}}",
+  "damage": 3,
+  "lore": [
+    "§6Garden Wisdom I",
+    "§7Grants §3+0.5 ☯ Farming Wisdom§7.",
+    "",
+    "§7You can Syphon this shard from",
+    "§7your §aHunting Box§7.",
+    "",
+    "§eRight-click to send to Hunting Box!",
+    "§eShift Right-click to move all!",
+    "",
+    "§4❣ §cRequires §aHunting Skill 15§c.",
+    "§5§lEPIC FOREST SHARD §8(ID E37)"
+  ],
+  "internalname": "ATTRIBUTE_SHARD_GARDEN_WISDOM;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dragonfly_Shard"
+  ]
+}

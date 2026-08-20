@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Oceandy",
+  "nbttag": "{ExtraAttributes:{id:\"OCEANDY\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/salts/oceandy\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§7Grants §b1.25❣ Charm Chance §7towards\",3:\"§aSea Creatures§7.\",4:\"§7Duration: §612h\",5:\"\",6:\"§eLeft-click to consume!\",7:\"\",8:\"§9§lRARE SALT\"],Name:\"§9Oceandy\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Hunting Tool",
+    "",
+    "§7Grants §b1.25❣ Charm Chance §7towards",
+    "§aSea Creatures§7.",
+    "§7Duration: §612h",
+    "",
+    "§eLeft-click to consume!",
+    "",
+    "§9§lRARE SALT"
+  ],
+  "internalname": "OCEANDY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Oceandy"
+  ],
+  "recipes": [
+    {
+      "A1": "LUSHLILAC:1",
+      "A2": "WET_WATER:1",
+      "A3": "LUSHLILAC:1",
+      "B1": "WET_WATER:1",
+      "B2": "",
+      "B3": "WET_WATER:1",
+      "C1": "LUSHLILAC:1",
+      "C2": "WET_WATER:1",
+      "C3": "LUSHLILAC:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "OCEANDY"
+    }
+  ]
+}

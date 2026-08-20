@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Titanoboa Shed",
+  "nbttag": "{ExtraAttributes:{id:\"TITANOBOA_SHED\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/titanboa_shed\",display:{Lore:[0:\"§7A massive set of discarded snake\",1:\"§7skin. There's so much of it that it's\",2:\"§7hard to lift.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Titanoboa Shed\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A massive set of discarded snake",
+    "§7skin. There's so much of it that it's",
+    "§7hard to lift.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "TITANOBOA_SHED",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Titanoboa_Shed"
+  ]
+}

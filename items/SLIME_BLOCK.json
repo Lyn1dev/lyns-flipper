@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:slime",
+  "displayname": "§fSlime Block",
+  "nbttag": "{ExtraAttributes:{id:\"SLIME_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSlime Block\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SLIME_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "SLIME_BALL:1",
+    "A2": "SLIME_BALL:1",
+    "A3": "SLIME_BALL:1",
+    "B1": "SLIME_BALL:1",
+    "B2": "SLIME_BALL:1",
+    "B3": "SLIME_BALL:1",
+    "C1": "SLIME_BALL:1",
+    "C2": "SLIME_BALL:1",
+    "C3": "SLIME_BALL:1"
+  }
+}

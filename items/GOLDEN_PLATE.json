@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Golden Plate",
+  "nbttag": "{ExtraAttributes:{id:\"GOLDEN_PLATE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/golden_plate\",display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Golden Plate\"}}",
+  "damage": 0,
+  "lore": [
+    "§9§lRARE"
+  ],
+  "internalname": "GOLDEN_PLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Golden_Plate"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_GOLD_BLOCK:2",
+        "REFINED_DIAMOND:1",
+        "GLACITE_JEWEL:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOLDEN_PLATE",
+      "duration": 21600
+    }
+  ]
+}

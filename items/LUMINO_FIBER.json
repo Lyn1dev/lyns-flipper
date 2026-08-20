@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Lumino Fiber",
+  "nbttag": "{ExtraAttributes:{id:\"LUMINO_FIBER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/lumino_fiber\",display:{Lore:[0:\"§7Changes color based on the angle\",1:\"§7you look at it.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Lumino Fiber\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Changes color based on the angle",
+    "§7you look at it.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "LUMINO_FIBER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lumino_Fiber"
+  ]
+}

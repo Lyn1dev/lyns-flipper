@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Claw Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"CLAW_FOSSIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/claw_fossil\",display:{Lore:[0:\"§7A small but sharp claw once used\",1:\"§7for digging tunnels.\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Claw Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A small but sharp claw once used",
+    "§7for digging tunnels.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "CLAW_FOSSIL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Claw_Fossil"
+  ]
+}

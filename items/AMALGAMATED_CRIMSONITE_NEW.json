@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Amalgamated Crimsonite",
+  "nbttag": "{ExtraAttributes:{id:\"AMALGAMATED_CRIMSONITE_NEW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/tokens/amalgamated_crimsonite\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Amalgamated Crimsonite\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "AMALGAMATED_CRIMSONITE_NEW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Amalgamated_Crimsonite"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "ENCHANTED_GLOWSTONE_DUST:32",
+      "A3": "ENCHANTED_MYCELIUM:8",
+      "B1": "ENCHANTED_MAGMA_CREAM:32",
+      "B2": "",
+      "B3": "ENCHANTED_BLAZE_POWDER:32",
+      "C1": "ENCHANTED_RED_SAND:8",
+      "C2": "ENCHANTED_NETHER_STALK:32",
+      "C3": "",
+      "count": 2
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "ENCHANTED_GLOWSTONE:4",
+      "A3": "ENCHANTED_MYCELIUM_CUBE:1",
+      "B1": "WHIPPED_MAGMA_CREAM:4",
+      "B2": "",
+      "B3": "ENCHANTED_BLAZE_ROD:4",
+      "C1": "ENCHANTED_RED_SAND_CUBE:1",
+      "C2": "MUTANT_NETHER_STALK:4",
+      "C3": "",
+      "count": 40
+    }
+  ]
+}

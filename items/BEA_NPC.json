@@ -1,0 +1,58 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bea (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"BEA_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d61198a6-4bf2-237b-a5cf-13f9035e04d4\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNjMzRiOWU1MWYzNTJkNmM2OWM4MjFhMWZjMjlmNTAwNTA5ODAzYTFlZWMwMjRjMzg3MDE1YjVjNDNjNzczYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJkNjExOThhNjRiZjIyMzdiYTVjZjEzZjkwMzVlMDRkNCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjE4NTAyfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Bea (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BEA_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bea"
+  ],
+  "x": 11,
+  "y": 72,
+  "z": -59,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50.0"
+      ],
+      "result": "BEE;0"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500.0"
+      ],
+      "result": "SMALL_HONEY_DIPPER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000.0"
+      ],
+      "result": "MEDIUM_HONEY_DIPPER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000.0"
+      ],
+      "result": "LARGE_HONEY_DIPPER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:500000.0"
+      ],
+      "result": "GIANT_HONEY_DIPPER:1"
+    }
+  ]
+}

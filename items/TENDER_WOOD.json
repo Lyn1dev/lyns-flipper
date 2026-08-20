@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aTender Wood",
+  "nbttag": "{ExtraAttributes:{id:\"TENDER_WOOD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/tender_wood\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Ideal for fine woodworking, this\",3:\"§7fig-derived wood is fully impervious,\",4:\"§7and can even be used to craft\",5:\"§7see-through items.\",6:\"\",7:\"§eRight-click to view recipes!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aTender Wood\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Ideal for fine woodworking, this",
+    "§7fig-derived wood is fully impervious,",
+    "§7and can even be used to craft",
+    "§7see-through items.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "TENDER_WOOD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tender_Wood"
+  ]
+}

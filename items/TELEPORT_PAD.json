@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:end_portal_frame",
+  "displayname": "§aTeleport Pad",
+  "nbttag": "{ExtraAttributes:{id:\"TELEPORT_PAD\"},HideFlags:254,ItemModel:\"minecraft:end_portal_frame\",display:{Lore:[0:\"§7Places a Teleport Pad down,\",1:\"§7allowing you to teleport to any\",2:\"§7other Teleport Pad on your\",3:\"§7private island!\",4:\"§8Maximum of 56 per island.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aTeleport Pad\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Places a Teleport Pad down,",
+    "§7allowing you to teleport to any",
+    "§7other Teleport Pad on your",
+    "§7private island!",
+    "§8Maximum of 56 per island.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "TELEPORT_PAD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Teleport_Pad"
+  ]
+}

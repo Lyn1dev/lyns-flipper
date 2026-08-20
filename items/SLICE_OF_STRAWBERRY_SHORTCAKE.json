@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§cSlice of Strawberry Shortcake",
+  "nbttag": "{ExtraAttributes:{century_year_obtained:500,id:\"SLICE_OF_STRAWBERRY_SHORTCAKE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c73ebf3d-e3d1-3b08-903c-e1b64b2be33f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"CUUGgnbGCSwnsgbzs9dR3uUPrlzjv4LKYsqaa6PpQTBW4KE6y1LOAceTdC9sr+9NnFKfHn+OpA+9t14ND23aeQLCUZxzBp87UOJ851KxZLaMFyk3t9q1JnkvVNy9F5heV2pAHGJNiaZ5UGQcUdRKUtiYgxrLY6aLFyVlGYFturzEwkpnBWCY2Y1vcgya8kd9ExhQwEcZfhglN4wl8Z0Jbc5zgkI3qFJVvtuIF1xEZ/k+jTfyajhpU/tqR2vzBdM0qJlvwAtRtP7neJMR6vna9j0ThHARF8ZyVd5qpMqBimWVOiUbHqVfhaXDRX9eAhbvBuUfi/NvjYdu4/NtnAIWV7BtnMyzWTcMkaI8FZ7ZDI4mWMkYFoOxuXilQG6BXNzgbF9UiA4j01LlHxFa7fwHUjjel5UON+56i14DuIIbza5zc70S6Sp6vMxMkKLFlyLngMmkt95tAmY3DKR373E7mNuKdT6kHNVVmafeX1blSMCAEo3M96FHRCg5qs6pG2pnsL7ejiXY0EPzFAIyjpM3TVPJqUuQzPyOiySmmAAVXEuzxhgPUSHAKHlQ4I9w/82DIusubywoFcpPMn+edLkFOdGD86CjF1nmcIhsoxQuuMOi5E8sXZY3v2xbFA+FvBRlOQTQ5uFNq3F3egpAZbXaKlUs5MJOlpHyZQXq0aep/xc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MDkxNDc3OTMwOSwKICAicHJvZmlsZUlkIiA6ICIzYzBkZWU0NzE5MDM0OTc5OWE1ZmJlYTE2NTgwZmRmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXF1YXJpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2NWIwMGZmMDM1Y2Q5MGMzMzg1ODhkYjViZTM4ZjU3ZmYyMjVkYzNhYzMxMzMyNTFkMzE5YzJjNmJlZmM1ODYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-Click on a player on the §d§lPINK\",1:\"§7team while holding this item to feed it\",2:\"§7to them!\",3:\"\",4:\"§7Feeding a slice of cake to another\",5:\"§7player gives both of you a §6reward§7!\",6:\"\",7:\"§8§l* §8Soulbound §8§l*\",8:\"§5§kX§5 Rift-Transferable §5§kX\",9:\"§c§lSPECIAL\"],Name:\"§cSlice of Strawberry Shortcake\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Right-Click on a player on the §d§lPINK",
+    "§7team while holding this item to feed it",
+    "§7to them!",
+    "",
+    "§7Feeding a slice of cake to another",
+    "§7player gives both of you a §6reward§7!",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§5§kX§5 Rift-Transferable §5§kX",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "SLICE_OF_STRAWBERRY_SHORTCAKE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g6ee9ec8a",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Slice_of_Strawberry_Shortcake"
+  ]
+}

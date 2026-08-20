@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§aEnchanted Cocoa Beans",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COCOA\"},HideFlags:254,ItemModel:\"minecraft:cocoa_beans\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Cocoa Beans\"},ench:[]}",
+  "damage": 3,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_COCOA",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cocoa Beans IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Cocoa_Beans"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "INK_SACK-3:32",
+    "A3": "",
+    "B1": "INK_SACK-3:32",
+    "B2": "INK_SACK-3:32",
+    "B3": "INK_SACK-3:32",
+    "C1": "",
+    "C2": "INK_SACK-3:32",
+    "C3": ""
+  }
+}

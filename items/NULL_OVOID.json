@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Null Ovoid",
+  "nbttag": "{ExtraAttributes:{id:\"NULL_OVOID\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/enderman/null_ovoid\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Null Ovoid\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "NULL_OVOID",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Null_Ovoid"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "NULL_SPHERE:32",
+    "A3": "",
+    "B1": "NULL_SPHERE:32",
+    "B2": "ENCHANTED_OBSIDIAN:32",
+    "B3": "NULL_SPHERE:32",
+    "C1": "",
+    "C2": "NULL_SPHERE:32",
+    "C3": ""
+  },
+  "slayer_req": "EMAN_2"
+}

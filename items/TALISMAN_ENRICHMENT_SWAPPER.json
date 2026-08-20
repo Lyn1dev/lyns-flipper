@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:comparator",
+  "displayname": "§cAccessory Enrichment Swapper",
+  "nbttag": "{ExtraAttributes:{id:\"TALISMAN_ENRICHMENT_SWAPPER\"},HideFlags:254,ItemModel:\"minecraft:comparator\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Swaps all §9enriched §7accessories in\",3:\"§7your accessory bag to another\",4:\"§7enrichment.\",5:\"\",6:\"§eRight-click to open menu!\",7:\"\",8:\"§c§lSPECIAL\"],Name:\"§cAccessory Enrichment Swapper\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Consumed on use",
+    "",
+    "§7Swaps all §9enriched §7accessories in",
+    "§7your accessory bag to another",
+    "§7enrichment.",
+    "",
+    "§eRight-click to open menu!",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "TALISMAN_ENRICHMENT_SWAPPER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Accessory_Enrichment_Swapper"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Refined Diamond",
+  "nbttag": "{ExtraAttributes:{id:\"REFINED_DIAMOND\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/refined_diamond\",display:{Lore:[0:\"§7Looking at it for too long may cause\",1:\"§7eye trauma.\",2:\"\",3:\"§5§lEPIC\"],Name:\"§5Refined Diamond\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Looking at it for too long may cause",
+    "§7eye trauma.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "REFINED_DIAMOND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refined_Diamond"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_DIAMOND_BLOCK:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_DIAMOND",
+      "duration": 28800
+    }
+  ]
+}

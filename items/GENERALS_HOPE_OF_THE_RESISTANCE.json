@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:double_plant",
+  "displayname": "§6Staff of the Rising Sun",
+  "nbttag": "{ExtraAttributes:{id:\"GENERALS_HOPE_OF_THE_RESISTANCE\",leaderPosition:0,leaderVotes:0,originTag:\"REWARD_SERAPHINE:HOPE_OF_THE_RESISTANCE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/staff_of_the_rising_sun_2\",display:{Lore:[0:\"§6Ability: Ray of Hope  §e§lRIGHT CLICK\",1:\"§7Channels your energy towards the target\",2:\"§7location, exploding on impact for §c2,519.3\",3:\"§7damage. Costs §b2% §7of your total mana to use.\",4:\"§7This is the only item that can deal damage to\",5:\"§7Dante.\",6:\"\",7:\"§6§lLEGENDARY WAND\"],Name:\"§6Staff of the Rising Sun\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§6Ability: Ray of Hope  §e§lRIGHT CLICK",
+    "§7Channels your energy towards the target",
+    "§7location, exploding on impact for §c2,519.3",
+    "§7damage. Costs §b2% §7of your total mana to use.",
+    "§7This is the only item that can deal damage to",
+    "§7Dante.",
+    "",
+    "§6§lLEGENDARY WAND"
+  ],
+  "internalname": "GENERALS_HOPE_OF_THE_RESISTANCE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Staff_of_the_Rising_Sun"
+  ]
+}

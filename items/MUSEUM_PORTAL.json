@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fPortal to the Museum",
+  "nbttag": "{ExtraAttributes:{id:\"MUSEUM_PORTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"69c1b2e3-563d-3955-ac36-1e780f820726\",Properties:{textures:[0:{Name:\"textures\",Signature:\"JQ6nkbZxRshLTn03sDokbL0S14mP/AQyxGhG1kmXBWRHXKxCmiXLN4T8l/k9FYtx9ihJ+sl2TH9ATJLWx0RGFbywJpJN2Lel0nLhB3RWO5oYlUpbbWco3LWBpBXJikBLSXQLSYRe/UbIzVAgZLrVfkRtJJkNVQCiCiIrZWN15Z7iI2zqY6M6tJPHuli7ecE1MfV+FQvnjJwY/wM99W3hXl1yKaNi6xQ3cFEl+0rCozbsuK5A43ABE6XDgKHGNoH7d33GCPE1PdsDJDWgz5lbjdM1A881Tn3mCzlrKNsbeI8+EwBiU2tciKv/nz0kTZkisSlBi+Svf0u6sxcVZ9ge6QPhfpiI5/Zf3OLZdSnOq3LLM5YYz7UcR/dIobD8HXjBXNYU7JU/11OWZF4Swln6JlVpdyY19B7G1ax+hGl3sSm+dStcIO6qxR4Gy2tqsBl2C3d/VvkqmJ5Xl2IroC+zyxirsBc+WqRUMcFYiEGq+tHrMT/oT1TkQc0IQjMFfGkO1+jlwN7B657FaIe8v8TOiECkNhAqXSH65u3xWwtICCPuZOvN3mwvOiOs1iKS50mZtoOnJNcuNsFHDSPkbO9oDDI/Rl0zuKmJUEa2zBx7AGY140voebrpuPCiNkFP1EdhdMRTRbFjVuQBDCc0sna1xqovudoj1Z/YUL719ph4Ww4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMjA0NTg3MDc1NywKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX25vdGFodW1hbl9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzOGNmM2Y4ZTU0YWZjM2IzZjkxZDIwYTQ5ZjMyNGRjYTE0ODYwMDdmZTU0NTM5OTA1NTUyNGMxNzk0MWY0ZGMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Placing this item on your private\",1:\"§7island will create a portal to the\",2:\"§3Museum§7 for you to use whenever\",3:\"§7you want!\",4:\"\",5:\"§8The portal will spawn facing you on\",6:\"§8the block you click on.\",7:\"\",8:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to the Museum\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Placing this item on your private",
+    "§7island will create a portal to the",
+    "§3Museum§7 for you to use whenever",
+    "§7you want!",
+    "",
+    "§8The portal will spawn facing you on",
+    "§8the block you click on.",
+    "",
+    "§f§lCOMMON PORTAL"
+  ],
+  "internalname": "MUSEUM_PORTAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Portals"
+  ]
+}

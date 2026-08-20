@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§f Rough Opal Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"ROUGH_OPAL_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/gemstones/rough_opal_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Found sprinkled around the §cCrimson\",3:\"§cIsle§7.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§f True Defense§7.\",8:\"\",9:\"§f§lCOMMON GEMSTONE\"],Name:\"§f Rough Opal Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Found sprinkled around the §cCrimson",
+    "§cIsle§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§f True Defense§7.",
+    "",
+    "§f§lCOMMON GEMSTONE"
+  ],
+  "internalname": "ROUGH_OPAL_GEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ]
+}

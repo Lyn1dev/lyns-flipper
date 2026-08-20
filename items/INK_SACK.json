@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§fInk Sac",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK\"},HideFlags:254,ItemModel:\"minecraft:ink_sac\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fInk Sac\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "INK_SACK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

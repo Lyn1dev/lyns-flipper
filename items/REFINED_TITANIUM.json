@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Refined Titanium",
+  "nbttag": "{ExtraAttributes:{id:\"REFINED_TITANIUM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/refined_titanium\",display:{Lore:[0:\"§6§lLEGENDARY DWARVEN METAL\"],Name:\"§6Refined Titanium\"}}",
+  "damage": 0,
+  "lore": [
+    "§6§lLEGENDARY DWARVEN METAL"
+  ],
+  "internalname": "REFINED_TITANIUM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refined_Titanium"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_TITANIUM:16"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_TITANIUM",
+      "duration": 43200
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Old Shaman Nyko (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"OLD_SHAMAN_NYKO_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1cb92e65-56b1-26ce-a024-f157e28cd566\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdhNTE3ODY1YjgyMGE0NDUxY2QzY2M2NzY1ZjM3MGZkMDUyMmI2NDg5YzljOTRmYjM0NWZkZWUyNjg5NDUxYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIxY2I5MmU2NTU2YjEyNmNlYTAyNGYxNTdlMjhjZDU2NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUxOTA1MjYwMDczfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Old Shaman Nyko (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "OLD_SHAMAN_NYKO_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gd7b3f89",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Old_Shaman_Nyko"
+  ],
+  "x": -371,
+  "y": 84,
+  "z": -65,
+  "island": "foraging_1",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25000"
+      ],
+      "result": "TRUE_ESSENCE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:900000"
+      ],
+      "result": "TRUE_PROTECTION;1"
+    }
+  ]
+}

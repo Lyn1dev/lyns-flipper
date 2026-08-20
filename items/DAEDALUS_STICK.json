@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:stick",
+  "displayname": "§6Daedalus Stick",
+  "nbttag": "{ExtraAttributes:{id:\"DAEDALUS_STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Drops rare off of Minotaurs from\",1:\"§7Diana's Mythological Ritual.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Daedalus Stick\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Drops rare off of Minotaurs from",
+    "§7Diana's Mythological Ritual.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "DAEDALUS_STICK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Daedalus_Stick"
+  ]
+}

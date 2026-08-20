@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{counter_strike:5},id:\"COUNTER_STRIKE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Counter-Strike V\",3:\"§7Gain §a+10❈ Defense §7for §a7s\",4:\"§7on the first hit from an\",5:\"§7enemy.\",6:\"\",7:\"§6Source:\",8:\"§aV: §7Dark Auction\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fChestplate\",12:\"\",13:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Counter-Strike V",
+    "§7Gain §a+10❈ Defense §7for §a7s",
+    "§7on the first hit from an",
+    "§7enemy.",
+    "",
+    "§6Source:",
+    "§aV: §7Dark Auction",
+    "",
+    "§6Applied To:",
+    "§7- §fChestplate",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "COUNTER_STRIKE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Counter-Strike"
+  ]
+}

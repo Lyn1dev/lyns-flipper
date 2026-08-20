@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:diamond_chestplate",
+  "displayname": "§9Hardened Diamond Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+120\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE CHESTPLATE\"],Name:\"§9Hardened Diamond Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+120",
+    "",
+    "§8This item can be reforged!",
+    "§9§lRARE CHESTPLATE"
+  ],
+  "internalname": "HARDENED_DIAMOND_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond VII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hardened_Diamond_Chestplate"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_DIAMOND:1",
+    "A2": "",
+    "A3": "ENCHANTED_DIAMOND:1",
+    "B1": "ENCHANTED_DIAMOND:1",
+    "B2": "ENCHANTED_DIAMOND:1",
+    "B3": "ENCHANTED_DIAMOND:1",
+    "C1": "ENCHANTED_DIAMOND:1",
+    "C2": "ENCHANTED_DIAMOND:1",
+    "C3": "ENCHANTED_DIAMOND:1"
+  }
+}

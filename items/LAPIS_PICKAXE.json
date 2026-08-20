@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:diamond_pickaxe",
+  "displayname": "§aLapis Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"LAPIS_PICKAXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/lapis_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 4\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §6+200\",4:\"\",5:\"§7Grants a §a25% §7chance to gain double\",6:\"§7experience when mining ores.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aLapis Pickaxe\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Breaking Power 4",
+    "",
+    "§7Damage: §c+20",
+    "§7Mining Speed: §6+200",
+    "",
+    "§7Grants a §a25% §7chance to gain double",
+    "§7experience when mining ores.",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON PICKAXE"
+  ],
+  "internalname": "LAPIS_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lapis_Pickaxe"
+  ],
+  "recipe": {
+    "A1": "INK_SACK-4:64",
+    "A2": "INK_SACK-4:64",
+    "A3": "INK_SACK-4:64",
+    "B1": "INK_SACK-4:64",
+    "B2": "IRON_PICKAXE:1",
+    "B3": "INK_SACK-4:64",
+    "C1": "INK_SACK-4:64",
+    "C2": "INK_SACK-4:64",
+    "C3": "INK_SACK-4:64"
+  }
+}

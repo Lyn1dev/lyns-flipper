@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:diamond_helmet",
+  "displayname": "§aDiamond Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_HELMET\",originTag:\"CRAFTING_GRID_COLLECT\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON HELMET\"],Name:\"§aDiamond Helmet\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+15",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON HELMET"
+  ],
+  "internalname": "DIAMOND_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "DIAMOND:1",
+    "A3": "DIAMOND:1",
+    "B1": "DIAMOND:1",
+    "B2": "",
+    "B3": "DIAMOND:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "vanilla": true
+}

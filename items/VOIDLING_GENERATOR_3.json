@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Voidling Minion III",
+  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_GENERATOR_3\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2be983ec-2f44-304b-8bdd-8581f053b4fe\",Properties:{textures:[0:{Name:\"textures\",Signature:\"nSG9/FhMh8aMr/pFzSSncu/+t742lxwcE4xT6djw8klS1BoDZPanb4Lojas7y5EhavNF+5nvNhwQi3x2X8eKLDEzpdjK95VvxSffmwaqV4emVeSUkXgCL+39606kvsmADY/zQRbmbkxVbeX9nvBD2LHvMAUGa9nJALaWXQHrawmckIQJZhiqQubpH7mAcy3l5tJgOSdMP4P6EMZI8MF2SGyJFcRIRA2lakNl5k0+ZBFlCr7RTj0ONVZW36t+lEJP0un7e7//HfTsv/1DerWSsKCXnIl9+f8xYgfBW1Zq7i42pHWr9VlRviGAJwu+PGKRu6KMkBYsPs2ulm/wdUzDdI9KBN47y+jBGtva9BqG18ZMMId3p0alfladmIW3WJOq7yYVoYntMxL+fuRv7zFWcquINUFVW205valL5xqDJEDi8x2OfoDDelZgzYdnHyVCsmAm3KmQGnPbxH7WyvmH1bAJMz/2U7P0THBhjPZ7lEAlOPu3qARiMAsU4s6ow6C4ZKDPERtZVFzqAjt6RWOxTB3YWphK1d/pHKSG5Us8w6AbgFEUdIwTKzsSR+jtlTbwqAQCORYGmXznR+SrQ6XRJlHBdxNmCiHWnm0YEPcgevBsoru/PDJcRDUnamKKQ/jcxCTm0p2YhP1ZpVjNTm0U16DdAI16KHC9ne6Ww3FZ/Ds=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTk0MDYyMzA2MiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MDkyZjBlMGUzOTBmMWQyMzgyYzkwOGIwYThhOTBmOTg4NDU4YmE4Y2ZhMTM3NzNmODFmYWE2ZmMwYzkwNmYyIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Voidlings!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a42s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Voidling Minion III\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and slaying Voidlings!",
+    "§7Minions also work when you are",
+    "§7offline!",
+    "",
+    "§7Time Between Actions: §a42s",
+    "§7Max Storage: §e192",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "VOIDLING_GENERATOR_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Voidling_Minion"
+  ],
+  "recipe": {
+    "A1": "NULL_SPHERE:40",
+    "A2": "NULL_SPHERE:40",
+    "A3": "NULL_SPHERE:40",
+    "B1": "NULL_SPHERE:40",
+    "B2": "VOIDLING_GENERATOR_2:1",
+    "B3": "NULL_SPHERE:40",
+    "C1": "NULL_SPHERE:40",
+    "C2": "ENDERMAN_GENERATOR_2:1",
+    "C3": "NULL_SPHERE:40"
+  }
+}

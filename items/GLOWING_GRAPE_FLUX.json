@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dGlowing Grape Power Orb Skin",
+  "nbttag": "{ExtraAttributes:{id:\"GLOWING_GRAPE_FLUX\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7b9338b9-82bf-3066-967c-02aa84d01e82\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NXKOkEb/zZ18VhQkYbCdf92XNLi0leo1y5Dn5RlFCKuIED1tf9kKBKmVApMgEZBZNZRdL/5N3y8/zRBrJLhSC4dcWEJRy+lh1epY57cG30C/gH1WfZAmMxlFV/ONgRCNlAGZtFXW4XiCh4mluZJpNHaeIcND5zmpljK+Pdb9p+UUWa+ptttfVSHgC4vAo9QjG8Y7iwiMxIPCDKLnV3H9XwZCaANSsXN8ZTpeU5TTecuJCKm5hFpCdFzO+Q74lnGSqCQ96o4JlWveFTxYMLrAP0YMI6CESuJvoB4kmGK9EyhbFUkRjrc7BDA4ZZ9qw70jaSFzbDKjcRJgLkjyV71/J2kuHGaNq546kHletSjM0iZiRBqLnm1qWrjQxC+gpMe1IdQcvPUFhWiypd+VYrhwGlRytj1xQpiA2smzogPLvX99eNNQ9qSHONig9j/oMR7IEy5awh1DXA7mYHMwgw22GtBQXFh4AEpPQxjAQEBs/6Y8o77bxJViZDpvspqGdYV7t5nlCacmBvwUI8wn8ihNEZkDqkN7dYld12R9D9EmEKVh6/tqH2xKI7IuVdRBnES9SXQefHwd4r5b/j0Z/oAncB4MiYrYxlzIabBRAMYjuBeP+AERxt3SXO8XyoKFHlo5I/p/1XkygYgLZwrPDvuQCyl0sSqVl8WC0w2OzxZE5e8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3ODM2OTc2ODE0OSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ0YzM1OWY2ZjI4YzVmYTZjNWEwOWQ4YzU3ZmE0MTc0ZGE0ZThhZTExMGU1ZjJjZDdlOTNmMmU3NjE3NmNkNSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §aRadiant\",7:\"§aPower Orb§7, §9Mana Flux Power Orb§7,\",8:\"§5Overflux Power Orb§7, and §6Plasmaflux\",9:\"§6Power Orb§7.\",10:\"\",11:\"§aThis skin is animated!\",12:\"\",13:\"§d§lMYTHIC COSMETIC\"],Name:\"§dGlowing Grape Power Orb Skin\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Item skins give your gear a fresh",
+    "§7new look! Apply them just like an",
+    "§7enchant book using the anvil.",
+    "",
+    "§7This skin can be applied to §aRadiant",
+    "§aPower Orb§7, §9Mana Flux Power Orb§7,",
+    "§5Overflux Power Orb§7, and §6Plasmaflux",
+    "§6Power Orb§7.",
+    "",
+    "§aThis skin is animated!",
+    "",
+    "§d§lMYTHIC COSMETIC"
+  ],
+  "internalname": "GLOWING_GRAPE_FLUX",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Glowing_Grape_Power_Orb_Skin"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:arrow",
+  "displayname": "§aDeadgehog Spine",
+  "nbttag": "{ExtraAttributes:{id:\"DEADGEHOG_SPINE\"},HideFlags:254,ItemModel:\"minecraft:arrow\",display:{Lore:[0:\"§7Contrary to popular belief,\",1:\"§7Deadgehogs aren't rodents.\",2:\"\",3:\"§7They are in fact mangled wraith\",4:\"§7remnants of warriors who couldn't\",5:\"§7find true love.\",6:\"\",7:\"§eRight-click to view recipes!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aDeadgehog Spine\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Contrary to popular belief,",
+    "§7Deadgehogs aren't rodents.",
+    "",
+    "§7They are in fact mangled wraith",
+    "§7remnants of warriors who couldn't",
+    "§7find true love.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "DEADGEHOG_SPINE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Deadgehog_Spine"
+  ]
+}

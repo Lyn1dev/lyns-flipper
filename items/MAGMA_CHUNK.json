@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aMagma Chunk",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_CHUNK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/magma_chunk\",display:{Lore:[0:\"§7§o\\\"If Magma Cream is the cement, Magma\",1:\"§7§oChunks are the bricks.\\\" - Magma\",2:\"§7§oCube local expert.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aMagma Chunk\"}}",
+  "damage": 0,
+  "lore": [
+    "§7§o\"If Magma Cream is the cement, Magma",
+    "§7§oChunks are the bricks.\" - Magma",
+    "§7§oCube local expert.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "MAGMA_CHUNK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magma_Chunk"
+  ]
+}

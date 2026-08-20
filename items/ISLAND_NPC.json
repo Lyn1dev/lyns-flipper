@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:polar_bear_spawn_egg",
+  "displayname": "§9Island NPC",
+  "nbttag": "{ExtraAttributes:{id:\"ISLAND_NPC\"},HideFlags:254,ItemModel:\"minecraft:wandering_trader_spawn_egg\",display:{Lore:[0:\"§7Spawn island NPCs for your private\",1:\"§7world! Right-Click one to edit its\",2:\"§7settings and add dialogue.\",3:\"\",4:\"§4❣ §cRequires §aSocial Skill 5§c.\",5:\"§9§lRARE\"],Name:\"§9Island NPC\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Spawn island NPCs for your private",
+    "§7world! Right-Click one to edit its",
+    "§7settings and add dialogue.",
+    "",
+    "§4❣ §cRequires §aSocial Skill 5§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "ISLAND_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g90a48941",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Island_NPC"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Refined Mithril",
+  "nbttag": "{ExtraAttributes:{id:\"REFINED_MITHRIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/refined_mithril\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§lEPIC DWARVEN METAL\"],Name:\"§5Refined Mithril\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§5§lEPIC DWARVEN METAL"
+  ],
+  "internalname": "REFINED_MITHRIL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refined_Mithril"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_MITHRIL:160"
+      ],
+      "count": 1,
+      "overrideOutputId": "REFINED_MITHRIL",
+      "duration": 21600
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:lava_bucket",
+  "displayname": "§aMagical Lava Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"MAGICAL_LAVA_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:lava_bucket\",display:{Lore:[0:\"§7This Magical Lava Bucket holds a tiny\",1:\"§7volcano. Easy infinite lava!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aMagical Lava Bucket\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7This Magical Lava Bucket holds a tiny",
+    "§7volcano. Easy infinite lava!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "MAGICAL_LAVA_BUCKET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Netherrack V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magical_Lava_Bucket"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "IRON_INGOT:1",
+    "B2": "ENCHANTED_NETHERRACK:1",
+    "B3": "IRON_INGOT:1",
+    "C1": "",
+    "C2": "IRON_INGOT:1",
+    "C3": ""
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Mad Redstone Engineer (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"MAD_REDSTONE_ENGINEER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0b74989d-228b-210f-9709-a8ab6fa4e0e4\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMzNjM5NGQ3NzRhZGU1OWMyNTYxODQ5NGQwNTE1ZDkwZjJiZDJmMmI0NDcyYmEzYzAzOGQ3NTA5NTNmOWE0MyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYjc0OTg5ZDIyOGIyMTBmOTcwOWE4YWI2ZmE0ZTBlNCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjMxNTkyfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Mad Redstone Engineer (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MAD_REDSTONE_ENGINEER_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mad_Redstone_Engineer"
+  ],
+  "x": -9,
+  "y": 71,
+  "z": -56,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2"
+      ],
+      "result": "REDSTONE_TORCH_ON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4"
+      ],
+      "result": "REDSTONE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:18"
+      ],
+      "result": "DAYLIGHT_DETECTOR"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2"
+      ],
+      "result": "WOOD_PLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4"
+      ],
+      "result": "STONE_PLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "IRON_PLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:16"
+      ],
+      "result": "GOLD_PLATE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2"
+      ],
+      "result": "LEVER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10"
+      ],
+      "result": "REDSTONE_COMPARATOR"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:6"
+      ],
+      "result": "DIODE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:4"
+      ],
+      "result": "TRIPWIRE_HOOK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "TNT"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "HOPPER"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:sponge",
+  "displayname": "§9Enchanted Wet Sponge",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_WET_SPONGE\"},HideFlags:254,ItemModel:\"minecraft:wet_sponge\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Wet Sponge\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_WET_SPONGE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sponge VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Wet_Sponge"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_SPONGE:8",
+    "A3": "",
+    "B1": "ENCHANTED_SPONGE:8",
+    "B2": "ENCHANTED_SPONGE:8",
+    "B3": "ENCHANTED_SPONGE:8",
+    "C1": "",
+    "C2": "ENCHANTED_SPONGE:8",
+    "C3": ""
+  }
+}

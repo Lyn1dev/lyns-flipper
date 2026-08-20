@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:diamond_chestplate",
+  "displayname": "§aDiamond Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+40\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aDiamond Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+40",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON CHESTPLATE"
+  ],
+  "internalname": "DIAMOND_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "",
+    "A3": "DIAMOND:1",
+    "B1": "DIAMOND:1",
+    "B2": "DIAMOND:1",
+    "B3": "DIAMOND:1",
+    "C1": "DIAMOND:1",
+    "C2": "DIAMOND:1",
+    "C3": "DIAMOND:1"
+  },
+  "vanilla": true
+}

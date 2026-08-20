@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:stonebrick",
+  "displayname": "§fChiseled Stone Bricks",
+  "nbttag": "{ExtraAttributes:{id:\"SMOOTH_BRICK-3\"},HideFlags:254,ItemModel:\"minecraft:chiseled_stone_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Stone Bricks\"}}",
+  "damage": 3,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SMOOTH_BRICK-3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "SMOOTH_BRICK",
+  "vanilla": true,
+  "recipe": {
+    "A1": "STEP-5:1",
+    "A2": "",
+    "A3": "",
+    "B1": "STEP-5:1",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

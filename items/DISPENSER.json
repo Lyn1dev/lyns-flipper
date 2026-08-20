@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:dispenser",
+  "displayname": "§fDispenser",
+  "nbttag": "{ExtraAttributes:{id:\"DISPENSER\"},HideFlags:254,ItemModel:\"minecraft:dispenser\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDispenser\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DISPENSER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "COBBLESTONE:1",
+    "A2": "COBBLESTONE:1",
+    "A3": "COBBLESTONE:1",
+    "B1": "COBBLESTONE:1",
+    "B2": "BOW:1",
+    "B3": "COBBLESTONE:1",
+    "C1": "COBBLESTONE:1",
+    "C2": "REDSTONE:1",
+    "C3": "COBBLESTONE:1"
+  }
+}

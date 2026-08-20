@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aRaw Soulflow",
+  "nbttag": "{ExtraAttributes:{id:\"RAW_SOULFLOW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/raw_soulflow\",display:{Lore:[0:\"§7Hold and right-click to consume,\",1:\"§7gaining §3+1⸎ Soulflow§7!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aRaw Soulflow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Hold and right-click to consume,",
+    "§7gaining §3+1⸎ Soulflow§7!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RAW_SOULFLOW",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Raw_Soulflow"
+  ]
+}

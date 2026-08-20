@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:record_far",
+  "displayname": "§aMusic Disc - Far",
+  "nbttag": "{ExtraAttributes:{id:\"RECORD_5\"},HideFlags:254,ItemModel:\"minecraft:music_disc_far\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aMusic Disc - Far\"}}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RECORD_5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

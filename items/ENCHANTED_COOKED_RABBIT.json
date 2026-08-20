@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:cooked_rabbit",
+  "displayname": "§9Enchanted Cooked Rabbit",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COOKED_RABBIT\"},HideFlags:254,ItemModel:\"minecraft:cooked_rabbit\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Rabbit\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_COOKED_RABBIT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Cooked_Rabbit"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_RABBIT:32",
+      "A3": "",
+      "B1": "ENCHANTED_RABBIT:32",
+      "B2": "ENCHANTED_RABBIT:32",
+      "B3": "ENCHANTED_RABBIT:32",
+      "C1": "",
+      "C2": "ENCHANTED_RABBIT:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_COOKED_RABBIT"
+    }
+  ]
+}

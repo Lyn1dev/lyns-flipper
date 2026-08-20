@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:sea_lantern",
+  "displayname": "§fSea Lantern",
+  "nbttag": "{ExtraAttributes:{id:\"SEA_LANTERN\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSea Lantern\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SEA_LANTERN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "PRISMARINE_SHARD:1",
+    "A2": "PRISMARINE_CRYSTALS:1",
+    "A3": "PRISMARINE_SHARD:1",
+    "B1": "PRISMARINE_CRYSTALS:1",
+    "B2": "PRISMARINE_CRYSTALS:1",
+    "B3": "PRISMARINE_CRYSTALS:1",
+    "C1": "PRISMARINE_SHARD:1",
+    "C2": "PRISMARINE_CRYSTALS:1",
+    "C3": "PRISMARINE_SHARD:1"
+  }
+}

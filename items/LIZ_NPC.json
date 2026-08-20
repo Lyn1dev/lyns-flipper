@@ -1,0 +1,51 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Liz (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LIZ_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"66631a60-c88e-2756-8b8d-7ab9b461655c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1NjYyMGU0MGRkYjQ2MTM1NjgxODkwYTA0YTQ0ODhhNzAyMzBhNmNkYmVjM2FmZTMwN2QyZWFiYTU2YTdkZSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2NjYzMWE2MGM4OGUyNzU2OGI4ZDdhYjliNDYxNjU1YyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTIyMjU3fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Liz (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LIZ_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Liz"
+  ],
+  "x": -36,
+  "y": 70,
+  "z": -78,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:20"
+      ],
+      "result": "GOLDEN_BOUNTY:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:50"
+      ],
+      "result": "AVARICIOUS_CHALICE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:3"
+      ],
+      "result": "GOLDEN_FRAGMENT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "STOCK_OF_STONKS:1"
+      ],
+      "result": "FRESHLY_MINTED_COINS:1"
+    }
+  ]
+}

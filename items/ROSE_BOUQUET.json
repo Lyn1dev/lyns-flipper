@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:double_plant",
+  "displayname": "§cRose Bouquet",
+  "nbttag": "{ExtraAttributes:{id:\"ROSE_BOUQUET\"},HideFlags:254,ItemModel:\"minecraft:rose_bush\",display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\"\",4:\"§8§oA hastily-made bouquet consisting of\",5:\"§8§oMarco's finest roses.\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§f§lCOMMON\"],Name:\"§cRose Bouquet\"}}",
+  "damage": 4,
+  "lore": [
+    "§8Quest Item",
+    "",
+    "§7Bring it to §eJuliette §7in §aThe Park§7.",
+    "",
+    "§8§oA hastily-made bouquet consisting of",
+    "§8§oMarco's finest roses.",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§f§lCOMMON"
+  ],
+  "internalname": "ROSE_BOUQUET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rose_Bouquet"
+  ]
+}

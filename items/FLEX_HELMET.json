@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Flex Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"FLEX_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bc8309f9-6693-3a42-81ab-ce1d79d7d16c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"F6MnkB6phfn1v3BAiZWX83iR2SVF9Pmw8FRtKoWMh1Ici1fxYG8K+UfG3NZNFQ4AbrsxFDrWBCrKz8lq84Rx6BdnC+Og88ThpOmzht25evNXbZh438p+WmN/BQx72umY6dolhN3iasZevOBUORHlQHDVv205dm89RW7/FLSTfIT8HKazYsIOH5MV0QPIatR8SfPQdV6iLADGZiX7GGvs/Ozd3PasFi5MsVbrqambcW8L8qrIRF0R0RjFKGmgTrtKT9mf3rMcV5kK5vnPeoBlt47nNlZyVH5gVuw0FPtzU2ZgPVfaFZJq5hQXWQZhs+yWsVNBME6kfCkW0OUc0VBrFJ+QvgRWe4QPTupngopcrLwub5E5hZTS+ddIcejtLtnZ2U8+j0dK/yBQ2rE0j9o8z528buMW8lX6qCqoUpKh9PL2EIse38VBNLYZbqwEzh/OYpm8G4c+rjSkWQjBLsUI2gdWYKq6WeUuQzuG3u0t57aTUo3svd6/5MmHQ63gkEXmFR9UnJxbYEbiHceLz6dNbSjiMp5kdkGuGTVqAPCmq/0lCj9QrbUnGwG20WFQOoAZUV+m2R/L7sOBcFAb6wa9tvcPIdUSarmGK+jeeDyeLj/8KJCXvswa6iqRBN3qcU61dn+e9sjVnJbdjXCC8oefzv7WnbUKWwnLWHSzyIbMgjk=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzU2Njg0MzM1MywKICAicHJvZmlsZUlkIiA6ICJlYjA3ZmQzMmFiOTE0NjRjODVjYmU1YjVhYTlkYTRjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4bUUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQxOGJjZWM0MGZhZWI5ZDhkZGUwZWY0M2QzYThkZTE0NzQzYjU1NGVhNDNiYzM5MjM3YTE3OWJmZmFkZmM3ZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Costs §61,000 Coins §7per second to\",1:\"§7wear.\",2:\"\",3:\"§7Worn: §a0 seconds\",4:\"\",5:\"§eLeft-click to pick animal!\",6:\"\",7:\"§8This item can be reforged!\",8:\"§5§kX§5 Rift-Transferable §r§5§kX\",9:\"§6§lLEGENDARY HELMET\"],Name:\"§6Flex Helmet\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Costs §61,000 Coins §7per second to",
+    "§7wear.",
+    "",
+    "§7Worn: §a0 seconds",
+    "",
+    "§eLeft-click to pick animal!",
+    "",
+    "§8This item can be reforged!",
+    "§5§kX§5 Rift-Transferable §r§5§kX",
+    "§6§lLEGENDARY HELMET"
+  ],
+  "internalname": "FLEX_HELMET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g36d974dd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Flex_Helmet"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:egg",
+  "displayname": "§fEgg",
+  "nbttag": "{ExtraAttributes:{id:\"EGG\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEgg\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "EGG",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

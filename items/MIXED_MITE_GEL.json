@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§dMixed Mite Gel",
+  "nbttag": "{ExtraAttributes:{id:\"MIXED_MITE_GEL\"},HideFlags:254,ItemModel:\"minecraft:orange_dye\",display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eEndermite\",1:\"§ePets §7to §dMythic §7rarity.\",2:\"\",3:\"§8§oPowerful substance combined from\",4:\"§8§othe plasma membrane of many\",5:\"§8§oEndermites.\",6:\"\",7:\"§d§lMYTHIC\"],Name:\"§dMixed Mite Gel\"},ench:[]}",
+  "damage": 14,
+  "lore": [
+    "§7Use at §bKat §7to upgrade §eEndermite",
+    "§ePets §7to §dMythic §7rarity.",
+    "",
+    "§8§oPowerful substance combined from",
+    "§8§othe plasma membrane of many",
+    "§8§oEndermites.",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "MIXED_MITE_GEL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mixed_Mite_Gel"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MITE_GEL:32",
+    "A3": "",
+    "B1": "MITE_GEL:32",
+    "B2": "MITE_GEL:32",
+    "B3": "MITE_GEL:32",
+    "C1": "",
+    "C2": "MITE_GEL:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Clubbed Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"CLUBBED_FOSSIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/clubbed_fossil\",display:{Lore:[0:\"§7A tail ending in a thick club that was\",1:\"§7used to fend off predators.\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Clubbed Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A tail ending in a thick club that was",
+    "§7used to fend off predators.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "CLUBBED_FOSSIL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Clubbed_Fossil"
+  ]
+}

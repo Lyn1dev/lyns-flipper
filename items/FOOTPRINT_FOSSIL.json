@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Footprint Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"FOOTPRINT_FOSSIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/footprint_fossil\",display:{Lore:[0:\"§7The daunting footprint of what was\",1:\"§7once a colossal and bloodthirsty\",2:\"§7predator.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Footprint Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7The daunting footprint of what was",
+    "§7once a colossal and bloodthirsty",
+    "§7predator.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "FOOTPRINT_FOSSIL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Footprint_Fossil"
+  ]
+}

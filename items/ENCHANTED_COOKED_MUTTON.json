@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:cooked_mutton",
+  "displayname": "§9Enchanted Cooked Mutton",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COOKED_MUTTON\"},HideFlags:254,ItemModel:\"minecraft:cooked_mutton\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Mutton\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_COOKED_MUTTON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Mutton VIII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Cooked_Mutton"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_MUTTON:32",
+    "A3": "",
+    "B1": "ENCHANTED_MUTTON:32",
+    "B2": "ENCHANTED_MUTTON:32",
+    "B3": "ENCHANTED_MUTTON:32",
+    "C1": "",
+    "C2": "ENCHANTED_MUTTON:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5 Flawless Amber Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_AMBER_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/amber/flawless_amber_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §6Amber§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6 Mining Speed§7.\",7:\"\",8:\"§5§lEPIC GEMSTONE\"],Name:\"§5 Flawless Amber Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A near perfect version of §6Amber§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§6 Mining Speed§7.",
+    "",
+    "§5§lEPIC GEMSTONE"
+  ],
+  "internalname": "FLAWLESS_AMBER_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone IX",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FINE_AMBER_GEM:16",
+    "A3": "",
+    "B1": "FINE_AMBER_GEM:16",
+    "B2": "FINE_AMBER_GEM:16",
+    "B3": "FINE_AMBER_GEM:16",
+    "C1": "",
+    "C2": "FINE_AMBER_GEM:16",
+    "C3": ""
+  }
+}

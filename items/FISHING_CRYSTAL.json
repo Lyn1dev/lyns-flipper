@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aFishing Crystal",
+  "nbttag": "{ExtraAttributes:{id:\"FISHING_CRYSTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"252ca906-46e2-389f-b9fc-c871660378da\",Properties:{textures:[0:{Name:\"textures\",Signature:\"bQ7L7M2k0ovkOJCzGYk+EdjTGc9gxlvbuLX1c14spcHw+heXcmjNLLgvswDEuBAjbbPdf339NridFsCSuD2Tz3I2PwC8QaabkwSb5/bzskKGMuyxQH5VsNrHzMd3f2zkYwSQ0npV7NZGYiWAnODchYclX6V54QZagdQ50xErG5YuY69+nUWbNMKX+8GmrokVti+lkcpY0AiUlANo7DyVt5C5Vqz023fAJs/vawagbns+W/o1QyFYnQR6qrjzeScMZLT3TcOcsri4wtfVCzSo92Ja4AAgRbBdI3rNoR7IY47NCpmhnJqRdT2dENQmldoD0c4D0c/4SQ0nP4j4ucfWQDu91irDmFrdM9hRY5+auNkOavXgftfUTCwZ7ZZoFmviSv4Rr6DYhHcxLIJoz7D3PUsVI8zFm9gLR7aHvDuMpfK2wRGX0//todjANpJP9YcID6xoUwJqhYy5wxiVQ57VuAvXBxdfXNCwqlUxN0vTekhM8vk7g5vDgWKT6LkaTCkfPsr5GRwwkLkhB2wCferftuFP6OL5afc/4sczs+G2r0aNZql7m30I6mCEETegu1F0sy/ed3KlXo0/xxelcU0j5oW9W4PSTumwEphFz3NZb0qyRyqcZWHPAViuTtrl0gwxo8Seuzvo2cAGnJijNfD+WN2oiu9ehyoytj4mVHgLthw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4Mzc0MywKICAicHJvZmlsZUlkIiA6ICIxN2I5ZDBmOWYxYzE0OTE5ODRkY2Y5ZGM2YzczZDYzYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJuYWJlNDk3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWM0NGE4ZjY4YTAxMzNjOWE5NGJmMjk0NzMzYWIzZmY3YjUwZDczMzUwZGM1OTAyZjBiYmE1YTM4NzZjOWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be placed on your §bPrivate Island§7.\",1:\"\",2:\"§7While placed down, nearby water can\",3:\"§7have Prismarine Shards and\",4:\"§7Crystals fished out of it.\",5:\"\",6:\"§7Effective Radius: §b15\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§aFishing Crystal\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Can be placed on your §bPrivate Island§7.",
+    "",
+    "§7While placed down, nearby water can",
+    "§7have Prismarine Shards and",
+    "§7Crystals fished out of it.",
+    "",
+    "§7Effective Radius: §b15",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "FISHING_CRYSTAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fishing_Crystal"
+  ]
+}

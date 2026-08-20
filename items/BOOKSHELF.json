@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:bookshelf",
+  "displayname": "§fBookshelf",
+  "nbttag": "{ExtraAttributes:{id:\"BOOKSHELF\"},HideFlags:254,ItemModel:\"minecraft:bookshelf\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBookshelf\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "BOOKSHELF",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bookshelf"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD:1",
+    "A2": "WOOD:1",
+    "A3": "WOOD:1",
+    "B1": "BOOK:1",
+    "B2": "BOOK:1",
+    "B3": "BOOK:1",
+    "C1": "WOOD:1",
+    "C2": "WOOD:1",
+    "C3": "WOOD:1"
+  }
+}

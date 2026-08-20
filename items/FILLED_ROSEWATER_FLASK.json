@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Filled Rosewater Flask",
+  "nbttag": "{ExtraAttributes:{id:\"FILLED_ROSEWATER_FLASK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/wild_rose/filled_rosewater_flask\",display:{Lore:[0:\"§7Consume to grow crops within the\",1:\"§aGreenhouse §7by §24 Growth Stages§7.\",2:\"\",3:\"§6Aged Like Fine Wine\",4:\"§7Consuming this grants permanent\",5:\"§6+1 Farming Fortune§7.\",6:\"\",7:\"§7You may consume §a5 §7of these before\",8:\"§7they lose their magical energy.\",9:\"\",10:\"§8Co-op wide 2h cooldown.\",11:\"\",12:\"§6§lLEGENDARY\"],Name:\"§6Filled Rosewater Flask\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume to grow crops within the",
+    "§aGreenhouse §7by §24 Growth Stages§7.",
+    "",
+    "§6Aged Like Fine Wine",
+    "§7Consuming this grants permanent",
+    "§6+1 Farming Fortune§7.",
+    "",
+    "§7You may consume §a5 §7of these before",
+    "§7they lose their magical energy.",
+    "",
+    "§8Co-op wide 2h cooldown.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "FILLED_ROSEWATER_FLASK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Filled_Rosewater_Flask"
+  ]
+}

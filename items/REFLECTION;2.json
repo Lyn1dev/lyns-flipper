@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{reflection:2},id:\"REFLECTION;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Reflection II\",3:\"§7Grants §b+4 Intelligence§7.\",4:\"§7Grants §f+2 True Defense§7.\",5:\"§7When damaged by an arrow, deal §b5x §7your\",6:\"§b✎ Intelligence §7to its shooter.\",7:\"\",8:\"§6Source:\",9:\"§aI-V: §7Rift Mirrorverse\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fChestplate\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cThorns\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Reflection II",
+    "§7Grants §b+4 Intelligence§7.",
+    "§7Grants §f+2 True Defense§7.",
+    "§7When damaged by an arrow, deal §b5x §7your",
+    "§b✎ Intelligence §7to its shooter.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Rift Mirrorverse",
+    "",
+    "§6Applied To:",
+    "§7- §fChestplate",
+    "",
+    "§6Conflicts:",
+    "§7- §cThorns",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "REFLECTION;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Reflection"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§4Citrine Crystal",
+  "nbttag": "{ExtraAttributes:{id:\"CITRINE_CRYSTAL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/crystal/citrine_crystal\",display:{Lore:[0:\"§7Extraordinary crystal found deep in\",1:\"§7the §bGlacite Mineshafts§7.\",2:\"\",3:\"§7Some say that it can be infused with\",4:\"§dgemstones§7, and holds the secrets to\",5:\"§7a §7§otime long past§7.\",6:\"\",7:\"§c§lSPECIAL\"],Name:\"§4Citrine Crystal\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Extraordinary crystal found deep in",
+    "§7the §bGlacite Mineshafts§7.",
+    "",
+    "§7Some say that it can be infused with",
+    "§dgemstones§7, and holds the secrets to",
+    "§7a §7§otime long past§7.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "CITRINE_CRYSTAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Citrine_Crystal"
+  ]
+}

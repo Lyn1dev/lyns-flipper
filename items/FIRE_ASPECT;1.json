@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{fire_aspect:1},id:\"FIRE_ASPECT;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Fire Aspect I\",3:\"§7Ignites your enemies for §a3s§7,\",4:\"§7dealing §a3% §7of your damage\",5:\"§7per second.\",6:\"\",7:\"§6Source:\",8:\"§aI-II: §7Enchantment Table,\",9:\"§7Blaze Rod Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Fire Aspect I",
+    "§7Ignites your enemies for §a3s§7,",
+    "§7dealing §a3% §7of your damage",
+    "§7per second.",
+    "",
+    "§6Source:",
+    "§aI-II: §7Enchantment Table,",
+    "§7Blaze Rod Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "FIRE_ASPECT;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fire_Aspect"
+  ]
+}

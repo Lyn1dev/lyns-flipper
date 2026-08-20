@@ -1,0 +1,66 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Zombie Commander (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_COMMANDER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Leader of the Undead.\",1:\"\",2:\"§c❤ Health§8: §c1,700,000 - 3,500,000\",3:\"§c❤ Health §8(MM) : §c160,000,000 - 250,000,000\"],Name:\"§9Zombie Commander (Monster)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Leader of the Undead.",
+    "",
+    "§c❤ Health§8: §c1,700,000 - 3,500,000",
+    "§c❤ Health §8(MM) : §c160,000,000 - 250,000,000"
+  ],
+  "internalname": "ZOMBIE_COMMANDER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zombie_Commander"
+  ],
+  "recipes": [
+    {
+      "combat_xp": 95,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cZombie Commander",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/zombie_commander.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "ZOMBIE_COMMANDER_HELMET",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_COMMANDER_CHESTPLATE",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_COMMANDER_LEGGINGS",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_COMMANDER_BOOTS",
+          "chance": "1%"
+        },
+        {
+          "id": "ZOMBIE_COMMANDER_WHIP",
+          "chance": "1%"
+        },
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_UNDEAD;1:1",
+          "extra": [
+            "§7 §7- §7Kill Zombie Knight§7, Zombie Soldier§7,",
+            "§7Zombie Commander§7, or Zombie Lord",
+            "§7§7while using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:ghast_tear",
+  "displayname": "§aEnchanted Ghast Tear",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_GHAST_TEAR\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Ghast Tear\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_GHAST_TEAR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ghast Tear IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Ghast_Tear"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "GHAST_TEAR:1",
+    "A3": "",
+    "B1": "GHAST_TEAR:1",
+    "B2": "GHAST_TEAR:1",
+    "B3": "GHAST_TEAR:1",
+    "C1": "",
+    "C2": "GHAST_TEAR:1",
+    "C3": ""
+  }
+}

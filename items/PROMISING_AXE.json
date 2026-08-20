@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:iron_axe",
+  "displayname": "§aPromising Axe",
+  "nbttag": "{ExtraAttributes:{id:\"PROMISING_AXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/promising_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+25\",1:\"\",2:\"§7Gains §9Efficiency I §7after breaking §a50\",3:\"§ablocks§7!\",4:\"\",5:\"§7Blocks Broken: §a0\",6:\"\",7:\"§8This item can be reforged!\",8:\"§a§lUNCOMMON AXE\"],Name:\"§aPromising Axe\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+25",
+    "",
+    "§7Gains §9Efficiency I §7after breaking §a50",
+    "§ablocks§7!",
+    "",
+    "§7Blocks Broken: §a0",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON AXE"
+  ],
+  "internalname": "PROMISING_AXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Promising_Axe"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "IRON_BLOCK:1",
+    "A3": "IRON_BLOCK:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "IRON_BLOCK:1",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:stained_glass",
+  "displayname": "§9Living Metal",
+  "nbttag": "{ExtraAttributes:{id:\"LIVING_METAL\"},HideFlags:254,ItemModel:\"minecraft:blue_stained_glass\",display:{Lore:[0:\"§7It snakes around your blocky hand\",1:\"§7as you hold it.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Living Metal\"}}",
+  "damage": 11,
+  "lore": [
+    "§7It snakes around your blocky hand",
+    "§7as you hold it.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "LIVING_METAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Living_Metal"
+  ]
+}

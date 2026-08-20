@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fZombie Hat",
+  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_HAT\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Defense: §a+10\",1:\"\",2:\"§7Gives §a+10  Defense §7for each\",3:\"§7Zombie within §e8 §7blocks.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§f§lCOMMON HELMET\"],Name:\"§fZombie Hat\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Defense: §a+10",
+    "",
+    "§7Gives §a+10  Defense §7for each",
+    "§7Zombie within §e8 §7blocks.",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON HELMET"
+  ],
+  "internalname": "ZOMBIE_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Rotten Flesh V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Zombie_Hat"
+  ],
+  "recipe": {
+    "A1": "ROTTEN_FLESH:1",
+    "A2": "ROTTEN_FLESH:1",
+    "A3": "ROTTEN_FLESH:1",
+    "B1": "ROTTEN_FLESH:1",
+    "B2": "",
+    "B3": "ROTTEN_FLESH:1",
+    "C1": "ROTTEN_FLESH:1",
+    "C2": "ROTTEN_FLESH:1",
+    "C3": "ROTTEN_FLESH:1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Compacted Wild Rose",
+  "nbttag": "{ExtraAttributes:{id:\"COMPACTED_WILD_ROSE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/wild_rose/compacted_wild_rose\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Compacted Wild Rose\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "COMPACTED_WILD_ROSE",
+  "clickcommand": "",
+  "crafttext": "Requires: Wild Rose III",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Compacted_Wild_Rose"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_WILD_ROSE:32",
+      "A3": "",
+      "B1": "ENCHANTED_WILD_ROSE:32",
+      "B2": "ENCHANTED_WILD_ROSE:32",
+      "B3": "ENCHANTED_WILD_ROSE:32",
+      "C1": "",
+      "C2": "ENCHANTED_WILD_ROSE:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "COMPACTED_WILD_ROSE"
+    }
+  ]
+}

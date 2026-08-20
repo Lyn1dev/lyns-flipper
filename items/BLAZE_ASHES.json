@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aBlaze Ashes",
+  "nbttag": "{ExtraAttributes:{id:\"BLAZE_ASHES\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/blaze_ashes\",display:{Lore:[0:\"§7Blazes are ephemeral creatures,\",1:\"§7constantly consuming themselves.\",2:\"§7Their ashes are said to bring good\",3:\"§7fortune.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aBlaze Ashes\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Blazes are ephemeral creatures,",
+    "§7constantly consuming themselves.",
+    "§7Their ashes are said to bring good",
+    "§7fortune.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "BLAZE_ASHES",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Blaze_Ashes"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:prismarine",
+  "displayname": "§fDark Prismarine",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE-2\"},HideFlags:254,ItemModel:\"minecraft:dark_prismarine\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Prismarine\"}}",
+  "damage": 2,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "PRISMARINE-2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "PRISMARINE",
+  "vanilla": true,
+  "recipe": {
+    "A1": "PRISMARINE_SHARD:1",
+    "A2": "PRISMARINE_SHARD:1",
+    "A3": "PRISMARINE_SHARD:1",
+    "B1": "PRISMARINE_SHARD:1",
+    "B2": "INK_SACK:1",
+    "B3": "PRISMARINE_SHARD:1",
+    "C1": "PRISMARINE_SHARD:1",
+    "C2": "PRISMARINE_SHARD:1",
+    "C3": "PRISMARINE_SHARD:1"
+  }
+}

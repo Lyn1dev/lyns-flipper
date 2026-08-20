@@ -1,0 +1,116 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bartender (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"BARTENDER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ca8177d7-2abd-2ba0-95e9-2d2260d65863\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVkZDhmMTZiMjAyYzQyYjNiNWFkNDU3ZDQzNmNjNjM5OTUyMTA3ZTM2MWFiMWU2MWI5MTY4OWU0MGM3OGJlNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJjYTgxNzdkNzJhYmQyYmEwOTVlOTJkMjI2MGQ2NTg2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTM5ODExfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Bartender (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BARTENDER_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bartender"
+  ],
+  "x": -84,
+  "y": 74,
+  "z": -136,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "CHEAP_COFFEE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "TEPID_GREEN_TEA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000"
+      ],
+      "result": "PULPOUS_ORANGE_JUICE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1200"
+      ],
+      "result": "BITTER_ICE_TEA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1500"
+      ],
+      "result": "KNOCKOFF_COLA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000"
+      ],
+      "result": "DECENT_COFFEE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "REVENANT_VISCERA:64"
+      ],
+      "result": "GENERATOR_UPGRADE_STONE_REVENANT_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000",
+        "TARANTULA_SILK:64"
+      ],
+      "result": "GENERATOR_UPGRADE_STONE_TARANTULA_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "WOLF_FUR_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "SPIDER_EGG_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "ZOMBIE_BRAIN_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "END_PORTAL_FUMES_MIXIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150000"
+      ],
+      "result": "GABAGOEY_MIXIN"
+    }
+  ]
+}

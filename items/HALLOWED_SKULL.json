@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Hallowed Skull",
+  "nbttag": "{ExtraAttributes:{id:\"HALLOWED_SKULL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/hallowed_skull\",display:{Lore:[0:\"§7Incredibly heavy. Put one on each\",1:\"§7side of a stick and you just crafted\",2:\"§7yourself very stylish dumbbells.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Hallowed Skull\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Incredibly heavy. Put one on each",
+    "§7side of a stick and you just crafted",
+    "§7yourself very stylish dumbbells.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "HALLOWED_SKULL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hallowed_Skull"
+  ]
+}

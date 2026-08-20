@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:nether_brick_stairs",
+  "displayname": "§fNether Brick Stairs",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_BRICK_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:nether_brick_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Brick Stairs\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "NETHER_BRICK_STAIRS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g610fbd78",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "NETHER_BRICK:1",
+    "A2": "",
+    "A3": "",
+    "B1": "NETHER_BRICK:1",
+    "B2": "NETHER_BRICK:1",
+    "B3": "",
+    "C1": "NETHER_BRICK:1",
+    "C2": "NETHER_BRICK:1",
+    "C3": "NETHER_BRICK:1",
+    "count": 4
+  }
+}

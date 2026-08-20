@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:chainmail_chestplate",
+  "displayname": "§5Ember Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"EMBER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+65\",1:\"§7Defense: §a+60\",2:\"§7Intelligence: §b+10\",3:\"\",4:\"§6Full Set Bonus: Nether Lord §7(0/4)\",5:\"§7Grants immunity to all damage from\",6:\"§cLava§7 and §cFire§7.\",7:\"§7Walking over §cLava§7 creates §5Obsidian\",8:\"§7under your feet.\",9:\"§8Disabled in some zones and near\",10:\"§8Fishing Hotspots.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires §aCombat Skill 8§c.\",14:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Ember Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+65",
+    "§7Defense: §a+60",
+    "§7Intelligence: §b+10",
+    "",
+    "§6Full Set Bonus: Nether Lord §7(0/4)",
+    "§7Grants immunity to all damage from",
+    "§cLava§7 and §cFire§7.",
+    "§7Walking over §cLava§7 creates §5Obsidian",
+    "§7under your feet.",
+    "§8Disabled in some zones and near",
+    "§8Fishing Hotspots.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 8§c.",
+    "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "EMBER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ember_Chestplate"
+  ],
+  "recipe": {
+    "A1": "EMBER_FRAGMENT:1",
+    "A2": "",
+    "A3": "EMBER_FRAGMENT:1",
+    "B1": "EMBER_FRAGMENT:1",
+    "B2": "EMBER_FRAGMENT:1",
+    "B3": "EMBER_FRAGMENT:1",
+    "C1": "EMBER_FRAGMENT:1",
+    "C2": "EMBER_FRAGMENT:1",
+    "C3": "EMBER_FRAGMENT:1"
+  }
+}

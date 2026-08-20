@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§9Silky Lichen",
+  "nbttag": "{ExtraAttributes:{id:\"SILKY_LICHEN\"},HideFlags:254,ItemModel:\"minecraft:green_dye\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§9§lRARE\"],Name:\"§9Silky Lichen\"}}",
+  "damage": 2,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§9§lRARE"
+  ],
+  "internalname": "SILKY_LICHEN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Silky_Lichen"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "EMERALD:50",
+      "result": "SILKY_LICHEN"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§9Mycelium Dust",
+  "nbttag": "{ExtraAttributes:{id:\"MYCELIUM_DUST\"},HideFlags:254,ItemModel:\"minecraft:pink_dye\",display:{Lore:[0:\"§7Instantly grows crops and saplings\",1:\"§7in a 3x3 square.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Mycelium Dust\"}}",
+  "damage": 9,
+  "lore": [
+    "§7Instantly grows crops and saplings",
+    "§7in a 3x3 square.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "MYCELIUM_DUST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mycelium V",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mycelium_Dust"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SPECTRE_DUST:1",
+    "A3": "",
+    "B1": "BLAZE_ASHES:1",
+    "B2": "ENCHANTED_MYCELIUM:1",
+    "B3": "BLAZE_ASHES:1",
+    "C1": "",
+    "C2": "SPECTRE_DUST:1",
+    "C3": "",
+    "count": 32
+  }
+}

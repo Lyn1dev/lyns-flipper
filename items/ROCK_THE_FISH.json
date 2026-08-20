@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cRock the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"ROCK_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:cod\",display:{Lore:[0:\"§7Don't take me for granite.\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cRock the Fish\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Don't take me for granite.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "ROCK_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rock_the_Fish"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:6",
+      "result": "ROCK_THE_FISH"
+    }
+  ]
+}

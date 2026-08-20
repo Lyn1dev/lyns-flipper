@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Blaze Rod Distillate",
+  "nbttag": "{ExtraAttributes:{id:\"BLAZE_ROD_DISTILLATE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/blaze/minion/fuel/distillate/blaze_rod_distillate\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Blaze Rod Distillate\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BLAZE_ROD_DISTILLATE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Blaze_Rod_Distillate"
+  ]
+}

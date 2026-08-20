@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:cobblestone_wall",
+  "displayname": "§fMossy Cobblestone Wall",
+  "nbttag": "{ExtraAttributes:{id:\"COBBLE_WALL-1\"},HideFlags:254,ItemModel:\"minecraft:mossy_cobblestone_wall\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMossy Cobblestone Wall\"}}",
+  "damage": 1,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "COBBLE_WALL-1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "COBBLE_WALL",
+  "vanilla": true,
+  "recipe": {
+    "A1": "MOSSY_COBBLESTONE:1",
+    "A2": "MOSSY_COBBLESTONE:1",
+    "A3": "MOSSY_COBBLESTONE:1",
+    "B1": "MOSSY_COBBLESTONE:1",
+    "B2": "MOSSY_COBBLESTONE:1",
+    "B3": "MOSSY_COBBLESTONE:1",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 6
+  }
+}

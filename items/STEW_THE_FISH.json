@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cStew the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"STEW_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:cod\",display:{Lore:[0:\"§7The stew was expired.\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cStew the Fish\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7The stew was expired.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "STEW_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Stew_the_Fish"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:fireworks",
+  "displayname": "§5SOS Flare",
+  "nbttag": "{ExtraAttributes:{id:\"SOS_FLARE\"},HideFlags:254,ItemModel:\"minecraft:firework_rocket\",display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Shoot the flare up in the sky for §a3m\",2:\"§7buffing up to §b8 §7players within §a40\",3:\"§7blocks.\",4:\"§8Vitality Cost: §410\",5:\"§8Mana Cost: §b250\",6:\"§8Cooldown: §a10s\",7:\"\",8:\"§5Flare Buff: SOS Flare\",9:\"§5• §7Grants §b+125% §7base mana regen.\",10:\"§5• §7Gain §4+25 Vitality.\",11:\"§5• §7Gain §f+30 True Defense§7.\",12:\"§5• §7Heal §c50❤ §7per second while on the\",13:\"§cCrimson Isle §7and §cKuudra§7.\",14:\"§5• §7Gain §c+10 Ferocity§7.\",15:\"§5• §7Gain §e+5 Attack Speed§7.\",16:\"\",17:\"§8Only one deployable buff applies.\",18:\"\",19:\"§4☠ §cRequires §5Blaze Slayer 7§c.\",20:\"§5§lEPIC DEPLOYABLE\"],Name:\"§5SOS Flare\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§6Ability: Deploy  §e§lRIGHT CLICK",
+    "§7Shoot the flare up in the sky for §a3m",
+    "§7buffing up to §b8 §7players within §a40",
+    "§7blocks.",
+    "§8Vitality Cost: §410",
+    "§8Mana Cost: §b250",
+    "§8Cooldown: §a10s",
+    "",
+    "§5Flare Buff: SOS Flare",
+    "§5• §7Grants §b+125% §7base mana regen.",
+    "§5• §7Gain §4+25 Vitality.",
+    "§5• §7Gain §f+30 True Defense§7.",
+    "§5• §7Heal §c50❤ §7per second while on the",
+    "§cCrimson Isle §7and §cKuudra§7.",
+    "§5• §7Gain §c+10 Ferocity§7.",
+    "§5• §7Gain §e+5 Attack Speed§7.",
+    "",
+    "§8Only one deployable buff applies.",
+    "",
+    "§4☠ §cRequires §5Blaze Slayer 7§c.",
+    "§5§lEPIC DEPLOYABLE"
+  ],
+  "internalname": "SOS_FLARE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Slayer 7",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/SOS_Flare"
+  ],
+  "recipe": {
+    "A1": "INFERNO_VERTEX:8",
+    "A2": "ENCHANTED_SULPHUR:32",
+    "A3": "INFERNO_APEX:1",
+    "B1": "MOLTEN_POWDER:64",
+    "B2": "",
+    "B3": "MOLTEN_POWDER:64",
+    "C1": "WILSON_ENGINEERING_PLANS:1",
+    "C2": "ALERT_FLARE:1",
+    "C3": "INFERNO_VERTEX:8"
+  },
+  "slayer_req": "BLAZE_7"
+}

@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Suspicious Scrap",
+  "nbttag": "{ExtraAttributes:{id:\"SUSPICIOUS_SCRAP\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/suspicious_scrap\",display:{Lore:[0:\"§7Found within the deepest depths of\",1:\"§7the §bGlacite Tunnels§7. Place in the\",2:\"§6Fossil Excavator §7to begin excavating!\",3:\"\",4:\"§8It's pretty heavy... maybe something\",5:\"§8valuable lies within?\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Suspicious Scrap\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Found within the deepest depths of",
+    "§7the §bGlacite Tunnels§7. Place in the",
+    "§6Fossil Excavator §7to begin excavating!",
+    "",
+    "§8It's pretty heavy... maybe something",
+    "§8valuable lies within?",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SUSPICIOUS_SCRAP",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Suspicious_Scrap"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:lapis_block",
+  "displayname": "§9Enchanted Lapis Lazuli Block",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_LAPIS_LAZULI_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Lapis Lazuli Block\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE ORE"
+  ],
+  "internalname": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lapis Lazuli VII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Lapis_Lazuli_Block"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_LAPIS_LAZULI:32",
+    "A3": "",
+    "B1": "ENCHANTED_LAPIS_LAZULI:32",
+    "B2": "ENCHANTED_LAPIS_LAZULI:32",
+    "B3": "ENCHANTED_LAPIS_LAZULI:32",
+    "C1": "",
+    "C2": "ENCHANTED_LAPIS_LAZULI:32",
+    "C3": ""
+  }
+}

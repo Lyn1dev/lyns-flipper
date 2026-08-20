@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:gold_nugget",
+  "displayname": "§eYellow Rock",
+  "nbttag": "{ExtraAttributes:{id:\"YELLOW_ROCK\"},HideFlags:254,ItemModel:\"minecraft:gold_nugget\",display:{Lore:[0:\"§8Quest Item\",1:\" \",2:\"§7Bring it to §eRomero §7in §aThe Park§7.\",3:\" \",4:\"§8§oA little rough around the edges, but\",5:\"§8§obeauty can be found within.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§eYellow Rock\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Quest Item",
+    " ",
+    "§7Bring it to §eRomero §7in §aThe Park§7.",
+    " ",
+    "§8§oA little rough around the edges, but",
+    "§8§obeauty can be found within.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "YELLOW_ROCK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Yellow_Rock"
+  ]
+}

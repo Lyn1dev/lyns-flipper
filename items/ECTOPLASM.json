@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:prismarine_crystals",
+  "displayname": "§9Ectoplasm",
+  "nbttag": "{ExtraAttributes:{id:\"ECTOPLASM\"},HideFlags:254,ItemModel:\"minecraft:prismarine_crystals\",display:{Lore:[0:\"§7Spooky, yet practical.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Ectoplasm\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Spooky, yet practical.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ECTOPLASM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ectoplasm"
+  ]
+}

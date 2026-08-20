@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aArrow Swapper",
+  "nbttag": "{ExtraAttributes:{id:\"ARROW_SWAPPER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/arrow_swapper\",display:{Lore:[0:\"§7Select the arrow type you want to\",1:\"§7take priority in your quiver.\",2:\"\",3:\"§aSelected: §cNone\",4:\"\",5:\"§eLeft-click: Previous arrow\",6:\"§eRight-click: Next arrow\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§aArrow Swapper\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Select the arrow type you want to",
+    "§7take priority in your quiver.",
+    "",
+    "§aSelected: §cNone",
+    "",
+    "§eLeft-click: Previous arrow",
+    "§eRight-click: Next arrow",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ARROW_SWAPPER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Arrow_Swapper"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{rainbow:1},id:\"RAINBOW;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Rainbow I\",3:\"§7Causes sheep to drop a random\",4:\"§7wool colour when sheared.\",5:\"\",6:\"§6Source:\",7:\"§aI: §7Enchantment Table,\",8:\"§7Raw Mutton Collection\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fShears\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Rainbow I",
+    "§7Causes sheep to drop a random",
+    "§7wool colour when sheared.",
+    "",
+    "§6Source:",
+    "§aI: §7Enchantment Table,",
+    "§7Raw Mutton Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fShears",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAINBOW;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rainbow"
+  ]
+}

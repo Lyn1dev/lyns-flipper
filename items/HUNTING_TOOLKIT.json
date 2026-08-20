@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Hunting Toolkit",
+  "nbttag": "{ExtraAttributes:{id:\"HUNTING_TOOLKIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/hunting_toolkit\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Store all of your Hunting Tools in\",3:\"§7one convenient place and swap\",4:\"§7between them with ease.\",5:\"\",6:\"§eRight-click to consume!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Hunting Toolkit\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Consumable",
+    "",
+    "§7Store all of your Hunting Tools in",
+    "§7one convenient place and swap",
+    "§7between them with ease.",
+    "",
+    "§eRight-click to consume!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "HUNTING_TOOLKIT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hunting_Toolkit"
+  ]
+}

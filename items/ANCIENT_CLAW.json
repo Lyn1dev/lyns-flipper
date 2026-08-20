@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:flint",
+  "displayname": "§9Ancient Claw",
+  "nbttag": "{ExtraAttributes:{id:\"ANCIENT_CLAW\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§7The claw of an ancient beast,\",1:\"§7hardened by time and countless\",2:\"§7battles.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Ancient Claw\"}}",
+  "damage": 0,
+  "lore": [
+    "§7The claw of an ancient beast,",
+    "§7hardened by time and countless",
+    "§7battles.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ANCIENT_CLAW",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ancient_Claw"
+  ]
+}

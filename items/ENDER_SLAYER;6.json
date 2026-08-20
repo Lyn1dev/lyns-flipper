@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ender_slayer:6},id:\"ENDER_SLAYER;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Ender Slayer VI\",3:\"§7Increases damage dealt to §5⊙ Ender\",4:\"§7mobs by §a40%§7.\",5:\"\",6:\"§6Source:\",7:\"§aVI: §7Pearl Dealer\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fSword\",11:\"§7- §fFishing Weapon\",12:\"§7- §fLongsword\",13:\"§7- §fGauntlet\",14:\"\",15:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Ender Slayer VI",
+    "§7Increases damage dealt to §5⊙ Ender",
+    "§7mobs by §a40%§7.",
+    "",
+    "§6Source:",
+    "§aVI: §7Pearl Dealer",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENDER_SLAYER;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ender_Slayer"
+  ],
+  "parent": "ENDER_SLAYER;4",
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:50",
+      "result": "ENDER_SLAYER;6"
+    }
+  ]
+}

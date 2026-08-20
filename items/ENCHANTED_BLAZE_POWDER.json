@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:blaze_powder",
+  "displayname": "§aEnchanted Blaze Powder",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BLAZE_POWDER\"},HideFlags:254,ItemModel:\"minecraft:blaze_powder\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Blaze Powder\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_BLAZE_POWDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Blaze Rod IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Blaze_Powder"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "BLAZE_ROD:32",
+    "A3": "",
+    "B1": "BLAZE_ROD:32",
+    "B2": "BLAZE_ROD:32",
+    "B3": "BLAZE_ROD:32",
+    "C1": "",
+    "C2": "BLAZE_ROD:32",
+    "C3": ""
+  }
+}

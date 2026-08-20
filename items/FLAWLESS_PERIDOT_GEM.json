@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5 Flawless Peridot Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_PERIDOT_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/peridot/flawless_peridot_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §2Peridot§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6 Farming Fortune§7; others say it\",7:\"§7might give bonus §fFossil Essence§7.\",8:\"\",9:\"§5§lEPIC GEMSTONE\"],Name:\"§5 Flawless Peridot Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A near perfect version of §2Peridot§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§6 Farming Fortune§7; others say it",
+    "§7might give bonus §fFossil Essence§7.",
+    "",
+    "§5§lEPIC GEMSTONE"
+  ],
+  "internalname": "FLAWLESS_PERIDOT_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FINE_PERIDOT_GEM:16",
+    "A3": "",
+    "B1": "FINE_PERIDOT_GEM:16",
+    "B2": "FINE_PERIDOT_GEM:16",
+    "B3": "FINE_PERIDOT_GEM:16",
+    "C1": "",
+    "C2": "FINE_PERIDOT_GEM:16",
+    "C3": ""
+  }
+}

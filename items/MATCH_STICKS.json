@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Match-Sticks",
+  "nbttag": "{ExtraAttributes:{id:\"MATCH_STICKS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/match_sticks\",display:{Lore:[0:\"§7Consume to light yourself on fire\",1:\"§7for §a10 §7seconds granting you §c+10\",2:\"§cStrength§7.\",3:\"\",4:\"§8§oThe head of Matchos is a combination\",5:\"§8§oof Sulphur and a crystalline\",6:\"§8§osubstance. With even the slightest\",7:\"§8§ofrictions they will light up.\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Match-Sticks\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume to light yourself on fire",
+    "§7for §a10 §7seconds granting you §c+10",
+    "§cStrength§7.",
+    "",
+    "§8§oThe head of Matchos is a combination",
+    "§8§oof Sulphur and a crystalline",
+    "§8§osubstance. With even the slightest",
+    "§8§ofrictions they will light up.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "MATCH_STICKS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sulphur I",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Match-Sticks"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "SULPHUR_ORE:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
+}

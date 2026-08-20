@@ -1,0 +1,18 @@
+{
+  "itemid": "minecraft:quartz",
+  "displayname": "§fNether Quartz",
+  "nbttag": "{ExtraAttributes:{id:\"QUARTZ\"},HideFlags:254,ItemModel:\"minecraft:quartz\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fNether Quartz\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON ORE"
+  ],
+  "internalname": "QUARTZ",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.3.0+mc1.21.5",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

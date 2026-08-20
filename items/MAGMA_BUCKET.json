@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Magma Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_BUCKET\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/magma_bucket\",display:{Lore:[0:\"§7Increases the speed of your minion\",1:\"§7by §a30%§7. Unlimited Duration!\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Magma Bucket\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Increases the speed of your minion",
+    "§7by §a30%§7. Unlimited Duration!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "MAGMA_BUCKET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magma_Bucket"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "ENCHANTED_LAVA_BUCKET:1",
+    "B2": "HEAT_CORE:1",
+    "B3": "ENCHANTED_LAVA_BUCKET:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

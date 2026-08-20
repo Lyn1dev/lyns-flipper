@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:ghast_tear",
+  "displayname": "§5Tiger Shark Tooth",
+  "nbttag": "{ExtraAttributes:{id:\"TIGER_SHARK_TOOTH\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/community_center/mayor/marina/tiger_shark_tooth\",display:{Lore:[0:\"§7Dropped by a Shark during Fishing\",1:\"§7Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Tiger Shark Tooth\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Dropped by a Shark during Fishing",
+    "§7Festival.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "TIGER_SHARK_TOOTH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tiger_Shark_Tooth"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:rabbit_foot",
+  "displayname": "§5Bingo Booster",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_BINGO_BOOSTER\"},HideFlags:254,ItemModel:\"minecraft:rabbit_foot\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many\",3:\"§7powerful ways! A pet can only hold\",4:\"§7one §aPet Item§7, but you can §eswap §7it at\",5:\"§7any time!\",6:\"§8The pet must be visible to apply the item!\",7:\"\",8:\"§7Doubles the efficiency of the\",9:\"§6Lucky Looting §7perk of your\",10:\"§7Bingo Pet.\",11:\"\",12:\"§eRight-click on your summoned pet to\",13:\"§eapply this skin!\",14:\"\",15:\"§5§lEPIC PET ITEM\"],Name:\"§5Bingo Booster\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Consumed on use",
+    "",
+    "§aPet Items §7can boost pets in many",
+    "§7powerful ways! A pet can only hold",
+    "§7one §aPet Item§7, but you can §eswap §7it at",
+    "§7any time!",
+    "§8The pet must be visible to apply the item!",
+    "",
+    "§7Doubles the efficiency of the",
+    "§6Lucky Looting §7perk of your",
+    "§7Bingo Pet.",
+    "",
+    "§eRight-click on your summoned pet to",
+    "§eapply this skin!",
+    "",
+    "§5§lEPIC PET ITEM"
+  ],
+  "internalname": "PET_ITEM_BINGO_BOOSTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bingo_Booster"
+  ]
+}

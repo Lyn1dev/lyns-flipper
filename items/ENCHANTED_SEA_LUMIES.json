@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aEnchanted Sea Lumies",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SEA_LUMIES\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/resources/sea_lumies\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Luminous wonders from the ocean's\",3:\"§7depths, lighting up the watery abyss.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Sea Lumies\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Luminous wonders from the ocean's",
+    "§7depths, lighting up the watery abyss.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SEA_LUMIES",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Sea_Lumies"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "SEA_LUMIES:32",
+      "A3": "",
+      "B1": "SEA_LUMIES:32",
+      "B2": "SEA_LUMIES:32",
+      "B3": "SEA_LUMIES:32",
+      "C1": "",
+      "C2": "SEA_LUMIES:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_SEA_LUMIES"
+    }
+  ]
+}

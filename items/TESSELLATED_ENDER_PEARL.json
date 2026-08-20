@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Tessellated Ender Pearl",
+  "nbttag": "{ExtraAttributes:{id:\"TESSELLATED_ENDER_PEARL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/tessalated_ender_pearl\",display:{Lore:[0:\"§6§lLEGENDARY\"],Name:\"§6Tessellated Ender Pearl\"}}",
+  "damage": 0,
+  "lore": [
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "TESSELLATED_ENDER_PEARL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tessellated_Ender_Pearl"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_LAPIS_LAZULI_BLOCK:8",
+    "A2": "ABSOLUTE_ENDER_PEARL:16",
+    "A3": "ENCHANTED_LAPIS_LAZULI_BLOCK:8",
+    "B1": "ABSOLUTE_ENDER_PEARL:16",
+    "B2": "ABSOLUTE_ENDER_PEARL:16",
+    "B3": "ABSOLUTE_ENDER_PEARL:16",
+    "C1": "ENCHANTED_LAPIS_LAZULI_BLOCK:8",
+    "C2": "ABSOLUTE_ENDER_PEARL:16",
+    "C3": "ENCHANTED_LAPIS_LAZULI_BLOCK:8"
+  }
+}

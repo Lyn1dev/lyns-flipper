@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Baby Skin",
+  "nbttag": "{ExtraAttributes:{id:\"YOUNG_BABY\",originTag:\"FIRE_SALE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"783f3b27-79cc-38f9-a007-342d6cf9e7df\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Rl8WPgLQddShfImUSBSWCf/xYUvb/ZDFgm6xNZJCA30FcuzUZgQWW1Cy9cxy2E0eNRAha+WIMVoFUu15we2ZkjgMqYysDdZWMJJqsBdP9ADLWIAw2k0IRoCs4rlVHZDgLHbVaBuDIWeD0s9r3TcJm0rlIXQlmnO+KoCaLCztl5aCkWXrj2at7As6j70CcEjLCS32+ROUXcMdkvvybuVsOKWeQ3En8ZPMvy6lG+x5D6sYkrTSqgN9qPouLzKmOWpY85MvQKsVnjGnDIPVKv9/eu5CztMdF7g87+EKDvbcpbqoNWBByEOcKm6/T5AHvPI/3d9hSa1C5NmaoBkJtmq58DLSUp5Rq8zofr2B73HL6KNipaQ5qMQT37XPXb8SomEue8TvHz0KrBv1++Wz6DGwzE046Lx+1jaMRG7LX5aVtJ/vEYwwnV/tz/qhB5DO+OQtZO/UkLcWKr/JRIaaZFiT3RHjNk+SGxP67/OINekcW8N1X8BoIa6LAGbn4SiBtlnIK5V8Ml1qWth7EWUvYDyAnU8KrLd9ryby5Ps73nj4a3vJbyA3tvBxUGehntQvACdHByDfIMZ1KMA4w4Vhn5DMofnQZKsQF+9FfPrLvAlqbvBE5Vey18QfSxwuEqqmWzxyEeiYh/zyo+3T/rT4qNzunITxtD/aWg9t/8jaqJFujhU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzNjE4NDUwMDI4MywKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzNTAzZGNhYWU2YTZjZGUwMjczMTZhM2NlNmUyMDNiNjQzMjdiN2RlNzI0NDE4NjVjZmQzY2RiNDVkNWVmNDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §6Young\",7:\"§6Dragon Helmet§7.\",8:\"\",9:\"§5§lEPIC COSMETIC\"],Name:\"§5Baby Skin\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Item skins give your gear a fresh",
+    "§7new look! Apply them just like an",
+    "§7enchant book using the anvil.",
+    "",
+    "§7This skin can be applied to §6Young",
+    "§6Dragon Helmet§7.",
+    "",
+    "§5§lEPIC COSMETIC"
+  ],
+  "internalname": "YOUNG_BABY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Baby_Skin"
+  ]
+}

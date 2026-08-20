@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{cayenne:5},id:\"CAYENNE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Cayenne V\",3:\"§7Grants §c+1 Health §7and §f+0.5 True\",4:\"§fDefense §7per digit in your §6Accessory\",5:\"§6Power§7.\",6:\"\",7:\"§6Source:\",8:\"§aIV-V: §7Chili Pepper Collection\",9:\"\",10:\"§6Applied To:\",11:\"§7 - §fGloves\",12:\"§7 - §fBelt\",13:\"§7 - §fNecklace\",14:\"§7 - §fBracelet\",15:\"§7 - §fCloak\",16:\"\",17:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Cayenne V",
+    "§7Grants §c+1 Health §7and §f+0.5 True",
+    "§fDefense §7per digit in your §6Accessory",
+    "§6Power§7.",
+    "",
+    "§6Source:",
+    "§aIV-V: §7Chili Pepper Collection",
+    "",
+    "§6Applied To:",
+    "§7 - §fGloves",
+    "§7 - §fBelt",
+    "§7 - §fNecklace",
+    "§7 - §fBracelet",
+    "§7 - §fCloak",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CAYENNE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cayenne"
+  ]
+}

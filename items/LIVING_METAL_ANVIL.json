@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:anvil",
+  "displayname": "§9Living Metal Anchor",
+  "nbttag": "{ExtraAttributes:{id:\"LIVING_METAL_ANVIL\"},HideFlags:254,ItemModel:\"minecraft:anvil\",display:{Lore:[0:\"§7This anchor has a life.\",1:\"§7It likes music!\",2:\"§7Its favorite genre?\",3:\"§7Heavy metal.\",4:\"\",5:\"§8Reed needs this item.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Living Metal Anchor\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7This anchor has a life.",
+    "§7It likes music!",
+    "§7Its favorite genre?",
+    "§7Heavy metal.",
+    "",
+    "§8Reed needs this item.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "LIVING_METAL_ANVIL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Living Metal Heart II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Living_Metal_Anchor"
+  ],
+  "recipe": {
+    "A1": "METAL_HEART:3",
+    "A2": "METAL_HEART:3",
+    "A3": "METAL_HEART:3",
+    "B1": "",
+    "B2": "LIVING_METAL:32",
+    "B3": "",
+    "C1": "LIVING_METAL:32",
+    "C2": "LIVING_METAL:32",
+    "C3": "LIVING_METAL:32"
+  }
+}

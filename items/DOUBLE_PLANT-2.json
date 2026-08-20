@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:double_plant",
+  "displayname": "§fDouble Tallgrass",
+  "nbttag": "{ExtraAttributes:{id:\"DOUBLE_PLANT-2\"},HideFlags:254,ItemModel:\"minecraft:tall_grass\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDouble Tallgrass\"}}",
+  "damage": 2,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DOUBLE_PLANT-2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

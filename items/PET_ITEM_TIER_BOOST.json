@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:hopper",
+  "displayname": "§6Tier Boost",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_TIER_BOOST\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many\",3:\"§7powerful ways! A pet can only hold\",4:\"§7one §aPet Item§7, but you can §eswap §7it at\",5:\"§7any time!\",6:\"§8The pet must be visible to apply the item!\",7:\"\",8:\"§7Boosts the §ararity §7of your pet by 1\",9:\"§7tier!\",10:\"\",11:\"§eRight-click on your summoned pet to\",12:\"§egive it this item!\",13:\"\",14:\"§6§lLEGENDARY PET ITEM\"],Name:\"§6Tier Boost\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Consumed on use",
+    "",
+    "§aPet Items §7can boost pets in many",
+    "§7powerful ways! A pet can only hold",
+    "§7one §aPet Item§7, but you can §eswap §7it at",
+    "§7any time!",
+    "§8The pet must be visible to apply the item!",
+    "",
+    "§7Boosts the §ararity §7of your pet by 1",
+    "§7tier!",
+    "",
+    "§eRight-click on your summoned pet to",
+    "§egive it this item!",
+    "",
+    "§6§lLEGENDARY PET ITEM"
+  ],
+  "internalname": "PET_ITEM_TIER_BOOST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tier_Boost"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_IRON_BLOCK:2",
+    "A2": "",
+    "A3": "ENCHANTED_IRON_BLOCK:2",
+    "B1": "ENCHANTED_IRON_BLOCK:2",
+    "B2": "PET_ITEM_TIER_BOOST_DROP:1",
+    "B3": "ENCHANTED_IRON_BLOCK:2",
+    "C1": "",
+    "C2": "ENCHANTED_IRON_BLOCK:2",
+    "C3": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:slime",
+  "displayname": "§cGlobulate Timecharm",
+  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_SLIME\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§7Place this timecharm in the §dRift\",1:\"§dGallery §7to secure it forever!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cGlobulate Timecharm\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Place this timecharm in the §dRift",
+    "§dGallery §7to secure it forever!",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§c§lSPECIAL RIFT TIMECHARM"
+  ],
+  "internalname": "RIFT_TROPHY_SLIME",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Globulate_Timecharm"
+  ],
+  "recipe": {
+    "A1": "BACTE_FRAGMENT:1",
+    "A2": "BACTE_FRAGMENT:1",
+    "A3": "BACTE_FRAGMENT:1",
+    "B1": "BACTE_FRAGMENT:1",
+    "B2": "SHAME_CRUX:20",
+    "B3": "BACTE_FRAGMENT:1",
+    "C1": "BACTE_FRAGMENT:1",
+    "C2": "BACTE_FRAGMENT:1",
+    "C3": "BACTE_FRAGMENT:1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:enchanting_table",
+  "displayname": "§fEnchantment Table",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTMENT_TABLE\"},HideFlags:254,ItemModel:\"minecraft:enchanting_table\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnchantment Table\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "ENCHANTMENT_TABLE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "",
+    "A2": "BOOK:1",
+    "A3": "",
+    "B1": "DIAMOND:1",
+    "B2": "OBSIDIAN:1",
+    "B3": "DIAMOND:1",
+    "C1": "OBSIDIAN:1",
+    "C2": "OBSIDIAN:1",
+    "C3": "OBSIDIAN:1"
+  }
+}

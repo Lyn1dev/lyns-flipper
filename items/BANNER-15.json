@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fWhite Banner",
+  "nbttag": "{ExtraAttributes:{id:\"BANNER-15\"},HideFlags:254,ItemModel:\"minecraft:white_banner\",display:{Lore:[0:\"§8§l* §8Co-op Soulbound §8§l*\",1:\"§f§lCOMMON\"],Name:\"§fWhite Banner\"}}",
+  "damage": 0,
+  "lore": [
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§f§lCOMMON"
+  ],
+  "internalname": "BANNER-15",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga97960bc",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Banner"
+  ],
+  "parent": "BANNER",
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOL:1",
+    "A2": "WOOL:1",
+    "A3": "WOOL:1",
+    "B1": "WOOL:1",
+    "B2": "WOOL:1",
+    "B3": "WOOL:1",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  }
+}

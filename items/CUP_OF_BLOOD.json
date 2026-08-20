@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Cup of Blood",
+  "nbttag": "{ExtraAttributes:{id:\"CUP_OF_BLOOD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/cup_of_blood\",display:{Lore:[0:\"§7§oEww\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Cup of Blood\"}}",
+  "damage": 0,
+  "lore": [
+    "§7§oEww",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "CUP_OF_BLOOD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cup_of_Blood"
+  ]
+}

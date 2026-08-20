@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Webbed Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"WEBBED_FOSSIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/webbed_fossil\",display:{Lore:[0:\"§7The webbed foot of a small, agile\",1:\"§7creature which was a strong swimmer.\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Webbed Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7The webbed foot of a small, agile",
+    "§7creature which was a strong swimmer.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "WEBBED_FOSSIL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Webbed_Fossil"
+  ]
+}

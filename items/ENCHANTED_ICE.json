@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:ice",
+  "displayname": "§aEnchanted Ice",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_ICE\"},HideFlags:254,ItemModel:\"minecraft:ice\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Ice\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON BLOCK"
+  ],
+  "internalname": "ENCHANTED_ICE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Ice"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ICE:32",
+    "A3": "",
+    "B1": "ICE:32",
+    "B2": "ICE:32",
+    "B3": "ICE:32",
+    "C1": "",
+    "C2": "ICE:32",
+    "C3": ""
+  }
+}

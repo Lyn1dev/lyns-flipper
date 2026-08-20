@@ -1,0 +1,63 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Tank Zombie (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"TANK_ZOMBIE_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Hefty zombie.\",1:\"\",2:\"§c❤ Health§8: §c1,500 - 14,000\",3:\"§c❤ Health §8(MM) : §c60,000 - 225,000\"],Name:\"§9Tank Zombie (Monster)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Hefty zombie.",
+    "",
+    "§c❤ Health§8: §c1,500 - 14,000",
+    "§c❤ Health §8(MM) : §c60,000 - 225,000"
+  ],
+  "internalname": "TANK_ZOMBIE_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tank_Zombie"
+  ],
+  "recipes": [
+    {
+      "combat_xp": 60,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cTank Zombie",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/tank_zombie.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "HEAVY_HELMET",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_CHESTPLATE",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_LEGGINGS",
+          "chance": "5%"
+        },
+        {
+          "id": "HEAVY_BOOTS",
+          "chance": "5%"
+        },
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "0.1%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_UNDEAD_RESISTANCE;1:1",
+          "extra": [
+            "§7 §7- §7Kill Super Tank Zombie§7, Crypt Tank",
+            "§7Zombie§7, Master Crypt Tank Zombie§7, or",
+            "§7Master Super Tank Zombie §7while using",
+            "§7§cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

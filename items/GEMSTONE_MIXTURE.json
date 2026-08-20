@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Gemstone Mixture",
+  "nbttag": "{ExtraAttributes:{id:\"GEMSTONE_MIXTURE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/gemstone_mixture\",display:{Lore:[0:\"§7A collection of finely treated\",1:\"§dGemstones §7held together by the\",2:\"§7sturdiest of §asticky §7substances.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Gemstone Mixture\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7A collection of finely treated",
+    "§dGemstones §7held together by the",
+    "§7sturdiest of §asticky §7substances.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "GEMSTONE_MIXTURE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 4",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone_Mixture"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FINE_JADE_GEM:4",
+        "SLUDGE_JUICE:320",
+        "FINE_AMBER_GEM:4",
+        "FINE_SAPPHIRE_GEM:4",
+        "FINE_AMETHYST_GEM:4"
+      ],
+      "count": 1,
+      "overrideOutputId": "GEMSTONE_MIXTURE",
+      "duration": 14400
+    }
+  ]
+}

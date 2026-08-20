@@ -1,0 +1,572 @@
+{
+  "itemid": "minecraft:emerald",
+  "displayname": "§9SkyMart (NPC)",
+  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Browse the wide variety of\",1:\"§7products SkyMart has to offer.\",2:\"§7We are not responsible for any\",3:\"§7injuries, accidents, headaches,\",4:\"§7paper-cuts or sudden outburst of\",5:\"§7tears. SkyMart wishes you happy\",6:\"§7shopping.\"],Name:\"§9SkyMart (NPC)\"},ExtraAttributes:{id:\"SKYMART_NPC\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Browse the wide variety of",
+    "§7products SkyMart has to offer.",
+    "§7We are not responsible for any",
+    "§7injuries, accidents, headaches,",
+    "§7paper-cuts or sudden outburst of",
+    "§7tears. SkyMart wishes you happy",
+    "§7shopping."
+  ],
+  "internalname": "SKYMART_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "x": -6,
+  "y": 73,
+  "z": -25,
+  "island": "garden",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000"
+      ],
+      "result": "BIOFUEL:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000"
+      ],
+      "result": "SAM_SCYTHE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20",
+        "SAM_SCYTHE:1"
+      ],
+      "result": "GARDEN_SCYTHE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20"
+      ],
+      "result": "BUILDERS_RULER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:10"
+      ],
+      "result": "SUNDER;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "DEDICATION;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:1500"
+      ],
+      "result": "GREEN_THUMB;1:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:50"
+      ],
+      "result": "LOTUS_BRACELET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:100"
+      ],
+      "result": "LOTUS_BELT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:200"
+      ],
+      "result": "LOTUS_NECKLACE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:500"
+      ],
+      "result": "LOTUS_CLOAK:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:5"
+      ],
+      "result": "BASIC_GARDENING_HOE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:5"
+      ],
+      "result": "BASIC_GARDENING_AXE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:100"
+      ],
+      "result": "SKYMART_BROCHURE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LOTUS_BRACELET",
+        "SKYBLOCK_COPPER:2500"
+      ],
+      "result": "BLOSSOM_BRACELET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LOTUS_BELT",
+        "SKYBLOCK_COPPER:5000"
+      ],
+      "result": "BLOSSOM_BELT"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LOTUS_NECKLACE",
+        "SKYBLOCK_COPPER:7500"
+      ],
+      "result": "BLOSSOM_NECKLACE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "LOTUS_CLOAK",
+        "SKYBLOCK_COPPER:10000"
+      ],
+      "result": "BLOSSOM_CLOAK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20",
+        "BASIC_GARDENING_HOE:1"
+      ],
+      "result": "ADVANCED_GARDENING_HOE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20",
+        "BASIC_GARDENING_AXE:1"
+      ],
+      "result": "ADVANCED_GARDENING_AXE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:150"
+      ],
+      "result": "LARGE_WALNUT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:5000"
+      ],
+      "result": "COPPER_TALISMAN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:20000",
+        "COPPER_TALISMAN:1"
+      ],
+      "result": "COPPER_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:50000",
+        "COPPER_RING"
+      ],
+      "result": "COPPER_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:300"
+      ],
+      "result": "YELLOW_BANDANA:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:200"
+      ],
+      "result": "SOWLEDGE_GARDEN_CHIP"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:500"
+      ],
+      "result": "CROPSHOT_GARDEN_CHIP"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SUNFLOWER_GENERATOR_11",
+        "COMPACTED_SUNFLOWER:32"
+      ],
+      "result": "SUNFLOWER_GENERATOR_12"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000"
+      ],
+      "result": "HYDRO_CAN_1000"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "HYDRO_CAN_1000",
+        "SKYBLOCK_COPPER:200"
+      ],
+      "result": "HYDRO_CAN_TURBO_2000"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "HYDRO_CAN_TURBO_2000",
+        "SKYBLOCK_COPPER:500"
+      ],
+      "result": "HYDRO_CAN_ULTRA_3000"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "HYDRO_CAN_ULTRA_3000",
+        "SKYBLOCK_COPPER:1000"
+      ],
+      "result": "AQUAMASTER_X"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "AQUAMASTER_X",
+        "IRIDIUM",
+        "SKYBLOCK_COPPER:2500"
+      ],
+      "result": "AQUAMASTER_HYDROMAX"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:50"
+      ],
+      "result": "PLANT_DIAGNOSTICS_TOOL"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_WHEAT_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_CARROT_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_POTATO_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "PUMPKIN_DICER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_CANE_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "MELON_DICER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "CACTUS_KNIFE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "COCO_CHOPPER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "FUNGI_CUTTER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_WARTS_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_SUNFLOWER_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:250"
+      ],
+      "result": "THEORETICAL_HOE_WILD_ROSE_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:500"
+      ],
+      "result": "FARMING_TOOLKIT"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:1000"
+      ],
+      "result": "TRADING_POST_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:2000"
+      ],
+      "result": "AUTUMN_HUT_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:7500"
+      ],
+      "result": "BAMBOO_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:10000"
+      ],
+      "result": "HIVE_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:15000"
+      ],
+      "result": "CASTLE_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:250"
+      ],
+      "result": "CUBE_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:250"
+      ],
+      "result": "COZY_COTTAGE_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:250"
+      ],
+      "result": "WINDMILL_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:250"
+      ],
+      "result": "TAVERN_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:950"
+      ],
+      "result": "MELON_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:950"
+      ],
+      "result": "LUCKY_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:250"
+      ],
+      "result": "COUNTRY_GREENHOUSE_SKIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_GEM:400"
+      ],
+      "result": "MOON_GREENHOUSE_SKIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:3000"
+      ],
+      "result": "ORCHARD_GREENHOUSE_SKIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:5000"
+      ],
+      "result": "BOTANICAL_GREENHOUSE_SKIN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000"
+      ],
+      "result": "PORTABLE_WASHER:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5000.0"
+      ],
+      "result": "SKYMART_VACUUM:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYMART_VACUUM:1.0",
+        "SKYBLOCK_COPPER:200.0"
+      ],
+      "result": "SKYMART_TURBO_VACUUM:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYMART_TURBO_VACUUM:1.0",
+        "SKYBLOCK_COPPER:500.0"
+      ],
+      "result": "SKYMART_HYPER_VACUUM:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYMART_HYPER_VACUUM:1.0",
+        "SKYBLOCK_COPPER:1000.0"
+      ],
+      "result": "INFINI_VACUUM:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "CHIRPING_STEREO:1.0",
+        "INFINI_VACUUM:1.0",
+        "SKYBLOCK_COPPER:2500.0"
+      ],
+      "result": "INFINI_VACUUM_HOOVERIUS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:15.0"
+      ],
+      "result": "PEST_REPELLENT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PEST_REPELLENT:1.0",
+        "SKYBLOCK_COPPER:25.0"
+      ],
+      "result": "PEST_REPELLENT_MAX:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COPPER:25.0"
+      ],
+      "result": "SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SPRAYONATOR:1.0",
+        "JUICY_NOZZLE:1.0",
+        "SKYBLOCK_COPPER:1000.0"
+      ],
+      "result": "JUICY_SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "JUICY_SPRAYONATOR:1.0",
+        "SALTY_NOZZLE:1.0",
+        "SKYBLOCK_COPPER:10000.0"
+      ],
+      "result": "SALTY_SPRAYONATOR:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20000.0"
+      ],
+      "result": "PORTABLE_WASHER:1"
+    }
+  ],
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Skymart"
+  ]
+}

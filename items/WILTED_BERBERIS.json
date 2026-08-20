@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:deadbush",
+  "displayname": "§fWilted Berberis",
+  "nbttag": "{ExtraAttributes:{id:\"WILTED_BERBERIS\"},HideFlags:254,ItemModel:\"minecraft:dead_bush\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7The plant equivalent of an alien\",3:\"§7zombie.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fWilted Berberis\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7The plant equivalent of an alien",
+    "§7zombie.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "WILTED_BERBERIS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wilted_Berberis"
+  ]
+}

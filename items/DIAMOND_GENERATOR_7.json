@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Diamond Minion VII",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_GENERATOR_7\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"92cd2528-8b86-3989-832b-148b5919b1ce\",Properties:{textures:[0:{Name:\"textures\",Signature:\"DaDYuYLyE02MB6glTGceI8GtKXaWzrEUK4WgrnZqzZHluJ+z9k1t/jhrmljRFMIMCwLQ7ARnp8/zn7Qst7uwZUtjd4JgCnTxFIaWUxTpn7ILwHAMtexL49UbPRgcrVyadVE6qFjdIzmCAbwEqikezICl2J8vR+qpzZt9eIBBWXVea9Rj1OU9gY8LkSS8nka/dc5X5/B3Miz6MVfuVKDUx2TlA52T0MZHyGTj9I8cjnhldxJD6VejALFpySiLbipI1MJjOBIEcCZICwB2lyTTrLu4P59F37i2y5ucU91Rp9yA02hRh8/4S2oV8L31qOXqHQR170ciMOp1DJK2Eb037sM19fqLhL237BtcxPMo4rEOacVA22xLnEJuqOTkt07zwE+s0NAoPaPPCqUYW1tAgsf1Od54uwiMFOBzMXE0XO1RLFQVJvVdQsyNK3q6HP/ZlSP13YYGunzis9Xmvs7rVfvVw5vBqz2tuRCjLt+e7teVKJCVV4eFooy8mUKqrmilEPTWgEQtHmX3YuEFicUjBojTx02/tRV3Vb/yWvLI0CT5MNTl4NOf4MzU3VZXX77cQKMCq1Qnh/vfcdHYah6pGHkn2PBC7ILzOMbpi02VDCQw3K5YWKKkT2vXgzYRNjQAtLiuDvtrSWM8Rwj4qzcZe0BdgtaDZ1m3uE1c2xR062k=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzU0MzM1NDEsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMjhkNGNiYTY5MDdjMTA3NDIxZTkwYjkwYzI3NGI1YWM2Y2U5MzdkZWY5ZTI4NTIxYjVlZjgxZjQ2MTQ5MyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining diamond ore!\",2:\"§7Requires an open area to place\",3:\"§7diamond ore. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a22s\",7:\"§7Max Storage: §e576\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Diamond Minion VII\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and mining diamond ore!",
+    "§7Requires an open area to place",
+    "§7diamond ore. Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a22s",
+    "§7Max Storage: §e576",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "DIAMOND_GENERATOR_7",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Diamond I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Diamond_Minion"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_DIAMOND:8",
+    "A2": "ENCHANTED_DIAMOND:8",
+    "A3": "ENCHANTED_DIAMOND:8",
+    "B1": "ENCHANTED_DIAMOND:8",
+    "B2": "DIAMOND_GENERATOR_6:1",
+    "B3": "ENCHANTED_DIAMOND:8",
+    "C1": "ENCHANTED_DIAMOND:8",
+    "C2": "ENCHANTED_DIAMOND:8",
+    "C3": "ENCHANTED_DIAMOND:8"
+  },
+  "useneucraft": true
+}

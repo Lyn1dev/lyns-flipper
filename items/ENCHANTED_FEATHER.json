@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:feather",
+  "displayname": "§aEnchanted Feather",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:feather\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Feather\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_FEATHER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Feather V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Feather"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FEATHER:32",
+    "A3": "",
+    "B1": "FEATHER:32",
+    "B2": "FEATHER:32",
+    "B3": "FEATHER:32",
+    "C1": "",
+    "C2": "FEATHER:32",
+    "C3": ""
+  }
+}

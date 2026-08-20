@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Deformed Revenant (Miniboss)",
+  "nbttag": "{ExtraAttributes:{id:\"DEFORMED_REVENANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Deformed Revenant is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier IV Quests.\",3:\"\",4:\"§c❤ Health§8: §c360,000\"],Name:\"§5Deformed Revenant (Miniboss)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7The Deformed Revenant is a Revenant Horror",
+    "§7Miniboss that very rarely spawns after killing a",
+    "§7Zombie during Revenant Horror Tier IV Quests.",
+    "",
+    "§c❤ Health§8: §c360,000"
+  ],
+  "internalname": "DEFORMED_REVENANT_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Deformed_Revenant"
+  ],
+  "recipes": [
+    {
+      "name": "§cDeformed Revenant",
+      "render": "@neurepo:mobs/deformed_revenant.json",
+      "level": 300,
+      "type": "drops",
+      "panorama": "hub",
+      "drops": [
+        {
+          "id": "REVENANT_FLESH:5",
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

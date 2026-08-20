@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:golden_pickaxe",
+  "displayname": "§5Eon Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"EON_PICKAXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/rift/zones/mountaintop/timite_collection/eon_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Damage: §5+5\",1:\"\",2:\"§7Allows you to break living metal ore,\",3:\"§9Timite§7, and §bYoungite§7.\",4:\"\",5:\"§8This pickaxe is not a particular fan\",6:\"§8of time passing.\",7:\"\",8:\"§5§lEPIC SWORD\"],Name:\"§5Eon Pickaxe\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Rift Damage: §5+5",
+    "",
+    "§7Allows you to break living metal ore,",
+    "§9Timite§7, and §bYoungite§7.",
+    "",
+    "§8This pickaxe is not a particular fan",
+    "§8of time passing.",
+    "",
+    "§5§lEPIC SWORD"
+  ],
+  "internalname": "EON_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Timite I",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Eon_Pickaxe"
+  ],
+  "recipe": {
+    "A1": "YOUNGITE:8",
+    "A2": "ANTI_SENTIENT_PICKAXE:1",
+    "A3": "YOUNGITE:8",
+    "B1": "",
+    "B2": "YOUNGITE:8",
+    "B3": "",
+    "C1": "",
+    "C2": "YOUNGITE:8",
+    "C3": ""
+  }
+}

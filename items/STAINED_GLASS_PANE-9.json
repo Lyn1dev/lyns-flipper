@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:stained_glass_pane",
+  "displayname": "§fCyan Stained Glass Pane",
+  "nbttag": "{ExtraAttributes:{id:\"STAINED_GLASS_PANE-9\"},HideFlags:254,ItemModel:\"minecraft:cyan_stained_glass_pane\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCyan Stained Glass Pane\"}}",
+  "damage": 9,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "STAINED_GLASS_PANE-9",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "STAINED_GLASS-9:1",
+    "A2": "STAINED_GLASS-9:1",
+    "A3": "STAINED_GLASS-9:1",
+    "B1": "STAINED_GLASS-9:1",
+    "B2": "STAINED_GLASS-9:1",
+    "B3": "STAINED_GLASS-9:1",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 16
+  }
+}

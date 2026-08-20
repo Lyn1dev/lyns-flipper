@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:mutton",
+  "displayname": "§aEnchanted Raw Mutton",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MUTTON\"},HideFlags:254,ItemModel:\"minecraft:mutton\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Raw Mutton\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_MUTTON",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Mutton V",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Raw_Mutton"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MUTTON:32",
+    "A3": "",
+    "B1": "MUTTON:32",
+    "B2": "MUTTON:32",
+    "B3": "MUTTON:32",
+    "C1": "",
+    "C2": "MUTTON:32",
+    "C3": ""
+  }
+}

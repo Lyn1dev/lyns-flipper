@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:book",
+  "displayname": "§fBook",
+  "nbttag": "{ExtraAttributes:{id:\"BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBook\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "BOOK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Book"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "PAPER:1",
+    "A2": "PAPER:1",
+    "A3": "PAPER:1",
+    "B1": "LEATHER:1",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

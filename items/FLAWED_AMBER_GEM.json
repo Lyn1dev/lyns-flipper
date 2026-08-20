@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§a Flawed Amber Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FLAWED_AMBER_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/amber/flawed_amber_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A slightly better version of §6Amber§7,\",3:\"§7but it could still use some work.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§6 Mining Speed§7.\",8:\"\",9:\"§a§lUNCOMMON GEMSTONE\"],Name:\"§a Flawed Amber Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A slightly better version of §6Amber§7,",
+    "§7but it could still use some work.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§6 Mining Speed§7.",
+    "",
+    "§a§lUNCOMMON GEMSTONE"
+  ],
+  "internalname": "FLAWED_AMBER_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ROUGH_AMBER_GEM:16",
+    "A3": "",
+    "B1": "ROUGH_AMBER_GEM:16",
+    "B2": "ROUGH_AMBER_GEM:16",
+    "B3": "ROUGH_AMBER_GEM:16",
+    "C1": "",
+    "C2": "ROUGH_AMBER_GEM:16",
+    "C3": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Treasurite",
+  "nbttag": "{ExtraAttributes:{id:\"TREASURITE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/treasurite\",display:{Lore:[0:\"§7Origin unknown.\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Treasurite\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Origin unknown.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "TREASURITE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Treasurite"
+  ]
+}

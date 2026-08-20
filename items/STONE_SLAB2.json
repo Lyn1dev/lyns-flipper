@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:stone_slab2",
+  "displayname": "§fRed Sandstone Slab",
+  "nbttag": "{ExtraAttributes:{id:\"STONE_SLAB2\"},HideFlags:254,ItemModel:\"minecraft:red_sandstone_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Sandstone Slab\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "STONE_SLAB2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "RED_SANDSTONE:1",
+    "A2": "RED_SANDSTONE:1",
+    "A3": "RED_SANDSTONE:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 6
+  }
+}

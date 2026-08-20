@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:dark_oak_door",
+  "displayname": "§fDark Oak Door",
+  "nbttag": "{ExtraAttributes:{id:\"DARK_OAK_DOOR_ITEM\"},HideFlags:254,ItemModel:\"minecraft:dark_oak_door\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Oak Door\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DARK_OAK_DOOR_ITEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD-5:1",
+    "A2": "WOOD-5:1",
+    "A3": "",
+    "B1": "WOOD-5:1",
+    "B2": "WOOD-5:1",
+    "B3": "",
+    "C1": "WOOD-5:1",
+    "C2": "WOOD-5:1",
+    "C3": "",
+    "count": 3
+  }
+}

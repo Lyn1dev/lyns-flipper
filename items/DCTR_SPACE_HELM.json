@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:stained_glass",
+  "displayname": "§cSpace Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"DCTR_SPACE_HELM\"},HideFlags:254,ItemModel:\"minecraft:red_stained_glass\",display:{Lore:[0:\"§7§oA rare space helmet forged from\",1:\"§7§oshards of moon glass.\",2:\"\",3:\"§7To: §c[ADMIN] Dctr§f\",4:\"§7From: §c[ADMIN] Dctr§f\",5:\"\",6:\"§8Edition #1\",7:\"§8December 2020\",8:\"\",9:\"§8This item can be reforged!\",10:\"§c§lSPECIAL HELMET\"],Name:\"§cSpace Helmet\"}}",
+  "damage": 14,
+  "lore": [
+    "§7§oA rare space helmet forged from",
+    "§7§oshards of moon glass.",
+    "",
+    "§7To: §c[ADMIN] Dctr§f",
+    "§7From: §c[ADMIN] Dctr§f",
+    "",
+    "§8Edition #1",
+    "§8December 2020",
+    "",
+    "§8This item can be reforged!",
+    "§c§lSPECIAL HELMET"
+  ],
+  "internalname": "DCTR_SPACE_HELM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.0+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Space_Helmet"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Rabbit Minion XII",
+  "nbttag": "{ExtraAttributes:{id:\"RABBIT_GENERATOR_12\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5644b2a5-836f-31bd-8a26-ce90f1531010\",Properties:{textures:[0:{Name:\"textures\",Signature:\"HrTLhmw+A8onfvM7UOzm4yPgRzgapp5ZYwa41aRB+9oN6k5voHkpjQli5e+3MWv/adnUxeA1tMr30fTvYb0CoPPU7TtZYGs8nsJ3mhZ49aJNfhuWsTxAGKJnVRkaQ7Y6qd8DbiHDQJaeKoAWcfc/cWNaR9Th5FaUiFhGA+1M/AEyQCibuOJ61WaNo8tDI2cV+H0RuX0wgCWQTHweve+OCkgRIqI0G6QYFaLpSkENp98qUccGw+8gfv9UrdOLzts5UYKU5zZDNST3I+DwnUEbiugxzmAmuXUn14u4yqEVO51V9IWQybjMkJ6qDP392MBuEPVKVfWRRM4jWy1N/ChinkMaszHzAH0AADsOU7BwM6+LePFiv5ckGaLZi8YfqeFFeA+i9QWtVaKglzIl8fjt/20uWOn+uhImEYsAYxIObmJaxTgi0VEWUH0nmEVpuP3bmSaaqZOWKnM3kWeETlb2J3PyPHjz+hvtUmy/mFPLsnK2BxJv2oOeUWGK2wjhVcNBoomlI1i2tqthIz+G/uPdnxMQel2veXcX8XuVIquTB5Zrbg63h5cvbO/VE8rM2euCO8jklIeU5mNmPpZVeo/StR9UGcbJEtcsIGPIuxDyW+dnKaPTM7h9IzEW4wTSDfWZGANpqtKNd4VRP4Idc7ObxuhSc7V6xR+KJXgmDT1wzuA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQyOTY2Nzc3MCwKICAicHJvZmlsZUlkIiA6ICJhZGE0YmY0MGJkOTc0ZWVlOWI4NTZjMDYzOGI4MTdiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RDb29raWVZWSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NDc5N2U5MjkwNGM2NGUyMzEyNGYxN2RhM2ZjYjMxMmQ0ZGE2NjU0NjEwZjIxZjYxNTI4ZDdhODc1MDM4OTdjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Rabbits!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a10s\",6:\"§7Max Storage: §e960\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Rabbit Minion XII\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and slaying Rabbits!",
+    "§7Minions also work when you are",
+    "§7offline!",
+    "",
+    "§7Time Between Actions: §a10s",
+    "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "RABBIT_GENERATOR_12",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Minion"
+  ]
+}

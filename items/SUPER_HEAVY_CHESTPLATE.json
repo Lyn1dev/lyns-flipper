@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:leather_chestplate",
+  "displayname": "§5Super Heavy Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"SUPER_HEAVY_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d234\",1:\"§7Defense: §a+112\",2:\"§7Speed: §f-10\",3:\"\",4:\"§7Each piece of this armor reduces\",5:\"§7the cooldown of §9Seismic Wave §7by §a1s§7.\",6:\"\",7:\"§6Full Set Bonus: Vindicate §7(0/4)\",8:\"§7Grants §f+1 walk speed §7for every §a50\",9:\"§7defense that you have.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires Catacombs Skill 15.\",13:\"§5§lEPIC DUNGEON CHESTPLATE\"],Name:\"§5Super Heavy Chestplate\",color:5923940}}",
+  "damage": 0,
+  "lore": [
+    "§7Gear Score: §d234",
+    "§7Defense: §a+112",
+    "§7Speed: §f-10",
+    "",
+    "§7Each piece of this armor reduces",
+    "§7the cooldown of §9Seismic Wave §7by §a1s§7.",
+    "",
+    "§6Full Set Bonus: Vindicate §7(0/4)",
+    "§7Grants §f+1 walk speed §7for every §a50",
+    "§7defense that you have.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires Catacombs Skill 15.",
+    "§5§lEPIC DUNGEON CHESTPLATE"
+  ],
+  "internalname": "SUPER_HEAVY_CHESTPLATE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Super_Heavy_Chestplate"
+  ]
+}

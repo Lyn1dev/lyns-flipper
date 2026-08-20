@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:daylight_detector",
+  "displayname": "§fDaylight Detector",
+  "nbttag": "{ExtraAttributes:{id:\"DAYLIGHT_DETECTOR\"},HideFlags:254,ItemModel:\"minecraft:daylight_detector\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDaylight Detector\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "DAYLIGHT_DETECTOR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "GLASS:1",
+    "A2": "GLASS:1",
+    "A3": "GLASS:1",
+    "B1": "QUARTZ:1",
+    "B2": "QUARTZ:1",
+    "B3": "QUARTZ:1",
+    "C1": "WOOD_STEP:1",
+    "C2": "WOOD_STEP:1",
+    "C3": "WOOD_STEP:1"
+  }
+}

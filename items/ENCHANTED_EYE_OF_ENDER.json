@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:ender_eye",
+  "displayname": "§aEnchanted Eye of Ender",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_EYE_OF_ENDER\"},HideFlags:254,ItemModel:\"minecraft:ender_eye\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Eye of Ender\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_EYE_OF_ENDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ender Pearl VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Eye_of_Ender"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "BLAZE_POWDER:16",
+    "A3": "",
+    "B1": "BLAZE_POWDER:16",
+    "B2": "ENCHANTED_ENDER_PEARL:16",
+    "B3": "BLAZE_POWDER:16",
+    "C1": "",
+    "C2": "BLAZE_POWDER:16",
+    "C3": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:leather_helmet",
+  "displayname": "§fLeather Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"LEATHER_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+5\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON HELMET\"],Name:\"§fLeather Helmet\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+5",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON HELMET"
+  ],
+  "internalname": "LEATHER_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "LEATHER:1",
+    "A2": "LEATHER:1",
+    "A3": "LEATHER:1",
+    "B1": "LEATHER:1",
+    "B2": "",
+    "B3": "LEATHER:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "vanilla": true
+}

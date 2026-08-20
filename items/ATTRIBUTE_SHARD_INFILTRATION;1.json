@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aEarthworm Shard",
+  "nbttag": "{ExtraAttributes:{attributes:{infiltration:1},id:\"ATTRIBUTE_SHARD_INFILTRATION;1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5bef72fa-93bb-3e97-8dbe-6595ee7c64b4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"RkT2jSuCt98JeTc+Kb/khhOFnx0siJlTmLHWpvPaP3XiOBf98+Zj+gHKYiVXiaHmw032DH/KNud29JD07tPeXs9AGqjwVSBv2yRRXfyLf343dvGT7sHv3hMASoFXye4oh63oOpxRqjfWwqqAjT54syEyOmEix04GnSQsCKUY+UdIxP8onMzwlwVTI4H+e18TEcWGuELRkmpSEHOtWz0yKhsiQj5WeorQYfmtfmFbmiF5VQLOuyqXU7NMbCuL2Z7tQbwjahcoGKzrK1YoaxgPIImUK1w4DjAr7M7o6t3GL7E0g5ycEPGK4H1+dyOp1PMCPcoh+KP6fcHvXLLHN0xTHI+ieuC+XmZxFU4j5LlrzRRhtG0pfG8iI8XWbk5afQvHaaNBF6sHViMx8e2By7Q4E6e8Hyysb2ijpl3P+2oilJrP8a0tsD6FZ59C7IMEnirItjIOOVCeM67i1DC9kq2xFjJIB5240M8/i5Qp8YQwzLTZ4qmHFbBrwThuYPMKjwd5G9KbOMIDOQ3z7kV8hHejorcGDrxhX+4oGhH9q4Ox2/2nA2c4z6wIU/vSSdncxmAlz9HdPLtDkTQ0XoUmLT1kl7oIu6pCQeMibvi0ZieXxRTxie+Kihf4em5onnfzGRDxZgB7KBcpBQZyCrvXM1K/X8ng8gG78FWKypAHAC/lAk0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ3MDQ1OTc0NywKICAicHJvZmlsZUlkIiA6ICIyNTBlNzc5MjZkNDM0ZDIyYWM2MTQ4N2EyY2M3YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5hMTIxMDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwM2JhNDAyN2EzMzNkOGQyZmQzMmFiNTlkMWNmZGJhYTdkOTA4ZDgwZDIzODFkYjJhNjljYmU2NTQ1MGFkOCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Infiltration I\",1:\"§7Grants §6+3  Farming Fortune§7 if\",2:\"§7your Garden Plot currently has a §2\",3:\"§2Pest §7in it.\",4:\"\",5:\"§7You can Syphon this shard from\",6:\"§7your §aHunting Box§7.\",7:\"\",8:\"§eRight-click to send to Hunting Box!\",9:\"§eShift Right-click to move all!\",10:\"\",11:\"§4❣ §cRequires §aHunting Skill 5§c.\",12:\"§a§lUNCOMMON FOREST SHARD §8(ID U40)\"],Name:\"§aEarthworm Shard\"}}",
+  "damage": 3,
+  "lore": [
+    "§6Infiltration I",
+    "§7Grants §6+3  Farming Fortune§7 if",
+    "§7your Garden Plot currently has a §2",
+    "§2Pest §7in it.",
+    "",
+    "§7You can Syphon this shard from",
+    "§7your §aHunting Box§7.",
+    "",
+    "§eRight-click to send to Hunting Box!",
+    "§eShift Right-click to move all!",
+    "",
+    "§4❣ §cRequires §aHunting Skill 5§c.",
+    "§a§lUNCOMMON FOREST SHARD §8(ID U40)"
+  ],
+  "internalname": "ATTRIBUTE_SHARD_INFILTRATION;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Earthworm_Shard"
+  ]
+}

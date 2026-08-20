@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:bone",
+  "displayname": "§9Weak Wolf Catalyst",
+  "nbttag": "{ExtraAttributes:{id:\"WEAK_WOLF_CATALYST\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/weak_wolf_catalyst\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Weak Wolf Catalyst\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "WEAK_WOLF_CATALYST",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Weak_Wolf_Catalyst"
+  ]
+}

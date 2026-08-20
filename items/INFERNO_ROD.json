@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:fishing_rod",
+  "displayname": "§5Inferno Rod",
+  "nbttag": "{ExtraAttributes:{id:\"INFERNO_ROD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/rod/inferno_rod\",Unbreakable:1B,display:{Lore:[0:\"§8Lava Rod\",1:\"\",2:\"§7Damage: §c+200\",3:\"§7Strength: §c+200\",4:\"§7Fishing Speed: §b+50\",5:\"§7Sea Creature Chance: §3+10%\",6:\"§7Trophy Chance: §6+20%\",7:\"§7Gemstones: §8[]\",8:\"\",9:\"§9ථ Hook §8§lNONE\",10:\"§9ꨃ Line §8§lNONE\",11:\"§9࿉ Sinker §8§lNONE\",12:\"\",13:\"§7Talk to §2Roddy §7in the §2Backwater\",14:\"§2Bayou §7to apply parts to this rod.\",15:\"\",16:\"§8This item can be reforged!\",17:\"§4❣ §cRequires §aFishing Skill 30§c.\",18:\"§5§lEPIC FISHING ROD\"],Name:\"§5Inferno Rod\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Lava Rod",
+    "",
+    "§7Damage: §c+200",
+    "§7Strength: §c+200",
+    "§7Fishing Speed: §b+50",
+    "§7Sea Creature Chance: §3+10%",
+    "§7Trophy Chance: §6+20%",
+    "§7Gemstones: §8[]",
+    "",
+    "§9ථ Hook §8§lNONE",
+    "§9ꨃ Line §8§lNONE",
+    "§9࿉ Sinker §8§lNONE",
+    "",
+    "§7Talk to §2Roddy §7in the §2Backwater",
+    "§2Bayou §7to apply parts to this rod.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 30§c.",
+    "§5§lEPIC FISHING ROD"
+  ],
+  "internalname": "INFERNO_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magmafish VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Inferno_Rod"
+  ],
+  "recipe": {
+    "A1": "MAGMA_FISH_GOLD:2",
+    "A2": "MAGMA_FISH_GOLD:2",
+    "A3": "MAGMA_FISH_GOLD:2",
+    "B1": "MAGMA_FISH_GOLD:2",
+    "B2": "MAGMA_ROD:1",
+    "B3": "MAGMA_FISH_GOLD:2",
+    "C1": "MAGMA_FISH_GOLD:2",
+    "C2": "MAGMA_FISH_GOLD:2",
+    "C3": "MAGMA_FISH_GOLD:2"
+  }
+}

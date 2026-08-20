@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Enchanted Umber",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_UMBER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/umber/umber\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE DWARVEN METAL\"],Name:\"§9Enchanted Umber\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE DWARVEN METAL"
+  ],
+  "internalname": "ENCHANTED_UMBER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Umber II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Umber"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "UMBER:32",
+    "A3": "",
+    "B1": "UMBER:32",
+    "B2": "UMBER:32",
+    "B3": "UMBER:32",
+    "C1": "",
+    "C2": "UMBER:32",
+    "C3": ""
+  }
+}

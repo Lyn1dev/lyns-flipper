@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6 Perfect Peridot Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_PERIDOT_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/peridot/perfect_peridot_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §2refined Peridot§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6 Farming Fortune§7; others say it\",7:\"§7might give bonus §fFossil Essence§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6 Perfect Peridot Gemstone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A perfectly §2refined Peridot§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§6 Farming Fortune§7; others say it",
+    "§7might give bonus §fFossil Essence§7.",
+    "",
+    "§6§lLEGENDARY GEMSTONE"
+  ],
+  "internalname": "PERFECT_PERIDOT_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "PERIDOT_CRYSTAL:1.0",
+        "FLAWLESS_PERIDOT_GEM:5.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "PERFECT_PERIDOT_GEM",
+      "duration": 72000
+    }
+  ]
+}

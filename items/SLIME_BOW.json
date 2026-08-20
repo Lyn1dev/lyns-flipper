@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:bow",
+  "displayname": "§5Slime Bow",
+  "nbttag": "{ExtraAttributes:{id:\"SLIME_BOW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/slime_bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Crit Damage: §9+50%\",2:\"\",3:\"§6Ability: Arrow Infusion  §e§lON SHOOT\",4:\"§7Will consume §aSlimeballs§7 in your\",5:\"§eInventory§7 or §aQuiver§7 to deal §a5x\",6:\"§7damage to §9Magma Cubes §7and §9Slimes§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC BOW\"],Name:\"§5Slime Bow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+100",
+    "§7Crit Damage: §9+50%",
+    "",
+    "§6Ability: Arrow Infusion  §e§lON SHOOT",
+    "§7Will consume §aSlimeballs§7 in your",
+    "§eInventory§7 or §aQuiver§7 to deal §a5x",
+    "§7damage to §9Magma Cubes §7and §9Slimes§7.",
+    "",
+    "§8This item can be reforged!",
+    "§5§lEPIC BOW"
+  ],
+  "internalname": "SLIME_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Slimeball IX",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Slime_Bow"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_SLIME_BLOCK:5",
+    "A3": "ENCHANTED_STRING:1",
+    "B1": "ENCHANTED_SLIME_BLOCK:5",
+    "B2": "",
+    "B3": "ENCHANTED_STRING:1",
+    "C1": "",
+    "C2": "ENCHANTED_SLIME_BLOCK:5",
+    "C3": "ENCHANTED_STRING:1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:sapling",
+  "displayname": "§9Soul Esoward",
+  "nbttag": "{ExtraAttributes:{id:\"SOUL_ESOWARD\"},HideFlags:254,ItemModel:\"minecraft:birch_sapling\",display:{Lore:[0:\"§6Ability: Soulward  §e§lRIGHT CLICK\",1:\"§7Become §9invulnerable§7 for §a5s§7, but can't deal\",2:\"§7damage.\",3:\"§7Halves your damage for §a2s §7afterwards.\",4:\"§8Soulflow Cost: §310\",5:\"§8Mana Cost: §b350\",6:\"§8Cooldown: §a20s\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Soul Esoward\"},ench:[]}",
+  "damage": 2,
+  "lore": [
+    "§6Ability: Soulward  §e§lRIGHT CLICK",
+    "§7Become §9invulnerable§7 for §a5s§7, but can't deal",
+    "§7damage.",
+    "§7Halves your damage for §a2s §7afterwards.",
+    "§8Soulflow Cost: §310",
+    "§8Mana Cost: §b350",
+    "§8Cooldown: §a20s",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SOUL_ESOWARD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Soul_Esoward"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_BIRCH_LOG:18",
+    "A2": "SUMMONING_EYE:1",
+    "A3": "NULL_OVOID:4",
+    "B1": "NULL_OVOID:6",
+    "B2": "ENCHANTED_BIRCH_LOG:14",
+    "B3": "ENCHANTED_BIRCH_LOG:5",
+    "C1": "NULL_OVOID:1",
+    "C2": "ENCHANTED_BIRCH_LOG:11",
+    "C3": "NULL_OVOID:2"
+  },
+  "slayer_req": "EMAN_3"
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{quantum:4},id:\"QUANTUM;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Quantum IV\",3:\"§7Grants §4+2 Vitality §7on weekdays and\",4:\"§3+1.6☯ §7of a random §3Wisdom §7stat on\",5:\"§7weekends.\",6:\"\",7:\"§6Source:\",8:\"§aIII: §7Riftwalker Bloodfiend\",9:\"§aIII-V: §7Bazaar\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fNecklace\",13:\"\",14:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Quantum IV",
+    "§7Grants §4+2 Vitality §7on weekdays and",
+    "§3+1.6☯ §7of a random §3Wisdom §7stat on",
+    "§7weekends.",
+    "",
+    "§6Source:",
+    "§aIII: §7Riftwalker Bloodfiend",
+    "§aIII-V: §7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fNecklace",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "QUANTUM;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Quantum"
+  ]
+}

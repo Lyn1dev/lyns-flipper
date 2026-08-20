@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:leather_leggings",
+  "displayname": "§9Chicken Leggs",
+  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_LEGGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+35s\",1:\"\",2:\"§8Sometimes you pretend to be a\",3:\"§8dolphin, sometimes a chicken. Cluck\",4:\"§8cluck!\",5:\"\",6:\"§9§lRARE LEGGINGS\"],Name:\"§9Chicken Leggs\",color:16773632}}",
+  "damage": 0,
+  "lore": [
+    "§7Rift Time: §a+35s",
+    "",
+    "§8Sometimes you pretend to be a",
+    "§8dolphin, sometimes a chicken. Cluck",
+    "§8cluck!",
+    "",
+    "§9§lRARE LEGGINGS"
+  ],
+  "internalname": "CHICKEN_LEGGS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Chicken_Leggs"
+  ],
+  "recipe": {
+    "A1": "VOLT_CRUX:8",
+    "A2": "WYLD_LEGGINGS:1",
+    "A3": "VOLT_CRUX:8",
+    "B1": "METAPHORIC_EGG:8",
+    "B2": "",
+    "B3": "METAPHORIC_EGG:8",
+    "C1": "METAPHORIC_EGG:8",
+    "C2": "",
+    "C3": "METAPHORIC_EGG:8"
+  }
+}

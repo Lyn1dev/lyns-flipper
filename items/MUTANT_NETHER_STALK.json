@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Mutant Nether Wart",
+  "nbttag": "{ExtraAttributes:{id:\"MUTANT_NETHER_STALK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/mutant_nether_wart\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Mutant Nether Wart\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "MUTANT_NETHER_STALK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Wart XI",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mutant_Nether_Wart"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_NETHER_STALK:32",
+    "A3": "",
+    "B1": "ENCHANTED_NETHER_STALK:32",
+    "B2": "ENCHANTED_NETHER_STALK:32",
+    "B3": "ENCHANTED_NETHER_STALK:32",
+    "C1": "",
+    "C2": "ENCHANTED_NETHER_STALK:32",
+    "C3": ""
+  }
+}

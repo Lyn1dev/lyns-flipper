@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Tarantula Minion I",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_GENERATOR_1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8d4174b2-6075-3e94-86b5-b9e6b4869531\",Properties:{textures:[0:{Name:\"textures\",Signature:\"nlKSYncwm0agM/5iIoq9rM3vmBx7+IViYHNhri4hkYWvQgXJrRqaBTjQz0HlDVCUrV2JwdHT3sJZWUS/PaETo+X/hLhXEIdiaKVOejoclH5Mn6FuYLbvNu3bkir1t8yJShW0QAAGGFs5O7zQ4zIsZpg1HYJbMBIe6qZLG4pexz2sQQlwyN2gSd9CpsUm882sh4tNKHgxNXqnwBx7eCxEWcq4iQzje2QBG0C9YTo5Uztleuf5oieI2LWTha4cuNkdeG9fPkXQkL+oQ4vxwD8yoTyPiTGMQq9MpjCsKzSSf7vClQrHO9mL6AaAacwk8ZA4jbPqXgTWN6AB6iJKK8CbEmYf4oC+Hjul39bqEzouNOzN0LFKztV/7dp1JTAOt/mdMnhPSo4nLoddsGU4u3N9dahZvSoqJ7SnuMV4MiKYYYSamVc5cVgEnquvaL7CHubWJ03LLPYgYVnnzuYYdP/nlcgwXnaEFTmrz8vpiWOTmmSl20ZwjDwDi9rX1BNap+a9uMDPYx0cDo3OzoWCbs7y/oLX9rw3HtCTx2tT/Q9z/KAkRpAmjuhzdlP4eeEQrrxW+ROnfn6ee9BLkZcTi/n07JYTXo7pP8ULOuvyUy2BuuIALDEJwPj6xgi6GGb/RdfOMUHahKg5A4lPSBMTVMzUliAirIrAY+rBPJr66hGh+J8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQzNzYwMDUxMywKICAicHJvZmlsZUlkIiA6ICIxOWY1YzkwMWEzMjQ0YzVmYTM4NThjZGVhNDk5ZWMwYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzb2RpdW16aXAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlODYwMDcwNjRjOWNlMjZlYjRiYWQ4YWM5YWEzMGFhYzMwOWU3MGE5ZTBiNjE1OTM2MzE4ZGVhNDBhNzIxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and squashing\",2:\"§7Tarantulas! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a29s\",6:\"§7Max Storage: §e64\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Tarantula Minion I\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and squashing",
+    "§7Tarantulas! Minions also work when",
+    "§7you are offline!",
+    "",
+    "§7Time Between Actions: §a29s",
+    "§7Max Storage: §e64",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "TARANTULA_GENERATOR_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tarantula_Minion"
+  ],
+  "recipe": {
+    "A1": "TARANTULA_WEB:10",
+    "A2": "TARANTULA_WEB:10",
+    "A3": "TARANTULA_WEB:10",
+    "B1": "TARANTULA_WEB:10",
+    "B2": "ENCHANTED_FERMENTED_SPIDER_EYE:1",
+    "B3": "TARANTULA_WEB:10",
+    "C1": "TARANTULA_WEB:10",
+    "C2": "TARANTULA_WEB:10",
+    "C3": "TARANTULA_WEB:10"
+  },
+  "slayer_req": "SPIDER_5",
+  "useneucraft": true
+}

@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Amber Power Scroll",
+  "nbttag": "{ExtraAttributes:{id:\"AMBER_POWER_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:writable_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Gain §6+30 Mining Speed §7for §a5s §7when using\",3:\"§7your §e§lRIGHT CLICK §6Item Ability§7.\",4:\"\",5:\"§7Can be combined with any §bitem §7with a §e§lRIGHT\",6:\"§e§lCLICK §6Item Ability §7at an anvil.\",7:\"\",8:\"§5§lEPIC\"],Name:\"§6Amber Power Scroll\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Gain §6+30 Mining Speed §7for §a5s §7when using",
+    "§7your §e§lRIGHT CLICK §6Item Ability§7.",
+    "",
+    "§7Can be combined with any §bitem §7with a §e§lRIGHT",
+    "§e§lCLICK §6Item Ability §7at an anvil.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "AMBER_POWER_SCROLL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Amber_Power_Scroll"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "ENCHANTED_PAPER:16",
+    "B3": "ENCHANTED_PAPER:16",
+    "C1": "",
+    "C2": "ENCHANTED_PAPER:16",
+    "C3": "FINE_AMBER_GEM:16"
+  }
+}

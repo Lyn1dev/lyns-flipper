@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6 Perfect Sapphire Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_SAPPHIRE_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/sapphire/perfect_sapphire_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §brefined Sapphire§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§b Intelligence§7.\",7:\"\",8:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6 Perfect Sapphire Gemstone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A perfectly §brefined Sapphire§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§b Intelligence§7.",
+    "",
+    "§6§lLEGENDARY GEMSTONE"
+  ],
+  "internalname": "PERFECT_SAPPHIRE_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_SAPPHIRE_GEM:5",
+        "SAPPHIRE_CRYSTAL:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_SAPPHIRE_GEM",
+      "duration": 72000
+    }
+  ]
+}

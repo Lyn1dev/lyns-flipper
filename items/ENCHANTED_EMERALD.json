@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:emerald",
+  "displayname": "§aEnchanted Emerald",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_EMERALD\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Emerald\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON ORE"
+  ],
+  "internalname": "ENCHANTED_EMERALD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Emerald IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Emerald"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "EMERALD:32",
+      "A3": "",
+      "B1": "EMERALD:32",
+      "B2": "EMERALD:32",
+      "B3": "EMERALD:32",
+      "C1": "",
+      "C2": "EMERALD:32",
+      "C3": "",
+      "count": 1
+    },
+    {
+      "type": "crafting",
+      "A1": "",
+      "A2": "EMERALD_BLOCK:32",
+      "A3": "",
+      "B1": "EMERALD_BLOCK:32",
+      "B2": "EMERALD_BLOCK:32",
+      "B3": "EMERALD_BLOCK:32",
+      "C1": "",
+      "C2": "EMERALD_BLOCK:32",
+      "C3": "",
+      "count": 9
+    }
+  ]
+}

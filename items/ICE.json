@@ -1,0 +1,18 @@
+{
+  "itemid": "minecraft:ice",
+  "displayname": "§fIce",
+  "nbttag": "{ExtraAttributes:{id:\"ICE\"},HideFlags:254,ItemModel:\"minecraft:ice\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON BLOCK\"],Name:\"§fIce\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON BLOCK"
+  ],
+  "internalname": "ICE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

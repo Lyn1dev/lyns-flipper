@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:carpet",
+  "displayname": "§aNullified Metal",
+  "nbttag": "{ExtraAttributes:{id:\"NULLIFIED_METAL\"},HideFlags:254,ItemModel:\"minecraft:blue_carpet\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aNullified Metal\"}}",
+  "damage": 11,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "NULLIFIED_METAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Nullified_Metal"
+  ]
+}

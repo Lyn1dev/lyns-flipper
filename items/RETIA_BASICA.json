@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fSmall Huntrap",
+  "nbttag": "{ExtraAttributes:{id:\"RETIA_BASICA\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/traps/small_huntrap\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§6Ability: Retentio  §e§lRIGHT CLICK\",3:\"§cTraps §7can be placed near the spawn\",4:\"§7location of a §9Shard §7creature, with\",5:\"§7time it will eventually catch it.\",6:\"\",7:\"§8§oFundamentum artis venandi.\",8:\"\",9:\"§f§lCOMMON TRAP\"],Name:\"§fSmall Huntrap\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Hunting Tool",
+    "",
+    "§6Ability: Retentio  §e§lRIGHT CLICK",
+    "§cTraps §7can be placed near the spawn",
+    "§7location of a §9Shard §7creature, with",
+    "§7time it will eventually catch it.",
+    "",
+    "§8§oFundamentum artis venandi.",
+    "",
+    "§f§lCOMMON TRAP"
+  ],
+  "internalname": "RETIA_BASICA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Small_Huntrap"
+  ],
+  "recipes": [
+    {
+      "A1": "TENDER_WOOD:1",
+      "A2": "ENCHANTED_FIG_LOG:1",
+      "A3": "TENDER_WOOD:1",
+      "B1": "ENCHANTED_FIG_LOG:1",
+      "B2": "",
+      "B3": "ENCHANTED_FIG_LOG:1",
+      "C1": "TENDER_WOOD:1",
+      "C2": "ENCHANTED_FIG_LOG:1",
+      "C3": "TENDER_WOOD:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "RETIA_BASICA"
+    }
+  ]
+}

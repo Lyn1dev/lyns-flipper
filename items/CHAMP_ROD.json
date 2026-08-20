@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:fishing_rod",
+  "displayname": "§9Rod of Champions",
+  "nbttag": "{ExtraAttributes:{id:\"CHAMP_ROD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/rod/rod_of_champions\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"§7Fishing Speed: §b+50\",3:\"§7Sea Creature Chance: §3+4%\",4:\"§7Gemstones: §8[]\",5:\"\",6:\"§9ථ Hook §8§lNONE\",7:\"§9ꨃ Line §8§lNONE\",8:\"§9࿉ Sinker §8§lNONE\",9:\"\",10:\"§7Talk to §2Roddy §7in the §2Backwater\",11:\"§2Bayou §7to apply parts to this rod.\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aFishing Skill 15§c.\",15:\"§9§lRARE FISHING ROD\"],Name:\"§9Rod of Champions\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+100",
+    "§7Strength: §c+100",
+    "§7Fishing Speed: §b+50",
+    "§7Sea Creature Chance: §3+4%",
+    "§7Gemstones: §8[]",
+    "",
+    "§9ථ Hook §8§lNONE",
+    "§9ꨃ Line §8§lNONE",
+    "§9࿉ Sinker §8§lNONE",
+    "",
+    "§7Talk to §2Roddy §7in the §2Backwater",
+    "§2Bayou §7to apply parts to this rod.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 15§c.",
+    "§9§lRARE FISHING ROD"
+  ],
+  "internalname": "CHAMP_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lily Pad VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rod_of_Champions"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_WATER_LILY:1",
+    "A2": "ENCHANTED_WATER_LILY:1",
+    "A3": "ENCHANTED_WATER_LILY:1",
+    "B1": "ENCHANTED_WATER_LILY:1",
+    "B2": "CHALLENGE_ROD:1",
+    "B3": "ENCHANTED_WATER_LILY:1",
+    "C1": "ENCHANTED_WATER_LILY:1",
+    "C2": "ENCHANTED_WATER_LILY:1",
+    "C3": "ENCHANTED_WATER_LILY:1"
+  }
+}

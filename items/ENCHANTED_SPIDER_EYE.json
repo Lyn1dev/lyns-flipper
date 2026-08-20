@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:spider_eye",
+  "displayname": "§aEnchanted Spider Eye",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SPIDER_EYE\"},HideFlags:254,ItemModel:\"minecraft:spider_eye\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Spider Eye\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SPIDER_EYE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Eye IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Spider_Eye"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "SPIDER_EYE:32",
+    "A3": "",
+    "B1": "SPIDER_EYE:32",
+    "B2": "SPIDER_EYE:32",
+    "B3": "SPIDER_EYE:32",
+    "C1": "",
+    "C2": "SPIDER_EYE:32",
+    "C3": ""
+  }
+}

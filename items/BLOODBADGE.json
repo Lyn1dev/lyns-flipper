@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§9Bloodbadge",
+  "nbttag": "{ExtraAttributes:{id:\"BLOODBADGE\"},HideFlags:254,ItemModel:\"minecraft:red_dye\",display:{Lore:[0:\"§7You and killing stuff in the rift, name\",1:\"§7a more iconic duo.\",2:\"\",3:\"§4☠ §cRequires §5Vampire Slayer 3§c.\",4:\"§9§lRARE\"],Name:\"§9Bloodbadge\"}}",
+  "damage": 1,
+  "lore": [
+    "§7You and killing stuff in the rift, name",
+    "§7a more iconic duo.",
+    "",
+    "§4☠ §cRequires §5Vampire Slayer 3§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "BLOODBADGE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Vampire Slayer 3",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bloodbadge"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "COVEN_SEAL:16",
+    "A3": "BACTE_FRAGMENT:2",
+    "B1": "COVEN_SEAL:16",
+    "B2": "CRUXMOTION:2",
+    "B3": "COVEN_SEAL:16",
+    "C1": "LEECH_SUPREME_FRAGMENT:2",
+    "C2": "COVEN_SEAL:16",
+    "C3": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Mithril Crystal",
+  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_CRYSTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d9d9d905-b51d-318d-9d63-295d89335087\",Properties:{textures:[0:{Name:\"textures\",Signature:\"G+kWT1WxYNu1qK29qpivW+jEl1RwQaOqx77snlk5zlwU4qE7FC1Wt17xQ530kHojdq+xFEwJu26++bXtSgL4+d7/51LC8QYZJA1Lsl4bWyAzBcYCv40+AXkRUx9eZJd+yFjvaZMXkYg/qQaPPBGSXquoBK4MERLqXrGWpClc0+r+Psk1uCQc6XLqo4Cwelv0AyLxs1u9u4YzPqAs1E/W1BU4RVEqSVlI3KMD5I6E4CWSyb5eO3sxqPYXexoAB3WAPQiL+7LL/BkAwqg9DGLeEecsVy8WOoYS30d7ncle0fkqF7mJG7yMIAaBQQNSTTpYTjR6v1IMmULvy3leyiG9QStjlB+xnGEt2hwI8euno+9SIOqbvsZEIT/B9FWT9fSM1g7TmBjzOTOcZotGO8/k0QlI89pram5vqGD7TH7N3KmgotgcL8+swbubrbod9rvTGAyEF3oC1KtF2N5zJ5EOZ9tcXq8zjDoJthYbMC7Rm0PQLJ+sghOaW/FqGmkkWXSi+2/z+AlHBWeueBi5lpZFd3sEQJF2jHa5h9W73zMOyd4MNVF1FvMSqXbHUW8QRvTPwAlDfPa3QfXCreWcpQXaYQLE8Vu4XNKbCi5rmT+t2BhknyfJ/yQJtSBEO6i+xxTLSSjU6Rt/bY+nPRqQ4VAr24rJqM0VzmTQZo3xGneJVMA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MzgxOSwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZTMzY2M1ZjAyMmQ5Y2I4MDJiN2VlYjA1OTE3YWU3NWY4ZDk5ZmU2MDI0ZmFlMTA4NzQ0NGMxMGFkODYzZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be placed on your §bPrivate Island§7.\",1:\"\",2:\"§7While placed down, §9Mining Minions §7will\",3:\"§7work §a10% §7faster.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Mithril Crystal\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Can be placed on your §bPrivate Island§7.",
+    "",
+    "§7While placed down, §9Mining Minions §7will",
+    "§7work §a10% §7faster.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "MITHRIL_CRYSTAL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mithril_Crystal"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_MITHRIL:2",
+    "A2": "ENCHANTED_MITHRIL:2",
+    "A3": "ENCHANTED_MITHRIL:2",
+    "B1": "ENCHANTED_MITHRIL:2",
+    "B2": "ENCHANTED_QUARTZ:1",
+    "B3": "ENCHANTED_MITHRIL:2",
+    "C1": "ENCHANTED_MITHRIL:2",
+    "C2": "ENCHANTED_MITHRIL:2",
+    "C3": "ENCHANTED_MITHRIL:2"
+  }
+}

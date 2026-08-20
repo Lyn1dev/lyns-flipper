@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:leather_helmet",
+  "displayname": "§9Heavy Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"HEAVY_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d134\",1:\"§7Defense: §a+62\",2:\"§7Speed: §f-5\",3:\"\",4:\"§6Full Set Bonus: Vindicate §7(0/4)\",5:\"§7Grants §f+1 walk speed §7for every §a50\",6:\"§7defense that you have.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires Catacombs Skill 2.\",10:\"§9§lRARE DUNGEON HELMET\"],Name:\"§9Heavy Helmet\",color:16777215}}",
+  "damage": 0,
+  "lore": [
+    "§7Gear Score: §d134",
+    "§7Defense: §a+62",
+    "§7Speed: §f-5",
+    "",
+    "§6Full Set Bonus: Vindicate §7(0/4)",
+    "§7Grants §f+1 walk speed §7for every §a50",
+    "§7defense that you have.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires Catacombs Skill 2.",
+    "§9§lRARE DUNGEON HELMET"
+  ],
+  "internalname": "HEAVY_HELMET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Heavy_Helmet"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aBronze Bowl",
+  "nbttag": "{ExtraAttributes:{id:\"BRONZE_BOWL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/bronze_bowl\",display:{Lore:[0:\"§7A broken old bowl. Maybe you can\",1:\"§7use it to upgrade your §6Ship§7?\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aBronze Bowl\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A broken old bowl. Maybe you can",
+    "§7use it to upgrade your §6Ship§7?",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "BRONZE_BOWL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bronze_Bowl"
+  ]
+}

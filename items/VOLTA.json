@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Volta",
+  "nbttag": "{ExtraAttributes:{id:\"VOLTA\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/volta\",display:{Lore:[0:\"§8Machine Fuel\",1:\"\",2:\"§7Adds §2+10,000 Fuel §7to a refuelable\",3:\"§7machine.\",4:\"\",5:\"§8§oBzzzt\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Volta\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Machine Fuel",
+    "",
+    "§7Adds §2+10,000 Fuel §7to a refuelable",
+    "§7machine.",
+    "",
+    "§8§oBzzzt",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "VOLTA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Volta"
+  ]
+}

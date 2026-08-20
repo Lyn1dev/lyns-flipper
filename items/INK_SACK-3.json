@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§fCocoa Beans",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-3\"},HideFlags:254,ItemModel:\"minecraft:cocoa_beans\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fCocoa Beans\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "INK_SACK-3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "parent": "INK_SACK",
+  "vanilla": true
+}

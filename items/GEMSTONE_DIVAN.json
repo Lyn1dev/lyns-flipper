@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§4Gemstone Divan Helmet Skin",
+  "nbttag": "{ExtraAttributes:{id:\"GEMSTONE_DIVAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ebf70b00-f630-329a-9f38-ef7caa176562\",Properties:{textures:[0:{Name:\"textures\",Signature:\"EI55q3+SGvgbRd3Sr92Z6CL/2YKq/x+h4E/QGKMAyYq4GlJowRCubP6D4ywh+9inD9djj4oBIQnYqW4OhSvmyYfHAk4Cw3QitV+pEKvMmX1XxoouqGemW0oru9jOWlx0j074JQ+VpXVg8EMw+mxbIuuS4qXCLoew4m+gZcuta7qZWfT1LU0mgAZ5nHe1khVmfiY35LW+a+X7fn73M3sM/YwW+tBi7Wx897IgXoO57VqaPAhvdqZsuwrl4a4+hoK+3ly4eqkXV8xH64MnIRd3sh6/ZOr7t+8paRlx3SdCkeZgQMIJXZHiKZzo4/EpXAFZdEdh9ciTOTfFmcGTlwp7Nut4vLnkN9KV/RXD+eDtjIJ0Ls7wO9GI9HSniJ1z07PGaIQ4QCMP31AaDfA05w/XOLLlPNjnxRflQZWZ08DOxXXzSayNxTIYIijS/xQTuzDlmiqPe5+qZOcw/FHjRoqkMPiBhKEmcsFrKpfmD2xYF4EcpIrhUw9Tz8TlATbmhfA8f4+N0ZERWOKzNFADRk+ZSqCt2BZMRMT4+ONmGEWlfiA6RyLq5OpX2LMareFfIPSqS+TIuxwX3nBOxbSirHVeu96KzXkQQ9cEJyViRmdUQZCiEy6HmYLWzO7s68As7vvSOvQcrNnG3vj02K2wkjHMAcWlYzJsAyKdWajU1hZfbsM=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxODMzNTI4NjE3NiwKICAicHJvZmlsZUlkIiA6ICJlMzcxMWU2Y2E0ZmY0NzA4YjY5ZjhiNGZlYzNhZjdhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckJ1cnN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5MTc0NThiYjg0NGE4YjMzMDcxMDIwN2YzMzM1MTljYjIzMTk5N2M2YTc3Mjk5OGZkZjhlZWRhOWIzMmFhNyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §6Helmet of\",7:\"§6Divan§7.\",8:\"\",9:\"§aThis skin will allow you to swap\",10:\"§abetween 12 favorite animated\",11:\"§agemstones!\",12:\"\",13:\"§4§lULTIMATE COSMETIC\"],Name:\"§4Gemstone Divan Helmet Skin\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Item skins give your gear a fresh",
+    "§7new look! Apply them just like an",
+    "§7enchant book using the anvil.",
+    "",
+    "§7This skin can be applied to §6Helmet of",
+    "§6Divan§7.",
+    "",
+    "§aThis skin will allow you to swap",
+    "§abetween 12 favorite animated",
+    "§agemstones!",
+    "",
+    "§4§lULTIMATE COSMETIC"
+  ],
+  "internalname": "GEMSTONE_DIVAN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone_Divan_Helmet_Skin"
+  ]
+}

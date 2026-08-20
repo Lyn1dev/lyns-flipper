@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:filled_map",
+  "displayname": "§fMap",
+  "nbttag": "{ExtraAttributes:{id:\"MAP\"},HideFlags:254,ItemModel:\"minecraft:filled_map\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMap\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "MAP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "PAPER:1",
+    "A2": "PAPER:1",
+    "A3": "PAPER:1",
+    "B1": "PAPER:1",
+    "B2": "COMPASS:1",
+    "B3": "PAPER:1",
+    "C1": "PAPER:1",
+    "C2": "PAPER:1",
+    "C3": "PAPER:1"
+  }
+}

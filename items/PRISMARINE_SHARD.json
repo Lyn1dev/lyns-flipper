@@ -1,0 +1,18 @@
+{
+  "itemid": "minecraft:prismarine_shard",
+  "displayname": "§fPrismarine Shard",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE_SHARD\"},HideFlags:254,ItemModel:\"minecraft:prismarine_shard\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fPrismarine Shard\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "PRISMARINE_SHARD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

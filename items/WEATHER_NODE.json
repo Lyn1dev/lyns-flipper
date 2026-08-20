@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:lapis_block",
+  "displayname": "§aWeather Node",
+  "nbttag": "{ExtraAttributes:{id:\"WEATHER_NODE\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§7Change the weather on your private\",1:\"§7island.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aWeather Node\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Change the weather on your private",
+    "§7island.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "WEATHER_NODE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Prismarine Shard VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Weather_Node"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_REDSTONE:1",
+    "A2": "ENCHANTED_REDSTONE:1",
+    "A3": "ENCHANTED_REDSTONE:1",
+    "B1": "ENCHANTED_REDSTONE:1",
+    "B2": "LAPIS_BLOCK:1",
+    "B3": "ENCHANTED_REDSTONE:1",
+    "C1": "ENCHANTED_REDSTONE:1",
+    "C2": "ENCHANTED_REDSTONE:1",
+    "C3": "ENCHANTED_REDSTONE:1"
+  }
+}

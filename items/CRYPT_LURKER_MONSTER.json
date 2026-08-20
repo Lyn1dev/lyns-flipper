@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Crypt Lurker (Monster)",
+  "nbttag": "{ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Lurking in the shadows\",1:\"\",2:\"§c❤ Health§8: §c12,000 - 420,000\",3:\"§c❤ Health §8(MM) : §c850,000 - 13,000,000\"],Name:\"§9Crypt Lurker (Monster)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7Lurking in the shadows",
+    "",
+    "§c❤ Health§8: §c12,000 - 420,000",
+    "§c❤ Health §8(MM) : §c850,000 - 13,000,000"
+  ],
+  "internalname": "CRYPT_LURKER_MONSTER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Crypt_Lurker"
+  ],
+  "recipes": [
+    {
+      "combat_xp": 40,
+      "coins": 1,
+      "xp": 30,
+      "name": "§cCrypt Dreadlord",
+      "panorama": "dungeon",
+      "render": "@neurepo:mobs/crypt_lurker.json",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "PREMIUM_FLESH",
+          "chance": "0.1%"
+        }
+      ]
+    }
+  ]
+}

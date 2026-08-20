@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{rainbow:2},id:\"RAINBOW;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Rainbow II\",3:\"§7Grants a §a50% §7chance to\",4:\"§7change the color of a sheep when\",5:\"§7shearing it.\",6:\"\",7:\"§6Source:\",8:\"§aII: §7Mollim's Quest\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fShears\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Rainbow II",
+    "§7Grants a §a50% §7chance to",
+    "§7change the color of a sheep when",
+    "§7shearing it.",
+    "",
+    "§6Source:",
+    "§aII: §7Mollim's Quest",
+    "",
+    "§6Applied To:",
+    "§7- §fShears",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAINBOW;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rainbow"
+  ]
+}

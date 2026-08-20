@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Enchanted Tungsten",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_TUNGSTEN\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/tungsten/tungsten\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE DWARVEN METAL\"],Name:\"§9Enchanted Tungsten\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE DWARVEN METAL"
+  ],
+  "internalname": "ENCHANTED_TUNGSTEN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Tungsten II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Tungsten"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "TUNGSTEN:32",
+    "A3": "",
+    "B1": "TUNGSTEN:32",
+    "B2": "TUNGSTEN:32",
+    "B3": "TUNGSTEN:32",
+    "C1": "",
+    "C2": "TUNGSTEN:32",
+    "C3": ""
+  }
+}

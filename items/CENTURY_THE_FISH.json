@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cCentury the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"CENTURY_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:tropical_fish\",display:{Lore:[0:\"§7The term 'century' was actually\",1:\"§7named after him, or so he says.\",2:\"\",3:\"§c§lSPECIAL\"],Name:\"§cCentury the Fish\"}}",
+  "damage": 2,
+  "lore": [
+    "§7The term 'century' was actually",
+    "§7named after him, or so he says.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "CENTURY_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Century_the_Fish"
+  ]
+}

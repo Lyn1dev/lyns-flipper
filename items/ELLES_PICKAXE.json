@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:iron_pickaxe",
+  "displayname": "§cElle's Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"ELLES_PICKAXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/kuudra/elles_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+10\",3:\"§7Mining Speed: §6+250\",4:\"\",5:\"§8This item can be reforged!\",6:\"§c§lSPECIAL PICKAXE\"],Name:\"§cElle's Pickaxe\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Breaking Power 5",
+    "",
+    "§7Damage: §c+10",
+    "§7Mining Speed: §6+250",
+    "",
+    "§8This item can be reforged!",
+    "§c§lSPECIAL PICKAXE"
+  ],
+  "internalname": "ELLES_PICKAXE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": []
+}

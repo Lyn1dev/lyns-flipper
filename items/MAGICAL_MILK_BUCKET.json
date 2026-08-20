@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:milk_bucket",
+  "displayname": "§fMagical Milk Bucket",
+  "nbttag": "{ExtraAttributes:{id:\"MAGICAL_MILK_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:milk_bucket\",display:{Lore:[0:\"§7Where do cows get their medicine?\",1:\"\",2:\"§7At the farmacy!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fMagical Milk Bucket\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Where do cows get their medicine?",
+    "",
+    "§7At the farmacy!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "MAGICAL_MILK_BUCKET",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magical_Milk_Bucket"
+  ]
+}

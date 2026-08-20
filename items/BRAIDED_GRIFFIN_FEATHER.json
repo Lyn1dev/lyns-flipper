@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:string",
+  "displayname": "§5Braided Griffin Feather",
+  "nbttag": "{ExtraAttributes:{id:\"BRAIDED_GRIFFIN_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:string\",display:{Lore:[0:\"§7The exquisite feather of a mythical\",1:\"§7creature. Its woven strands shimmer\",2:\"§7with an inimitable grace and majesty.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Braided Griffin Feather\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7The exquisite feather of a mythical",
+    "§7creature. Its woven strands shimmer",
+    "§7with an inimitable grace and majesty.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "BRAIDED_GRIFFIN_FEATHER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Braided_Griffin_Feather"
+  ],
+  "recipe": {
+    "A1": "GRIFFIN_FEATHER:32",
+    "A2": "SOUL_STRING:64",
+    "A3": "GRIFFIN_FEATHER:32",
+    "B1": "SOUL_STRING:64",
+    "B2": "GRIFFIN_FEATHER:32",
+    "B3": "SOUL_STRING:64",
+    "C1": "GRIFFIN_FEATHER:32",
+    "C2": "SOUL_STRING:64",
+    "C3": "GRIFFIN_FEATHER:32"
+  }
+}

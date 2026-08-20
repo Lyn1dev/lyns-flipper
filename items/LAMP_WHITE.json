@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fWhite Lamp",
+  "nbttag": "{ExtraAttributes:{id:\"LAMP_WHITE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"73affe27-0d79-3e13-b840-137271fc2ea6\",Properties:{textures:[0:{Name:\"textures\",Signature:\"nBUKo1B7zaFnmcJwPDvyp4fXG6tC2btUTeL+rWxTqJsYbiaEg5Lny1s7ibxo+F8UicUgvnZyAiHG+UzMGyqxEobG1wVT0d5dRi7o0I9RksVFOh8P+3Sp/+qI8EP/8OqCvX3TzdNk982cySZHDkmw5LtbvKILr5fPQLo6ZXXfPaw0RYXQoul9snTy2UYlLsnFN2gBPmHmzMZf8IHanxGofO/QS7rfPRNk1X8hSVz+BNkkTQwmgAKuXc8sgAlpYTyE6E3yiAoImrlA+ZinIYk9lz/ssnFsj/beNqqXYItyRE3HPth/79Tkv2IGfuCNU8R6oQ0uBQldODryRVU+qaTf1IGz6BwgFSze0rMUTa6QEK0e2iT9qWtZ+SNW3GHfQBN2qlFUVYlViLKqibF9/7QwVThuqxHa98YgJqY4CINduQJfHLJzmI0TC+DVSdpb7aemveO/XfaA2kugEG+zbTib7OuOO+b5MCb1hBnSzeID5y8mEcKdjcymYlHNLabwJ/TYTXqUyvkwmDiPd1wIDeGkL9lQOYltepaO4XQCpbHWVXqVXbTwMymyALk9GDLaoM7rQmxTmxctMvDkXdteJeG/9cHtR9C4NuT2lBqxuQ1TUip/Tli6gra6iQ5zilmful+XzhrB2U7AwMLPX7eYSOp4S91/tZ3BD03bl6uEPJoZ7rs=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxNzk3NjA4MjgwMiwKICAicHJvZmlsZUlkIiA6ICI5OTdjZjFlMmY1NGQ0YzEyOWY2ZjU5ZTVlNjU1YjZmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbzEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2NDYyOGIwNjEyYWJkZjc2NDdlNzI0YzBkMzNkY2ZmYzcwNjk2ZmVkMjA0NTljZGYwYTUwNGRhZTk0NGI2YjUiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Decorate your island with this\",1:\"§7eco-friendly lamp!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fWhite Lamp\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Decorate your island with this",
+    "§7eco-friendly lamp!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "LAMP_WHITE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/White_Lamp"
+  ]
+}

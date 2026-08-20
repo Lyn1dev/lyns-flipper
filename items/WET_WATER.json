@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aWet Water",
+  "nbttag": "{ExtraAttributes:{id:\"WET_WATER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/wet_water\",display:{Lore:[0:\"§7§oThe wettest kind of water you'll ever\",1:\"§7§ofind.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aWet Water\"}}",
+  "damage": 0,
+  "lore": [
+    "§7§oThe wettest kind of water you'll ever",
+    "§7§ofind.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "WET_WATER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wet_Water"
+  ]
+}

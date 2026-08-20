@@ -1,0 +1,43 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Water Orb",
+  "nbttag": "{ExtraAttributes:{id:\"WATER_ORB\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/bobbin_time/water_orb\",display:{Lore:[0:\"§7A perfectly smooth, highly\",1:\"§7condensed orb of pure fish matter.\",2:\"\",3:\"§7Used as a core ingredient in high\",4:\"§7level fishing crafts.\",5:\"\",6:\"§8Smells like fish...\",7:\"\",8:\"§eRight-click to view recipes!\",9:\"\",10:\"§5§lEPIC\"],Name:\"§5Water Orb\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A perfectly smooth, highly",
+    "§7condensed orb of pure fish matter.",
+    "",
+    "§7Used as a core ingredient in high",
+    "§7level fishing crafts.",
+    "",
+    "§8Smells like fish...",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "WATER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Water_Orb"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_RAW_FISH:16",
+      "A2": "ENCHANTED_SPONGE:8",
+      "A3": "ENCHANTED_RAW_SALMON:16",
+      "B1": "ENCHANTED_PRISMARINE_SHARD:16",
+      "B2": "ENCHANTED_WATER_LILY:16",
+      "B3": "ENCHANTED_PRISMARINE_CRYSTALS:16",
+      "C1": "ENCHANTED_CLAY_BALL:16",
+      "C2": "ENCHANTED_PUFFERFISH:16",
+      "C3": "ENCHANTED_CLOWNFISH:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "WATER_ORB"
+    }
+  ]
+}

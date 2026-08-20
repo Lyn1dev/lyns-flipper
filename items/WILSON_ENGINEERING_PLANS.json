@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Wilson's Engineering Plans",
+  "nbttag": "{ExtraAttributes:{id:\"WILSON_ENGINEERING_PLANS\"},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Drops very rarely from the\",1:\"§7Inferno Demonlord.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Wilson's Engineering Plans\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Drops very rarely from the",
+    "§7Inferno Demonlord.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "WILSON_ENGINEERING_PLANS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wilson%27s_Engineering_Plans"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:experience_bottle",
+  "displayname": "§fExperience Bottle",
+  "nbttag": "{ExtraAttributes:{id:\"EXP_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:experience_bottle\",display:{Lore:[0:\"§7Smash it open to receive experience!\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fExperience Bottle\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Smash it open to receive experience!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "EXP_BOTTLE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Lapis Lazuli II",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Experience_Bottle"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "INK_SACK-4:1",
+    "A3": "",
+    "B1": "INK_SACK-4:1",
+    "B2": "GLASS_BOTTLE:1",
+    "B3": "INK_SACK-4:1",
+    "C1": "INK_SACK-4:1",
+    "C2": "INK_SACK-4:1",
+    "C3": "INK_SACK-4:1"
+  }
+}

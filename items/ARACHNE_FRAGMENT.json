@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Arachne Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"ARACHNE_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/combat_1/arachne_fragment\",display:{Lore:[0:\"§7A fragment imbued with the power of\",1:\"§4Arachne§7.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Arachne Fragment\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A fragment imbued with the power of",
+    "§4Arachne§7.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ARACHNE_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Arachne_Fragment"
+  ]
+}

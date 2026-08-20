@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Pesto Goblin Omelette",
+  "nbttag": "{ExtraAttributes:{id:\"GOBLIN_OMELETTE_PESTO\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/mining_3/forge/omelettes/pesto_goblin_omelette\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Grants a §a75% §7chance to not consume\",3:\"§2Fuel §7when mining.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§oMay cause nausea\",9:\"\",10:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",11:\"§9§lRARE\"],Name:\"§9Pesto Goblin Omelette\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§7Grants a §a75% §7chance to not consume",
+    "§2Fuel §7when mining.",
+    "",
+    "§7Put this item in the §6Upgrade Module",
+    "§7slot of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§7§oMay cause nausea",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "GOBLIN_OMELETTE_PESTO",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pesto_Goblin_Omelette"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_JADE_GEM:1",
+        "GOBLIN_EGG_GREEN:96",
+        "GOBLIN_OMELETTE:1"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOBLIN_OMELETTE_PESTO",
+      "duration": 64800
+    }
+  ]
+}

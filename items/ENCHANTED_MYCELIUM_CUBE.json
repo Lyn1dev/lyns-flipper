@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Enchanted Mycelium Cube",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MYCELIUM_CUBE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/enchanted_mycelium_cube\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE BLOCK\"],Name:\"§9Enchanted Mycelium Cube\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE BLOCK"
+  ],
+  "internalname": "ENCHANTED_MYCELIUM_CUBE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mycelium VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Mycelium_Cube"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_MYCELIUM:32",
+    "A3": "",
+    "B1": "ENCHANTED_MYCELIUM:32",
+    "B2": "ENCHANTED_MYCELIUM:32",
+    "B3": "ENCHANTED_MYCELIUM:32",
+    "C1": "",
+    "C2": "ENCHANTED_MYCELIUM:32",
+    "C3": ""
+  }
+}

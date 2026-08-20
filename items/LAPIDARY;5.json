@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{lapidary:5},id:\"LAPIDARY;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Lapidary V\",3:\"§7Grants §6+50☘ Gemstone Fortune §7and\",4:\"§6+100⸕ Mining Speed §7while mining\",5:\"§7Gemstones.\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Crystal Nucleus,\",9:\"§7Bazaar\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fPickaxe\",13:\"§7- §fDrill\",14:\"§7- §fGauntlet\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Lapidary V",
+    "§7Grants §6+50☘ Gemstone Fortune §7and",
+    "§6+100⸕ Mining Speed §7while mining",
+    "§7Gemstones.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Crystal Nucleus,",
+    "§7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fPickaxe",
+    "§7- §fDrill",
+    "§7- §fGauntlet",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "LAPIDARY;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lapidary"
+  ]
+}

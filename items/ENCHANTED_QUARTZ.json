@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:quartz",
+  "displayname": "§aEnchanted Nether Quartz",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_QUARTZ\"},HideFlags:254,ItemModel:\"minecraft:quartz\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Nether Quartz\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON ORE"
+  ],
+  "internalname": "ENCHANTED_QUARTZ",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Quartz IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Nether_Quartz"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "QUARTZ:32",
+    "A3": "",
+    "B1": "QUARTZ:32",
+    "B2": "QUARTZ:32",
+    "B3": "QUARTZ:32",
+    "C1": "",
+    "C2": "QUARTZ:32",
+    "C3": ""
+  }
+}

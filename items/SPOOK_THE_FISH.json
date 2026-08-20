@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cSpook the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"SPOOK_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§7This fish lurks in the darkness below\",1:\"§7the Main Lobby during the Halloween\",2:\"§7season.\",3:\"\",4:\"§c§lSPECIAL\"],Name:\"§cSpook the Fish\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7This fish lurks in the darkness below",
+    "§7the Main Lobby during the Halloween",
+    "§7season.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "SPOOK_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spook_the_Fish"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cHerring the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"HERRING_THE_FISH\",not_a_hint:\"f(x,y)=x^3+xy^2+y^2, u=(-125)i+(230)j\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§7Sometimes patience is the key\",1:\"§7to victory. Sometimes it leads\",2:\"§7to very little and it seems like\",3:\"§7it's not worth it. And you\",4:\"§7wonder why you waited so long\",5:\"§7for something so disappointing.\",6:\"\",7:\"§8§l* §8Soulbound §8§l*\",8:\"§c§lSPECIAL\"],Name:\"§cHerring the Fish\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§7Sometimes patience is the key",
+    "§7to victory. Sometimes it leads",
+    "§7to very little and it seems like",
+    "§7it's not worth it. And you",
+    "§7wonder why you waited so long",
+    "§7for something so disappointing.",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "HERRING_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Herring_the_Fish"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Compacted Moonflower",
+  "nbttag": "{ExtraAttributes:{id:\"COMPACTED_MOONFLOWER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/moonflower/compacted_moonflower\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Compacted Moonflower\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "COMPACTED_MOONFLOWER",
+  "clickcommand": "",
+  "crafttext": "Requires: Moonflower IV",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Compacted_Moonflower"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_MOONFLOWER:32",
+      "A3": "",
+      "B1": "ENCHANTED_MOONFLOWER:32",
+      "B2": "ENCHANTED_MOONFLOWER:32",
+      "B3": "ENCHANTED_MOONFLOWER:32",
+      "C1": "",
+      "C2": "ENCHANTED_MOONFLOWER:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "COMPACTED_MOONFLOWER"
+    }
+  ]
+}

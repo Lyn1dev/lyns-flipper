@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:book",
+  "displayname": "§5Moby-Duck: Collector's Edition",
+  "nbttag": "{ExtraAttributes:{id:\"MOBY_DUCK_COLLECTOR_EDITION\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§7Consume to gain §3+30☯ Fishing Wisdom\",1:\"§7for §a60m§7!\",2:\"\",3:\"§6Bookworm\",4:\"§7Consuming this grants permanent\",5:\"§3+1☯ Fishing Wisdom§7.\",6:\"\",7:\"§7You may consume §a1 §7of these before\",8:\"§7they lose their magical energy.\",9:\"\",10:\"§8§oA series of tales following a fellow\",11:\"§8§onamed Moby and his waterfowl best\",12:\"§8§ofriend. Who would be so egregious as\",13:\"§8§oto thrust such a literary\",14:\"§8§omasterpiece into the sea?\",15:\"\",16:\"§5§lEPIC\"],Name:\"§5Moby-Duck: Collector's Edition\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Consume to gain §3+30☯ Fishing Wisdom",
+    "§7for §a60m§7!",
+    "",
+    "§6Bookworm",
+    "§7Consuming this grants permanent",
+    "§3+1☯ Fishing Wisdom§7.",
+    "",
+    "§7You may consume §a1 §7of these before",
+    "§7they lose their magical energy.",
+    "",
+    "§8§oA series of tales following a fellow",
+    "§8§onamed Moby and his waterfowl best",
+    "§8§ofriend. Who would be so egregious as",
+    "§8§oto thrust such a literary",
+    "§8§omasterpiece into the sea?",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "MOBY_DUCK_COLLECTOR_EDITION",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Moby-Duck:_Collector%27s_Edition"
+  ]
+}

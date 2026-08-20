@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:polar_bear_spawn_egg",
+  "displayname": "§aDecoy",
+  "nbttag": "{ExtraAttributes:{id:\"DUNGEON_DECOY\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/decoy\",display:{Lore:[0:\"§7Runs around and draws attention\",1:\"§7from nearby mobs, very handy for\",2:\"§7creating a distraction!\",3:\"\",4:\"§cDungeons only!\",5:\"\",6:\"§a§lUNCOMMON DUNGEON ITEM\"],Name:\"§aDecoy\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Runs around and draws attention",
+    "§7from nearby mobs, very handy for",
+    "§7creating a distraction!",
+    "",
+    "§cDungeons only!",
+    "",
+    "§a§lUNCOMMON DUNGEON ITEM"
+  ],
+  "internalname": "DUNGEON_DECOY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Decoy"
+  ]
+}

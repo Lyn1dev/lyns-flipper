@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fSkeleton Hat",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_HAT\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Intelligence: §b+10\",1:\"§7Speed: §f+2\",2:\"\",3:\"§7Your arrows have a §a20% §7chance to\",4:\"§7explode on impact dealing §a50 §7base\",5:\"§7Magic Damage to enemies within §a8\",6:\"§7blocks.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Intelligence: §b+10",
+    "§7Speed: §f+2",
+    "",
+    "§7Your arrows have a §a20% §7chance to",
+    "§7explode on impact dealing §a50 §7base",
+    "§7Magic Damage to enemies within §a8",
+    "§7blocks.",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON HELMET"
+  ],
+  "internalname": "SKELETON_HAT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Bone IV",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Skeleton_Hat"
+  ],
+  "recipe": {
+    "A1": "BONE:1",
+    "A2": "BONE:1",
+    "A3": "BONE:1",
+    "B1": "BONE:1",
+    "B2": "",
+    "B3": "BONE:1",
+    "C1": "BONE:1",
+    "C2": "BONE:1",
+    "C3": "BONE:1"
+  }
+}

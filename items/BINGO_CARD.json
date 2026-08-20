@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§cBingo Card",
+  "nbttag": "{ExtraAttributes:{bingo_event:17,id:\"BINGO_CARD\",player:\"§6Eisengolem\",playtime:925},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Obtained during the §618th Bingo Event\",1:\"§7during §aMay 2023 §7for completing the\",2:\"§7entire Bingo Card!\",3:\"\",4:\"§7Player: §6Eisengolem\",5:\"§7Playtime: §a15h\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§c§lSPECIAL\"],Name:\"§cBingo Card\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Obtained during the §618th Bingo Event",
+    "§7during §aMay 2023 §7for completing the",
+    "§7entire Bingo Card!",
+    "",
+    "§7Player: §6Eisengolem",
+    "§7Playtime: §a15h",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "BINGO_CARD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bingo_Card"
+  ]
+}

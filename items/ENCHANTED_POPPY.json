@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:red_flower",
+  "displayname": "§aEnchanted Poppy",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_POPPY\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§8Machine Fuel\",3:\"\",4:\"§7Adds §2+1,024♢ Fuel §7to a refuelable\",5:\"§7machine.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Poppy\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§8Machine Fuel",
+    "",
+    "§7Adds §2+1,024♢ Fuel §7to a refuelable",
+    "§7machine.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_POPPY",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Poppy"
+  ],
+  "recipe": {
+    "A1": "RED_ROSE:64",
+    "A2": "RED_ROSE:64",
+    "A3": "RED_ROSE:64",
+    "B1": "RED_ROSE:64",
+    "B2": "RED_ROSE:64",
+    "B3": "RED_ROSE:64",
+    "C1": "RED_ROSE:64",
+    "C2": "RED_ROSE:64",
+    "C3": "RED_ROSE:64"
+  }
+}

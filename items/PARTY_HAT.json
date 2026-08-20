@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:leather_helmet",
+  "displayname": "§aParty Top Hat",
+  "nbttag": "{ExtraAttributes:{id:\"PARTY_HAT\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§8Tiered Bonus: Carnival Craze (0/5)\",1:\"§7Gain §a+4% §7more §eCarnival Tokens§7.\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§aParty Top Hat\",color:65280}}",
+  "damage": 0,
+  "lore": [
+    "§8Tiered Bonus: Carnival Craze (0/5)",
+    "§7Gain §a+4% §7more §eCarnival Tokens§7.",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON HELMET"
+  ],
+  "internalname": "PARTY_HAT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Party_Top_Hat"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:diamond",
+  "displayname": "§fDiamond",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fDiamond\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON ORE"
+  ],
+  "internalname": "DIAMOND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Diamond"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "DIAMOND_BLOCK:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 9
+  }
+}

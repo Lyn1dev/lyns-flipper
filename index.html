@@ -478,6 +478,19 @@
         }
         .qty-input:focus { border-color: var(--green); }
 
+        .select-input {
+            background: var(--surface-alt);
+            border: 1px solid var(--border-bright);
+            color: var(--yellow);
+            font-family: var(--mono);
+            font-size: 11.5px;
+            font-weight: 600;
+            padding: 3px 6px;
+            outline: none;
+            cursor: pointer;
+        }
+        .select-input:focus { border-color: var(--blue); }
+
         .search-input {
             background: var(--surface-alt);
             border: 1px solid var(--border);
@@ -485,7 +498,7 @@
             font-family: var(--mono);
             font-size: 11.5px;
             padding: 4px 10px;
-            width: 210px;
+            width: 190px;
             outline: none;
         }
         .search-input:focus { border-color: var(--blue); }
@@ -518,43 +531,34 @@
         .status-text b { color: var(--text); }
         .status-text .g { color: var(--green); font-weight: 700; }
         .status-text .r { color: var(--red); font-weight: 700; }
+        .status-text .y { color: var(--yellow); font-weight: 700; }
 
-        /* ─── Portfolio Summary Banner ───────────────────────────── */
+        /* ─── Portfolio Summary Banner (Exact layout from bazaar_gui.py) ── */
         .pf-summary-box {
             border: 1px solid var(--border-bright);
-            background: #111622;
-            padding: 10px 14px;
+            background: #10141e;
+            padding: 12px 16px;
             margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 12px;
-            font-size: 11.5px;
-        }
-        .pf-stat-item {
+            font-size: 12px;
+            line-height: 1.6;
             display: flex;
             flex-direction: column;
-            gap: 2px;
+            gap: 4px;
         }
-        .pf-stat-lbl {
-            font-size: 10px;
-            font-weight: 700;
-            color: var(--text-dim);
-            text-transform: uppercase;
+        .pf-summary-box .pf-line {
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
-        .pf-stat-val {
-            font-size: 14px;
-            font-weight: 800;
-            color: #fff;
-        }
-        .pf-stat-val.g { color: var(--green); }
-        .pf-stat-val.y { color: var(--yellow); }
+        .pf-summary-box b { color: #fff; font-weight: 700; }
+        .pf-summary-box .g { color: var(--green); font-weight: 800; }
+        .pf-summary-box .y { color: var(--yellow); font-weight: 800; }
+        .pf-summary-box .p { color: var(--purple); font-weight: 800; }
 
         /* ─── Cards Grid ─────────────────────────────────────────── */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
             gap: 8px;
         }
 
@@ -577,6 +581,7 @@
             font-weight: 700;
             border-bottom: 1px solid var(--border);
             padding-bottom: 6px;
+            flex-wrap: wrap;
         }
         .rank-num { color: var(--text-dim); font-size: 11px; }
         .shard-icon { width: 18px; height: 18px; image-rendering: pixelated; vertical-align: middle; }
@@ -603,6 +608,34 @@
         .shard-name.common, .shard-name.regular { color: #cbd5e1; }
 
         .vol-stat { margin-left: auto; font-size: 10.5px; color: var(--text-dim); font-weight: 400; }
+
+        /* Copy Buttons Row (bazaar_gui.py feature) */
+        .copy-actions {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-top: 2px;
+        }
+        .copy-btn {
+            background: var(--surface-alt);
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            font-family: var(--mono);
+            font-size: 10px;
+            padding: 2px 6px;
+            cursor: pointer;
+            transition: all .12s;
+        }
+        .copy-btn:hover {
+            color: var(--blue);
+            border-color: var(--blue);
+            background: #1f6feb15;
+        }
+        .copy-btn.copied {
+            color: var(--green) !important;
+            border-color: var(--green) !important;
+        }
 
         /* Order Book Pill */
         .ob-badge {
@@ -748,6 +781,7 @@
         }
         .unit-bar b { color: var(--text); }
         .unit-bar .p { color: var(--green); font-weight: 700; }
+        .unit-bar .req-tag { color: var(--orange); font-size: 10px; }
     </style>
 </head>
 
@@ -791,7 +825,7 @@
                     <span>🔨</span>
                     <span>Craft Flipper</span>
                 </div>
-                <span class="nav-btn-badge" id="sb-badge-crafts">16</span>
+                <span class="nav-btn-badge" id="sb-badge-crafts">160</span>
             </button>
 
             <button class="nav-btn" id="nav-essence" onclick="switchModule('essence')">
@@ -883,24 +917,52 @@
                 <input type="number" id="batch-qty" class="qty-input" min="1" max="100000" value="10" oninput="setBatchQty(this.value)" />
             </div>
 
-            <!-- Portfolio Specific Controls -->
+            <!-- Global Max Total Time Input (For Shards, Books, Crafts, Essence) -->
+            <div class="ctrl-group" id="ctrl-group-maxtime">
+                <span class="ctrl-lbl">Max Time:</span>
+                <input type="text" id="max-time-input" class="qty-input" style="width:65px" placeholder="All" value="" title="Filter flips by max duration (e.g. 30m, 2h, 1d, all)" oninput="setMaxTime(this.value)" />
+            </div>
+
+            <!-- Craft Flipper Player Profile & Unlock Controls -->
+            <div class="ctrl-group" id="ctrl-group-craft-user" style="display:none">
+                <span class="ctrl-lbl">Player:</span>
+                <input type="text" id="craft-username" class="search-input" style="width:115px" placeholder="Username" onkeydown="if(event.key==='Enter') loadPlayerProfiles()" />
+                <button class="btn active b" id="craft-load-btn" onclick="loadPlayerProfiles()">Load</button>
+            </div>
+
+            <div class="ctrl-group" id="ctrl-group-craft-prof" style="display:none">
+                <span class="ctrl-lbl">Profile:</span>
+                <select id="craft-profile-select" class="select-input" onchange="onProfileChanged()"></select>
+                <button class="btn" id="craft-unlock-filter-btn" onclick="toggleUnlockedOnlyFilter()">🔒 Unlocked: ON</button>
+                <button class="btn" style="color:var(--red)" onclick="clearPlayerProfile()" title="Clear player profile">✕</button>
+            </div>
+
+            <!-- Portfolio Controls (Matching bazaar_gui.py exactly) -->
             <div class="ctrl-group" id="ctrl-group-portfolio-cap" style="display:none">
                 <span class="ctrl-lbl">Capital:</span>
-                <input type="text" id="pf-capital" class="qty-input" style="width:75px" value="220m" onchange="recomputePortfolio()" />
+                <input type="text" id="pf-capital" class="qty-input" style="width:80px" value="220m" />
             </div>
 
             <div class="ctrl-group" id="ctrl-group-portfolio-slots" style="display:none">
                 <span class="ctrl-lbl">Max Slots:</span>
-                <input type="number" id="pf-slots" class="qty-input" style="width:50px" min="1" max="24" value="12" onchange="recomputePortfolio()" />
+                <input type="number" id="pf-slots" class="qty-input" style="width:50px" min="1" max="24" value="12" />
             </div>
 
             <div class="ctrl-group" id="ctrl-group-portfolio-time" style="display:none">
                 <span class="ctrl-lbl">Come Back In:</span>
-                <input type="text" id="pf-time" class="qty-input" style="width:60px" value="4h" onchange="recomputePortfolio()" />
+                <input type="text" id="pf-time" class="qty-input" style="width:65px" value="5h" />
+            </div>
+
+            <div class="ctrl-group" id="ctrl-group-portfolio-auto" style="display:none">
+                <button class="btn active b" id="pf-btn-auto" onclick="toggleAutoTime()">⏱️ Auto-Time: ON</button>
             </div>
 
             <div class="ctrl-group" id="ctrl-group-portfolio-bot" style="display:none">
                 <button class="btn" id="pf-btn-bot" onclick="toggleGoldilocks()">🛡️ Anti-Bot: OFF</button>
+            </div>
+
+            <div class="ctrl-group" id="ctrl-group-portfolio-action" style="display:none">
+                <button class="btn active g" onclick="runPortfolioOptimizer()">🔍 Find Flips</button>
             </div>
 
             <!-- Input/Output Order Toggles (Standard) -->
@@ -921,7 +983,7 @@
             </div>
 
             <!-- Sort Controls -->
-            <div class="ctrl-group">
+            <div class="ctrl-group" id="ctrl-group-sort">
                 <span class="ctrl-lbl">Sort:</span>
                 <div class="btn-group" id="sort-btn-group">
                     <button class="btn active" id="btn-percent" onclick="setSortBy('percent')">ROI%</button>
@@ -953,12 +1015,13 @@
             </div>
 
             <div class="ctrl-group" id="filter-group-crafts" style="display:none">
-                <span class="ctrl-lbl">Category:</span>
+                <span class="ctrl-lbl">Rarity:</span>
                 <div class="btn-group">
                     <button class="btn active" onclick="setFilterCategory('all', this)">All</button>
-                    <button class="btn" onclick="setFilterCategory('slayer', this)">Slayer</button>
-                    <button class="btn" onclick="setFilterCategory('collection', this)">Collection</button>
-                    <button class="btn" onclick="setFilterCategory('special', this)">Special</button>
+                    <button class="btn" onclick="setFilterCategory('legendary', this)">Leg</button>
+                    <button class="btn" onclick="setFilterCategory('epic', this)">Epic</button>
+                    <button class="btn" onclick="setFilterCategory('rare', this)">Rare</button>
+                    <button class="btn" onclick="setFilterCategory('uncommon', this)">Uncommon</button>
                 </div>
             </div>
 
@@ -980,24 +1043,12 @@
             <button class="refresh-btn" id="rbtn" onclick="refreshPrices()">[ ↻ REFRESH BAZAAR ]</button>
         </div>
 
-        <!-- Portfolio Summary Header (Visible when in Portfolio mode) -->
+        <!-- Portfolio Summary Header (Exact layout from bazaar_gui.py) -->
         <div id="pf-summary-banner" class="pf-summary-box" style="display:none">
-            <div class="pf-stat-item">
-                <span class="pf-stat-lbl">Capital Allocated</span>
-                <span class="pf-stat-val" id="pf-stat-spent">0 / 220M (0%)</span>
-            </div>
-            <div class="pf-stat-item">
-                <span class="pf-stat-lbl">Expected Batch Profit</span>
-                <span class="pf-stat-val g" id="pf-stat-profit">+0</span>
-            </div>
-            <div class="pf-stat-item">
-                <span class="pf-stat-lbl">Hourly Profit Velocity</span>
-                <span class="pf-stat-val g" id="pf-stat-hourly">+0/hr</span>
-            </div>
-            <div class="pf-stat-item">
-                <span class="pf-stat-lbl">Est. Check-Back Time</span>
-                <span class="pf-stat-val y" id="pf-stat-time">~0m</span>
-            </div>
+            <div class="pf-line">💰 Capital Allocated: <b id="pf-stat-spent">0 coins (0%)</b></div>
+            <div class="pf-line">🔥 Expected Batch Profit: <b class="g" id="pf-stat-profit">+0 coins</b></div>
+            <div class="pf-line">⚡ Combined Hourly Velocity: <b class="y" id="pf-stat-hourly">+0 coins/hr</b></div>
+            <div class="pf-line">⏳ Est. Check-Back Time: <b class="p" id="pf-stat-time">~0 mins</b> to flip all buy orders into sell orders!</div>
         </div>
 
         <!-- Status Row -->
@@ -1018,6 +1069,7 @@
         let currentModule = 'shards'; // 'shards' | 'books' | 'portfolio' | 'crafts' | 'essence'
         let fusionData = null;
         let enchantsData = null;
+        let craftRecipesData = null;
         let productsData = {};
         let shardPrices = {};
         let bookPrices = {};
@@ -1031,7 +1083,15 @@
         
         let lastUpdated = null;
         let activeFilterCategory = 'all';
+        let autoTimeEnabled = true;
         let goldilocksFilter = false;
+
+        // Player & Profile Unlocks Data for Craft Flipper
+        let playerUuid = null;
+        let playerProfiles = [];
+        let activeProfileId = null;
+        let activeMemberData = null;
+        let unlockedOnlyFilter = true;
 
         const BAZAAR_TAX = 0.01125;
 
@@ -1068,7 +1128,7 @@
             'tabasco': 2
         };
 
-        // In-game Item Order Limits
+        // In-game Item Order Limits (from bazaar_flipper.py)
         const ITEM_LIMITS = {
             "BOOSTER_COOKIE": 128,
             "RECOMBOBULATOR_3000": 128,
@@ -1086,91 +1146,8 @@
             "FUEL_TANK": 128,
             "GEMSTONE_CHAMBER": 128,
             "CONDENSED_FERMENTO": 128,
+            "CRAFTERS_ARMOR": 128,
             "DEFAULT": 71680
-        };
-
-        // Craft Catalog Recipes
-        const CRAFT_CATALOG = {
-            'REVENANT_VISCERA': {
-                name: 'Revenant Viscera',
-                category: 'slayer',
-                materials: { 'REVENANT_FLESH': 128, 'ENCHANTED_STRING': 32 }
-            },
-            'TARANTULA_SILK': {
-                name: 'Tarantula Silk',
-                category: 'slayer',
-                materials: { 'TARANTULA_WEB': 128, 'ENCHANTED_FLINT': 32 }
-            },
-            'GOLDEN_TOOTH': {
-                name: 'Golden Tooth',
-                category: 'slayer',
-                materials: { 'WOLF_TOOTH': 128, 'ENCHANTED_GOLD': 32 }
-            },
-            'NULL_OVOID': {
-                name: 'Null Ovoid',
-                category: 'slayer',
-                materials: { 'NULL_SPHERE': 128, 'ENCHANTED_OBSIDIAN': 32, 'ENCHANTED_ENDER_PEARL': 32 }
-            },
-            'SUPER_COMPACTOR_3000': {
-                name: 'Super Compactor 3000',
-                category: 'collection',
-                materials: { 'ENCHANTED_REDSTONE_BLOCK': 7, 'ENCHANTED_COBBLESTONE': 1 }
-            },
-            'ENCHANTED_LAVA_BUCKET': {
-                name: 'Enchanted Lava Bucket',
-                category: 'collection',
-                materials: { 'ENCHANTED_COAL_BLOCK': 2, 'ENCHANTED_IRON': 3 }
-            },
-            'MAGMA_BUCKET': {
-                name: 'Magma Bucket',
-                category: 'collection',
-                materials: { 'ENCHANTED_LAVA_BUCKET': 1, 'ENCHANTED_MAGMA_CREAM': 2 }
-            },
-            'PLASMA_BUCKET': {
-                name: 'Plasma Bucket',
-                category: 'collection',
-                materials: { 'MAGMA_BUCKET': 1, 'ENCHANTED_SLIME_BLOCK': 2 }
-            },
-            'HOT_POTATO_BOOK': {
-                name: 'Hot Potato Book',
-                category: 'collection',
-                materials: { 'ENCHANTED_BAKED_POTATO': 1, 'ENCHANTED_PAPER': 3 }
-            },
-            'FUMING_POTATO_BOOK': {
-                name: 'Fuming Potato Book',
-                category: 'special',
-                materials: { 'HOT_POTATO_BOOK': 3, 'ENCHANTED_VOLCANIC_STONE': 1 }
-            },
-            'CONDENSED_FERMENTO': {
-                name: 'Condensed Fermento',
-                category: 'special',
-                materials: { 'FERMENTO': 9 }
-            },
-            'REFINED_TITANIUM': {
-                name: 'Refined Titanium',
-                category: 'special',
-                materials: { 'ENCHANTED_TITANIUM': 16 }
-            },
-            'REFINED_MITHRIL': {
-                name: 'Refined Mithril',
-                category: 'special',
-                materials: { 'ENCHANTED_MITHRIL': 160 }
-            },
-            'SUPER_EGG': {
-                name: 'Super Egg',
-                category: 'collection',
-                materials: { 'ENCHANTED_EGG': 144 }
-            },
-            'RECOMBOBULATOR_3000': {
-                name: 'Recombobulator 3000',
-                category: 'special',
-                materials: { 'UNDEAD_CATALYST': 8 }
-            },
-            'BEATING_HEART': {
-                name: 'Beating Heart',
-                category: 'special',
-                materials: { 'HEMOGLASS': 8 }
-            }
         };
 
         // Essence Shop Conversions
@@ -1213,6 +1190,7 @@
             sortBy: 'percent',
             topN: 50,
             batchQty: 10,
+            maxTotalTime: null // in hours (null = no filter)
         };
 
         function getApiKey() {
@@ -1286,28 +1264,36 @@
             document.getElementById('filter-group-crafts').style.display = (mod === 'crafts' ? 'flex' : 'none');
             document.getElementById('filter-group-essence').style.display = (mod === 'essence' ? 'flex' : 'none');
 
+            // Craft profile inputs
+            const isCrafts = (mod === 'crafts');
+            document.getElementById('ctrl-group-craft-user').style.display = isCrafts ? 'flex' : 'none';
+            document.getElementById('ctrl-group-craft-prof').style.display = (isCrafts && playerProfiles.length > 0) ? 'flex' : 'none';
+
             // Toggle portfolio specific vs general controls
             const isPf = (mod === 'portfolio');
             document.getElementById('ctrl-group-presets').style.display = isPf ? 'none' : 'flex';
             document.getElementById('ctrl-group-qty').style.display = isPf ? 'none' : 'flex';
+            document.getElementById('ctrl-group-maxtime').style.display = isPf ? 'none' : 'flex';
             document.getElementById('ctrl-group-inputs').style.display = isPf ? 'none' : 'flex';
             document.getElementById('ctrl-group-outputs').style.display = isPf ? 'none' : 'flex';
+            document.getElementById('ctrl-group-sort').style.display = isPf ? 'none' : 'flex';
 
             document.getElementById('ctrl-group-portfolio-cap').style.display = isPf ? 'flex' : 'none';
             document.getElementById('ctrl-group-portfolio-slots').style.display = isPf ? 'flex' : 'none';
             document.getElementById('ctrl-group-portfolio-time').style.display = isPf ? 'flex' : 'none';
+            document.getElementById('ctrl-group-portfolio-auto').style.display = isPf ? 'flex' : 'none';
             document.getElementById('ctrl-group-portfolio-bot').style.display = isPf ? 'flex' : 'none';
+            document.getElementById('ctrl-group-portfolio-action').style.display = isPf ? 'flex' : 'none';
             document.getElementById('pf-summary-banner').style.display = isPf ? 'flex' : 'none';
 
             // Reset filter buttons
             document.querySelectorAll('.ctrl-group .btn').forEach(btn => {
                 if (btn.textContent === 'All') btn.classList.add('active');
-                else if (['Leg', 'Epic', 'Rare', 'Ultimate', 'Turbo', 'Regular', 'Slayer', 'Collection', 'Special', 'Wither', 'Undead', 'Ice', 'Diamond'].includes(btn.textContent)) {
+                else if (['Leg', 'Epic', 'Rare', 'Ultimate', 'Turbo', 'Regular', 'Uncommon', 'Wither', 'Undead', 'Ice', 'Diamond'].includes(btn.textContent)) {
                     btn.classList.remove('active');
                 }
             });
 
-            // Update banner title & search placeholder
             const bannerIcon = document.getElementById('banner-icon');
             const bannerText = document.getElementById('banner-title-text');
             const fi = document.getElementById('fi');
@@ -1330,7 +1316,7 @@
             } else if (mod === 'crafts') {
                 bannerIcon.textContent = '🔨';
                 bannerText.textContent = "LYN'S FLIPPER // CRAFT FLIP OPTIMIZER";
-                fi.placeholder = "Filter craft name (e.g. Viscera, Lava Bucket)...";
+                fi.placeholder = "Filter craft name (e.g. Viscera, Hot Potato Book)...";
                 updateCraftStats();
             } else if (mod === 'essence') {
                 bannerIcon.textContent = '🔮';
@@ -1359,13 +1345,15 @@
         }
 
         function updatePortfolioStats() {
-            document.getElementById('stat-meta1').innerHTML = `Mode: <b>Multi-Order Allocation</b>`;
-            document.getElementById('stat-meta2').innerHTML = `Friction: <b>Queue & Caps Penalized</b>`;
+            document.getElementById('stat-meta1').innerHTML = `Algorithm: <b>Beam Search + Marginal Gain</b>`;
+            document.getElementById('stat-meta2').innerHTML = `Friction: <b>Queue Delay & Hard Caps</b>`;
         }
 
         function updateCraftStats() {
-            document.getElementById('stat-meta1').innerHTML = `Crafts: <b>${Object.keys(CRAFT_CATALOG).length}</b>`;
-            document.getElementById('stat-meta2').innerHTML = `Type: <b>Slayer & Collection</b>`;
+            const nc = craftRecipesData ? Object.keys(craftRecipesData).length : 1852;
+            const profStr = activeMemberData ? `Profile: <b>${getActiveProfileCuteName()}</b>` : `Database: <b>${nc} Recipes</b>`;
+            document.getElementById('stat-meta1').innerHTML = profStr;
+            document.getElementById('stat-meta2').innerHTML = activeMemberData ? `Unlocks: <b>Filter Active</b>` : `Type: <b>Items Folder JSONs</b>`;
         }
 
         function updateEssenceStats() {
@@ -1379,23 +1367,32 @@
                 openApiKeyModal();
             }
 
-            setStatus('Loading fusion-data.json and enchants.json...');
+            // Restore stored username if any
+            const storedUser = localStorage.getItem('craft_username') || '';
+            const userInput = document.getElementById('craft-username');
+            if (userInput && storedUser) userInput.value = storedUser;
+
+            setStatus('Loading fusion-data.json, enchants.json, and craft-recipes.json...');
             try {
-                const [fResp, eResp] = await Promise.all([
+                const [fResp, eResp, cResp] = await Promise.all([
                     fetch('./fusion-data.json'),
-                    fetch('./enchants.json')
+                    fetch('./enchants.json'),
+                    fetch('./craft-recipes.json')
                 ]);
 
                 if (!fResp.ok) throw new Error('Could not load fusion-data.json');
                 fusionData = await fResp.json();
                 
-                if (eResp.ok) {
-                    enchantsData = await eResp.json();
-                }
+                if (eResp.ok) enchantsData = await eResp.json();
+                if (cResp.ok) craftRecipesData = await cResp.json();
 
                 updateShardStats();
                 applyPreset('insta');
                 setBatchQty(10);
+
+                if (storedUser) {
+                    loadPlayerProfiles(false);
+                }
 
                 if (getApiKey()) {
                     setStatus(`Loaded static databases · Fetching live Bazaar order books...`);
@@ -1409,6 +1406,204 @@
                     [!] FAILED TO LOAD DATA: Ensure this folder is served via http.server (e.g. python -m http.server 8000)
                 </div>`;
             }
+        }
+
+        /* ─── Player Profiles & Unlock Verification Engine ─────────── */
+        async function loadPlayerProfiles(showStatusAlert = true) {
+            const userInput = document.getElementById('craft-username');
+            const username = (userInput?.value || '').trim();
+            const apiKey = getApiKey();
+
+            if (!username) {
+                clearPlayerProfile();
+                return;
+            }
+
+            if (!apiKey) {
+                openApiKeyModal('A Hypixel API key is required to look up player profiles.');
+                return;
+            }
+
+            if (showStatusAlert) setStatus(`Looking up player <b>${esc(username)}</b>...`);
+
+            try {
+                // 1. Resolve UUID using PlayerDB or Mojang API
+                let uuid = null;
+                try {
+                    const mojangResp = await fetch(`https://playerdb.co/api/player/minecraft/${encodeURIComponent(username)}`);
+                    if (mojangResp.ok) {
+                        const mData = await mojangResp.json();
+                        uuid = mData.data?.player?.raw_id || mData.data?.player?.id;
+                    }
+                } catch (_) {}
+
+                if (!uuid) {
+                    // Fallback to Hypixel player endpoint
+                    const hpResp = await fetch(`https://api.hypixel.net/v2/player?name=${encodeURIComponent(username)}`, {
+                        headers: { 'API-Key': apiKey }
+                    });
+                    if (hpResp.ok) {
+                        const hpData = await hpResp.json();
+                        uuid = hpData.player?.uuid;
+                    }
+                }
+
+                if (!uuid) {
+                    throw new Error(`Could not find Minecraft UUID for "${username}"`);
+                }
+
+                playerUuid = uuid.replace(/-/g, '');
+                localStorage.setItem('craft_username', username);
+
+                // 2. Fetch Skyblock Profiles
+                const profResp = await fetch(`https://api.hypixel.net/v2/skyblock/profiles?uuid=${playerUuid}`, {
+                    headers: { 'API-Key': apiKey }
+                });
+
+                if (!profResp.ok) {
+                    throw new Error(`Hypixel Profiles API HTTP ${profResp.status}`);
+                }
+
+                const profData = await profResp.json();
+                playerProfiles = profData.profiles || [];
+
+                if (!playerProfiles.length) {
+                    throw new Error(`No Skyblock profiles found for ${username}`);
+                }
+
+                // Populate profile dropdown
+                const selectEl = document.getElementById('craft-profile-select');
+                selectEl.innerHTML = '';
+
+                let defaultProfile = playerProfiles.find(p => p.selected) || playerProfiles[0];
+                const storedProfId = localStorage.getItem('craft_profile_id');
+                if (storedProfId && playerProfiles.some(p => p.profile_id === storedProfId)) {
+                    defaultProfile = playerProfiles.find(p => p.profile_id === storedProfId);
+                }
+
+                playerProfiles.forEach(p => {
+                    const opt = document.createElement('option');
+                    opt.value = p.profile_id;
+                    const cute = p.cute_name || 'Profile';
+                    opt.textContent = `${cute}${p.selected ? ' ★' : ''}`;
+                    if (p.profile_id === defaultProfile.profile_id) opt.selected = true;
+                    selectEl.appendChild(opt);
+                });
+
+                activeProfileId = defaultProfile.profile_id;
+                localStorage.setItem('craft_profile_id', activeProfileId);
+                setActiveMemberFromProfile(defaultProfile);
+
+                document.getElementById('ctrl-group-craft-prof').style.display = 'flex';
+                updateCraftStats();
+                recompute();
+
+                setStatus(`<span class="g">[OK] Loaded ${playerProfiles.length} profiles for <b>${esc(username)}</b> (Active: ${esc(defaultProfile.cute_name || 'Profile')})</span>`);
+            } catch (err) {
+                setStatus(`<span class="r">Player Profile Error: ${esc(err.message)}</span>`);
+            }
+        }
+
+        function setActiveMemberFromProfile(profile) {
+            if (!profile || !profile.members) {
+                activeMemberData = null;
+                return;
+            }
+            const member = profile.members[playerUuid] || Object.values(profile.members)[0];
+            if (!member) {
+                activeMemberData = null;
+                return;
+            }
+
+            const unlockedCollTiers = new Set(member.unlocked_coll_tiers || []);
+            const collections = member.collection || {};
+            const slayerQuests = member.slayer?.slayer_quests || member.slayer_bosses || {};
+
+            activeMemberData = {
+                profile_id: profile.profile_id,
+                cute_name: profile.cute_name || 'Profile',
+                unlockedCollTiers,
+                collections,
+                slayerQuests
+            };
+        }
+
+        function onProfileChanged() {
+            const selectEl = document.getElementById('craft-profile-select');
+            const chosenId = selectEl.value;
+            const chosenProfile = playerProfiles.find(p => p.profile_id === chosenId);
+            if (chosenProfile) {
+                activeProfileId = chosenId;
+                localStorage.setItem('craft_profile_id', activeProfileId);
+                setActiveMemberFromProfile(chosenProfile);
+                updateCraftStats();
+                recompute();
+                setStatus(`Switched to profile: <span class="y"><b>${esc(chosenProfile.cute_name || 'Profile')}</b></span>`);
+            }
+        }
+
+        function clearPlayerProfile() {
+            playerUuid = null;
+            playerProfiles = [];
+            activeProfileId = null;
+            activeMemberData = null;
+            localStorage.removeItem('craft_username');
+            localStorage.removeItem('craft_profile_id');
+            const userInput = document.getElementById('craft-username');
+            if (userInput) userInput.value = '';
+            document.getElementById('ctrl-group-craft-prof').style.display = 'none';
+            updateCraftStats();
+            recompute();
+            setStatus(`Cleared player profile. Showing all craft recipes.`);
+        }
+
+        function toggleUnlockedOnlyFilter() {
+            unlockedOnlyFilter = !unlockedOnlyFilter;
+            const btn = document.getElementById('craft-unlock-filter-btn');
+            if (btn) {
+                btn.className = 'btn' + (unlockedOnlyFilter ? ' active b' : '');
+                btn.textContent = unlockedOnlyFilter ? '🔒 Unlocked: ON' : '🔒 Unlocked: OFF';
+            }
+            recompute();
+        }
+
+        function getActiveProfileCuteName() {
+            if (!activeMemberData) return '';
+            return activeMemberData.cute_name || 'Profile';
+        }
+
+        function isRecipeUnlocked(recipe) {
+            if (!activeMemberData || !unlockedOnlyFilter) return true;
+            const req = recipe.requirement;
+            if (!req) return true; // Default vanilla/standard crafts are unlocked
+
+            const { unlockedCollTiers, collections, slayerQuests } = activeMemberData;
+
+            if (req.type === 'collection') {
+                if (req.tier_code && unlockedCollTiers.has(req.tier_code)) return true;
+                if (req.collection_id && (collections[req.collection_id] || 0) >= (req.amount_required || 0)) return true;
+                return false;
+            }
+
+            if (req.type === 'slayer') {
+                const stype = req.slayer_type;
+                const reqLvl = req.level;
+                const sData = slayerQuests[stype] || {};
+                const claimed = sData.claimed_levels || {};
+                if (claimed[`level_${reqLvl}`] || claimed[`level_${reqLvl}_special`]) return true;
+                if (sData.xp && getSlayerLevelFromXp(stype, sData.xp) >= reqLvl) return true;
+                return false;
+            }
+
+            return true;
+        }
+
+        function getSlayerLevelFromXp(type, xp) {
+            const reqs = [0, 5, 15, 200, 1000, 5000, 20000, 100000, 400000, 1000000];
+            for (let lvl = reqs.length - 1; lvl >= 1; lvl--) {
+                if (xp >= reqs[lvl]) return lvl;
+            }
+            return 0;
         }
 
         async function refreshPrices() {
@@ -1581,12 +1776,45 @@
         }
 
         function parseTimeInput(valStr) {
-            if (!valStr) return 4.0;
-            const cleaned = String(valStr).trim().toLowerCase().replace(/\s/g, '');
-            if (cleaned.endsWith('d')) return (parseFloat(cleaned) || 1) * 24.0;
-            if (cleaned.endsWith('h')) return parseFloat(cleaned) || 4.0;
-            if (cleaned.endsWith('m') || cleaned.endsWith('min')) return (parseFloat(cleaned) || 60.0) / 60.0;
-            return parseFloat(cleaned) || 4.0;
+            if (!valStr) return null;
+            const cleaned = String(valStr).trim().toLowerCase();
+            if (['none', 'unlimited', 'no', '0', 'all', ''].includes(cleaned)) return null;
+
+            if (cleaned.endsWith('mins') || cleaned.endsWith('min')) {
+                return (parseFloat(cleaned.replace(/[a-z]/g, '')) || 0) / 60.0;
+            } else if (cleaned.endsWith('m')) {
+                return (parseFloat(cleaned.slice(0, -1)) || 0) / 60.0;
+            } else if (cleaned.endsWith('days') || cleaned.endsWith('day') || cleaned.endsWith('d')) {
+                return (parseFloat(cleaned.replace(/[a-z]/g, '')) || 0) * 24.0;
+            } else if (cleaned.endsWith('hrs') || cleaned.endsWith('hr') || cleaned.endsWith('h')) {
+                return parseFloat(cleaned.replace(/[a-z]/g, '')) || 0;
+            } else {
+                return parseFloat(cleaned) || 0;
+            }
+        }
+
+        function setMaxTime(val) {
+            cfg.maxTotalTime = parseTimeInput(val);
+            recompute();
+        }
+
+        function copyToClipboard(text, btn, originalText) {
+            if (!navigator.clipboard) {
+                const el = document.createElement('textarea');
+                el.value = String(text);
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+            } else {
+                navigator.clipboard.writeText(String(text));
+            }
+            btn.classList.add('copied');
+            btn.textContent = 'Copied!';
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.textContent = originalText;
+            }, 1400);
         }
 
         /* ─── Shard Fusion Algorithms ─────────────────────────────── */
@@ -1852,6 +2080,11 @@
 
                         const durations = calculateShardDurations(baseMats, outId, actualProducedUnits);
 
+                        // Max Total Time Filter
+                        if (cfg.maxTotalTime !== null && durations.totalHours > cfg.maxTotalTime) {
+                            continue;
+                        }
+
                         out.push({
                             outCode,
                             outName: outShard.name,
@@ -1983,7 +2216,20 @@
         }
 
         function formatEnchantName(raw) {
-            return raw.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+            return raw.split('_').map(w => /^\d+$/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+        }
+
+        function cleanItemName(productId) {
+            const customNames = {
+                "BOOSTER_COOKIE": "Booster Cookie",
+                "RECOMBOBULATOR_3000": "Recombobulator 3000",
+                "STOCK_OF_STONKS": "Stock of Stonks",
+                "HOT_POTATO_BOOK": "Hot Potato Book",
+                "FUMING_POTATO_BOOK": "Fuming Potato Book",
+                "SUPER_COMPACTOR_3000": "Super Compactor 3000",
+            };
+            if (customNames[productId]) return customNames[productId];
+            return productId.split('_').map(w => /^\d+$/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
         }
 
         function getEnchantCategory(enchantKey) {
@@ -2109,6 +2355,11 @@
 
                                         const durations = calculateBookDurations(baseBooks, pdata, userTargetQty);
 
+                                        // Max Total Time Filter
+                                        if (cfg.maxTotalTime !== null && durations.totalHours > cfg.maxTotalTime) {
+                                            continue;
+                                        }
+
                                         const combineStepsList = Object.values(accCombines.steps);
                                         const combineBreakdownStr = combineStepsList.length > 1
                                             ? combineStepsList.map(st => `${st.count}x L${st.level}`).join(' + ')
@@ -2221,11 +2472,21 @@
             };
         }
 
-        /* ─── Portfolio Optimizer (bazaar_gui / bazaar_flipper) ────── */
-        function getItemLimit(pid) {
-            if (ITEM_LIMITS[pid]) return ITEM_LIMITS[pid];
-            if (pid.startsWith('ENCHANTMENT_') || pid.startsWith('PERFECT_') || pid.startsWith('FLAWLESS_')) return 128;
-            return ITEM_LIMITS.DEFAULT;
+        /* ─── Portfolio Optimizer (Exact Port of bazaar_flipper.py & bazaar_gui.py) ── */
+        function getItemLimit(productId) {
+            if (ITEM_LIMITS[productId]) return ITEM_LIMITS[productId];
+            if (productId.startsWith("PERFECT_") || productId.startsWith("FLAWLESS_")) return 128;
+            if (productId.startsWith("ENCHANTMENT_")) return 128;
+            return ITEM_LIMITS["DEFAULT"] || 71680;
+        }
+
+        function toggleAutoTime() {
+            autoTimeEnabled = !autoTimeEnabled;
+            const btn = document.getElementById('pf-btn-auto');
+            if (btn) {
+                btn.className = 'btn' + (autoTimeEnabled ? ' active b' : '');
+                btn.textContent = autoTimeEnabled ? '⏱️ Auto-Time: ON' : '⏱️ Auto-Time: OFF';
+            }
         }
 
         function toggleGoldilocks() {
@@ -2235,131 +2496,9 @@
                 btn.className = 'btn' + (goldilocksFilter ? ' active g' : '');
                 btn.textContent = goldilocksFilter ? '🛡️ Anti-Bot: ON' : '🛡️ Anti-Bot: OFF';
             }
-            recomputePortfolio();
         }
 
-        function computePortfolioFlips() {
-            if (!Object.keys(productsData).length) return;
-            const capital = parseNumberInput(document.getElementById('pf-capital')?.value || '220m');
-            const maxSlots = Math.max(1, parseInt(document.getElementById('pf-slots')?.value || '12', 10));
-            const hours = parseTimeInput(document.getElementById('pf-time')?.value || '4h');
-
-            const candidates = [];
-
-            for (const [pid, prod] of Object.entries(productsData)) {
-                if (pid.startsWith('SHARD_')) continue; // keep standard commodities
-                const qs = prod.quick_status || {};
-                const ss = prod.sell_summary || [];
-                const bs = prod.buy_summary || [];
-
-                const buy_p = ss.length > 0 ? ss[0].pricePerUnit : (qs.sellPrice || 0);
-                const sell_p = bs.length > 0 ? bs[0].pricePerUnit : (qs.buyPrice || 0);
-
-                if (buy_p <= 5 || sell_p <= buy_p) continue;
-
-                const tax = sell_p * BAZAAR_TAX;
-                const unit_profit = (sell_p - tax) - buy_p;
-                const roi = unit_profit / buy_p;
-
-                if (roi < 0.015 || roi > 0.40) continue;
-
-                const sell_vol_week = qs.sellMovingWeek || 0;
-                const buy_vol_week = qs.buyMovingWeek || 0;
-                const total_vol = sell_vol_week + buy_vol_week;
-
-                if (total_vol < 1000) continue;
-
-                // Goldilocks filter: avoid bot wars (150k - 15M weekly volume)
-                if (goldilocksFilter && (total_vol < 150000 || total_vol > 15000000)) continue;
-
-                const hourly_vol = sell_vol_week / 168.0;
-                const fill_rate = Math.max(1, hourly_vol * 0.12);
-
-                const hard_cap = getItemLimit(pid);
-                const max_time_units = Math.floor(Math.min(hard_cap, fill_rate * hours));
-                if (max_time_units < 1) continue;
-
-                const max_cost = max_time_units * buy_p;
-                const batch_profit = max_time_units * unit_profit;
-                const profit_hr = batch_profit / hours;
-
-                const queue_depth = ss.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
-                const est_buy_hours = (max_time_units / fill_rate) + (queue_depth / Math.max(1.0, hourly_vol));
-
-                candidates.push({
-                    pid,
-                    name: formatEnchantName(pid.replace('ENCHANTMENT_', '')),
-                    buy_p,
-                    sell_p,
-                    unit_profit,
-                    roi: roi * 100,
-                    max_units: max_time_units,
-                    max_cost,
-                    batch_profit,
-                    profit_hr,
-                    est_buy_hours,
-                    volume: total_vol
-                });
-            }
-
-            candidates.sort((a, b) => b.profit_hr - a.profit_hr);
-
-            // Allocate capital across slots
-            const allocated = [];
-            let remCap = capital;
-
-            for (const c of candidates) {
-                if (allocated.length >= maxSlots || remCap <= 5000) break;
-                const costToTake = Math.min(remCap, c.max_cost);
-                const units = Math.floor(costToTake / c.buy_p);
-                if (units < 1) continue;
-
-                const actualCost = units * c.buy_p;
-                const actualProfit = units * c.unit_profit;
-                remCap -= actualCost;
-
-                allocated.push({
-                    ...c,
-                    units,
-                    cost: actualCost,
-                    profit: actualProfit,
-                    hourly_profit: actualProfit / hours,
-                    est_fill_str: formatDuration(c.est_buy_hours)
-                });
-            }
-
-            const totalSpent = allocated.reduce((acc, x) => acc + x.cost, 0);
-            const totalProfit = allocated.reduce((acc, x) => acc + x.profit, 0);
-            const totalHourly = totalProfit / hours;
-            const maxFillHours = allocated.length > 0 ? Math.max(...allocated.map(x => x.est_buy_hours)) : 0;
-
-            portfolioSummaryData = {
-                capital,
-                totalSpent,
-                pctSpent: capital > 0 ? (totalSpent / capital * 100) : 0,
-                totalProfit,
-                totalHourly,
-                maxFillHours,
-                fillTimeStr: formatDuration(maxFillHours),
-                slotCount: allocated.length,
-                maxSlots
-            };
-
-            allPortfolioResults = allocated;
-            document.getElementById('sb-badge-portfolio').textContent = allocated.length;
-
-            updatePortfolioSummaryUI();
-        }
-
-        function updatePortfolioSummaryUI() {
-            if (!portfolioSummaryData.capital) return;
-            document.getElementById('pf-stat-spent').textContent = `${fmt(portfolioSummaryData.totalSpent)} / ${fmt(portfolioSummaryData.capital)} (${portfolioSummaryData.pctSpent.toFixed(1)}%)`;
-            document.getElementById('pf-stat-profit').textContent = `+${fmt(portfolioSummaryData.totalProfit)}`;
-            document.getElementById('pf-stat-hourly').textContent = `+${fmt(portfolioSummaryData.totalHourly)}/hr`;
-            document.getElementById('pf-stat-time').textContent = portfolioSummaryData.fillTimeStr;
-        }
-
-        function recomputePortfolio() {
+        function runPortfolioOptimizer() {
             computePortfolioFlips();
             if (currentModule === 'portfolio') {
                 renderPortfolioResults();
@@ -2367,31 +2506,501 @@
             }
         }
 
-        /* ─── Craft Flipper (craft_flipper.py) ─────────────────────── */
-        function computeCraftFlips() {
+        function analyzeItemCandidate(productId, productData, params) {
+            const {
+                capital,
+                targetTurnoverHours,
+                comeBackInHours,
+                bazaarTax = 0.01125,
+                minSpreadPct = 1.5,
+                maxSpreadPct = 15.0,
+                strictVolume = false,
+                goldilocksFilter = false
+            } = params;
+
+            const quickStatus = productData.quick_status || {};
+            const sellSummary = productData.sell_summary || [];
+            const buySummary = productData.buy_summary || [];
+
+            if (!sellSummary.length || !buySummary.length) return null;
+
+            const buyOrderPrice = sellSummary[0].pricePerUnit || 0;
+            const sellOfferPrice = buySummary[0].pricePerUnit || 0;
+
+            if (buyOrderPrice <= 0 || sellOfferPrice <= buyOrderPrice) return null;
+
+            const buyMovingWeek = quickStatus.buyMovingWeek || 0;
+            const sellMovingWeek = quickStatus.sellMovingWeek || 0;
+            const movingWeek = buyMovingWeek + sellMovingWeek;
+
+            if (goldilocksFilter && movingWeek > 25000000) return null;
+
+            const spreadPct = ((sellOfferPrice - buyOrderPrice) / buyOrderPrice) * 100.0;
+            if (spreadPct < minSpreadPct || spreadPct > maxSpreadPct) return null;
+
+            const isExpensive = buyOrderPrice > 100000 || ITEM_LIMITS[productId] !== undefined || productId.startsWith("FLAWLESS_");
+            if (strictVolume) {
+                if (movingWeek < 3000000) return null;
+            } else {
+                if (isExpensive) {
+                    const weeklyCoinVolume = movingWeek * buyOrderPrice;
+                    if (movingWeek < 5000 && weeklyCoinVolume < 50000000) return null;
+                } else {
+                    if (movingWeek < 100000) return null;
+                }
+            }
+
+            const buyQueueDepth = sellSummary.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+            const sellQueueDepth = buySummary.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+
+            if (isExpensive) {
+                if (buyQueueDepth < 30) return null;
+            } else {
+                if (buyQueueDepth < 5000) return null;
+            }
+
+            const gameLimit = getItemLimit(productId);
+
+            const hourlyInstasell = sellMovingWeek > 0 ? (sellMovingWeek / 168.0) : (movingWeek * 0.5) / 168.0;
+            const hourlyInstabuy  = buyMovingWeek > 0 ? (buyMovingWeek / 168.0) : (movingWeek * 0.5) / 168.0;
+
+            if (hourlyInstasell <= 0 || hourlyInstabuy <= 0) return null;
+
+            const buyQueueDelay = buyQueueDepth / hourlyInstasell;
+            const sellQueueDelay = sellQueueDepth / hourlyInstabuy;
+            const queueDelayTotal = buyQueueDelay + sellQueueDelay;
+
+            const unitTimeH = (1.0 / (0.05 * hourlyInstasell)) + (1.0 / (0.05 * hourlyInstabuy));
+
+            if (comeBackInHours !== null && comeBackInHours > 0) {
+                const unitBuyTime = (1.0 / (0.05 * hourlyInstasell)) + buyQueueDelay;
+                if (unitBuyTime > comeBackInHours) return null;
+            }
+
+            const postTaxSell = sellOfferPrice * (1.0 - bazaarTax);
+            const postTaxProfitPerItem = postTaxSell - buyOrderPrice;
+
+            if (postTaxProfitPerItem <= 0) return null;
+
+            const availableTurnoverH = Math.max(0.1, targetTurnoverHours - queueDelayTotal);
+            const maxTurnoverQty = unitTimeH > 0 ? Math.floor(availableTurnoverH / unitTimeH) : 1;
+
+            let maxOrderSize;
+            if (comeBackInHours !== null && comeBackInHours > 0) {
+                const availableBuyH = Math.max(0.05, comeBackInHours - buyQueueDelay);
+                const maxBuyQty = Math.floor(availableBuyH * 0.05 * hourlyInstasell);
+                maxOrderSize = Math.max(1, Math.min(gameLimit, maxTurnoverQty, maxBuyQty));
+            } else {
+                maxOrderSize = Math.max(1, Math.min(gameLimit, maxTurnoverQty));
+            }
+
+            const baseBuyH = maxOrderSize / (0.05 * hourlyInstasell);
+            const baseSellH = maxOrderSize / (0.05 * hourlyInstabuy);
+            const effectiveFlipH = baseBuyH + baseSellH + queueDelayTotal;
+            const maxProfit = maxOrderSize * postTaxProfitPerItem;
+            const profitPerHour = effectiveFlipH > 0 ? (maxProfit / effectiveFlipH) : 0;
+            const roiPct = (postTaxProfitPerItem / buyOrderPrice) * 100.0;
+
+            return {
+                product_id: productId,
+                display_name: cleanItemName(productId),
+                buy_order_price: buyOrderPrice,
+                sell_offer_price: sellOfferPrice,
+                spread_pct: spreadPct,
+                post_tax_profit: postTaxProfitPerItem,
+                roi_pct: roiPct,
+                game_limit: gameLimit,
+                hourly_instasell: hourlyInstasell,
+                hourly_instabuy: hourlyInstabuy,
+                buy_queue_delay: buyQueueDelay,
+                sell_queue_delay: sellQueueDelay,
+                queue_delay_total: queueDelayTotal,
+                unit_time_h: unitTimeH,
+                max_order_size: maxOrderSize,
+                max_profit: maxProfit,
+                profit_per_hour: profitPerHour,
+                buy_queue_depth: buyQueueDepth,
+                sell_queue_depth: sellQueueDepth
+            };
+        }
+
+        function evaluateSlotCount(selectedCandidates, capital, optGoal) {
+            const allocations = {};
+            for (const c of selectedCandidates) allocations[c.product_id] = 1;
+
+            let currentSpent = selectedCandidates.reduce((acc, c) => acc + c.buy_order_price, 0);
+            if (currentSpent > capital) {
+                return { portfolio: [], total_spent: currentSpent, combined_profit_hr: 0, batch_profit: 0, avg_turnover_hours: 0, slots_used: 0 };
+            }
+
+            if (optGoal === 'batch') {
+                const sortedByRoi = [...selectedCandidates].sort((a, b) => b.roi_pct - a.roi_pct);
+                for (const c of sortedByRoi) {
+                    const pid = c.product_id;
+                    const unitPrice = c.buy_order_price;
+                    const remainingCap = capital - currentSpent;
+                    if (remainingCap <= 0) break;
+
+                    const canAddQty = c.max_order_size - allocations[pid];
+                    if (canAddQty > 0) {
+                        const maxAffordable = Math.floor(remainingCap / unitPrice);
+                        const addQty = Math.min(canAddQty, maxAffordable);
+                        allocations[pid] += addQty;
+                        currentSpent += addQty * unitPrice;
+                    }
+                }
+            } else {
+                const stepCapital = Math.max(50000.0, capital / 400.0);
+                while (currentSpent + stepCapital <= capital) {
+                    let bestCand = null;
+                    let bestMarginalGain = -1.0;
+
+                    for (const c of selectedCandidates) {
+                        const pid = c.product_id;
+                        const currQty = allocations[pid];
+                        const unitPrice = c.buy_order_price;
+                        let addQty = Math.max(1, Math.floor(stepCapital / unitPrice));
+
+                        let newQty = currQty + addQty;
+                        if (newQty > c.max_order_size) {
+                            addQty = c.max_order_size - currQty;
+                            if (addQty <= 0) continue;
+                            newQty = c.max_order_size;
+                        }
+
+                        const currTime = c.queue_delay_total + (currQty * c.unit_time_h);
+                        const currProfHr = currTime > 0 ? (currQty * c.post_tax_profit) / currTime : 0;
+                        const newTime = c.queue_delay_total + (newQty * c.unit_time_h);
+                        const newProfHr = newTime > 0 ? (newQty * c.post_tax_profit) / newTime : 0;
+
+                        const costAdded = addQty * unitPrice;
+                        const marginalGain = (newProfHr - currProfHr) / costAdded;
+
+                        if (marginalGain > bestMarginalGain) {
+                            bestMarginalGain = marginalGain;
+                            bestCand = { cand: c, addQty };
+                        }
+                    }
+
+                    if (!bestCand) break;
+
+                    allocations[bestCand.cand.product_id] += bestCand.addQty;
+                    currentSpent += bestCand.addQty * bestCand.cand.buy_order_price;
+                }
+            }
+
+            const rawPortfolio = [];
+            for (const c of selectedCandidates) {
+                const pid = c.product_id;
+                const qty = allocations[pid];
+                const cost = qty * c.buy_order_price;
+                const totalProfit = qty * c.post_tax_profit;
+                const buyH = (qty / (0.05 * c.hourly_instasell)) + c.buy_queue_delay;
+                const sellH = (qty / (0.05 * c.hourly_instabuy)) + c.sell_queue_delay;
+                const totalH = buyH + sellH;
+                const profHr = totalH > 0 ? totalProfit / totalH : 0;
+
+                rawPortfolio.push({
+                    product_id: pid,
+                    display_name: c.display_name,
+                    buy_order_price: c.buy_order_price,
+                    sell_offer_price: c.sell_offer_price,
+                    spread_pct: c.spread_pct,
+                    order_size: qty,
+                    cost: cost,
+                    total_profit: totalProfit,
+                    profit_per_hour: profHr,
+                    roi_pct: c.roi_pct,
+                    buy_hours: buyH,
+                    sell_hours: sellH,
+                    total_hours: totalH,
+                    buy_queue_depth: c.buy_queue_depth,
+                    sell_queue_depth: c.sell_queue_depth
+                });
+            }
+
+            let portfolio = rawPortfolio.filter(x => !(x.order_size <= 1 && (x.cost / capital) < 0.005));
+            if (!portfolio.length) portfolio = rawPortfolio;
+
+            portfolio.sort((a, b) => optGoal === 'batch' ? (b.total_profit - a.total_profit) : (b.profit_per_hour - a.profit_per_hour));
+            const totalSpent = portfolio.reduce((acc, x) => acc + x.cost, 0);
+            const combinedProfitHr = portfolio.reduce((acc, x) => acc + x.profit_per_hour, 0);
+            const batchProfit = portfolio.reduce((acc, x) => acc + x.total_profit, 0);
+            const avgTurnoverH = portfolio.length > 0 ? portfolio.reduce((acc, x) => acc + x.total_hours, 0) / portfolio.length : 0;
+
+            return {
+                portfolio,
+                total_spent: totalSpent,
+                combined_profit_hr: combinedProfitHr,
+                batch_profit: batchProfit,
+                avg_turnover_hours: avgTurnoverH,
+                slots_used: portfolio.length
+            };
+        }
+
+        function optimizePortfolioInternal(params) {
+            const { capital, maxSlots, targetTurnoverHours, comeBackInHours, optGoal, goldilocksFilter, exactSlots } = params;
+            const candidates = [];
+
+            for (const [pid, pdata] of Object.entries(productsData)) {
+                const analysis = analyzeItemCandidate(pid, pdata, {
+                    capital,
+                    targetTurnoverHours,
+                    comeBackInHours,
+                    bazaarTax: BAZAAR_TAX,
+                    minSpreadPct: 1.5,
+                    maxSpreadPct: 15.0,
+                    strictVolume: false,
+                    goldilocksFilter
+                });
+                if (analysis) candidates.push(analysis);
+            }
+
+            if (!candidates.length) {
+                return { portfolio: [], total_spent: 0, combined_profit_hr: 0, batch_profit: 0, slots_used: 0, max_slots: maxSlots, optimization_goal: optGoal, come_back_in_hours: comeBackInHours };
+            }
+
+            if (exactSlots) {
+                if (optGoal === 'batch') candidates.sort((a, b) => b.max_profit - a.max_profit);
+                else candidates.sort((a, b) => b.profit_per_hour - a.profit_per_hour);
+
+                const selectedCandidates = candidates.slice(0, Math.min(candidates.length, maxSlots));
+                const res = evaluateSlotCount(selectedCandidates, capital, optGoal);
+                res.max_slots = maxSlots;
+                res.optimization_goal = optGoal;
+                res.come_back_in_hours = comeBackInHours;
+                return res;
+            }
+
+            // Beam Search across slot counts 1 to maxSlots
+            candidates.sort((a, b) => b.roi_pct - a.roi_pct);
+            const topRoi = candidates.slice(0, 30);
+            candidates.sort((a, b) => b.max_profit - a.max_profit);
+            const topBatch = candidates.slice(0, 30);
+            candidates.sort((a, b) => b.profit_per_hour - a.profit_per_hour);
+            const topVelocity = candidates.slice(0, 30);
+
+            const uniqueCandsMap = {};
+            for (const c of [...topRoi, ...topBatch, ...topVelocity]) uniqueCandsMap[c.product_id] = c;
+            const searchCandidates = Object.values(uniqueCandsMap);
+            searchCandidates.sort((a, b) => a.product_id.localeCompare(b.product_id));
+
+            const candById = {};
+            for (const c of searchCandidates) candById[c.product_id] = c;
+
+            const BEAM_WIDTH = 20;
+            let beams = [[]];
+
+            let bestOverallScore = -1.0;
+            let bestOverallResult = null;
+            const maxK = Math.min(searchCandidates.length, maxSlots);
+            const evaluated = new Set();
+
+            for (let k = 1; k <= maxK; k++) {
+                const nextBeams = [];
+                for (const currentBeam of beams) {
+                    for (const cand of searchCandidates) {
+                        const pid = cand.product_id;
+                        if (currentBeam.includes(pid)) continue;
+
+                        const newCombo = [...currentBeam, pid].sort();
+                        const key = newCombo.join(',');
+                        if (evaluated.has(key)) continue;
+                        evaluated.add(key);
+
+                        const comboCands = newCombo.map(p => candById[p]);
+                        const res = evaluateSlotCount(comboCands, capital, optGoal);
+                        const score = (optGoal === 'batch') ? res.batch_profit : res.combined_profit_hr;
+
+                        if (score > bestOverallScore) {
+                            bestOverallScore = score;
+                            bestOverallResult = res;
+                        }
+
+                        nextBeams.push({ score, combo: newCombo });
+                    }
+                }
+
+                nextBeams.sort((a, b) => b.score - a.score);
+                beams = nextBeams.slice(0, BEAM_WIDTH).map(x => x.combo);
+            }
+
+            if (!bestOverallResult) {
+                bestOverallResult = evaluateSlotCount(candidates.slice(0, maxK), capital, optGoal);
+            }
+
+            bestOverallResult.max_slots = maxSlots;
+            bestOverallResult.optimization_goal = optGoal;
+            bestOverallResult.come_back_in_hours = comeBackInHours;
+            return bestOverallResult;
+        }
+
+        function findOptimalTimeLimit(capital, maxSlots, maxHours, goldilocksFilter) {
+            let bestResult = null;
+            let bestScore = -1.0;
+
+            const steps = Math.max(1, Math.floor(maxHours * 2));
+            for (let step = 1; step <= steps; step++) {
+                const testH = step / 2.0;
+                const res = optimizePortfolioInternal({
+                    capital,
+                    maxSlots,
+                    targetTurnoverHours: testH,
+                    comeBackInHours: testH,
+                    optGoal: 'velocity',
+                    goldilocksFilter,
+                    exactSlots: true
+                });
+
+                const score = res.combined_profit_hr || 0;
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestResult = res;
+                }
+            }
+
+            const bestCbHours = bestResult ? bestResult.come_back_in_hours : maxHours;
+            const optGoal = (bestCbHours >= 4.0) ? 'batch' : 'velocity';
+
+            return optimizePortfolioInternal({
+                capital,
+                maxSlots,
+                targetTurnoverHours: bestCbHours,
+                comeBackInHours: bestCbHours,
+                optGoal,
+                goldilocksFilter,
+                exactSlots: false
+            });
+        }
+
+        function computePortfolioFlips() {
             if (!Object.keys(productsData).length) return;
+            const capital = parseNumberInput(document.getElementById('pf-capital')?.value || '220m');
+            const maxSlots = Math.max(1, parseInt(document.getElementById('pf-slots')?.value || '12', 10));
+            const cbHours = parseTimeInput(document.getElementById('pf-time')?.value || '5h');
+
+            let results;
+            if (autoTimeEnabled) {
+                const maxLimit = cbHours !== null ? cbHours : 12.0;
+                results = findOptimalTimeLimit(capital, maxSlots, maxLimit, goldilocksFilter);
+            } else {
+                const targetTurnover = (cbHours !== null && cbHours > 0) ? cbHours : 1.5;
+                const optGoal = (targetTurnover >= 4.0) ? 'batch' : 'velocity';
+                results = optimizePortfolioInternal({
+                    capital,
+                    maxSlots,
+                    targetTurnoverHours: targetTurnover,
+                    comeBackInHours: cbHours,
+                    optGoal,
+                    goldilocksFilter,
+                    exactSlots: false
+                });
+            }
+
+            allPortfolioResults = results.portfolio || [];
+            document.getElementById('sb-badge-portfolio').textContent = allPortfolioResults.length;
+
+            const totalSpent = results.total_spent || 0;
+            const pctAlloc = capital > 0 ? (totalSpent / capital * 100) : 0;
+            const maxBuyH = allPortfolioResults.length > 0 ? Math.max(...allPortfolioResults.map(x => x.buy_hours)) : 0;
+
+            portfolioSummaryData = {
+                capital,
+                totalSpent,
+                pctAlloc,
+                batchProfit: results.batch_profit || 0,
+                hourlyProfit: results.combined_profit_hr || 0,
+                maxBuyStr: formatDuration(maxBuyH),
+                slotsUsed: allPortfolioResults.length,
+                maxSlots
+            };
+
+            updatePortfolioSummaryUI();
+        }
+
+        function updatePortfolioSummaryUI() {
+            document.getElementById('pf-stat-spent').textContent = `${formatCoins(portfolioSummaryData.totalSpent || 0)} coins (${(portfolioSummaryData.pctAlloc || 0).toFixed(1)}%)`;
+            document.getElementById('pf-stat-profit').textContent = `+${formatCoins(portfolioSummaryData.batchProfit || 0)} coins`;
+            document.getElementById('pf-stat-hourly').textContent = `+${formatCoins(portfolioSummaryData.hourlyProfit || 0)} coins/hr`;
+            document.getElementById('pf-stat-time').textContent = `${portfolioSummaryData.maxBuyStr || '~0 mins'}`;
+        }
+
+        /* ─── Durations Calculation Helper for Crafts & Essence ──────── */
+        function calculateGenericDurations(materialsMap, outProd, outQty) {
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+
+            if (isInsta && isInstaSell) {
+                return { buyHours: 0, sellHours: 0, totalHours: 0, buyStr: 'Instant', sellStr: 'Instant', totalStr: '< 5s' };
+            }
+
+            let maxBuyHours = 0;
+            if (!isInsta) {
+                for (const mat of Object.values(materialsMap)) {
+                    const p = productsData[mat.item_id];
+                    if (!p) continue;
+                    const po = parseOrderBook(p);
+                    const queueDelay = po.buy_queue_depth / Math.max(1.0, po.hourly_instasell);
+                    const fillHours = (mat.qty / Math.max(0.5, po.hourly_instasell * 0.10)) + queueDelay;
+                    if (fillHours > maxBuyHours) maxBuyHours = fillHours;
+                }
+            }
+
+            let sellHours = 0;
+            if (!isInstaSell && outProd) {
+                const po = parseOrderBook(outProd);
+                const queueDelay = po.sell_queue_depth / Math.max(1.0, po.hourly_instabuy);
+                sellHours = (outQty / Math.max(0.5, po.hourly_instabuy * 0.10)) + queueDelay;
+            }
+
+            const totalHours = maxBuyHours + sellHours;
+            return {
+                buyHours: maxBuyHours,
+                sellHours: sellHours,
+                totalHours: totalHours,
+                buyStr: formatDuration(maxBuyHours),
+                sellStr: formatDuration(sellHours),
+                totalStr: formatDuration(totalHours)
+            };
+        }
+
+        /* ─── Craft Flipper (Loaded directly from items/ folder recipes) ── */
+        function computeCraftFlips() {
+            if (!Object.keys(productsData).length || !craftRecipesData) return;
             const userTargetQty = Math.max(1, parseInt(cfg.batchQty, 10) || 1);
             const isInstaBuy = (cfg.inputMode === 'instabuy');
             const isInstaSell = (cfg.outputMode === 'instasell');
             const out = [];
 
-            for (const [itemId, meta] of Object.entries(CRAFT_CATALOG)) {
+            for (const [itemId, rec] of Object.entries(craftRecipesData)) {
                 const prod = productsData[itemId];
                 if (!prod) continue;
 
+                // Player profile recipe unlock filter check
+                if (!isRecipeUnlocked(rec)) continue;
+
+                const mats = rec.materials;
+                if (!mats || !Object.keys(mats).length) continue;
+
+                // Verify all materials exist in Bazaar
+                const allMatsInBz = Object.keys(mats).every(m => productsData[m]);
+                if (!allMatsInBz) continue;
+
                 const pOut = parseOrderBook(prod);
-                const mats = meta.materials;
-                
+                if (pOut.volume < 20) continue;
+
+                const outputPerCraft = rec.count || 1;
+                const totalCraftsNeeded = Math.ceil(userTargetQty / outputPerCraft);
+                const actualProducedUnits = totalCraftsNeeded * outputPerCraft;
+
                 let totalMatCost = 0.0;
                 let maxExecutable = Infinity;
                 const matBreakdown = {};
 
-                for (const [matId, qtyPerCraft] of Object.entries(mats)) {
+                for (const [matId, perCraftQty] of Object.entries(mats)) {
                     const matProd = productsData[matId];
-                    if (!matProd) continue;
-
                     const pMat = parseOrderBook(matProd);
-                    const totalNeeded = qtyPerCraft * userTargetQty;
+                    const totalNeeded = perCraftQty * totalCraftsNeeded;
 
                     let unitPrice = pMat.sell_offer_p;
                     let filled = totalNeeded;
@@ -2399,7 +3008,7 @@
                     if (isInstaBuy) {
                         const buyRes = calculateWeightedInstaBuy(pMat.buy_summary, totalNeeded);
                         if (buyRes.filledQty > 0) unitPrice = buyRes.avgPrice;
-                        const supported = Math.floor(pMat.total_buy_avail / qtyPerCraft);
+                        const supported = Math.floor(pMat.total_buy_avail / perCraftQty);
                         if (supported < maxExecutable) maxExecutable = supported;
                     } else {
                         unitPrice = pMat.buy_order_p;
@@ -2409,9 +3018,9 @@
                     totalMatCost += cost;
                     matBreakdown[matId] = {
                         item_id: matId,
-                        name: formatEnchantName(matId),
+                        name: cleanItemName(matId),
                         qty: totalNeeded,
-                        per_craft_qty: qtyPerCraft,
+                        per_craft_qty: perCraftQty,
                         unit_price: unitPrice,
                         total_cost: cost
                     };
@@ -2419,7 +3028,7 @@
 
                 let salePrice = pOut.sell_offer_p;
                 if (isInstaSell) {
-                    const sellRes = calculateWeightedInstaSell(pOut.sell_summary, userTargetQty);
+                    const sellRes = calculateWeightedInstaSell(pOut.sell_summary, actualProducedUnits);
                     if (sellRes.filledQty > 0) salePrice = sellRes.avgPrice;
                     if (pOut.total_sell_avail < maxExecutable) maxExecutable = pOut.total_sell_avail;
                 } else {
@@ -2428,20 +3037,30 @@
 
                 if (maxExecutable === Infinity) maxExecutable = 999;
 
-                const totalGrossRev = salePrice * userTargetQty;
+                const totalGrossRev = salePrice * actualProducedUnits;
                 const totalTax = totalGrossRev * BAZAAR_TAX;
                 const totalNetRev = totalGrossRev - totalTax;
                 const totalProfit = totalNetRev - totalMatCost;
 
                 if (totalProfit > 0) {
-                    const unitCost = totalMatCost / userTargetQty;
-                    const unitProfit = totalProfit / userTargetQty;
+                    const unitCost = totalMatCost / actualProducedUnits;
+                    const unitProfit = totalProfit / actualProducedUnits;
                     const roiPct = totalMatCost > 0 ? (totalProfit / totalMatCost * 100) : 0;
+                    const tier = (rec.tier || 'COMMON').toLowerCase();
+
+                    const durations = calculateGenericDurations(matBreakdown, prod, actualProducedUnits);
+
+                    // Max Total Time Filter
+                    if (cfg.maxTotalTime !== null && durations.totalHours > cfg.maxTotalTime) {
+                        continue;
+                    }
 
                     out.push({
                         itemId,
-                        name: meta.name,
-                        category: meta.category,
+                        name: rec.name || cleanItemName(itemId),
+                        tier,
+                        outputPerCraft,
+                        totalCraftsNeeded,
                         materials: matBreakdown,
                         totalBatchCost: totalMatCost,
                         totalGrossRev,
@@ -2451,16 +3070,20 @@
                         salePrice,
                         unitProfit,
                         pct: roiPct,
-                        actualProducedUnits: userTargetQty,
+                        actualProducedUnits,
                         maxExecutable,
-                        isOrderBookFullyAvailable: (maxExecutable >= userTargetQty),
-                        volume: pOut.volume
+                        isOrderBookFullyAvailable: (maxExecutable >= actualProducedUnits),
+                        volume: pOut.volume,
+                        durations,
+                        requirement: rec.requirement
                     });
                 }
             }
 
             if (cfg.sortBy === 'percent') {
                 out.sort((a, b) => b.pct - a.pct);
+            } else if (cfg.sortBy === 'time') {
+                out.sort((a, b) => a.durations.totalHours - b.durations.totalHours);
             } else {
                 out.sort((a, b) => b.totalProfit - a.totalProfit);
             }
@@ -2509,7 +3132,7 @@
                     totalMatCost += cost;
                     matBreakdown[matId] = {
                         item_id: matId,
-                        name: formatEnchantName(matId),
+                        name: cleanItemName(matId),
                         qty: totalNeeded,
                         per_craft_qty: qtyPerCraft,
                         unit_price: unitPrice,
@@ -2538,6 +3161,13 @@
                     const unitProfit = totalProfit / userTargetQty;
                     const roiPct = totalMatCost > 0 ? (totalProfit / totalMatCost * 100) : 0;
 
+                    const durations = calculateGenericDurations(matBreakdown, prod, userTargetQty);
+
+                    // Max Total Time Filter
+                    if (cfg.maxTotalTime !== null && durations.totalHours > cfg.maxTotalTime) {
+                        continue;
+                    }
+
                     out.push({
                         itemId,
                         name: meta.name,
@@ -2555,13 +3185,16 @@
                         actualProducedUnits: userTargetQty,
                         maxExecutable,
                         isOrderBookFullyAvailable: (maxExecutable >= userTargetQty),
-                        volume: pOut.volume
+                        volume: pOut.volume,
+                        durations
                     });
                 }
             }
 
             if (cfg.sortBy === 'percent') {
                 out.sort((a, b) => b.pct - a.pct);
+            } else if (cfg.sortBy === 'time') {
+                out.sort((a, b) => a.durations.totalHours - b.durations.totalHours);
             } else {
                 out.sort((a, b) => b.totalProfit - a.totalProfit);
             }
@@ -2584,7 +3217,7 @@
             const area = document.getElementById('area');
 
             if (!allShardResults.length && Object.keys(shardPrices).length) {
-                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable shard fusions found.</div>`;
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable shard fusions found matching filters / time limits.</div>`;
                 return;
             }
             if (!allShardResults.length) return;
@@ -2682,7 +3315,7 @@
             const area = document.getElementById('area');
 
             if (!allBookResults.length && Object.keys(bookPrices).length) {
-                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable book combine flips found.</div>`;
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable book combine flips found matching filters / time limits.</div>`;
                 return;
             }
             if (!allBookResults.length) return;
@@ -2776,17 +3409,18 @@
             return html;
         }
 
+        /* ─── Portfolio Rendering (Identical to bazaar_gui.py cards & copy buttons) ── */
         function renderPortfolioResults() {
             const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
             const area = document.getElementById('area');
 
             if (!allPortfolioResults.length) {
-                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No portfolio slots allocated. Adjust capital or slot limit.</div>`;
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No viable portfolio slots found for this capital and limits. Click "Find Flips" to scan.</div>`;
                 return;
             }
 
             let list = allPortfolioResults;
-            if (filter) list = list.filter(r => r.name.toLowerCase().includes(filter) || r.pid.toLowerCase().includes(filter));
+            if (filter) list = list.filter(r => r.display_name.toLowerCase().includes(filter) || r.product_id.toLowerCase().includes(filter));
 
             const grid = document.createElement('div');
             grid.className = 'grid';
@@ -2798,54 +3432,78 @@
         function makePortfolioCard(r, slotNum) {
             const el = document.createElement('div');
             el.className = 'card';
+
+            const buyPriceStr = formatCoins(r.buy_order_price);
+            const sellPriceStr = formatCoins(r.sell_offer_price);
+            const bzCmd = `/bz ${r.product_id}`;
+
             el.innerHTML = `
                 <div class="card-header">
-                    <span class="rank-num">SLOT #${slotNum}</span>
+                    <span class="rank-num">#${slotNum}:</span>
                     <span class="mod-icon">💼</span>
-                    <span class="shard-name">${esc(r.name)}</span>
-                    <span class="vol-stat">vol: ${fmt(r.volume)}/wk</span>
+                    <span class="shard-name">${esc(r.display_name)}</span>
+                    <span style="color:var(--text-dim);font-size:10.5px">(${esc(r.product_id)})</span>
                 </div>
+
+                <!-- Fast In-Game Copy Toolbar (from bazaar_gui.py) -->
+                <div class="copy-actions">
+                    <button class="copy-btn" onclick="copyToClipboard('${bzCmd}', this, '[📋 ${bzCmd}]')">[📋 ${bzCmd}]</button>
+                    <button class="copy-btn" onclick="copyToClipboard('${r.order_size}', this, '[📋 Qty: ${r.order_size.toLocaleString()}]')">[📋 Qty: ${r.order_size.toLocaleString()}]</button>
+                    <button class="copy-btn" onclick="copyToClipboard('${r.buy_order_price}', this, '[📋 Buy: ${buyPriceStr}]')">[📋 Buy: ${buyPriceStr}]</button>
+                    <button class="copy-btn" onclick="copyToClipboard('${r.sell_offer_price}', this, '[📋 Sell: ${sellPriceStr}]')">[📋 Sell: ${sellPriceStr}]</button>
+                </div>
+
+                <!-- High-Precision Portfolio Metrics (from bazaar_gui.py) -->
                 <div class="metrics-block">
                     <div class="mb-top">
-                        <span style="color:var(--text-dim);font-weight:700">ORDER: ${r.units.toLocaleString()}x UNITS</span>
-                        <span class="mb-roi">+${r.roi.toFixed(1)}% ROI</span>
+                        <span>📦 Buy Order Size: <b>${r.order_size.toLocaleString()}x units</b> (Total Cost: <b>${formatCoins(r.cost)} coins</b>)</span>
+                        <span class="mb-roi">+${r.roi_pct.toFixed(1)}% ROI</span>
                     </div>
                     <div class="mb-top">
-                        <span style="color:var(--text-dim)">Cost: ${fmt(r.cost)} → Profit: +${fmt(r.profit)}</span>
-                        <span class="mb-profit">+${fmt(r.hourly_profit)}/hr</span>
+                        <span>📈 Batch Profit: <b class="g">+${formatCoins(r.total_profit)} coins</b></span>
+                        <span class="mb-profit">+${formatCoins(r.profit_per_hour)}/hr</span>
+                    </div>
+                    <div class="mb-top" style="font-size:10.5px;color:var(--text-dim)">
+                        <span>💵 Buy: <b>${buyPriceStr}</b> | 🏷️ Sell: <b>${sellPriceStr}</b> (Spread: <b>${r.spread_pct.toFixed(1)}%</b>)</span>
                     </div>
                 </div>
+
+                <!-- Detailed Turnover Timers (from bazaar_flipper.py) -->
                 <div class="timers-block">
-                    <span>EST. FILL TIME: <b class="hl">${r.est_fill_str}</b></span>
+                    <span>Buy Fill: <b>${formatDuration(r.buy_hours)}</b></span>
                     <span>|</span>
-                    <span>BUY: <b>${fmt(r.buy_p)}</b></span>
+                    <span>Sell Fill: <b>${formatDuration(r.sell_hours)}</b></span>
                     <span>|</span>
-                    <span>SELL: <b>${fmt(r.sell_p)}</b></span>
-                </div>
-                <div class="unit-bar">
-                    <span>PER UNIT PROFIT: <b class="p">+${fmt(r.unit_profit)}</b></span>
-                    <span style="color:var(--text-dim)">PID: ${esc(r.pid)}</span>
+                    <span>Total Flip Time: <b class="hl">${formatDuration(r.total_hours)}</b></span>
                 </div>
             `;
             return el;
         }
 
+        /* ─── Craft Flipper Rendering ─────────────────────────────── */
         function renderCraftResults() {
             const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
             const area = document.getElementById('area');
 
             if (!allCraftResults.length) {
-                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable crafts found.</div>`;
+                const unlockNotice = activeMemberData && unlockedOnlyFilter ? ' (check player unlocks or toggle Unlocked: OFF)' : '';
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable crafts found matching filters / unlocks${unlockNotice}.</div>`;
                 return;
             }
 
             let list = allCraftResults;
-            if (activeFilterCategory !== 'all') list = list.filter(r => r.category === activeFilterCategory);
+            if (activeFilterCategory !== 'all') list = list.filter(r => r.tier.toLowerCase() === activeFilterCategory);
             if (filter) list = list.filter(r => r.name.toLowerCase().includes(filter) || r.itemId.toLowerCase().includes(filter));
+
+            const shown = list.slice(0, cfg.topN);
+            if (!shown.length) {
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No craft results matching "${esc(filter)}"</div>`;
+                return;
+            }
 
             const grid = document.createElement('div');
             grid.className = 'grid';
-            list.forEach((r, i) => grid.appendChild(makeCraftCard(r, i + 1)));
+            shown.forEach((r, i) => grid.appendChild(makeCraftCard(r, i + 1)));
             area.innerHTML = '';
             area.appendChild(grid);
         }
@@ -2853,22 +3511,41 @@
         function makeCraftCard(r, rank) {
             const el = document.createElement('div');
             el.className = 'card';
-            const cat = r.category;
+            const tier = r.tier || 'common';
             const matListStr = Object.values(r.materials)
                 .map(m => `<b>${m.qty.toLocaleString()}x</b> ${esc(m.name)} (@ ${fmt(m.unit_price)})`)
                 .join(' &nbsp;|&nbsp; ');
+
+            let obBadgeHtml = '';
+            if (cfg.inputMode === 'instabuy' && cfg.outputMode === 'instasell') {
+                obBadgeHtml = r.isOrderBookFullyAvailable 
+                    ? `<div class="ob-badge ok"><span>[OK] ORDER BOOK: <b>${r.actualProducedUnits}/${r.actualProducedUnits} READY</b></span><span style="opacity:0.75">MAX: ${r.maxExecutable}</span></div>`
+                    : `<div class="ob-badge warn"><span>[!] PARTIAL DEPTH: <b>${r.maxExecutable}/${r.actualProducedUnits} READY</b></span></div>`;
+            }
+
+            let reqBadgeStr = '';
+            if (r.requirement) {
+                if (r.requirement.type === 'collection') {
+                    reqBadgeStr = ` | 📜 Req: ${r.requirement.collection_name} ${r.requirement.tier}`;
+                } else if (r.requirement.type === 'slayer') {
+                    reqBadgeStr = ` | ⚔️ Req: ${r.requirement.name}`;
+                }
+            }
 
             el.innerHTML = `
                 <div class="card-header">
                     <span class="rank-num">#${rank}</span>
                     <span class="mod-icon">🔨</span>
-                    <span class="rar-tag ${cat}">${cat.toUpperCase()}</span>
-                    <span class="shard-name ${cat}">${esc(r.name)}</span>
+                    <span class="rar-tag ${tier}">${tier.toUpperCase()}</span>
+                    <span class="shard-name ${tier}">${esc(r.name)}</span>
                     <span class="vol-stat">vol: ${fmt(r.volume)}/wk</span>
                 </div>
+
+                ${obBadgeHtml}
+
                 <div class="metrics-block">
                     <div class="mb-top">
-                        <span style="color:var(--text-dim);font-weight:700">BATCH [ ${r.actualProducedUnits}x CRAFTS ]</span>
+                        <span style="color:var(--text-dim);font-weight:700">BATCH [ ${r.actualProducedUnits}x UNITS (${r.totalCraftsNeeded} crafts) ]</span>
                         <span class="mb-roi">+${r.pct.toFixed(1)}% ROI</span>
                     </div>
                     <div class="mb-top">
@@ -2876,18 +3553,31 @@
                         <span class="mb-profit">+${fmt(r.totalProfit)}</span>
                     </div>
                 </div>
-                <div class="mats-list"><span style="color:var(--text-dim);font-weight:700;display:block;margin-bottom:2px">[RECIPE INGREDIENTS]:</span>${matListStr}</div>
-                <div class="unit-bar"><span>PER UNIT: Cost <b>${fmt(r.unitCost)}</b> → Sell <b>${fmt(r.salePrice)}</b></span><span>PROFIT: <b class="p">+${fmt(r.unitProfit)}</b></span></div>
+
+                <div class="timers-block">
+                    <span>IN: <b>${r.durations.buyStr}</b></span> | <span>OUT: <b>${r.durations.sellStr}</b></span> | <span>TOTAL: <b class="hl">${r.durations.totalStr}</b></span>
+                </div>
+
+                <div class="mats-list">
+                    <span style="color:var(--text-dim);font-weight:700;display:block;margin-bottom:2px">[VERIFIED RECIPE INGREDIENTS]:</span>
+                    ${matListStr}
+                </div>
+
+                <div class="unit-bar">
+                    <span>PER UNIT: Cost <b>${fmt(r.unitCost)}</b> → Sell <b>${fmt(r.salePrice)}</b><span class="req-tag">${reqBadgeStr}</span></span>
+                    <span>PROFIT: <b class="p">+${fmt(r.unitProfit)}</b></span>
+                </div>
             `;
             return el;
         }
 
+        /* ─── Essence Flipper Rendering ───────────────────────────── */
         function renderEssenceResults() {
             const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
             const area = document.getElementById('area');
 
             if (!allEssenceResults.length) {
-                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable essence conversions found.</div>`;
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">[!] No profitable essence conversions found matching filters / time limits.</div>`;
                 return;
             }
 
@@ -2928,6 +3618,9 @@
                         <span class="mb-profit">+${fmt(r.totalProfit)}</span>
                     </div>
                 </div>
+                <div class="timers-block">
+                    <span>IN: <b>${r.durations.buyStr}</b></span> | <span>OUT: <b>${r.durations.sellStr}</b></span> | <span>TOTAL: <b class="hl">${r.durations.totalStr}</b></span>
+                </div>
                 <div class="mats-list"><span style="color:var(--text-dim);font-weight:700;display:block;margin-bottom:2px">[REQUIRED ESSENCE & MATERIALS]:</span>${matListStr}</div>
                 <div class="unit-bar"><span>PER UNIT: Cost <b>${fmt(r.unitCost)}</b> → Sell <b>${fmt(r.salePrice)}</b></span><span>PROFIT: <b class="p">+${fmt(r.unitProfit)}</b></span></div>
             `;
@@ -2944,6 +3637,31 @@
             return Math.round(n).toLocaleString();
         }
 
+        function formatCoins(val) {
+            if (val === undefined || val === null || isNaN(val)) return '0';
+            const a = Math.abs(val);
+            if (a >= 100000) return val.toLocaleString(undefined, { maximumFractionDigits: 0 });
+            if (a >= 1000) return val.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+            return val.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function formatDuration(hours) {
+            if (hours <= 0) return '< 5s';
+            if (hours < (1.0 / 60.0)) {
+                const secs = Math.max(1, Math.round(hours * 3600));
+                return `~${secs} sec${secs !== 1 ? 's' : ''}`;
+            }
+            if (hours < 1.0) {
+                const mins = Math.max(1, Math.round(hours * 60));
+                return `~${mins} min${mins !== 1 ? 's' : ''}`;
+            }
+            if (hours < 24.0) {
+                return `~${hours.toFixed(1)} hrs`;
+            }
+            const days = hours / 24.0;
+            return `~${days.toFixed(1)} days (${hours.toFixed(0)}h)`;
+        }
+
         function esc(s) {
             return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         }
@@ -2953,16 +3671,18 @@
         }
 
         function statusText() {
+            const timeLimitStr = cfg.maxTotalTime ? ` (within ${formatDuration(cfg.maxTotalTime)})` : '';
             if (currentModule === 'shards') {
-                return `[BAZAAR LIVE] <b>${Object.keys(shardPrices).length}</b> shards active | <span class="g">${allShardResults.length.toLocaleString()}</span> profitable flips verified for <b>${cfg.batchQty} units</b>`;
+                return `[BAZAAR LIVE] <b>${Object.keys(shardPrices).length}</b> shards active | <span class="g">${allShardResults.length.toLocaleString()}</span> profitable flips verified for <b>${cfg.batchQty} units</b>${timeLimitStr}`;
             } else if (currentModule === 'books') {
-                return `[BAZAAR LIVE] <b>${Object.keys(bookPrices).length}</b> enchants active | <span class="g">${allBookResults.length.toLocaleString()}</span> profitable combines verified for <b>${cfg.batchQty} units</b>`;
+                return `[BAZAAR LIVE] <b>${Object.keys(bookPrices).length}</b> enchants active | <span class="g">${allBookResults.length.toLocaleString()}</span> profitable combines verified for <b>${cfg.batchQty} units</b>${timeLimitStr}`;
             } else if (currentModule === 'portfolio') {
-                return `[PORTFOLIO LIVE] <b>${allPortfolioResults.length}</b> slots allocated | Expected batch profit: <span class="g">+${fmt(portfolioSummaryData.totalProfit || 0)}</span>`;
+                return `[PORTFOLIO LIVE] <b>${allPortfolioResults.length}</b> optimal slots active | Expected batch profit: <span class="g">+${formatCoins(portfolioSummaryData.batchProfit || 0)} coins</span>`;
             } else if (currentModule === 'crafts') {
-                return `[CRAFTS LIVE] <b>${allCraftResults.length}</b> profitable crafts verified for <b>${cfg.batchQty} units</b>`;
+                const profLabel = activeMemberData ? ` | Player: <span class="y"><b>${getActiveProfileCuteName()}</b></span> (${allCraftResults.length} unlocked)` : '';
+                return `[CRAFTS LIVE] <b>${allCraftResults.length}</b> verified craft flips active for <b>${cfg.batchQty} units</b>${timeLimitStr}${profLabel}`;
             } else {
-                return `[ESSENCE LIVE] <b>${allEssenceResults.length}</b> profitable essence conversions verified for <b>${cfg.batchQty} units</b>`;
+                return `[ESSENCE LIVE] <b>${allEssenceResults.length}</b> profitable essence conversions verified for <b>${cfg.batchQty} units</b>${timeLimitStr}`;
             }
         }
 
@@ -3058,17 +3778,6 @@
             computeEssenceFlips();
             renderCurrentModule();
             setStatus(statusText());
-        }
-
-        function formatDuration(hours) {
-            if (hours <= 0) return 'Instant';
-            const totalMins = Math.round(hours * 60);
-            if (totalMins < 1) return '< 1m';
-            if (totalMins < 60) return `~${totalMins}m`;
-            const h = Math.floor(totalMins / 60);
-            const m = totalMins % 60;
-            if (m === 0) return `~${h}h`;
-            return `~${h}h ${m}m`;
         }
 
         init();

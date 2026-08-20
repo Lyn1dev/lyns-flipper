@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Glacial Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"GLACIAL_FRAGMENT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/winter/glacial_fragment\",display:{Lore:[0:\"§7A small piece of a giant glacier.\",1:\"§7Doesn't ever melt.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Glacial Fragment\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7A small piece of a giant glacier.",
+    "§7Doesn't ever melt.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "GLACIAL_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Glacial_Fragment"
+  ]
+}

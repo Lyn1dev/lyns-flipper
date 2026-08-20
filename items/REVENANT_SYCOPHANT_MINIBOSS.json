@@ -1,0 +1,47 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Revenant Sycophant (Miniboss)",
+  "nbttag": "{ExtraAttributes:{id:\"REVENANT_SYCOPHANT_MINIBOSS\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7The Revenant Sycophant is a Revenant Horror/Zombie\",1:\"§7Slayer Miniboss that has a small chance to be spawned\",2:\"§7when a player with an active Revenant Horror Tier III+\",3:\"§7Quest kills a Zombie.\",4:\"\",5:\"§c❤ Health§8: §c24,000\"],Name:\"§5Revenant Sycophant (Miniboss)\"}}",
+  "damage": 2,
+  "lore": [
+    "§7The Revenant Sycophant is a Revenant Horror/Zombie",
+    "§7Slayer Miniboss that has a small chance to be spawned",
+    "§7when a player with an active Revenant Horror Tier III+",
+    "§7Quest kills a Zombie.",
+    "",
+    "§c❤ Health§8: §c24,000"
+  ],
+  "internalname": "REVENANT_SYCOPHANT_MINIBOSS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Revenant_Sycophant"
+  ],
+  "recipes": [
+    {
+      "name": "§cRevenant Sycophant",
+      "render": "@neurepo:mobs/revenant_sycophant.json",
+      "level": 80,
+      "combat_xp": 360,
+      "type": "drops",
+      "panorama": "hub",
+      "drops": [
+        {
+          "id": "REVENANT_FLESH:1",
+          "chance": "100%"
+        },
+        {
+          "id": "ATTRIBUTE_SHARD_LIFE_RECOVERY;1:1",
+          "extra": [
+            "§7 §7- §7Catch with §cPocket Black Hole§7.",
+            "§7 §7- §7Kill Revenant Sycophant §7while",
+            "§7using §cSalts§7."
+          ],
+          "chance": "100%"
+        }
+      ]
+    }
+  ]
+}

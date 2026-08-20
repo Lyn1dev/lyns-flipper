@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Lava Water Orb",
+  "nbttag": "{ExtraAttributes:{id:\"LAVA_WATER_ORB\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/bobbin_time/lava_water_orb\",display:{Lore:[0:\"§7Extremely hot to the touch.\",1:\"\",2:\"§8Shouldn't this be steam..?\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Lava Water Orb\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Extremely hot to the touch.",
+    "",
+    "§8Shouldn't this be steam..?",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "LAVA_WATER_ORB",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lava_Water_Orb"
+  ],
+  "recipes": [
+    {
+      "A1": "MAGMA_FISH_SILVER:16",
+      "A2": "THUNDER_SHARDS:2",
+      "A3": "MAGMA_FISH_SILVER:16",
+      "B1": "MOOGMA_PELT:64",
+      "B2": "WATER_ORB:1",
+      "B3": "LUMP_OF_MAGMA:64",
+      "C1": "CUP_OF_BLOOD:32",
+      "C2": "HORN_OF_TAURUS:16",
+      "C3": "FLAMING_HEART:32",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LAVA_WATER_ORB"
+    }
+  ]
+}

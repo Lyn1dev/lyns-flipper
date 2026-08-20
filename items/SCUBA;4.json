@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{scuba:4},id:\"SCUBA;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Scuba 4\",3:\"§7Grants §9+4 Pressure Resistance§7.\",4:\"\",5:\"§6Applied To:\",6:\"§7- §fArmor\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Scuba 4",
+    "§7Grants §9+4 Pressure Resistance§7.",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SCUBA;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scuba"
+  ]
+}

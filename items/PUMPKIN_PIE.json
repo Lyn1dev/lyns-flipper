@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:pumpkin_pie",
+  "displayname": "§fPumpkin Pie",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_PIE\"},HideFlags:254,ItemModel:\"minecraft:pumpkin_pie\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPumpkin Pie\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "PUMPKIN_PIE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "PUMPKIN:1",
+    "A2": "SUGAR:1",
+    "A3": "EGG:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Enchanted Tender Wood",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_TENDER_WOOD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/tender_wood\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Enchanted Tender Wood\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_TENDER_WOOD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Tender_Wood"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "TENDER_WOOD:32",
+      "A3": "",
+      "B1": "TENDER_WOOD:32",
+      "B2": "TENDER_WOOD:32",
+      "B3": "TENDER_WOOD:32",
+      "C1": "",
+      "C2": "TENDER_WOOD:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_TENDER_WOOD"
+    }
+  ]
+}

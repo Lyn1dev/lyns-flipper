@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Loras (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LORAS_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f57d233f-7e06-2516-ad91-9a2eb5208f1c\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc3MTUzODMwN2ZmMTA0ZjI0NTlmNzQ2MWQ0MGU0ZjU2NGI0OTAzOGU1NzQzMWRiMTZhZjBiNzRhYjVmMWI3NCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmNTdkMjMzZjdlMDYyNTE2YWQ5MTlhMmViNTIwOGYxYyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzg2NDcyMTgyMTQyfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Loras (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LORAS_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament nogitversion+mc26.2",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Loras"
+  ],
+  "island": "foraging_2",
+  "x": -594,
+  "y": 118,
+  "z": 14
+}

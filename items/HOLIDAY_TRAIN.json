@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Holiday Train",
+  "nbttag": "{ExtraAttributes:{id:\"HOLIDAY_TRAIN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d54ca8a2-57cc-34c3-babf-d35619147d1a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"W3XKeVBnmaQIFRuqxQkU/E2ecpqBN4XlHZiKjJcHuBcJknJ55NVvYQUf53Nnu3BZH4H4iGYetB8GjuBc9AgHaGQpPDvsqwqQpKtRs/T4gz+dst+gh7OggPgdUHMD0bbEhpQSYnnA7j0Ghm2b6DxhbJSWf/HRSOZrGf2LHlMkphxrutGWUy0FQe3T8MFOJAcSiNjlpLo7+PTbbs5YREkV6kpsIoCYMayAH6mKpUJ2mveTe9/7KyjHw7GXvF3tyrTxDT5fk+O5qfrSCaetVsdQBB79pRlIkZ+2ggBp4CSp58QU37i4Wf7THstXZwVyKSAl26DisG67IzqrdEEcu8Z6+9+BkZBjXImUqvKb8THoO2Ajr5ZqLy54h50fgeoYaSIjchRWz5o5TOcM/3n/CmoC2wi7oMuhr+86B0jSh+XXpfUmV6sNT8ou3p0275mkuXntLtezVWkZllXz07vUfeohKWjgKgZ6OwHzmBD5EBzvFF/xKv9e+fWHq20pFhVmWubpZja5LvwvoVjynObiDi1pz+y6lkOX0TvlVDV30U0T9GID4PEJaRk7KK+r84Exu2yoaiMfS2VA5MyJ+xucpQS/5S+y7G3nx425rgzJR3eGcHUrhj1qpZl4d9rB92TIRBIv4tdqMD9z6AM3oI+eZ2J6PmM3ly03W+/kJzUm+5aZcoM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MTE3MjY0MzAzODgsInByb2ZpbGVJZCI6IjNkOWNmOTZiN2MyNzRiZWVhZDFiOWQ0NTM3NTRjYjc2IiwicHJvZmlsZU5hbWUiOiJOaWtha2EiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZlZjM1OTljMTQ1ZDM3MmVhOTg2OTg3NzYzZTI0OThkMjFiNTY3ZDcxZmJmN2UyM2Q1ZmE4MTk3ZTlhZDFkIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Holiday Cosmetic\",2:\"\",3:\"§7This exclusive §cHoliday §7cosmetic can\",4:\"§7be placed on your island or traded.\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Holiday Train\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Furniture",
+    "§8Holiday Cosmetic",
+    "",
+    "§7This exclusive §cHoliday §7cosmetic can",
+    "§7be placed on your island or traded.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "HOLIDAY_TRAIN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Holiday_Train"
+  ]
+}

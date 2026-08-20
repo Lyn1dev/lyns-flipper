@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Large Enchanted Fishing Sack",
+  "nbttag": "{ExtraAttributes:{id:\"LARGE_ENCHANTED_FISHING_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"29f18c7a-b362-39a9-ba37-dde7169c88f1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"xUQtMar5ZhamnJ79c+BLr1ixoAL8/FXHeQseWkqaO66PkS9g6CG0E4DOdEp6xvHqUs/voKSR/4uRWeuMGnPeMEJptHLAjUOeuHLTFv4rEXtwAgW7pHFdZkYPH9vmSoRStDkYE/YrqxTGqLXTS+VDmuLvT44SN14lEaiucEDBHbrlopDLuv/zGqMf1L80FSWm/yttaEdpBt7dEvCJ1arD3ccHAd7KSAPrWCK1D3ab4kK+Eel174EZUFdnBIHhr4ccnn8nQaA0rhtQRnUGA0G99LJiRgEFCNX0RVc2D5ixg2yRHyztal8WivSDy4Nd2EyaR8jQSrEoZj74NnpK19IgPbug0/iR3CoYHMf26rzi5gBzxwtMfyySOHSb5ug0mHnayxbyMub1xTlgePbj96GsPusrbxgF3X1opb3ALQqAqLkSe3/bhcVgo2T6hp4KiKBk/xz/6ajA3D2r7J9O9A+P66rTU5PPYlFIxaGGd95pxo0s2WVAduLtH5I2w6tkDIPlqMZa/ebUR1Q/ZhJisoFAmfGSbO0sdccLrfh6bXaMQT1xjlY33nbQyWBX2G/t4Wx6yIAN/PSrmpMo9QSSIpLPbUUFdadzJ2AE9UW7SmY6+7LJpONmBz7ayfqaBK3BBvPBeCdqlQKh8bn44PL8O7hrxtrs1hz3wIW1X4kobMdAAYI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM4OTM4MywKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICI4Qml0czFCeXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlMjQ2OWRlN2Y3NWQyZTBhOGIzYjBjNzM0YTJiNDcwNzgyYjYwNGQxZmViMDE3MmI0YTcyYTc3Y2I1YmJkYTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holds various enchanted items\",1:\"§7obtained from §bFishing§7! Items you\",2:\"§7pickup go directly into your sacks.\",3:\"\",4:\"§7Capacity: §e20,160 of each item\",5:\"§8Multiple sacks sum their capacity!\",6:\"\",7:\"§eRight Click to open!\",8:\"\",9:\"§5§lEPIC SACK\"],Name:\"§5Large Enchanted Fishing Sack\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Holds various enchanted items",
+    "§7obtained from §bFishing§7! Items you",
+    "§7pickup go directly into your sacks.",
+    "",
+    "§7Capacity: §e20,160 of each item",
+    "§8Multiple sacks sum their capacity!",
+    "",
+    "§eRight Click to open!",
+    "",
+    "§5§lEPIC SACK"
+  ],
+  "internalname": "LARGE_ENCHANTED_FISHING_SACK",
+  "clickcommand": "",
+  "crafttext": "Requires: Pufferfish X",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Large_Enchanted_Fishing_Sack"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_PUFFERFISH:16",
+      "A2": "ENCHANTED_STRING:16",
+      "A3": "ENCHANTED_PUFFERFISH:16",
+      "B1": "ENCHANTED_PUFFERFISH:16",
+      "B2": "ENCHANTED_LEATHER:12",
+      "B3": "ENCHANTED_PUFFERFISH:16",
+      "C1": "ENCHANTED_PUFFERFISH:16",
+      "C2": "ENCHANTED_PUFFERFISH:16",
+      "C3": "ENCHANTED_PUFFERFISH:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "LARGE_ENCHANTED_FISHING_SACK"
+    }
+  ]
+}

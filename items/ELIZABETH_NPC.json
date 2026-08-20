@@ -1,0 +1,408 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Elizabeth (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"ELIZABETH_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9fdb78bf-a5cb-2b67-95bc-be61c02d4cfd\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTAxN2I2YWNmMjJkZWIxNjg2MjkzZDdjY2NmZmU0MDkwMWFhNWFhNGE2ZmE5MGY4ZTEyMTcxMTRlMWQzNzMwMiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5ZmRiNzhiZmE1Y2IyYjY3OTViY2JlNjFjMDJkNGNmZCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjY4NzAzfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Elizabeth (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "ELIZABETH_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Elizabeth"
+  ],
+  "x": -7,
+  "y": 79,
+  "z": 19,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:1500"
+      ],
+      "result": "GOD_POTION_2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:1350"
+      ],
+      "result": "KISMET_FEATHER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:500"
+      ],
+      "result": "KAT_FLOWER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:2500"
+      ],
+      "result": "KAT_BOUQUET"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:3000"
+      ],
+      "result": "HEAT_CORE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:300"
+      ],
+      "result": "HYPER_CATALYST_UPGRADE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:8000"
+      ],
+      "result": "ULTIMATE_CARROT_CANDY_UPGRADE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:1200"
+      ],
+      "result": "COLOSSAL_EXP_BOTTLE_UPGRADE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "JUMBO_BACKPACK_UPGRADE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:1500"
+      ],
+      "result": "MINION_STORAGE_EXPANDER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:1200"
+      ],
+      "result": "MATRIARCH_PARFUM"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:2000"
+      ],
+      "result": "HOLOGRAM"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:600"
+      ],
+      "result": "DITTO_BLOB"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:12000"
+      ],
+      "result": "BUILDERS_WAND"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "BLOCK_ZAPPER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:12000"
+      ],
+      "result": "BITS_TALISMAN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:8000"
+      ],
+      "result": "POCKET_SACK_IN_A_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:14000"
+      ],
+      "result": "LARGE_DUNGEON_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:14000"
+      ],
+      "result": "RUNE_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:14000"
+      ],
+      "result": "FLOWER_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:14000"
+      ],
+      "result": "DWARVEN_MINES_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:14000"
+      ],
+      "result": "CRYSTAL_HOLLOWS_SACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4800"
+      ],
+      "result": "PORTALIZER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:6450"
+      ],
+      "result": "TRIO_CONTACTS_ADDON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:17000"
+      ],
+      "result": "ABICASE_BLUE_AQUA"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:17000"
+      ],
+      "result": "ABICASE_BLUE_BLUE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:17000"
+      ],
+      "result": "ABICASE_BLUE_GREEN"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:17000"
+      ],
+      "result": "ABICASE_BLUE_RED"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:17000"
+      ],
+      "result": "ABICASE_BLUE_YELLOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:26000"
+      ],
+      "result": "ABICASE_REZAR"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:15000"
+      ],
+      "result": "ABICASE_SUMSUNG_1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:25000"
+      ],
+      "result": "ABICASE_SUMSUNG_2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:21000"
+      ],
+      "result": "AUTOPET_RULES_2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:250000"
+      ],
+      "result": "DYE_PURE_BLACK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:250000"
+      ],
+      "result": "DYE_PURE_WHITE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:75"
+      ],
+      "result": "INFERNO_FUEL_BLOCK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "EXPERTISE;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "COMPACT;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "CULTIVATING;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "CHAMPION;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:6000"
+      ],
+      "result": "HECATOMB;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:4000"
+      ],
+      "result": "TOXOPHILITE;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:200"
+      ],
+      "result": "TALISMAN_ENRICHMENT_SWAPPER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_ATTACK_SPEED"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_CRITICAL_CHANCE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_DEFENSE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_FEROCITY"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_HEALTH"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_INTELLIGENCE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_MAGIC_FIND"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_STRENGTH"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "TALISMAN_ENRICHMENT_WALK_SPEED"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_BIT:5000"
+      ],
+      "result": "ATTRIBUTE_SHARD_COOKIE_EATER;1"
+    }
+  ]
+}

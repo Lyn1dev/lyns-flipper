@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Condensed Fermento",
+  "nbttag": "{ExtraAttributes:{id:\"CONDENSED_FERMENTO\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/condensed_fermento\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Condensed Fermento\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "CONDENSED_FERMENTO",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Condensed_Fermento"
+  ],
+  "recipe": {
+    "A1": "FERMENTO:1",
+    "A2": "FERMENTO:1",
+    "A3": "FERMENTO:1",
+    "B1": "FERMENTO:1",
+    "B2": "FERMENTO:1",
+    "B3": "FERMENTO:1",
+    "C1": "FERMENTO:1",
+    "C2": "FERMENTO:1",
+    "C3": "FERMENTO:1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "itemid": "minecraft:diamond_pickaxe",
+  "displayname": "§9Self-Recursive Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"SELF_RECURSIVE_PICKAXE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/rift/zones/cave/self_recursive_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Damage: §5+5\",1:\"§7Speed: §f+2\",2:\"\",3:\"§7Allows you to break living metal ore\",4:\"§7and, potentially, living metal faces.\",5:\"\",6:\"§7Regens §b4 Mana §7on hit.\",7:\"\",8:\"§9§lRARE SWORD\"],Name:\"§9Self-Recursive Pickaxe\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Rift Damage: §5+5",
+    "§7Speed: §f+2",
+    "",
+    "§7Allows you to break living metal ore",
+    "§7and, potentially, living metal faces.",
+    "",
+    "§7Regens §b4 Mana §7on hit.",
+    "",
+    "§9§lRARE SWORD"
+  ],
+  "internalname": "SELF_RECURSIVE_PICKAXE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Self-Recursive_Pickaxe"
+  ],
+  "recipes": [
+    {
+      "type": "crafting",
+      "A1": "NULLIFIED_METAL:2",
+      "A2": "NULLIFIED_METAL:2",
+      "A3": "NULLIFIED_METAL:2",
+      "B1": "",
+      "B2": "WILTED_BERBERIS:24",
+      "B3": "",
+      "C1": "",
+      "C2": "TACTICIAN_MURDER_WEAPON",
+      "C3": ""
+    },
+    {
+      "type": "crafting",
+      "A1": "NULLIFIED_METAL:2",
+      "A2": "NULLIFIED_METAL:2",
+      "A3": "NULLIFIED_METAL:2",
+      "B1": "",
+      "B2": "WILTED_BERBERIS:24",
+      "B3": "",
+      "C1": "",
+      "C2": "LEECH_SWORD",
+      "C3": ""
+    }
+  ]
+}

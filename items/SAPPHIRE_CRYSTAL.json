@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§bSapphire Crystal",
+  "nbttag": "{ExtraAttributes:{id:\"SAPPHIRE_CRYSTAL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/sapphire_crystal\",display:{Lore:[0:\"§7Energetic crystal found deep in the\",1:\"§5Crystal Hollows§7.\",2:\"\",3:\"§7Some say that it can be infused with\",4:\"§dgemstones§7, and it is rumored to\",5:\"§7unlock §etreasure§7.\",6:\"\",7:\"§c§lSPECIAL\"],Name:\"§bSapphire Crystal\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Energetic crystal found deep in the",
+    "§5Crystal Hollows§7.",
+    "",
+    "§7Some say that it can be infused with",
+    "§dgemstones§7, and it is rumored to",
+    "§7unlock §etreasure§7.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "SAPPHIRE_CRYSTAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sapphire_Crystal"
+  ]
+}

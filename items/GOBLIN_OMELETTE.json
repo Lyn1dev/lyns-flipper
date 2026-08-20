@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Goblin Omelette",
+  "nbttag": "{ExtraAttributes:{id:\"GOBLIN_OMELETTE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/mining_3/forge/omelettes/goblin_omelette\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Grants a §a25% §7chance to not consume\",3:\"§2Fuel §7when mining.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§oMay cause diseases\",9:\"\",10:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",11:\"§9§lRARE\"],Name:\"§9Goblin Omelette\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§7Grants a §a25% §7chance to not consume",
+    "§2Fuel §7when mining.",
+    "",
+    "§7Put this item in the §6Upgrade Module",
+    "§7slot of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§7§oMay cause diseases",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "GOBLIN_OMELETTE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 3",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Goblin_Omelette"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "GOBLIN_EGG:96"
+      ],
+      "count": 1,
+      "overrideOutputId": "GOBLIN_OMELETTE",
+      "duration": 64800
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:carrot_on_a_stick",
+  "displayname": "§aEnchanted Carrot on a Stick",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CARROT_STICK\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Increases the speed of the\",1:\"§7creature you are riding when holding.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Carrot on a Stick\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Increases the speed of the",
+    "§7creature you are riding when holding.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_CARROT_STICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Carrot V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Carrot_on_a_Stick"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "STICK:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "ENCHANTED_CARROT:32",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": "ENCHANTED_CARROT:32"
+  }
+}

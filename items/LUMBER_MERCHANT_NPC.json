@@ -1,0 +1,135 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Lumber Merchant (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LUMBER_MERCHANT_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b313ad76-c505-29b0-96bb-ec58b94bdc87\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M0ZjFiZWZhMDJiMDlmYTM0OWYwMjk4NmZiNGY0YjUyMGNiODFhMGM1MmZmYmI1YmRkZDA3NDBiMGYwMzBmNSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJiMzEzYWQ3NmM1MDUyOWIwOTZiYmVjNThiOTRiZGM4NyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MDc2MjM0fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Lumber Merchant (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LUMBER_MERCHANT_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Lumber_Merchant"
+  ],
+  "x": -125,
+  "y": 73,
+  "z": -43,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG_2-1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG_2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "LOG-3"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:12"
+      ],
+      "result": "ROOKIE_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:35"
+      ],
+      "result": "PROMISING_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "DIRT-2"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "SWEET_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "EFFICIENT_AXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5"
+      ],
+      "result": "WOOD_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5"
+      ],
+      "result": "WOOD_PICKAXE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5"
+      ],
+      "result": "WOOD_SPADE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5"
+      ],
+      "result": "WOOD_HOE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:5"
+      ],
+      "result": "WOOD_AXE"
+    }
+  ]
+}

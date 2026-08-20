@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:record_ward",
+  "displayname": "§aMusic Disc - Ward",
+  "nbttag": "{ExtraAttributes:{id:\"RECORD_10\"},HideFlags:254,ItemModel:\"minecraft:music_disc_ward\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aMusic Disc - Ward\"}}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RECORD_10",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

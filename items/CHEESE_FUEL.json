@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aTasty Cheese",
+  "nbttag": "{ExtraAttributes:{id:\"CHEESE_FUEL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/tasty_cheese\",display:{Lore:[0:\"§7Can be spread across a §aGarden §7plot\",1:\"§7with a §aSprayonator§7 or used in §2Pest\",2:\"§2Traps§7.\",3:\"\",4:\"§7Attracts: §6Rat§7, §6Mite\",5:\"\",6:\"§7When in a minion, this increases the\",7:\"§7number of resources created by §a2x\",8:\"§7for §a1 hour§7!\",9:\"\",10:\"§a§lUNCOMMON\"],Name:\"§aTasty Cheese\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Can be spread across a §aGarden §7plot",
+    "§7with a §aSprayonator§7 or used in §2Pest",
+    "§2Traps§7.",
+    "",
+    "§7Attracts: §6Rat§7, §6Mite",
+    "",
+    "§7When in a minion, this increases the",
+    "§7number of resources created by §a2x",
+    "§7for §a1 hour§7!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CHEESE_FUEL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tasty_Cheese"
+  ]
+}

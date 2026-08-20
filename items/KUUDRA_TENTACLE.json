@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Kuudra Tentacle",
+  "nbttag": "{ExtraAttributes:{id:\"KUUDRA_TENTACLE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/kuudra/kuudra_tentacle\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Kuudra Tentacle\"}}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "KUUDRA_TENTACLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Kuudra_Tentacle"
+  ]
+}

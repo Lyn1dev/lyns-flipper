@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Sleeping Eye",
+  "nbttag": "{ExtraAttributes:{id:\"SLEEPING_EYE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/sleeping_eye\",display:{Lore:[0:\"§7Keep this item in your inventory to\",1:\"§7recover your placed Summoning Eye\",2:\"§7when you leave or when you click\",3:\"§7the Ender Altar.\",4:\"\",5:\"§7This item becomes imbued with the\",6:\"§7magic of the Dragon when it spawns,\",7:\"§7turning it into a Remnant of the Eye.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§5Sleeping Eye\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Keep this item in your inventory to",
+    "§7recover your placed Summoning Eye",
+    "§7when you leave or when you click",
+    "§7the Ender Altar.",
+    "",
+    "§7This item becomes imbued with the",
+    "§7magic of the Dragon when it spawns,",
+    "§7turning it into a Remnant of the Eye.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SLEEPING_EYE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sleeping_Eye"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "itemid": "minecraft:bow",
+  "displayname": "§5Spider Shortbow",
+  "nbttag": "{ExtraAttributes:{id:\"SCORPION_BOW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/spider/weapons/spider_shortbow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+25\",2:\"§7Crit Chance: §9+10%\",3:\"§7Shot Cooldown: §a0.5s\",4:\"\",5:\"§6Ability: Eggsecute \",6:\"§7Arrows fired from this weapon deal\",7:\"§c2x §7damage to §aEgg Sacs §7spawned by\",8:\"§7the §cTarantula Broodfather§7!\",9:\"\",10:\"§5Shortbow: Instantly shoots!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4☠ §cRequires §5Spider Slayer 3§c.\",14:\"§5§lEPIC BOW\"],Name:\"§5Spider Shortbow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+50",
+    "§7Strength: §c+25",
+    "§7Crit Chance: §9+10%",
+    "§7Shot Cooldown: §a0.5s",
+    "",
+    "§6Ability: Eggsecute ",
+    "§7Arrows fired from this weapon deal",
+    "§c2x §7damage to §aEgg Sacs §7spawned by",
+    "§7the §cTarantula Broodfather§7!",
+    "",
+    "§5Shortbow: Instantly shoots!",
+    "",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Spider Slayer 3§c.",
+    "§5§lEPIC BOW"
+  ],
+  "internalname": "SCORPION_BOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Spider Slayer 3",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spider_Shortbow"
+  ],
+  "slayer_req": "SPIDER_3",
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "SPIDER_CATALYST:1",
+      "A3": "TARANTULA_WEB:1",
+      "B1": "SPIDER_CATALYST:1",
+      "B2": "",
+      "B3": "TARANTULA_WEB:1",
+      "C1": "",
+      "C2": "SPIDER_CATALYST:1",
+      "C3": "TARANTULA_WEB:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SCORPION_BOW"
+    }
+  ]
+}

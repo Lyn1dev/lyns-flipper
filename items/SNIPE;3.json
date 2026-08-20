@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{snipe:3},id:\"SNIPE;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Snipe III\",3:\"§7Arrows deal §a+3% §7damage for\",4:\"§7every §a10 §7blocks travelled.\",5:\"\",6:\"§6Source:\",7:\"§aI-III: §7Enchantment Table,\",8:\"§7Feather Collection\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBow\",12:\"\",13:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Snipe III",
+    "§7Arrows deal §a+3% §7damage for",
+    "§7every §a10 §7blocks travelled.",
+    "",
+    "§6Source:",
+    "§aI-III: §7Enchantment Table,",
+    "§7Feather Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fBow",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SNIPE;3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Snipe"
+  ],
+  "parent": "SNIPE;1"
+}

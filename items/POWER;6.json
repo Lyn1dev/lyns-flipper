@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{power:6},id:\"POWER;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Power VI\",3:\"§7Increases bow damage by §a50%§7.\",4:\"\",5:\"§6Source:\",6:\"§aVI: §7Dark Auction,\",7:\"§7Experiments\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fBow\",11:\"\",12:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Power VI",
+    "§7Increases bow damage by §a50%§7.",
+    "",
+    "§6Source:",
+    "§aVI: §7Dark Auction,",
+    "§7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fBow",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "POWER;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Power"
+  ],
+  "parent": "POWER;4"
+}

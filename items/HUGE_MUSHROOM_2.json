@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:red_mushroom_block",
+  "displayname": "§fRed Mushroom Block",
+  "nbttag": "{ExtraAttributes:{id:\"HUGE_MUSHROOM_2\"},HideFlags:254,ItemModel:\"minecraft:red_mushroom_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Mushroom Block\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "HUGE_MUSHROOM_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mushroom V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Red_Mushroom_Block"
+  ],
+  "recipe": {
+    "A1": "RED_MUSHROOM:1",
+    "A2": "RED_MUSHROOM:1",
+    "A3": "RED_MUSHROOM:1",
+    "B1": "RED_MUSHROOM:1",
+    "B2": "RED_MUSHROOM:1",
+    "B3": "RED_MUSHROOM:1",
+    "C1": "RED_MUSHROOM:1",
+    "C2": "RED_MUSHROOM:1",
+    "C3": "RED_MUSHROOM:1"
+  }
+}

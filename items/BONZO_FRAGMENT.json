@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:red_mushroom",
+  "displayname": "§9Bonzo Fragment",
+  "nbttag": "{ExtraAttributes:{id:\"BONZO_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:red_mushroom\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Bonzo Fragment\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE DUNGEON ITEM"
+  ],
+  "internalname": "BONZO_FRAGMENT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bonzo_Fragment"
+  ]
+}

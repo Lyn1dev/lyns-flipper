@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:carrot_on_a_stick",
+  "displayname": "§fCarrot on a Stick",
+  "nbttag": "{ExtraAttributes:{id:\"CARROT_STICK\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCarrot on a Stick\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "CARROT_STICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "FISHING_ROD:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "CARROT_ITEM:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

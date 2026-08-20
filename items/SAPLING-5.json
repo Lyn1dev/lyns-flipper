@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:sapling",
+  "displayname": "§fDark Oak Sapling",
+  "nbttag": "{ExtraAttributes:{id:\"SAPLING-5\"},HideFlags:254,ItemModel:\"minecraft:dark_oak_sapling\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Oak Sapling\"}}",
+  "damage": 5,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SAPLING-5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

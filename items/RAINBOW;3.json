@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{rainbow:3},id:\"RAINBOW;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Rainbow III\",3:\"§7Grants an §a80% §7chance to\",4:\"§7change the color of a sheep when\",5:\"§7shearing it, which will also\",6:\"§7flip it, of course.\",7:\"\",8:\"§6Source:\",9:\"§aIII: §7Obtained from the\",10:\"§7Raffle Of The Century\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fShears\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Rainbow III",
+    "§7Grants an §a80% §7chance to",
+    "§7change the color of a sheep when",
+    "§7shearing it, which will also",
+    "§7flip it, of course.",
+    "",
+    "§6Source:",
+    "§aIII: §7Obtained from the",
+    "§7Raffle Of The Century",
+    "",
+    "§6Applied To:",
+    "§7- §fShears",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAINBOW;3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rainbow"
+  ]
+}

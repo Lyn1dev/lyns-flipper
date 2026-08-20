@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:prismarine_crystals",
+  "displayname": "§9Enchanted Mithril",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MITHRIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/mithril\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE DWARVEN METAL\"],Name:\"§9Enchanted Mithril\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE DWARVEN METAL"
+  ],
+  "internalname": "ENCHANTED_MITHRIL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mithril III",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Mithril"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MITHRIL_ORE:32",
+    "A3": "",
+    "B1": "MITHRIL_ORE:32",
+    "B2": "MITHRIL_ORE:32",
+    "B3": "MITHRIL_ORE:32",
+    "C1": "",
+    "C2": "MITHRIL_ORE:32",
+    "C3": ""
+  }
+}

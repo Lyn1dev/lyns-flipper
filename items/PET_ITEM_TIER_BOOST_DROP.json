@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§6Tier Boost Core",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_TIER_BOOST_DROP\"},HideFlags:254,ItemModel:\"minecraft:red_dye\",display:{Lore:[0:\"§7Used to craft the Tier Boost pet item.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Tier Boost Core\"}}",
+  "damage": 1,
+  "lore": [
+    "§7Used to craft the Tier Boost pet item.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "PET_ITEM_TIER_BOOST_DROP",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tier_Boost_Core"
+  ]
+}

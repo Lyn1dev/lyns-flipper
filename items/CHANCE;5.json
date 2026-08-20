@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{chance:5},id:\"CHANCE;5\",originTag:\"UNKNOWN\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Chance V\",3:\"§7Increases the chance of a\",4:\"§7Monster dropping an item by\",5:\"§a75%§7.\",6:\"\",7:\"§6Source:\",8:\"§aV: §7Experiments\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBow\",12:\"\",13:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Chance V",
+    "§7Increases the chance of a",
+    "§7Monster dropping an item by",
+    "§a75%§7.",
+    "",
+    "§6Source:",
+    "§aV: §7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fBow",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CHANCE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Chance"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:reeds",
+  "displayname": "§9Enchanted Sugar Cane",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SUGAR_CANE\"},HideFlags:254,ItemModel:\"minecraft:sugar_cane\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Enchanted Sugar Cane\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_SUGAR_CANE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sugar Cane VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Sugar_Cane"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_SUGAR:32",
+    "A2": "ENCHANTED_SUGAR:32",
+    "A3": "ENCHANTED_SUGAR:32",
+    "B1": "ENCHANTED_SUGAR:32",
+    "B2": "ENCHANTED_SUGAR:32",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

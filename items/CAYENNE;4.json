@@ -1,0 +1,45 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{cayenne:4},id:\"CAYENNE;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Cayenne IV\",3:\"§7Grants §c+0.8 Health §7and §f+0.4 True\",4:\"§fDefense §7per digit in your §6Accessory\",5:\"§6Power§7.\",6:\"\",7:\"§6Source:\",8:\"§aIV-V: §7Chili Pepper Collection\",9:\"\",10:\"§6Applied To:\",11:\"§7 - §fGloves\",12:\"§7 - §fBelt\",13:\"§7 - §fNecklace\",14:\"§7 - §fBracelet\",15:\"§7 - §fCloak\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Cayenne IV",
+    "§7Grants §c+0.8 Health §7and §f+0.4 True",
+    "§fDefense §7per digit in your §6Accessory",
+    "§6Power§7.",
+    "",
+    "§6Source:",
+    "§aIV-V: §7Chili Pepper Collection",
+    "",
+    "§6Applied To:",
+    "§7 - §fGloves",
+    "§7 - §fBelt",
+    "§7 - §fNecklace",
+    "§7 - §fBracelet",
+    "§7 - §fCloak",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "CAYENNE;4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cayenne"
+  ],
+  "recipe": {
+    "A1": "CHILI_PEPPER:8",
+    "A2": "ENCHANTED_IRON_BLOCK:1",
+    "A3": "CHILI_PEPPER:8",
+    "B1": "ENCHANTED_IRON_BLOCK:1",
+    "B2": "WOOD_SINGULARITY:1",
+    "B3": "ENCHANTED_IRON_BLOCK:1",
+    "C1": "CHILI_PEPPER:8",
+    "C2": "ENCHANTED_IRON_BLOCK:1",
+    "C3": "CHILI_PEPPER:8"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:daylight_detector",
+  "displayname": "§aSolar Panel",
+  "nbttag": "{ExtraAttributes:{id:\"SOLAR_PANEL\"},HideFlags:254,ItemModel:\"minecraft:daylight_detector\",display:{Lore:[0:\"§7Increases the speed of your minion\",1:\"§7by §a25%§7 during the day. Unlimited\",2:\"§7Duration!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSolar Panel\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Increases the speed of your minion",
+    "§7by §a25%§7 during the day. Unlimited",
+    "§7Duration!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SOLAR_PANEL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Nether Quartz IX",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Solar_Panel"
+  ],
+  "recipe": {
+    "A1": "GLASS:1",
+    "A2": "GLASS:1",
+    "A3": "GLASS:1",
+    "B1": "ENCHANTED_QUARTZ:64",
+    "B2": "ENCHANTED_QUARTZ:64",
+    "B3": "ENCHANTED_QUARTZ:64",
+    "C1": "WOOD:1",
+    "C2": "WOOD:1",
+    "C3": "WOOD:1"
+  }
+}

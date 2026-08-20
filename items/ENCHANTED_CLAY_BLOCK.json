@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:clay",
+  "displayname": "§9Enchanted Clay Block",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CLAY_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:clay\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Clay Block\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_CLAY_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Clay Ball VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Clay_Block"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_CLAY_BALL:32",
+    "A3": "",
+    "B1": "ENCHANTED_CLAY_BALL:32",
+    "B2": "ENCHANTED_CLAY_BALL:32",
+    "B3": "ENCHANTED_CLAY_BALL:32",
+    "C1": "",
+    "C2": "ENCHANTED_CLAY_BALL:32",
+    "C3": ""
+  }
+}

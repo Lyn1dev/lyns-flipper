@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:iron_sword",
+  "displayname": "§9Blade of the Volcano",
+  "nbttag": "{ExtraAttributes:{id:\"BLADE_OF_THE_VOLCANO\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/blade_of_the_volcano\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+220\",1:\"§7Strength: §c+70\",2:\"§7Crit Damage: §9+20%\",3:\"\",4:\"§7A powerful blade forged in the\",5:\"§7depths of the §6Blazing Volcano§7.\",6:\"\",7:\"§7Gain §c+100 Strength §7against enemies\",8:\"§7who are in lava.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE SWORD\"],Name:\"§9Blade of the Volcano\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+220",
+    "§7Strength: §c+70",
+    "§7Crit Damage: §9+20%",
+    "",
+    "§7A powerful blade forged in the",
+    "§7depths of the §6Blazing Volcano§7.",
+    "",
+    "§7Gain §c+100 Strength §7against enemies",
+    "§7who are in lava.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 22§c.",
+    "§9§lRARE SWORD"
+  ],
+  "internalname": "BLADE_OF_THE_VOLCANO",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Blade_of_the_Volcano"
+  ]
+}

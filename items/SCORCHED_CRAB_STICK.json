@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Scorched Crab Stick",
+  "nbttag": "{ExtraAttributes:{id:\"SCORCHED_CRAB_STICK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/scorched_crab_stick\",display:{Lore:[0:\"§7Sometimes, well-done just isn't\",1:\"§7enough.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Scorched Crab Stick\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Sometimes, well-done just isn't",
+    "§7enough.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SCORCHED_CRAB_STICK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scorched_Crab_Stick"
+  ]
+}

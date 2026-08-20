@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:log",
+  "displayname": "§aEnchanted Spruce Log",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SPRUCE_LOG\"},HideFlags:254,ItemModel:\"minecraft:spruce_log\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Spruce Log\"},ench:[]}",
+  "damage": 1,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_SPRUCE_LOG",
+  "clickcommand": "",
+  "crafttext": "Requires: Spruce Log VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Spruce_Log"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "LOG-1:32",
+      "A3": "",
+      "B1": "LOG-1:32",
+      "B2": "LOG-1:32",
+      "B3": "LOG-1:32",
+      "C1": "",
+      "C2": "LOG-1:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_SPRUCE_LOG"
+    }
+  ]
+}

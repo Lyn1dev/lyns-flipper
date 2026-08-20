@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ferocious_mana:3},id:\"FEROCIOUS_MANA;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Vivacious Vitality III\",3:\"§7Convert §a3% §7of §4 Vitality §7used as §e\",4:\"§eAttack Speed §7for §a10s§7. §8(Max 5\",5:\"§8Attack Speed).\",6:\"\",7:\"§6Source:\",8:\"§aI-X: §7Kuudra\",9:\"§aI-X: §7Bazaar\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fArmor\",13:\"\",14:\"§6Conflicts:\",15:\"§7- §cStrong Vitality\",16:\"§7- §cVampiric Vitality\",17:\"§7- §cHardened Vitality\",18:\"\",19:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Vivacious Vitality III",
+    "§7Convert §a3% §7of §4 Vitality §7used as §e",
+    "§eAttack Speed §7for §a10s§7. §8(Max 5",
+    "§8Attack Speed).",
+    "",
+    "§6Source:",
+    "§aI-X: §7Kuudra",
+    "§aI-X: §7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§6Conflicts:",
+    "§7- §cStrong Vitality",
+    "§7- §cVampiric Vitality",
+    "§7- §cHardened Vitality",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "FEROCIOUS_MANA;3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Vivacious_Vitality"
+  ]
+}

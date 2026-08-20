@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:brown_mushroom_block",
+  "displayname": "§9Enchanted Brown Mushroom Block",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HUGE_MUSHROOM_1\"},HideFlags:254,ItemModel:\"minecraft:brown_mushroom_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Brown Mushroom Block\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_HUGE_MUSHROOM_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Mushroom VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Brown_Mushroom_Block"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "A3": "",
+      "B1": "ENCHANTED_BROWN_MUSHROOM:32",
+      "B2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "B3": "ENCHANTED_BROWN_MUSHROOM:32",
+      "C1": "",
+      "C2": "ENCHANTED_BROWN_MUSHROOM:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_HUGE_MUSHROOM_1"
+    }
+  ]
+}

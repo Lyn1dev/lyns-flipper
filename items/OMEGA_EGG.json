@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Omega Enchanted Egg",
+  "nbttag": "{ExtraAttributes:{id:\"OMEGA_EGG\"},HideFlags:254,ItemModel:\"minecraft:ghast_spawn_egg\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Used to craft the strangest of pets.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Omega Enchanted Egg\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Used to craft the strangest of pets.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "OMEGA_EGG",
+  "clickcommand": "",
+  "crafttext": "Requires: Raw Chicken X",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g90a48941",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Omega_Enchanted_Egg"
+  ],
+  "recipe": {
+    "A1": "SUPER_EGG:1",
+    "A2": "SUPER_EGG:1",
+    "A3": "SUPER_EGG:1",
+    "B1": "SUPER_EGG:1",
+    "B2": "SUPER_EGG:1",
+    "B3": "SUPER_EGG:1",
+    "C1": "SUPER_EGG:1",
+    "C2": "SUPER_EGG:1",
+    "C3": "SUPER_EGG:1"
+  }
+}

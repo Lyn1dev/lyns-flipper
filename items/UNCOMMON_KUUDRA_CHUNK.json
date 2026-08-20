@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aKuudra Chunk",
+  "nbttag": "{ExtraAttributes:{id:\"UNCOMMON_KUUDRA_CHUNK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2bfbe598-299f-35f3-b05b-bcd50b9a905d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"OoJuzySmuWfxs6mNwr/AYR5Fhn4sKc3t71iVMm6fXQo/fjPtfe5qjh4R5T8hAQUAqgHu3GyQIXYsjlvKRMafu+AZwk/BZavUXytSLNbhy7A6dN6/mn7z38eVQk9MVd7LdD5IeHvlOVTmFXpT8PUZmRQi+mIHDJInchoTPkSP2GqjaAh5jVLjTLTZ+l65MgEJdDOi9rf/y3Dz8Ca4hh6yFKKhCV8ovrC2YZ/V3gXPNAB/QBFb/cVjwuF6VmIq6/yHlRbZGCrfXTZ/uXmhIOJ3UYgc/ISvHlldQwGhTPw5xOS+aqbLFGA3gF5tAu6uF5Dhvr7FpaA/iTDbURER5/Zos8zxrs2hicO51xX4WU3rhly0hZSWlQFFhHg2SJRPRY7HnqgUY7f2HwtpqtDeX6YsAF3wLNx2xMhOabG+d83CEp2uaqHsIBzNrFHvSQbgkC03FIORbAGUOEHw1KGA8M4rzP3Bj7pHhRIbG0d0TnUfbDLEfEi7VtiOqwns/F8/PYRekpVKey7HAJq79V80BHwjCYNcnOkQP3Fx0mvBbx9OihcP6fP74rvobeYNaK7uxO+uFOxpxMCKyVQ8TkixWJ1zFZCg8wuN8UdyKmJo4drioM0fOXZ3elUNH4UgR+8uhBUY2F2gbcaYxC0zfRq8wJMWUTToB6roucUOP9Si3Rdf+Ms=\",Value:\"eyJ0aW1lc3RhbXAiOjE1ODYyOTQ1NjA2MTMsInByb2ZpbGVJZCI6ImZkNjBmMzZmNTg2MTRmMTJiM2NkNDdjMmQ4NTUyOTlhIiwicHJvZmlsZU5hbWUiOiJSZWFkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDkzNjhhMGRjMDNiNTdhN2Q2OGUyYjJjMDViNzIwNDdiZDY1YzI3NmMwMTRkOTkzOTc2YTc0N2IyNDQ2Yzk5In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A chunk of Kuudra's enchanted\",1:\"§7flesh, capable of upgrading your\",2:\"§cKuudra Pet§7 to §aUncommon§7 rarity!\",3:\"\",4:\"§eRight-click on your Kuudra Pet to\",5:\"§eapply this upgrade!\",6:\"\",7:\"§8§l* §8Soulbound §8§l*\",8:\"§a§lUNCOMMON\"],Name:\"§aKuudra Chunk\"}}",
+  "damage": 3,
+  "lore": [
+    "§7A chunk of Kuudra's enchanted",
+    "§7flesh, capable of upgrading your",
+    "§cKuudra Pet§7 to §aUncommon§7 rarity!",
+    "",
+    "§eRight-click on your Kuudra Pet to",
+    "§eapply this upgrade!",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "UNCOMMON_KUUDRA_CHUNK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Kuudra_Chunk"
+  ]
+}

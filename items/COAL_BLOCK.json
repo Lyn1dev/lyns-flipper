@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:coal_block",
+  "displayname": "§fBlock of Coal",
+  "nbttag": "{ExtraAttributes:{id:\"COAL_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:coal_block\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7 for 5\",2:\"§7hours!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Increases the speed of",
+    "§7your minion by §a5%§7 for 5",
+    "§7hours!",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "COAL_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipes": [
+    {
+      "A1": "COAL:1",
+      "A2": "COAL:1",
+      "A3": "COAL:1",
+      "B1": "COAL:1",
+      "B2": "COAL:1",
+      "B3": "COAL:1",
+      "C1": "COAL:1",
+      "C2": "COAL:1",
+      "C3": "COAL:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "COAL_BLOCK",
+      "supercraftable": true
+    }
+  ]
+}

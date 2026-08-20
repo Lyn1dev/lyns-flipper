@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§cRuby Crystal",
+  "nbttag": "{ExtraAttributes:{id:\"RUBY_CRYSTAL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/ruby_crystal\",display:{Lore:[0:\"§7Exquisite crystal found deep in the\",1:\"§bGlacite Mineshafts§7 and §5Crystal\",2:\"§5Hollows.\",3:\"\",4:\"§7Some say that it can be infused with\",5:\"§dgemstones§7, §eunlock treasure§7, and\",6:\"§7hold the secrets to a §7§otime long past§7.\",7:\"\",8:\"§c§lSPECIAL\"],Name:\"§cRuby Crystal\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Exquisite crystal found deep in the",
+    "§bGlacite Mineshafts§7 and §5Crystal",
+    "§5Hollows.",
+    "",
+    "§7Some say that it can be infused with",
+    "§dgemstones§7, §eunlock treasure§7, and",
+    "§7hold the secrets to a §7§otime long past§7.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "RUBY_CRYSTAL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ruby_Crystal"
+  ]
+}

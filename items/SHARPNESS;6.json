@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{sharpness:6},id:\"SHARPNESS;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Sharpness VI\",3:\"§7Increases melee damage dealt by\",4:\"§a45%\",5:\"\",6:\"§6Source:\",7:\"§aVI: §7Dark Auction,\",8:\"§7Tomioka for 10 million,\",9:\"§7Experiments\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Sharpness VI",
+    "§7Increases melee damage dealt by",
+    "§a45%",
+    "",
+    "§6Source:",
+    "§aVI: §7Dark Auction,",
+    "§7Tomioka for 10 million,",
+    "§7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SHARPNESS;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sharpness"
+  ],
+  "parent": "SHARPNESS;4"
+}

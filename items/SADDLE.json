@@ -1,0 +1,17 @@
+{
+  "itemid": "minecraft:saddle",
+  "displayname": "§aSaddle",
+  "nbttag": "{ExtraAttributes:{id:\"SADDLE\"},HideFlags:254,ItemModel:\"minecraft:saddle\",display:{Lore:[0:\"§8§l* §8Co-op Soulbound §8§l*\",1:\"§a§lUNCOMMON\"],Name:\"§aSaddle\"}}",
+  "damage": 0,
+  "lore": [
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SADDLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+g6ee9ec8a",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

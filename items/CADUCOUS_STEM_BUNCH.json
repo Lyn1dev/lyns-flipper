@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§aCaducous Stem Bunch",
+  "nbttag": "{ExtraAttributes:{id:\"CADUCOUS_STEM_BUNCH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cb152283-ec2c-3b3d-888c-75c994f0f4d6\",Properties:{textures:[0:{Name:\"textures\",Signature:\"i4NREpyiZbcduMg7BNfKgqdGr/kcbBfunzwXJqtiUMFXuE9qi/Y2VTfo2DlmN8TAvgQB1I+fEepBnGcxntCKuf88JHqKQby2yZ0dM5GnsTYsJoPOnyY3XsLDDOoiXpxN13Q+byGU49mDc0lMAnHn0dm/T5SK+r8R7MTAFUxWBfaO3Ya0cKW7DVN9znfEEcjrxkLqUrYXjgClw7DYOc2YyeyxvnvjrX52u6Ot0Xcd1NEfMn1vmOcmQbQq+XEfjxvzCD/ilsMzqEmMbPA6gKoqe419STtUxPBbX37zx3y8tOpYWUTXqCHmW/KdUCqAgclMBP0b1koEZTMarAv+NoumvjMX9WC3vkQPVCZEW2WPyViNh7/5qszXBNGeVq+kX66E8C4R86Hjzk37YXs2mlEdU3O7ah+/Zz98y31NK8rJZrlkdR7LEmA1NML27AActFiRVfVBO9c4fOS3Wz9kXr859xfdclWDasgKZ643mDYmHZNYi3C87goE3l3FCUohlcM1RjvsFeEKc3rxilo8TpKuxzHGmzqXSguLN11DQLK2thOHU70jvdzUmpbtz1Dvi0Hi0A98oW8chRW5h25WqzHY8Zf/2RlWJep/kU6eS7tCwg58CMw2M3iM5enCReQ5k82vf0O/tZmUwnf7jqPAIYcoji0QbBCeJqSrbgQzdL/q2Wg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3NzI4NzM0MDYzNywKICAicHJvZmlsZUlkIiA6ICIwZTM3MmZiOGEzOTk0YTkzODliMGY3NGUzZmJlZjY1ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBVVNUSU5MT0wwN19ZVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNzY3MzkxNTk4NjgwYjQ2NWYyMTA2YjcwZTIxZWY1MTk2ZGExNGYwODdkMWU3NzlkZDY1MGQ0MzIwYjY5NjJhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Bundling what bees find attractive\",3:\"§7together in an industrial production\",4:\"§7process is definitely what nature\",5:\"§7planned.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aCaducous Stem Bunch\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Bundling what bees find attractive",
+    "§7together in an industrial production",
+    "§7process is definitely what nature",
+    "§7planned.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "CADUCOUS_STEM_BUNCH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Caducous Stem I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Caducous_Stem_Bunch"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "CADUCOUS_STEM:4",
+    "A3": "",
+    "B1": "CADUCOUS_STEM:4",
+    "B2": "CADUCOUS_STEM:4",
+    "B3": "CADUCOUS_STEM:4",
+    "C1": "",
+    "C2": "CADUCOUS_STEM:4",
+    "C3": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:clock",
+  "displayname": "§fClock",
+  "nbttag": "{ExtraAttributes:{id:\"WATCH\"},HideFlags:254,ItemModel:\"minecraft:clock\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fClock\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "WATCH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "",
+    "A2": "GOLD_INGOT:1",
+    "A3": "",
+    "B1": "GOLD_INGOT:1",
+    "B2": "REDSTONE:1",
+    "B3": "GOLD_INGOT:1",
+    "C1": "",
+    "C2": "GOLD_INGOT:1",
+    "C3": ""
+  }
+}

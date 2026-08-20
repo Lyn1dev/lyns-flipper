@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:flint",
+  "displayname": "§aEnchanted Flint",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_FLINT\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Flint\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_FLINT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gravel V",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Flint"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FLINT:32",
+    "A3": "",
+    "B1": "FLINT:32",
+    "B2": "FLINT:32",
+    "B3": "FLINT:32",
+    "C1": "",
+    "C2": "FLINT:32",
+    "C3": ""
+  }
+}

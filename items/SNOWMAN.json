@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fDerpy Snowman",
+  "nbttag": "{ExtraAttributes:{id:\"SNOWMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"927b9df9-52d3-3686-8743-52ff6ff64273\",Properties:{textures:[0:{Name:\"textures\",Signature:\"cCMOc9ZJD+f0f0jsPgDhCWRSgmrKv+uwoMnpZPZBRBdIRn3NEWodTwxNJ7VbC7uSAHyVoRcm8lMS2OtwsDVZcn/iiSiduhcziZKxnvYEW4jrIiDVQ3K/WLRTbpI76zYdy8W34TIkBflfiAkUlC8SS80Uj6RyaKRbnWMRVosbOgBkqnOA+O0FmLj+o7Vpv+nkuutYCPiZhwZ9coW2OAx79LRX7J0CYqLdmwhD003gWvLeQuPFFvX+5k1LF+4Om3ChR9g4vKrtL8rhFlz7lQDhoOVTanucI/7+xo5vlNcMjWytmwrM+ksBqGkQYf171Xkwrx69nFFEJa6niHKpGKKT0w3w1LSflG0ML4zmmIHT2iTGV8DP3+sVvpMntNi9kXdzF75XcPydLYwQKZB0R7NbY34OjQJzyREFrJddpQH46VQE8yLZo0m6y+Q4Ml2dbFA0miJD7M+6lU8xk8CRD0bBHy7n2iKnvHoBo9dHMaK3dftOy7axUHGuqwDFgA/Ci5yeSm/AdZWm2fAHYgxRCH3OSxLqmgA6kYphSfHTa68k80EqeTKjErPeq9G2GcXhHidM7r3/ON/5RoNffZUi41W/2RPZQcRlSb6aWUCwgw3nzKRvl8rrrirgcRb7PKpJ3s1yGob98SBabpoTMvytfRtadI4lEa66Yn6RwQhJWZHMmbY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjkxMDUyNiwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNhYzI4NGU3YzBlNTU4NWZiOWM5MjAzNzMzM2E5YmViYjhhZTQxMWI3YjU1MDM2NDM5MjEyNWE1YzNmYmMzNSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Holiday Cosmetic\",2:\"\",3:\"§7This exclusive §cHoliday §7cosmetic can\",4:\"§7be placed on your island or traded.\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fDerpy Snowman\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Furniture",
+    "§8Holiday Cosmetic",
+    "",
+    "§7This exclusive §cHoliday §7cosmetic can",
+    "§7be placed on your island or traded.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SNOWMAN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Derpy_Snowman"
+  ]
+}

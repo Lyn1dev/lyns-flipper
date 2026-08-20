@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:ender_chest",
+  "displayname": "§fEnder Chest",
+  "nbttag": "{ExtraAttributes:{id:\"ENDER_CHEST\"},HideFlags:254,ItemModel:\"minecraft:ender_chest\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnder Chest\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "ENDER_CHEST",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "OBSIDIAN:1",
+    "A2": "OBSIDIAN:1",
+    "A3": "OBSIDIAN:1",
+    "B1": "OBSIDIAN:1",
+    "B2": "EYE_OF_ENDER:1",
+    "B3": "OBSIDIAN:1",
+    "C1": "OBSIDIAN:1",
+    "C2": "OBSIDIAN:1",
+    "C3": "OBSIDIAN:1"
+  }
+}

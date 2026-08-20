@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:redstone_block",
+  "displayname": "§9Enchanted Redstone Block",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_REDSTONE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:redstone_block\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§9§lRARE ORE\"],Name:\"§9Enchanted Redstone Block\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§9§lRARE ORE"
+  ],
+  "internalname": "ENCHANTED_REDSTONE_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Redstone Dust VII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Redstone_Block"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_REDSTONE:32",
+      "A3": "",
+      "B1": "ENCHANTED_REDSTONE:32",
+      "B2": "ENCHANTED_REDSTONE:32",
+      "B3": "ENCHANTED_REDSTONE:32",
+      "C1": "",
+      "C2": "ENCHANTED_REDSTONE:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_REDSTONE_BLOCK"
+    }
+  ]
+}

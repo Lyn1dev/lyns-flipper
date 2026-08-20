@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:emerald_block",
+  "displayname": "§aFake Emerald Altar",
+  "nbttag": "{ExtraAttributes:{id:\"FAKE_EMERALD_ALTAR\"},HideFlags:254,ItemModel:\"minecraft:emerald_block\",display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\"\",4:\"§8§oCan't bring the girl to the altar?\",5:\"§8§oBring the altar to the girl!\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§a§lUNCOMMON\"],Name:\"§aFake Emerald Altar\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Quest Item",
+    "",
+    "§7Bring it to §eJuliette §7in §aThe Park§7.",
+    "",
+    "§8§oCan't bring the girl to the altar?",
+    "§8§oBring the altar to the girl!",
+    "",
+    "§8§l* §8Co-op Soulbound §8§l*",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "FAKE_EMERALD_ALTAR",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fake_Emerald_Altar"
+  ]
+}

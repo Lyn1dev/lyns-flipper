@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Mithril-Plated Drill Engine",
+  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_DRILL_ENGINE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/mithril_plated_drill_engine\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§6+75 Mining Speed\",3:\"§6+5 Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",9:\"§9§lRARE\"],Name:\"§9Mithril-Plated Drill Engine\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§6+75 Mining Speed",
+    "§6+5 Mining Fortune",
+    "",
+    "§7Put this item in the §6Drill Engine §7slot",
+    "§7of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "MITHRIL_DRILL_ENGINE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 3",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mithril-Plated_Drill_Engine"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "MITHRIL_PLATE:1",
+        "DRILL_ENGINE:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "MITHRIL_DRILL_ENGINE",
+      "duration": 86400
+    }
+  ]
+}

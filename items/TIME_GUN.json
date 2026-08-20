@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:diamond_horse_armor",
+  "displayname": "§9Time Gun",
+  "nbttag": "{ExtraAttributes:{id:\"TIME_GUN\"},HideFlags:254,ItemModel:\"minecraft:diamond_horse_armor\",display:{Lore:[0:\"§6Ability: Quantum Projection  §e§lRIGHT CLICK\",1:\"§7Aim at §9Timite Ores §7to wackify their time.\",2:\"§8Mana Cost: §b2\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Time Gun\"}}",
+  "damage": 0,
+  "lore": [
+    "§6Ability: Quantum Projection  §e§lRIGHT CLICK",
+    "§7Aim at §9Timite Ores §7to wackify their time.",
+    "§8Mana Cost: §b2",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "TIME_GUN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Timite I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Time_Gun"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "YOUNGITE:8",
+    "A3": "YOUNGITE:8",
+    "B1": "YOUNGITE:8",
+    "B2": "BERBERIS_BLOWGUN:1",
+    "B3": "",
+    "C1": "YOUNGITE:8",
+    "C2": "",
+    "C3": ""
+  }
+}

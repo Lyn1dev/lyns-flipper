@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:carrot",
+  "displayname": "§fCarrot",
+  "nbttag": "{ExtraAttributes:{id:\"CARROT_ITEM\"},HideFlags:254,ItemModel:\"minecraft:carrot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fCarrot\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "CARROT_ITEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Carrot"
+  ],
+  "vanilla": true
+}

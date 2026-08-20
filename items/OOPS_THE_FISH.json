@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§cOops the Fish",
+  "nbttag": "{ExtraAttributes:{id:\"OOPS_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:tropical_fish\",display:{Lore:[0:\"§7Discovered in the depths of the Main\",1:\"§7Lobby during the summer months.\",2:\"\",3:\"§c§lSPECIAL\"],Name:\"§cOops the Fish\"},ench:[]}",
+  "damage": 2,
+  "lore": [
+    "§7Discovered in the depths of the Main",
+    "§7Lobby during the summer months.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "OOPS_THE_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Oops_the_Fish"
+  ]
+}

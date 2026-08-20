@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:stained_glass",
+  "displayname": "§fHard Glass",
+  "nbttag": "{ExtraAttributes:{id:\"HARD_GLASS\"},HideFlags:254,ItemModel:\"minecraft:gray_stained_glass\",display:{Lore:[0:\"§7Special hardened glass which\",1:\"§7doesn't break to explosions.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fHard Glass\"}}",
+  "damage": 7,
+  "lore": [
+    "§7Special hardened glass which",
+    "§7doesn't break to explosions.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "HARD_GLASS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Sand VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hard_Glass"
+  ],
+  "recipe": {
+    "A1": "COAL:1",
+    "A2": "COAL:1",
+    "A3": "COAL:1",
+    "B1": "COAL:1",
+    "B2": "ENCHANTED_SAND:1",
+    "B3": "COAL:1",
+    "C1": "COAL:1",
+    "C2": "COAL:1",
+    "C3": "COAL:1"
+  }
+}

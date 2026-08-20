@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:golden_chestplate",
+  "displayname": "§5Mastiff Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"MASTIFF_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:golden_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+500\",1:\"§7Crit Damage: §9+15%\",2:\"§7Gemstones: §8[§7§8] [§7§8] [] [] []\",3:\"\",4:\"§6Full Set Bonus: Absolute Unit §7(0/4)\",5:\"§8- §7Receive §a-20% §7damage from §a Animal §7mobs.\",6:\"§8- §7Gain §c+1%❤ Health §7per §925 Crit Damage§7. §8(Max\",7:\"§840% HP).\",8:\"§8- §7Gain §9+1 Crit Damage §7per §a2 Defense§7.\",9:\"§8- §7Heal §c150❤ §7when hit, consuming §45 Vitality§7.\",10:\"§8(1s cooldown).\",11:\"§8- §7Your §a Defense §7is capped at §a300§7.\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4☠ §cRequires §5Wolf Slayer 4§c.\",15:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mastiff Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+500",
+    "§7Crit Damage: §9+15%",
+    "§7Gemstones: §8[§7§8] [§7§8] [] [] []",
+    "",
+    "§6Full Set Bonus: Absolute Unit §7(0/4)",
+    "§8- §7Receive §a-20% §7damage from §a Animal §7mobs.",
+    "§8- §7Gain §c+1%❤ Health §7per §925 Crit Damage§7. §8(Max",
+    "§840% HP).",
+    "§8- §7Gain §9+1 Crit Damage §7per §a2 Defense§7.",
+    "§8- §7Heal §c150❤ §7when hit, consuming §45 Vitality§7.",
+    "§8(1s cooldown).",
+    "§8- §7Your §a Defense §7is capped at §a300§7.",
+    "",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Wolf Slayer 4§c.",
+    "§5§lEPIC CHESTPLATE"
+  ],
+  "internalname": "MASTIFF_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wolf Slayer 4",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Mastiff_Chestplate"
+  ],
+  "recipe": {
+    "A1": "GOLDEN_TOOTH:1",
+    "A2": "ENCHANTED_GOLD:16",
+    "A3": "GOLDEN_TOOTH:1",
+    "B1": "ENCHANTED_GOLD:16",
+    "B2": "GROWTH_CHESTPLATE:1",
+    "B3": "ENCHANTED_GOLD:16",
+    "C1": "GOLDEN_TOOTH:1",
+    "C2": "ENCHANTED_GOLD:16",
+    "C3": "GOLDEN_TOOTH:1"
+  },
+  "slayer_req": "WOLF_4"
+}

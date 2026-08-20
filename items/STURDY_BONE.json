@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Sturdy Bone",
+  "nbttag": "{ExtraAttributes:{id:\"STURDY_BONE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/foraging_2/sturdy_bone\",display:{Lore:[0:\"§7§oThis bone is as hard as stone and\",1:\"§7§otwice as eerie. It bears the mark of\",2:\"§7§ocountless battles fought beneath\",3:\"§7§othe waves.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Sturdy Bone\"}}",
+  "damage": 0,
+  "lore": [
+    "§7§oThis bone is as hard as stone and",
+    "§7§otwice as eerie. It bears the mark of",
+    "§7§ocountless battles fought beneath",
+    "§7§othe waves.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "STURDY_BONE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sturdy_Bone"
+  ]
+}

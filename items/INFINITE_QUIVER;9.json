@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§dEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{infinite_quiver:9},id:\"INFINITE_QUIVER;9\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Infinite Quiver IX\",3:\"§7Saves arrows §a27%§7 of the time\",4:\"§7when you fire your bow.\",5:\"\",6:\"§6Source:\",7:\"§aIX: §7Dungeon\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fBow\",11:\"\",12:\"§d§lMYTHIC\"],Name:\"§dEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Infinite Quiver IX",
+    "§7Saves arrows §a27%§7 of the time",
+    "§7when you fire your bow.",
+    "",
+    "§6Source:",
+    "§aIX: §7Dungeon",
+    "",
+    "§6Applied To:",
+    "§7- §fBow",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "INFINITE_QUIVER;9",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Infinite_Quiver"
+  ],
+  "parent": "INFINITE_QUIVER;4"
+}

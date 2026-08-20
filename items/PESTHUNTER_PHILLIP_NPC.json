@@ -1,0 +1,161 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Pesthunter Phillip (NPC)",
+  "nbttag": "{SkullOwner:{Id:\"9d9eb068-6505-2bd7-8de7-054bfcd05256\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkMGY2ODlmYzQ3ZDNmNzc3M2RiZmMzNmFmNDZhNDFlMTRlNDNiNDgwZDg5MWJmNGI5YmYxZWI4MDQzODE3NDIifX19\"}]},Name:\"9d9eb068-6505-2bd7-8de7-054bfcd05256\"},display:{Lore:[0:\"§7Using §2Pests §7as currency, purchase\",1:\"§7a variety of bits 'n bobs that §6Phillip\",2:\"§7has held onto over the years!\"],Name:\"§9Pesthunter Phillip (NPC)\"},ExtraAttributes:{id:\"PESTHUNTER_PHILLIP_NPC\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Using §2Pests §7as currency, purchase",
+    "§7a variety of bits 'n bobs that §6Phillip",
+    "§7has held onto over the years!"
+  ],
+  "internalname": "PESTHUNTER_PHILLIP_NPC",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.4.0",
+  "infoType": "WIKI_URL",
+  "x": -26,
+  "y": 72,
+  "z": -14,
+  "island": "garden",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_HELMET:1",
+        "SKYBLOCK_PEST:50"
+      ],
+      "result": "BIOHAZARD_HELMET:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_CHESTPLATE:1",
+        "SKYBLOCK_PEST:80"
+      ],
+      "result": "BIOHAZARD_SUIT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_LEGGINGS:1",
+        "SKYBLOCK_PEST:70"
+      ],
+      "result": "BIOHAZARD_LEGGINGS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "MUSHROOM_BOOTS:1",
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "BIOHAZARD_BOOTS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:50"
+      ],
+      "result": "PEST_TRAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PEST_TRAP:1",
+        "SKYBLOCK_PEST:75"
+      ],
+      "result": "MOUSE_PEST_TRAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:200",
+        "FIRE_IN_A_BOTTLE:1",
+        "MOUSE_PEST_TRAP:1"
+      ],
+      "result": "VERMIN_PEST_TRAP:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "PESTHUNTERS_NECKLACE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "PESTHUNTERS_CLOAK:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "PESTHUNTERS_BELT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:40"
+      ],
+      "result": "PESTHUNTERS_GLOVES:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:1500"
+      ],
+      "result": "PESTHUNTERS_LAIR_BARN_SKIN:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:500"
+      ],
+      "result": "PESTHUNTING_GUIDE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:500"
+      ],
+      "result": "HEDGEHOG;4:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_PEST:25"
+      ],
+      "result": "PESTHUNTER_BADGE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PESTHUNTER_BADGE:1",
+        "SKYBLOCK_PEST:50"
+      ],
+      "result": "PESTHUNTER_RING:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PESTHUNTER_RING:1",
+        "SKYBLOCK_PEST:100"
+      ],
+      "result": "PESTHUNTER_ARTIFACT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "PESTHUNTER_ARTIFACT:1",
+        "SKYBLOCK_PEST:200"
+      ],
+      "result": "PESTHUNTER_RELIC:1"
+    }
+  ],
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pesthunter_Phillip"
+  ]
+}

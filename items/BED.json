@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:bed",
+  "displayname": "§fBed",
+  "nbttag": "{ExtraAttributes:{id:\"BED\"},HideFlags:254,ItemModel:\"minecraft:red_bed\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBed\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "BED",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOL:1",
+    "A2": "WOOL:1",
+    "A3": "WOOL:1",
+    "B1": "WOOD:1",
+    "B2": "WOOD:1",
+    "B3": "WOOD:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

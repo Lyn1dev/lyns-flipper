@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:nether_wart",
+  "displayname": "§fNether Wart",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_STALK\"},HideFlags:254,ItemModel:\"minecraft:nether_wart\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fNether Wart\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "NETHER_STALK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Nether_Wart"
+  ],
+  "vanilla": true
+}

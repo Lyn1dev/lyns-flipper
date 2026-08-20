@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:gold_block",
+  "displayname": "§aSocial Display",
+  "nbttag": "{ExtraAttributes:{id:\"SOCIAL_DISPLAY\"},HideFlags:254,ItemModel:\"minecraft:gold_block\",display:{Lore:[0:\"§7Places a hologram displaying the top\",1:\"§7players on your island by points.\",2:\"\",3:\"§4❣ §cRequires §aSocial Skill 2§c.\",4:\"§a§lUNCOMMON\"],Name:\"§aSocial Display\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Places a hologram displaying the top",
+    "§7players on your island by points.",
+    "",
+    "§4❣ §cRequires §aSocial Skill 2§c.",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SOCIAL_DISPLAY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Social_Display"
+  ]
+}

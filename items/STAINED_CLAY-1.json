@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:stained_hardened_clay",
+  "displayname": "§fOrange Hardened Clay",
+  "nbttag": "{ExtraAttributes:{id:\"STAINED_CLAY-1\"},HideFlags:254,ItemModel:\"minecraft:orange_terracotta\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fOrange Hardened Clay\"}}",
+  "damage": 1,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "STAINED_CLAY-1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "HARD_CLAY:1",
+    "A2": "HARD_CLAY:1",
+    "A3": "HARD_CLAY:1",
+    "B1": "HARD_CLAY:1",
+    "B2": "INK_SACK-14:1",
+    "B3": "HARD_CLAY:1",
+    "C1": "HARD_CLAY:1",
+    "C2": "HARD_CLAY:1",
+    "C3": "HARD_CLAY:1",
+    "count": 8
+  }
+}

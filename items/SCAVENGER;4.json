@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{scavenger:4},id:\"SCAVENGER;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Scavenger IV\",3:\"§7Scavenge §61.2 Coins §7per\",4:\"§7monster level on kill.\",5:\"\",6:\"§6Source:\",7:\"§aIV: §7Season of Jerry\",8:\"§7Experiments\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Scavenger IV",
+    "§7Scavenge §61.2 Coins §7per",
+    "§7monster level on kill.",
+    "",
+    "§6Source:",
+    "§aIV: §7Season of Jerry",
+    "§7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SCAVENGER;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Scavenger"
+  ],
+  "parent": "SCAVENGER;2"
+}

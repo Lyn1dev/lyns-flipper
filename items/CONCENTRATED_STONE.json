@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Concentrated Stone",
+  "nbttag": "{ExtraAttributes:{id:\"CONCENTRATED_STONE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/concentrated_stone\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7The purest form of stone. How can\",3:\"§7something so simple, be so heavy?\",4:\"\",5:\"§9§lRARE BLOCK\"],Name:\"§9Concentrated Stone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7The purest form of stone. How can",
+    "§7something so simple, be so heavy?",
+    "",
+    "§9§lRARE BLOCK"
+  ],
+  "internalname": "CONCENTRATED_STONE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Hard Stone VI",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Concentrated_Stone"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_HARD_STONE:64",
+    "A2": "ENCHANTED_HARD_STONE:64",
+    "A3": "ENCHANTED_HARD_STONE:64",
+    "B1": "ENCHANTED_HARD_STONE:64",
+    "B2": "ENCHANTED_HARD_STONE:64",
+    "B3": "ENCHANTED_HARD_STONE:64",
+    "C1": "ENCHANTED_HARD_STONE:64",
+    "C2": "ENCHANTED_HARD_STONE:64",
+    "C3": "ENCHANTED_HARD_STONE:64"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{paleontologist:5},id:\"PALEONTOLOGIST;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Paleontologist V\",3:\"§7Increases chances of finding a\",4:\"§9Suspicious Scrap §7when mining in\",5:\"§bGlacite Mineshafts §7by §a12.5%§7.\",6:\"\",7:\"§6Source:\",8:\"§aI: §bFrozen Corpses§7,\",9:\"§6Fossil Excavator\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fDrill\",13:\"§7- §fGauntlet\",14:\"§7- §fPickaxe\",15:\"\",16:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Paleontologist V",
+    "§7Increases chances of finding a",
+    "§9Suspicious Scrap §7when mining in",
+    "§bGlacite Mineshafts §7by §a12.5%§7.",
+    "",
+    "§6Source:",
+    "§aI: §bFrozen Corpses§7,",
+    "§6Fossil Excavator",
+    "",
+    "§6Applied To:",
+    "§7- §fDrill",
+    "§7- §fGauntlet",
+    "§7- §fPickaxe",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "PALEONTOLOGIST;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Paleontologist"
+  ]
+}

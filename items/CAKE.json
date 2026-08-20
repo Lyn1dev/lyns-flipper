@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:cake",
+  "displayname": "§fCake",
+  "nbttag": "{ExtraAttributes:{id:\"CAKE\"},HideFlags:254,ItemModel:\"minecraft:cake\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCake\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "CAKE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "MILK_BUCKET:1",
+    "A2": "MILK_BUCKET:1",
+    "A3": "MILK_BUCKET:1",
+    "B1": "SUGAR:1",
+    "B2": "EGG:1",
+    "B3": "SUGAR:1",
+    "C1": "WHEAT:1",
+    "C2": "WHEAT:1",
+    "C3": "WHEAT:1"
+  }
+}

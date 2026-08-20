@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fGhast Head",
+  "nbttag": "{ExtraAttributes:{id:\"GHAST_HEAD\"},HideFlags:254,SkullOwner:{Id:\"c0ec2e42-100c-3242-b950-2f2844f5501e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E4YjcxNGQzMmQ3ZjZjZjhiMzdlMjIxYjc1OGI5YzU5OWZmNzY2NjdjN2NkNDViYmM0OWM1ZWYxOTg1ODY0NiJ9fX0=\"}]}},display:{Lore:[0:\"§7Health: §c+100\",1:\"\",2:\"§7Restores §c+5 Health §7every second\",3:\"§7while worn.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON HELMET\"],Name:\"§fGhast Head\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Health: §c+100",
+    "",
+    "§7Restores §c+5 Health §7every second",
+    "§7while worn.",
+    "",
+    "§7§8This item can be reforged!",
+    "§f§lCOMMON HELMET"
+  ],
+  "internalname": "GHAST_HEAD",
+  "modver": "2.6.0",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ghast_Head"
+  ]
+}

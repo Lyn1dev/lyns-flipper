@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Frozen Alex (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"FROZEN_ALEX_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e838fe9a-1ba2-24ba-b9fe-33817ec0d263\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhOWViMWZiYTU2Y2Q0NjIxYTVmN2Y2Mjk3OTNjYzFkMzYxODA4N2VlYTM2ZTE4YTUwYjVjOWFkYjNkNmE4NyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlODM4ZmU5YTFiYTIyNGJhYjlmZTMzODE3ZWMwZDI2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc1NDM3NDc3OTk0fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Frozen Alex (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "FROZEN_ALEX_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g19f28a05",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Frozen_Alex"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "ESSENCE_ICE:15000"
+      ],
+      "result": "EXPERIENCE;5"
+    }
+  ],
+  "island": "winter",
+  "x": -43,
+  "y": 84,
+  "z": -1
+}

@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:magma_cream",
+  "displayname": "§fMagma Cream",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_CREAM\"},HideFlags:254,ItemModel:\"minecraft:magma_cream\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fMagma Cream\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "MAGMA_CREAM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Magma_Cream"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "BLAZE_POWDER:1",
+    "A2": "SLIME_BALL:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

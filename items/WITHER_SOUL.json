@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aWither Soul",
+  "nbttag": "{ExtraAttributes:{id:\"WITHER_SOUL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/wither_soul\",display:{Lore:[0:\"§7You can still hear their cries from\",1:\"§7the other side.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aWither Soul\"}}",
+  "damage": 0,
+  "lore": [
+    "§7You can still hear their cries from",
+    "§7the other side.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "WITHER_SOUL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wither_Soul"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§fFireplace",
+  "nbttag": "{ExtraAttributes:{id:\"FIREPLACE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c0638263-aecf-3567-9eb8-5890983cb91d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"cKTD3GYC5T7mj9PQ7A7L9GuOREeXpISosUtYoZeHYVM+H+790edZ24FDccTbqa8rEd485+VLIoGMi1p991dyhpn6kWL+jERkfbB6boixws4cYB8VR/ukEs6bfNaSQjD2iGWIOkSE1ZHgE9a/BPYz/+HZA8x8P4bXWJA8BcshI7OuQ+7qhyE/od3wL7+18LmcrO0AVcSz5r3EnmPdKBtcp2a1WIg4Nmswn+TOHnh/fKkylHX8DQYliPySweO6I7hn+4oQCzInHEOQXfOAECYWO/gvykIzsWEyrzyVsnq39vlQSZeyITb2VCFrrvGYb6I8SQgBJSPqfOZfYaB2cXQelDjlYyFoAb5srs2/1gQdH/vdrzqavUDXVUvLXZvg7s2baujWu/my3L/8XdAK2hnLI0UOvE6N9TgjaTGrrkg2ifeMrsnsHCmTCPYJDb4me3Ugb+0BFmCxooIH+K5teqYzay/jLoO9+SvIaoNWLQIOpEq3TyCS2r72rdN6n/UN1v6dsX0nmEHWtMjlD83Hz7LAgiQXG7NpmthSzWjID/FotTBPvEEDKQdrhENIfBs9pVYeHQvXaMraT2jrMaJhZafnCmzC604KjiS/7szVZFnxtCoOZtIVzzc0gPZtvS/xHyU7YWUJtT0/HQyXQ5l/7uz6BVVHnS5Ld0Sh4hRV/oWPSic=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjE4MzY0MywKICAicHJvZmlsZUlkIiA6ICIzYTdhMDVjMDc0MTI0N2Q2YWVmMDMzMDNkOWNlMjMzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcXJ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2NDIyNjI0NWEyY2FiZDkxZmE1MTUzNWNjYTk4ZTkxNzk4N2U0NjQyYTZhZDk5NDMyMTdiMzMwZDdjOTFlNTEiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7This cosmetic fireplace looks great\",3:\"§7in any build.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fFireplace\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Furniture",
+    "",
+    "§7This cosmetic fireplace looks great",
+    "§7in any build.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "FIREPLACE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fireplace"
+  ]
+}

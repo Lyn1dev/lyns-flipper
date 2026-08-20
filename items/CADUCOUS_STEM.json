@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:double_plant",
+  "displayname": "§fCaducous Stem",
+  "nbttag": "{ExtraAttributes:{id:\"CADUCOUS_STEM\"},HideFlags:254,ItemModel:\"minecraft:rose_bush\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7The color and shape of flowers are\",3:\"§7a precise record of what bees find\",4:\"§7attractive.\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fCaducous Stem\"}}",
+  "damage": 4,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7The color and shape of flowers are",
+    "§7a precise record of what bees find",
+    "§7attractive.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "CADUCOUS_STEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Caducous_Stem"
+  ]
+}

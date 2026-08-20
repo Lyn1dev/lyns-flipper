@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{cubism:6},id:\"CUBISM;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Cubism VI\",3:\"§7Increases damage dealt to\",4:\"§7Magma Cubes, Slimes, and\",5:\"§7Creepers by §a40%§7.\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Experiments,\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fBow\",15:\"§7- §fGauntlet\",16:\"\",17:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Cubism VI",
+    "§7Increases damage dealt to",
+    "§7Magma Cubes, Slimes, and",
+    "§7Creepers by §a40%§7.",
+    "",
+    "§6Source:",
+    "§aVI: §7Experiments,",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fBow",
+    "§7- §fGauntlet",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "CUBISM;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cubism"
+  ]
+}

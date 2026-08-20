@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:soul_sand",
+  "displayname": "§fSoul Sand",
+  "nbttag": "{ExtraAttributes:{id:\"SOUL_SAND\"},HideFlags:254,ItemModel:\"minecraft:soul_sand\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSoul Sand\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "SOUL_SAND",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

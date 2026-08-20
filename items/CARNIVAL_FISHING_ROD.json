@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:fishing_rod",
+  "displayname": "§aCarnival Rod",
+  "nbttag": "{ExtraAttributes:{id:\"CARNIVAL_FISHING_ROD\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§7Used to catch §3fish §7in the §3Catch a\",1:\"§3Fish §7game.\",2:\"\",3:\"§8This item can be reforged!\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aCarnival Rod\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Used to catch §3fish §7in the §3Catch a",
+    "§3Fish §7game.",
+    "",
+    "§8This item can be reforged!",
+    "§8§l* §8Soulbound §8§l*",
+    "§a§lUNCOMMON FISHING ROD"
+  ],
+  "internalname": "CARNIVAL_FISHING_ROD",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Carnival_Rod"
+  ]
+}

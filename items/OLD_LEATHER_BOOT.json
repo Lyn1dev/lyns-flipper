@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Old Leather Boot",
+  "nbttag": "{ExtraAttributes:{id:\"OLD_LEATHER_BOOT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/junk/old_leather_boot\",display:{Lore:[0:\"§7A piece of §2Junk§7. Bring it to §2Junker\",1:\"§2Joel§7!\",2:\"\",3:\"§8§oWell-worn and waterlogged.\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Old Leather Boot\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A piece of §2Junk§7. Bring it to §2Junker",
+    "§2Joel§7!",
+    "",
+    "§8§oWell-worn and waterlogged.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "OLD_LEATHER_BOOT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Old_Leather_Boot"
+  ]
+}

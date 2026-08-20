@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:emerald_block",
+  "displayname": "§fBlock of Emerald",
+  "nbttag": "{ExtraAttributes:{id:\"EMERALD_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:emerald_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Emerald\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "EMERALD_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "EMERALD:1",
+    "A2": "EMERALD:1",
+    "A3": "EMERALD:1",
+    "B1": "EMERALD:1",
+    "B2": "EMERALD:1",
+    "B3": "EMERALD:1",
+    "C1": "EMERALD:1",
+    "C2": "EMERALD:1",
+    "C3": "EMERALD:1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:diamond_sword",
+  "displayname": "§5Reaper Falchion",
+  "nbttag": "{ExtraAttributes:{id:\"REAPER_SWORD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/zombie/weapons/reaper_falchion\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\"§7Intelligence: §b+200\",3:\"§7Gemstones: §8[]\",4:\"\",5:\"§7Heal §c10❤ §7per hit.\",6:\"§7Deal §a+200% §7damage to §2 Undead §7mobs.\",7:\"§7Gain §3+45☯ Combat Wisdom§7 against §2\",8:\"§2Undead §7mobs.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Zombie Slayer 6§c.\",12:\"§5§lEPIC SWORD\"],Name:\"§5Reaper Falchion\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+120",
+    "§7Strength: §c+100",
+    "§7Intelligence: §b+200",
+    "§7Gemstones: §8[]",
+    "",
+    "§7Heal §c10❤ §7per hit.",
+    "§7Deal §a+200% §7damage to §2 Undead §7mobs.",
+    "§7Gain §3+45☯ Combat Wisdom§7 against §2",
+    "§2Undead §7mobs.",
+    "",
+    "§8This item can be reforged!",
+    "§4☠ §cRequires §5Zombie Slayer 6§c.",
+    "§5§lEPIC SWORD"
+  ],
+  "internalname": "REAPER_SWORD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Zombie Slayer 6",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Reaper_Falchion"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "REVIVED_HEART:1",
+    "A3": "",
+    "B1": "",
+    "B2": "REVENANT_CATALYST:1",
+    "B3": "",
+    "C1": "",
+    "C2": "REVENANT_SWORD:1",
+    "C3": ""
+  },
+  "slayer_req": "ZOMBIE_6"
+}

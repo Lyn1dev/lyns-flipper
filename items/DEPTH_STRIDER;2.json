@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{depth_strider:2},id:\"DEPTH_STRIDER;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Depth Strider II\",3:\"§7Reduces how much you are slowed\",4:\"§7in the water by §a67%§7.\",5:\"\",6:\"§6Source:\",7:\"§aI-III: §7Enchantment Table,\",8:\"§7Pufferfish Collection\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fBoots\",12:\"\",13:\"§6Conflicts:\",14:\"§7- §cFrost Walker\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[0:{id:8S,lvl:2S}]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Depth Strider II",
+    "§7Reduces how much you are slowed",
+    "§7in the water by §a67%§7.",
+    "",
+    "§6Source:",
+    "§aI-III: §7Enchantment Table,",
+    "§7Pufferfish Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fBoots",
+    "",
+    "§6Conflicts:",
+    "§7- §cFrost Walker",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "DEPTH_STRIDER;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Depth_Strider"
+  ]
+}

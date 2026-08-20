@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Heavy Pearl",
+  "nbttag": "{ExtraAttributes:{id:\"HEAVY_PEARL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/heavy_pearl\",display:{Lore:[0:\"§7It can take years for Hellwisp to\",1:\"§7create a pearl, but the Matriarch\",2:\"§7secretes so much fluid that it can\",3:\"§7make multiple of those pearls every\",4:\"§7day.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Heavy Pearl\"}}",
+  "damage": 0,
+  "lore": [
+    "§7It can take years for Hellwisp to",
+    "§7create a pearl, but the Matriarch",
+    "§7secretes so much fluid that it can",
+    "§7make multiple of those pearls every",
+    "§7day.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "HEAVY_PEARL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Heavy_Pearl"
+  ]
+}

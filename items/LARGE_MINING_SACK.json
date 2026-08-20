@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Large Mining Sack",
+  "nbttag": "{ExtraAttributes:{id:\"LARGE_MINING_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a112c007-22c2-38bf-b0e0-c0a05b9c239c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"XKehhCQl/q2WcpS+6aLSl5yzRdAKVo8/sZGNsWx7DLDk01okd+ZIJJPkdkdDmnDMp9ettm/60ifZEse5leOq9PpsV0QcrNuhxgafd6Zcjhx9OhDll+MssU/8oBYeunNzqUzHimRiMIRkDi64YCCSrFQh1Tc1/XJNsYpQ0bfoPJVccocJHp1r3ZslBx+UnbDPA3n+DwxnslXFUCt5Ft2OQ3BNIjx2ekSJvTRKc5H8VfbrlEU6K2MXWqvlEu/wh3jXD4kAYgXrg4uLFtDQF+KkmReZgA48D02A3JbSEX9wiojHFkaH5m9t+/Xsb5HXiltSw7cJHoixYv3dVA5VCbAYGfEi8MQNctNiAKpJRFKDdqoCVwfawgP/26pR2AACqiX6yXmfy1HQHjuOnb9WixupvAPsyefE9Ta7y6UeVvnFQR5XheQ0vNaAV4DESfYecT7mWrmmC9lQDK97dyDNNxXmqfmi2VIBHt++G1A6W3781AOGgxS+3ivj0Sp/+sf7t8VoUQNb89m8DaNJAwdFXFKEmSsqWbbDFmrxipIGnhbV+/FkdFlpw/Em1MPZX6WyDQzP/Z14rTFJrv62wbonTguu+8ja9HFh7zHEfx/nBt2NU2B/rhRGMG1410qIxwAHv1aybTR5qSyGY1AJ1cUliQfsobj96lCeqkUfmNnaQStmCTw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5OTI1MTIyNjEzMywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE1ZmNlYmJiZTAyZmRiNzJhY2QyMDk1ZDllZGZjZWEwOTVlNjA0YjM2ODJkYjg4OTYzYjViODNiMjkzOWI2NyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holds various items obtained from\",1:\"§6Mining§7! Items you pickup go directly\",2:\"§7into your sacks.\",3:\"\",4:\"§7Capacity: §e20,160 of each item\",5:\"§8Multiple sacks sum their capacity!\",6:\"\",7:\"§eRight Click to open!\",8:\"\",9:\"§5§lEPIC SACK\"],Name:\"§5Large Mining Sack\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Holds various items obtained from",
+    "§6Mining§7! Items you pickup go directly",
+    "§7into your sacks.",
+    "",
+    "§7Capacity: §e20,160 of each item",
+    "§8Multiple sacks sum their capacity!",
+    "",
+    "§eRight Click to open!",
+    "",
+    "§5§lEPIC SACK"
+  ],
+  "internalname": "LARGE_MINING_SACK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Coal IX",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Large_Mining_Sack"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_COAL:8",
+    "A2": "ENCHANTED_COAL:8",
+    "A3": "ENCHANTED_COAL:8",
+    "B1": "ENCHANTED_COAL:8",
+    "B2": "MEDIUM_MINING_SACK:1",
+    "B3": "ENCHANTED_COAL:8",
+    "C1": "ENCHANTED_COAL:8",
+    "C2": "ENCHANTED_COAL:8",
+    "C3": "ENCHANTED_COAL:8"
+  }
+}

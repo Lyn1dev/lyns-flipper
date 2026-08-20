@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aBurning Eye",
+  "nbttag": "{ExtraAttributes:{id:\"BURNING_EYE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/burning_eye\",display:{Lore:[0:\"§7Probably the single most regrettable\",1:\"§7effect of Sulphur on the island's\",2:\"§7fauna. You can't kill a spider with\",3:\"§7fire if it's already burning.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aBurning Eye\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Probably the single most regrettable",
+    "§7effect of Sulphur on the island's",
+    "§7fauna. You can't kill a spider with",
+    "§7fire if it's already burning.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "BURNING_EYE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Burning_Eye"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§f Rough Peridot Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"ROUGH_PERIDOT_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/peridot/rough_peridot_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Mined from the cold depths of the\",3:\"§bGlacite Tunnels§7.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§6 Farming Fortune§7; others say it\",8:\"§7might give bonus §fFossil Essence§7.\",9:\"\",10:\"§f§lCOMMON GEMSTONE\"],Name:\"§f Rough Peridot Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Mined from the cold depths of the",
+    "§bGlacite Tunnels§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§6 Farming Fortune§7; others say it",
+    "§7might give bonus §fFossil Essence§7.",
+    "",
+    "§f§lCOMMON GEMSTONE"
+  ],
+  "internalname": "ROUGH_PERIDOT_GEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ]
+}

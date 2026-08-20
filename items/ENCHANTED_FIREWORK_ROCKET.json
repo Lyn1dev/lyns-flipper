@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:fireworks",
+  "displayname": "§9Enchanted Firework Rocket",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_FIREWORK_ROCKET\"},HideFlags:254,ItemModel:\"minecraft:firework_rocket\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Firework Rocket\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_FIREWORK_ROCKET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gunpowder VI",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Firework_Rocket"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_GUNPOWDER:16",
+    "A3": "",
+    "B1": "ENCHANTED_GUNPOWDER:16",
+    "B2": "PAPER:16",
+    "B3": "ENCHANTED_GUNPOWDER:16",
+    "C1": "",
+    "C2": "ENCHANTED_GUNPOWDER:16",
+    "C3": ""
+  }
+}

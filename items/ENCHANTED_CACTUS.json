@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:cactus",
+  "displayname": "§9Enchanted Cactus",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CACTUS\"},HideFlags:254,ItemModel:\"minecraft:cactus\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Enchanted Cactus\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_CACTUS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Cactus VIII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Cactus"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_CACTUS_GREEN:32",
+    "A3": "",
+    "B1": "ENCHANTED_CACTUS_GREEN:32",
+    "B2": "ENCHANTED_CACTUS_GREEN:32",
+    "B3": "ENCHANTED_CACTUS_GREEN:32",
+    "C1": "",
+    "C2": "ENCHANTED_CACTUS_GREEN:32",
+    "C3": ""
+  }
+}

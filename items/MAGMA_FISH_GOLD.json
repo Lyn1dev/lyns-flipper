@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Gold Magmafish",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_FISH_GOLD\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/trophy/lava/magmafish_gold\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Gold Magmafish\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "MAGMA_FISH_GOLD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magmafish VII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gold_Magmafish"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MAGMA_FISH_SILVER:16",
+    "A3": "",
+    "B1": "MAGMA_FISH_SILVER:16",
+    "B2": "MAGMA_FISH_SILVER:16",
+    "B3": "MAGMA_FISH_SILVER:16",
+    "C1": "",
+    "C2": "MAGMA_FISH_SILVER:16",
+    "C3": ""
+  }
+}

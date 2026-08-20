@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{strong_mana:4},id:\"STRONG_MANA;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Strong Vitality IV\",3:\"§7Convert §a8% §7of §4 Vitality §7used as §c\",4:\"§cStrength §7for §a10s§7. §8(Max 30\",5:\"§8Strength).\",6:\"\",7:\"§aI-X: §7Kuudra\",8:\"§aI-X: §7Bazaar\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fArmor\",12:\"\",13:\"§6Conflicts:\",14:\"§7- §cHardened Vitality\",15:\"§7- §cVivacious Vitality\",16:\"§7- §cVampiric Vitality\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Strong Vitality IV",
+    "§7Convert §a8% §7of §4 Vitality §7used as §c",
+    "§cStrength §7for §a10s§7. §8(Max 30",
+    "§8Strength).",
+    "",
+    "§aI-X: §7Kuudra",
+    "§aI-X: §7Bazaar",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§6Conflicts:",
+    "§7- §cHardened Vitality",
+    "§7- §cVivacious Vitality",
+    "§7- §cVampiric Vitality",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "STRONG_MANA;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Strong_Vitality"
+  ]
+}

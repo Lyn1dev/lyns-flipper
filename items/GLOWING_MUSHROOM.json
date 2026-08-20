@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aGlowing Mushroom",
+  "nbttag": "{ExtraAttributes:{id:\"GLOWING_MUSHROOM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/farming_1/glowing_mushroom\",display:{Lore:[0:\"§7Did you hear the joke about fungus?\",1:\"§7You won't like it, but it will grow on\",2:\"§7you.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aGlowing Mushroom\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Did you hear the joke about fungus?",
+    "§7You won't like it, but it will grow on",
+    "§7you.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "GLOWING_MUSHROOM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Glowing_Mushroom"
+  ]
+}

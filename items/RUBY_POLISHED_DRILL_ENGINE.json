@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Ruby-Polished Drill Engine",
+  "nbttag": "{ExtraAttributes:{id:\"RUBY_POLISHED_DRILL_ENGINE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/ruby_polished_drill_engine\",display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§6+250 Mining Speed\",3:\"§6+30 Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 7§c.\",9:\"§9§lRARE\"],Name:\"§9Ruby-Polished Drill Engine\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Drill Part",
+    "",
+    "§6+250 Mining Speed",
+    "§6+30 Mining Fortune",
+    "",
+    "§7Put this item in the §6Drill Engine §7slot",
+    "§7of a Drill at a §2Drill Mechanic§7!",
+    "",
+    "§4❣ §cRequires §5Heart of the Mountain Tier 7§c.",
+    "§9§lRARE"
+  ],
+  "internalname": "RUBY_POLISHED_DRILL_ENGINE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 7",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ruby-Polished_Drill_Engine"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "PERFECT_RUBY_GEM:1.0",
+        "PRECURSOR_APPARATUS:4.0",
+        "TITANIUM_DRILL_ENGINE:1.0",
+        "DRILL_ENGINE:5.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "RUBY_POLISHED_DRILL_ENGINE",
+      "duration": 30
+    }
+  ]
+}

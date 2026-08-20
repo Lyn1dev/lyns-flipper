@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Bob-omb",
+  "nbttag": "{ExtraAttributes:{id:\"BOB_OMB\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/bob_omb\",display:{Lore:[0:\"§7Makes a huge explosion in the\",1:\"§5Crystal Hollows §7and §bGlacite\",2:\"§bMineshafts§7, breaking nearby blocks\",3:\"§7and dropping §a50% §7of the items.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Bob-omb\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Makes a huge explosion in the",
+    "§5Crystal Hollows §7and §bGlacite",
+    "§bMineshafts§7, breaking nearby blocks",
+    "§7and dropping §a50% §7of the items.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BOB_OMB",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bob-omb"
+  ]
+}

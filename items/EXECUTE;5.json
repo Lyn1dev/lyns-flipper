@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{execute:5},id:\"EXECUTE;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Execute V\",3:\"§7Increases damage dealt by §a1%\",4:\"§7for each percent of health\",5:\"§7missing on your target.\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Diamond Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fGauntlet\",15:\"\",16:\"§6Conflicts:\",17:\"§7- §cProsecute\",18:\"\",19:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Execute V",
+    "§7Increases damage dealt by §a1%",
+    "§7for each percent of health",
+    "§7missing on your target.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Diamond Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cProsecute",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "EXECUTE;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Execute"
+  ],
+  "parent": "EXECUTE;4"
+}

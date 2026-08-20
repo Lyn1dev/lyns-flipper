@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Divan's Alloy",
+  "nbttag": "{ExtraAttributes:{id:\"DIVAN_ALLOY\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/divans_alloy\",display:{Lore:[0:\"§7The legendary Divan explored where\",1:\"§7no other man has set foot, and came\",2:\"§7back with this incredibly rare alloy.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Divan's Alloy\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7The legendary Divan explored where",
+    "§7no other man has set foot, and came",
+    "§7back with this incredibly rare alloy.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "DIVAN_ALLOY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g0c5f541d",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Divan%27s_Alloy"
+  ]
+}

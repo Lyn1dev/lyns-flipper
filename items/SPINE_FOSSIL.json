@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Spine Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"SPINE_FOSSIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/spine_fossil\",display:{Lore:[0:\"§7A well-preserved set of neural\",1:\"§7spines. Whatever possessed these\",2:\"§7was an adept swimmer.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Spine Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A well-preserved set of neural",
+    "§7spines. Whatever possessed these",
+    "§7was an adept swimmer.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SPINE_FOSSIL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spine_Fossil"
+  ]
+}

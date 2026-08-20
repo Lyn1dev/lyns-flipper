@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aTorn Cloth",
+  "nbttag": "{ExtraAttributes:{id:\"TORN_CLOTH\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/misc/torn_cloth\",display:{Lore:[0:\"§7A torn article of men's clothing,\",1:\"§7waterlogged and mossy. Probably too\",2:\"§7late to ask for a refund.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aTorn Cloth\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A torn article of men's clothing,",
+    "§7waterlogged and mossy. Probably too",
+    "§7late to ask for a refund.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "TORN_CLOTH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Torn_Cloth"
+  ]
+}

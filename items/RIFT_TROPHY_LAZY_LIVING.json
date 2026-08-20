@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:lapis_ore",
+  "displayname": "§cLiving Timecharm",
+  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_LAZY_LIVING\"},HideFlags:254,ItemModel:\"minecraft:lapis_ore\",display:{Lore:[0:\"§7Place this timecharm in the §dRift\",1:\"§dGallery §7to secure it forever!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cLiving Timecharm\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Place this timecharm in the §dRift",
+    "§dGallery §7to secure it forever!",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§c§lSPECIAL RIFT TIMECHARM"
+  ],
+  "internalname": "RIFT_TROPHY_LAZY_LIVING",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Living_Timecharm"
+  ],
+  "recipe": {
+    "A1": "LIVING_METAL:20",
+    "A2": "LIVING_METAL:20",
+    "A3": "LIVING_METAL:20",
+    "B1": "LIVING_METAL:20",
+    "B2": "FROSTY_CRUX:20",
+    "B3": "LIVING_METAL:20",
+    "C1": "LIVING_METAL:20",
+    "C2": "LIVING_METAL:20",
+    "C3": "LIVING_METAL:20"
+  }
+}

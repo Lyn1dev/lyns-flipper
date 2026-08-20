@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:leather_chestplate",
+  "displayname": "§6Old Dragon Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"OLD_DRAGON_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+150\",1:\"§7Defense: §a+160\",2:\"§7Gemstones: §8[☤]\",3:\"\",4:\"§6Full Set Bonus: Old Blood §7(0/4)\",5:\"§7Increases the strength of §9Growth§7,\",6:\"§9Protection§7, §9Feather Falling§7, §9Sugar\",7:\"§9Rush§7, and §9True Protection§7 while worn.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 16§c.\",11:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Old Dragon Chestplate\",color:15787690}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+150",
+    "§7Defense: §a+160",
+    "§7Gemstones: §8[☤]",
+    "",
+    "§6Full Set Bonus: Old Blood §7(0/4)",
+    "§7Increases the strength of §9Growth§7,",
+    "§9Protection§7, §9Feather Falling§7, §9Sugar",
+    "§9Rush§7, and §9True Protection§7 while worn.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aCombat Skill 16§c.",
+    "§6§lLEGENDARY CHESTPLATE"
+  ],
+  "internalname": "OLD_DRAGON_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Old_Dragon_Chestplate"
+  ],
+  "recipe": {
+    "A1": "OLD_FRAGMENT:10",
+    "A2": "",
+    "A3": "OLD_FRAGMENT:10",
+    "B1": "OLD_FRAGMENT:10",
+    "B2": "OLD_FRAGMENT:10",
+    "B3": "OLD_FRAGMENT:10",
+    "C1": "OLD_FRAGMENT:10",
+    "C2": "OLD_FRAGMENT:10",
+    "C3": "OLD_FRAGMENT:10"
+  }
+}

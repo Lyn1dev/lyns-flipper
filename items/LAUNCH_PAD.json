@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:slime",
+  "displayname": "§aLaunch Pad",
+  "nbttag": "{ExtraAttributes:{id:\"LAUNCH_PAD\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§7Launches you in the direction you\",1:\"§7are facing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aLaunch Pad\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Launches you in the direction you",
+    "§7are facing!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "LAUNCH_PAD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Slimeball VII",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Launch_Pad"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_SLIME_BALL:1",
+    "A2": "ENCHANTED_SLIME_BALL:1",
+    "A3": "ENCHANTED_SLIME_BALL:1",
+    "B1": "ENCHANTED_SLIME_BALL:1",
+    "B2": "ENCHANTED_REDSTONE:1",
+    "B3": "ENCHANTED_SLIME_BALL:1",
+    "C1": "ENCHANTED_SLIME_BALL:1",
+    "C2": "ENCHANTED_SLIME_BALL:1",
+    "C3": "ENCHANTED_SLIME_BALL:1"
+  }
+}

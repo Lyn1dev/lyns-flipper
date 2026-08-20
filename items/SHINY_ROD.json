@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:carrot_on_a_stick",
+  "displayname": "§6Shiny Rod",
+  "nbttag": "{ExtraAttributes:{id:\"SHINY_ROD\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Shiny pigs run away from you §e30%\",1:\"§7faster while holding this.\",2:\"\",3:\"§7Extract §625% §7extra coins from shiny\",4:\"§7orbs.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Rod\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Shiny pigs run away from you §e30%",
+    "§7faster while holding this.",
+    "",
+    "§7Extract §625% §7extra coins from shiny",
+    "§7orbs.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "SHINY_ROD",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Shiny_Rod"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "EMERALD:200",
+      "result": "SHINY_ROD"
+    }
+  ]
+}

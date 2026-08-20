@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Fuel Canister",
+  "nbttag": "{ExtraAttributes:{id:\"FUEL_TANK\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/fuel_canister\",display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Fuel Canister\"}}",
+  "damage": 0,
+  "lore": [
+    "§9§lRARE"
+  ],
+  "internalname": "FUEL_TANK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 2",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fuel_Canister"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_COAL_BLOCK:2"
+      ],
+      "count": 1,
+      "overrideOutputId": "FUEL_TANK",
+      "duration": 36000
+    }
+  ]
+}

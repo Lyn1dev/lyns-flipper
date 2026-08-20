@@ -1,0 +1,40 @@
+{
+  "itemid": "minecraft:trapdoor",
+  "displayname": "§9Berberis Fuel Injector",
+  "nbttag": "{ExtraAttributes:{id:\"BERBERIS_FUEL_INJECTOR\"},HideFlags:254,ItemModel:\"minecraft:oak_trapdoor\",display:{Lore:[0:\"§8Minion Upgrade\",1:\"\",2:\"§7This item can be used as a minion\",3:\"§7upgrade, only for §efarming §7minions.\",4:\"\",5:\"§7Increases the speed of your minion\",6:\"§7by §a15%§7.\",7:\"\",8:\"§7Your minion will occasionally\",9:\"§7generate §aLush Berberis §7items.\",10:\"\",11:\"§5§kX§5 Rift-Transferable §5§kX\",12:\"§9§lRARE\"],Name:\"§9Berberis Fuel Injector\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Minion Upgrade",
+    "",
+    "§7This item can be used as a minion",
+    "§7upgrade, only for §efarming §7minions.",
+    "",
+    "§7Increases the speed of your minion",
+    "§7by §a15%§7.",
+    "",
+    "§7Your minion will occasionally",
+    "§7generate §aLush Berberis §7items.",
+    "",
+    "§5§kX§5 Rift-Transferable §5§kX",
+    "§9§lRARE"
+  ],
+  "internalname": "BERBERIS_FUEL_INJECTOR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wilted Berberis IV",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Berberis_Fuel_Injector"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "WILTED_BERBERIS:48",
+    "A3": "",
+    "B1": "WILTED_BERBERIS:48",
+    "B2": "WILTED_BERBERIS:48",
+    "B3": "WILTED_BERBERIS:48",
+    "C1": "WILTED_BERBERIS:48",
+    "C2": "WILTED_BERBERIS:48",
+    "C3": "WILTED_BERBERIS:48"
+  }
+}

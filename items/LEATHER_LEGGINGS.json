@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:leather_leggings",
+  "displayname": "§fLeather Leggings",
+  "nbttag": "{ExtraAttributes:{id:\"LEATHER_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+10\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON LEGGINGS\"],Name:\"§fLeather Leggings\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+10",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON LEGGINGS"
+  ],
+  "internalname": "LEATHER_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "LEATHER:1",
+    "A2": "LEATHER:1",
+    "A3": "LEATHER:1",
+    "B1": "LEATHER:1",
+    "B2": "",
+    "B3": "LEATHER:1",
+    "C1": "LEATHER:1",
+    "C2": "",
+    "C3": "LEATHER:1"
+  },
+  "vanilla": true
+}

@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:glass",
+  "displayname": "§fGlass",
+  "nbttag": "{ExtraAttributes:{id:\"GLASS\"},HideFlags:254,ItemModel:\"minecraft:glass\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fGlass\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "GLASS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

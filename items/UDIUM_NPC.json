@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Udium (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"UDIUM_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7f140bf2-53e8-2e9d-8e60-1309cc2eeef6\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhZWU3ZTUxYTg3NjkzYThmYjdmZTQzMGE4ODdmZmIyN2VlYjk3NDljZWE4MTZkNjUyNDVlMmRmNjU1Y2YzMiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3ZjE0MGJmMjUzZTgyZTlkOGU2MDEzMDljYzJlZWVmNiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3NDA5NDU4fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Udium (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "UDIUM_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Udium"
+  ],
+  "x": 46,
+  "y": 101,
+  "z": 100,
+  "island": "hub"
+}

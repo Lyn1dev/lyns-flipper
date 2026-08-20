@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Soulflow",
+  "nbttag": "{ExtraAttributes:{id:\"SOULFLOW\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/slayer/enderman/soulflow\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Hold and right-click to consume,\",3:\"§7gaining §3+160⸎ Soulflow§7!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Soulflow\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Hold and right-click to consume,",
+    "§7gaining §3+160⸎ Soulflow§7!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SOULFLOW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Soulflow"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "RAW_SOULFLOW:32",
+    "A3": "",
+    "B1": "RAW_SOULFLOW:32",
+    "B2": "RAW_SOULFLOW:32",
+    "B3": "RAW_SOULFLOW:32",
+    "C1": "",
+    "C2": "RAW_SOULFLOW:32",
+    "C3": ""
+  },
+  "slayer_req": "EMAN_2"
+}

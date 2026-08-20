@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{vicious:4},id:\"VICIOUS;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Vicious IV\",3:\"§7Grants §c+4⫽ Ferocity§7.\",4:\"\",5:\"§6Source:\",6:\"§aIII-V: §7Obtained from the Dark Auction\",7:\"\",8:\"§6Applied To:\",9:\"§7- §fSword\",10:\"§7- §fFishing Weapon\",11:\"§7- §fLongsword\",12:\"§7- §fGauntlet\",13:\"§7- §fBow\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Vicious IV",
+    "§7Grants §c+4⫽ Ferocity§7.",
+    "",
+    "§6Source:",
+    "§aIII-V: §7Obtained from the Dark Auction",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "§7- §fBow",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "VICIOUS;4",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Vicious"
+  ],
+  "parent": "VICIOUS;3"
+}

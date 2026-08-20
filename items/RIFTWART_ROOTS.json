@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:nether_wart",
+  "displayname": "§aRiftwart Roots",
+  "nbttag": "{ExtraAttributes:{id:\"RIFTWART_ROOTS\"},HideFlags:254,ItemModel:\"minecraft:nether_wart\",display:{Lore:[0:\"§7Do not eat.\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aRiftwart Roots\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Do not eat.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RIFTWART_ROOTS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Riftwart_Roots"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:brick_block",
+  "displayname": "§fBricks",
+  "nbttag": "{ExtraAttributes:{id:\"BRICK\"},HideFlags:254,ItemModel:\"minecraft:bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBricks\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "BRICK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Brick"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "CLAY_BRICK:1",
+    "A2": "CLAY_BRICK:1",
+    "A3": "",
+    "B1": "CLAY_BRICK:1",
+    "B2": "CLAY_BRICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

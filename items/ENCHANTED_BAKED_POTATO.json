@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:baked_potato",
+  "displayname": "§9Enchanted Baked Potato",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BAKED_POTATO\"},HideFlags:254,ItemModel:\"minecraft:baked_potato\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Baked Potato\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_BAKED_POTATO",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Potato VII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Baked_Potato"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENCHANTED_POTATO:32",
+    "A3": "",
+    "B1": "ENCHANTED_POTATO:32",
+    "B2": "ENCHANTED_POTATO:32",
+    "B3": "ENCHANTED_POTATO:32",
+    "C1": "",
+    "C2": "ENCHANTED_POTATO:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:iron_hoe",
+  "displayname": "§cMetal Detector",
+  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_METAL_DETECTOR\"},HideFlags:254,ItemModel:\"minecraft:iron_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Used to find lost Dwarven treasures\",1:\"§7in the §2Mines of Divan§7. The Metal\",2:\"§7Detector beeps louder and faster\",3:\"§7the closer you are to a buried\",4:\"§7treasure.\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§cMetal Detector\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Used to find lost Dwarven treasures",
+    "§7in the §2Mines of Divan§7. The Metal",
+    "§7Detector beeps louder and faster",
+    "§7the closer you are to a buried",
+    "§7treasure.",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "DWARVEN_METAL_DETECTOR",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Metal_Detector"
+  ]
+}

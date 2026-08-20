@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:poisonous_potato",
+  "displayname": "§aEnchanted Poisonous Potato",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_POISONOUS_POTATO\"},HideFlags:254,ItemModel:\"minecraft:poisonous_potato\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Poisonous Potato\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_POISONOUS_POTATO",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Poisonous_Potato"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "POISONOUS_POTATO:32",
+    "A3": "",
+    "B1": "POISONOUS_POTATO:32",
+    "B2": "POISONOUS_POTATO:32",
+    "B3": "POISONOUS_POTATO:32",
+    "C1": "",
+    "C2": "POISONOUS_POTATO:32",
+    "C3": ""
+  }
+}

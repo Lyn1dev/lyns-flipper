@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:noteblock",
+  "displayname": "§fNoteblock",
+  "nbttag": "{ExtraAttributes:{id:\"NOTE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:note_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNoteblock\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "NOTE_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "WOOD:1",
+    "A2": "WOOD:1",
+    "A3": "WOOD:1",
+    "B1": "WOOD:1",
+    "B2": "REDSTONE:1",
+    "B3": "WOOD:1",
+    "C1": "WOOD:1",
+    "C2": "WOOD:1",
+    "C3": "WOOD:1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Refined Umber",
+  "nbttag": "{ExtraAttributes:{id:\"REFINED_UMBER\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/umber/refined_umber\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§lEPIC DWARVEN METAL\"],Name:\"§5Refined Umber\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§5§lEPIC DWARVEN METAL"
+  ],
+  "internalname": "REFINED_UMBER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Umber III & HotM 7",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Refined_Umber"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "ENCHANTED_UMBER:160"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "REFINED_UMBER",
+      "duration": 3600
+    }
+  ]
+}

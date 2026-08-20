@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:iron_helmet",
+  "displayname": "§9Skeleton's Helmet",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_HELMET\"},HideFlags:254,ItemModel:\"minecraft:iron_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+75\",1:\"\",2:\"§6Ability: Bone Shield \",3:\"§7A Bone Shield will surround you,\",4:\"§7nullifying damage you take but\",5:\"§7consuming a bone in the process.\",6:\"§7Bones regenerate every §a30§7 seconds.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§9§lRARE HELMET\"],Name:\"§9Skeleton's Helmet\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+75",
+    "",
+    "§6Ability: Bone Shield ",
+    "§7A Bone Shield will surround you,",
+    "§7nullifying damage you take but",
+    "§7consuming a bone in the process.",
+    "§7Bones regenerate every §a30§7 seconds.",
+    "",
+    "§8This item can be reforged!",
+    "§9§lRARE HELMET"
+  ],
+  "internalname": "SKELETON_HELMET",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Bone VIII",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Skeleton%27s_Helmet"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_BONE:64",
+    "A2": "ENCHANTED_BONE:64",
+    "A3": "ENCHANTED_BONE:64",
+    "B1": "ENCHANTED_BONE:64",
+    "B2": "",
+    "B3": "ENCHANTED_BONE:64",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

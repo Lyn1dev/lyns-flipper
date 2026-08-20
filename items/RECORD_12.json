@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:record_wait",
+  "displayname": "§aMusic Disc - Wait",
+  "nbttag": "{ExtraAttributes:{id:\"RECORD_12\"},HideFlags:254,ItemModel:\"minecraft:music_disc_wait\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aMusic Disc - Wait\"}}",
+  "damage": 0,
+  "lore": [
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "RECORD_12",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

@@ -1,0 +1,50 @@
+{
+  "itemid": "minecraft:golden_boots",
+  "displayname": "§5Diver's Boots",
+  "nbttag": "{ExtraAttributes:{id:\"DIVER_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:golden_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+125\",1:\"§7Defense: §a+40\",2:\"§7Sea Creature Chance: §3+2%\",3:\"§7Respiration: §3+3\",4:\"§7Pressure Resistance: §9+15\",5:\"§7Gemstones: §8[]\",6:\"\",7:\"§6Full Set Bonus: One with the Fish §7(0/4)\",8:\"§7Grants the ability to breathe\",9:\"§9permanently §7while §9underwater§7.\",10:\"\",11:\"§8Tiered Bonus: Deep Sea Diver (0/4)\",12:\"§7Grants §6+0 Treasure Chance §7while\",13:\"§9underwater§7.\",14:\"\",15:\"§8This item can be reforged!\",16:\"§4❣ §cRequires §aFishing Skill 20§c.\",17:\"§5§lEPIC BOOTS\"],Name:\"§5Diver's Boots\"},ench:[0:{id:8S,lvl:3S}]}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+125",
+    "§7Defense: §a+40",
+    "§7Sea Creature Chance: §3+2%",
+    "§7Respiration: §3+3",
+    "§7Pressure Resistance: §9+15",
+    "§7Gemstones: §8[]",
+    "",
+    "§6Full Set Bonus: One with the Fish §7(0/4)",
+    "§7Grants the ability to breathe",
+    "§9permanently §7while §9underwater§7.",
+    "",
+    "§8Tiered Bonus: Deep Sea Diver (0/4)",
+    "§7Grants §6+0 Treasure Chance §7while",
+    "§9underwater§7.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFishing Skill 20§c.",
+    "§5§lEPIC BOOTS"
+  ],
+  "internalname": "DIVER_BOOTS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g02e85d46",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Diver%27s_Boots"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "ENCHANTED_SEA_LUMIES:4",
+      "A3": "",
+      "B1": "GILL_MEMBRANE:16",
+      "B2": "SNORKELING_BOOTS:1",
+      "B3": "GILL_MEMBRANE:16",
+      "C1": "",
+      "C2": "ENCHANTED_SEA_LUMIES:4",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "DIVER_BOOTS"
+    }
+  ]
+}

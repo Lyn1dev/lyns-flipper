@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:quartz_block",
+  "displayname": "§fBlock of Quartz",
+  "nbttag": "{ExtraAttributes:{id:\"QUARTZ_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:quartz_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Quartz\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "QUARTZ_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "QUARTZ:1",
+    "A2": "QUARTZ:1",
+    "A3": "",
+    "B1": "QUARTZ:1",
+    "B2": "QUARTZ:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:book",
+  "displayname": "§5Jalapeno Book",
+  "nbttag": "{ExtraAttributes:{id:\"JALAPENO_BOOK\"},HideFlags:254,ItemModel:\"minecraft:knowledge_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Combine this Book in an Anvil with a\",3:\"§7deployable to gain a small but\",4:\"§7permanent stat boost!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Jalapeno Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Combine this Book in an Anvil with a",
+    "§7deployable to gain a small but",
+    "§7permanent stat boost!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "JALAPENO_BOOK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Chili Pepper VII",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g84c3679e",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Jalapeno_Book"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "ENCHANTED_PAPER:1",
+    "B3": "ENCHANTED_PAPER:1",
+    "C1": "",
+    "C2": "ENCHANTED_PAPER:1",
+    "C3": "STUFFED_CHILI_PEPPER:1"
+  }
+}

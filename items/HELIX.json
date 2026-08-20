@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Helix Fossil",
+  "nbttag": "{ExtraAttributes:{id:\"HELIX\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/fossils/helix_fossil\",display:{Lore:[0:\"§7A well-preserved fossil featuring a\",1:\"§7coiled shell.\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Helix Fossil\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A well-preserved fossil featuring a",
+    "§7coiled shell.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "HELIX",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Helix_Fossil"
+  ]
+}

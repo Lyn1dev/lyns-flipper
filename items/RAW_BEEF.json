@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:beef",
+  "displayname": "§fRaw Beef",
+  "nbttag": "{ExtraAttributes:{id:\"RAW_BEEF\"},HideFlags:254,ItemModel:\"minecraft:beef\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRaw Beef\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAW_BEEF",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

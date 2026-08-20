@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:iron_shovel",
+  "displayname": "§aCarnival Shovel",
+  "nbttag": "{ExtraAttributes:{id:\"CARNIVAL_SHOVEL\"},HideFlags:254,ItemModel:\"minecraft:iron_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Used to dig up §6fruits §7in the §6Fruit\",1:\"§6Digging §7game.\",2:\"\",3:\"§eDowsing Mode: §cMines\",4:\"§7Reveals the amount of §cBombs\",5:\"§7adjacent to this block when you dig.\",6:\"\",7:\"§eRight-click to cycle Dowsing Modes!\",8:\"\",9:\"§8§l* §8Soulbound §8§l*\",10:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aCarnival Shovel\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Used to dig up §6fruits §7in the §6Fruit",
+    "§6Digging §7game.",
+    "",
+    "§eDowsing Mode: §cMines",
+    "§7Reveals the amount of §cBombs",
+    "§7adjacent to this block when you dig.",
+    "",
+    "§eRight-click to cycle Dowsing Modes!",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§a§lUNCOMMON SHOVEL"
+  ],
+  "internalname": "CARNIVAL_SHOVEL",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Carnival_Shovel"
+  ]
+}

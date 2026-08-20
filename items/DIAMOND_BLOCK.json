@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:diamond_block",
+  "displayname": "§fBlock of Diamond",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:diamond_block\",display:{Lore:[0:\"§f§lCOMMON ORE\"],Name:\"§fBlock of Diamond\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON ORE"
+  ],
+  "internalname": "DIAMOND_BLOCK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Block_of_Diamond"
+  ],
+  "vanilla": true,
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "DIAMOND:1",
+    "A3": "DIAMOND:1",
+    "B1": "DIAMOND:1",
+    "B2": "DIAMOND:1",
+    "B3": "DIAMOND:1",
+    "C1": "DIAMOND:1",
+    "C2": "DIAMOND:1",
+    "C3": "DIAMOND:1"
+  }
+}

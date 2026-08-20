@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:rotten_flesh",
+  "displayname": "§aEnchanted Rotten Flesh",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_ROTTEN_FLESH\"},HideFlags:254,ItemModel:\"minecraft:rotten_flesh\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Rotten Flesh\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_ROTTEN_FLESH",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Rotten Flesh IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Rotten_Flesh"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ROTTEN_FLESH:32",
+    "A3": "",
+    "B1": "ROTTEN_FLESH:32",
+    "B2": "ROTTEN_FLESH:32",
+    "B3": "ROTTEN_FLESH:32",
+    "C1": "",
+    "C2": "ROTTEN_FLESH:32",
+    "C3": ""
+  }
+}

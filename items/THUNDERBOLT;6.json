@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§9Enchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{thunderbolt:6},id:\"THUNDERBOLT;6\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Thunderbolt VI\",3:\"§7Every §c3 §7hits on a monster, strike\",4:\"§elightning§7, dealing §a25% §7of the hit's\",5:\"§7damage to up to 10 monsters within 2\",6:\"§7blocks.\",7:\"\",8:\"§6Source:\",9:\"§aVI: §7Dungeon,\",10:\"§7Experiments\",11:\"\",12:\"§6Applied To:\",13:\"§7- §fSword\",14:\"§7- §fFishing Weapon\",15:\"§7- §fLongsword\",16:\"§7- §fGauntlet\",17:\"\",18:\"§6Conflicts:\",19:\"§7- §cThunderlord\",20:\"\",21:\"§9§lRARE\"],Name:\"§9Enchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Thunderbolt VI",
+    "§7Every §c3 §7hits on a monster, strike",
+    "§elightning§7, dealing §a25% §7of the hit's",
+    "§7damage to up to 10 monsters within 2",
+    "§7blocks.",
+    "",
+    "§6Source:",
+    "§aVI: §7Dungeon,",
+    "§7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cThunderlord",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "THUNDERBOLT;6",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Thunderbolt"
+  ]
+}

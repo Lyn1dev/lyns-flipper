@@ -1,0 +1,45 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{luck:4},id:\"LUCK;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Luck IV\",3:\"§7Increases the chance for\",4:\"§7Monsters to drop their armor by\",5:\"§a20%\",6:\"\",7:\"§6Source:\",8:\"§aI-V: §7Enchantment Table,\",9:\"§7Raw Rabbit Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fSword\",13:\"§7- §fFishing Weapon\",14:\"§7- §fLongsword\",15:\"§7- §fGauntlet\",16:\"\",17:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Luck IV",
+    "§7Increases the chance for",
+    "§7Monsters to drop their armor by",
+    "§a20%",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enchantment Table,",
+    "§7Raw Rabbit Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "LUCK;4",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Rabbit V",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Luck"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "PAPER:8",
+    "B3": "PAPER:8",
+    "C1": "",
+    "C2": "PAPER:8",
+    "C3": "RABBIT_HIDE:8"
+  }
+}

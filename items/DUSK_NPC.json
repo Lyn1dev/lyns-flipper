@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Dusk (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"DUSK_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"198f9c09-9fa1-2db7-9248-5edfe6f8c1fb\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NhODVjMTU2M2JmNTY5ZDg4YmY3YmMzNzVjYmM4MjBkN2Q0YTczYzkyYWFmN2Q5NDc5YWY1ZWY1MjU1ZDA0MCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIxOThmOWMwOTlmYTEyZGI3OTI0ODVlZGZlNmY4YzFmYiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTY0MDU2fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Dusk (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "DUSK_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Dusk"
+  ],
+  "x": 20,
+  "y": 63,
+  "z": -136,
+  "island": "hub"
+}

@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aPrickly Kiss",
+  "nbttag": "{ExtraAttributes:{id:\"PRICKLY_KISS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/wild_rose/prickly_kiss\",display:{Lore:[0:\"§7Bring §63,000 §7of these to §5Carrolyn §7in\",1:\"§5Scarleton §7on the §cCrimson Isle §7to\",2:\"§7permanently gain §c+5 Health §7and\",3:\"§6+12 Wild Rose Fortune§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aPrickly Kiss\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Bring §63,000 §7of these to §5Carrolyn §7in",
+    "§5Scarleton §7on the §cCrimson Isle §7to",
+    "§7permanently gain §c+5 Health §7and",
+    "§6+12 Wild Rose Fortune§7.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "PRICKLY_KISS",
+  "clickcommand": "",
+  "crafttext": "Requires: Wild Rose VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Prickly_Kiss"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_WILD_ROSE:1",
+      "A2": "",
+      "A3": "ENCHANTED_WILD_ROSE:1",
+      "B1": "",
+      "B2": "ENCHANTED_WILD_ROSE:1",
+      "B3": "",
+      "C1": "ENCHANTED_WILD_ROSE:1",
+      "C2": "",
+      "C3": "ENCHANTED_WILD_ROSE:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PRICKLY_KISS"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:tripwire_hook",
+  "displayname": "§aLarva Hook",
+  "nbttag": "{ExtraAttributes:{id:\"LARVA_HOOK\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Click the §6larvas §7crawling around\",1:\"§7tree branches to tactfully extract\",2:\"§7their silk.\",3:\"\",4:\"§7You may harvest §68 larvas §7per hook.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aLarva Hook\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Click the §6larvas §7crawling around",
+    "§7tree branches to tactfully extract",
+    "§7their silk.",
+    "",
+    "§7You may harvest §68 larvas §7per hook.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "LARVA_HOOK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Larva_Hook"
+  ]
+}

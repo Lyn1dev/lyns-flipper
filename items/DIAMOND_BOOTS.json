@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:diamond_boots",
+  "displayname": "§aDiamond Boots",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_BOOTS\",originTag:\"CRAFTING_GRID_COLLECT\"},HideFlags:254,ItemModel:\"minecraft:diamond_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON BOOTS\"],Name:\"§aDiamond Boots\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+15",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON BOOTS"
+  ],
+  "internalname": "DIAMOND_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "",
+    "A3": "DIAMOND:1",
+    "B1": "DIAMOND:1",
+    "B2": "",
+    "B3": "DIAMOND:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "vanilla": true
+}

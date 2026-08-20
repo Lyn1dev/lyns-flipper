@@ -1,0 +1,44 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aIce Bait",
+  "nbttag": "{ExtraAttributes:{id:\"ICE_BAIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/bait/ice_bait\",display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Grants §b+25 Fishing Speed§7.\",4:\"§7Grants §3+4 Sea Creature Chance§7.\",5:\"\",6:\"§7Can only be used in §cJerry's\",7:\"§cWorkshop§7.\",8:\"\",9:\"§a§lUNCOMMON BAIT\"],Name:\"§aIce Bait\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Fishing Bait",
+    "§8Consumes on Cast",
+    "",
+    "§7Grants §b+25 Fishing Speed§7.",
+    "§7Grants §3+4 Sea Creature Chance§7.",
+    "",
+    "§7Can only be used in §cJerry's",
+    "§cWorkshop§7.",
+    "",
+    "§a§lUNCOMMON BAIT"
+  ],
+  "internalname": "ICE_BAIT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ice_Bait"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "ICE:1",
+    "B2": "RAW_FISH:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  },
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "EMERALD:20",
+      "result": "ICE_BAIT"
+    }
+  ]
+}

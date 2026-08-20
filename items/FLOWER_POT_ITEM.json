@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:flower_pot",
+  "displayname": "§fFlower Pot",
+  "nbttag": "{ExtraAttributes:{id:\"FLOWER_POT_ITEM\"},HideFlags:254,ItemModel:\"minecraft:flower_pot\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFlower Pot\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "FLOWER_POT_ITEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "CLAY_BRICK:1",
+    "A2": "",
+    "A3": "CLAY_BRICK:1",
+    "B1": "",
+    "B2": "CLAY_BRICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:lit_pumpkin",
+  "displayname": "§fJack o' Lantern",
+  "nbttag": "{ExtraAttributes:{id:\"JACK_O_LANTERN\"},HideFlags:254,ItemModel:\"minecraft:jack_o_lantern\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fJack o' Lantern\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "JACK_O_LANTERN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "PUMPKIN:1",
+    "A2": "",
+    "A3": "",
+    "B1": "TORCH:1",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

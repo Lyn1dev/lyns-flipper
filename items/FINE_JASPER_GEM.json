@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9 Fine Jasper Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"FINE_JASPER_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/jasper/fine_jasper_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A type of §dJasper §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§c Strength§7.\",8:\"\",9:\"§9§lRARE GEMSTONE\"],Name:\"§9 Fine Jasper Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A type of §dJasper §7that has clearly",
+    "§7been treated with care.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§c Strength§7.",
+    "",
+    "§9§lRARE GEMSTONE"
+  ],
+  "internalname": "FINE_JASPER_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "FLAWED_JASPER_GEM:16",
+    "A3": "",
+    "B1": "FLAWED_JASPER_GEM:16",
+    "B2": "FLAWED_JASPER_GEM:16",
+    "B3": "FLAWED_JASPER_GEM:16",
+    "C1": "",
+    "C2": "FLAWED_JASPER_GEM:16",
+    "C3": ""
+  }
+}

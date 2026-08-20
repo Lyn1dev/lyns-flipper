@@ -1,0 +1,224 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§6Livid (Boss)",
+  "nbttag": "{ExtraAttributes:{id:\"LIVID_BOSS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ead1c479-f4db-3337-a85e-84f3f3845b39\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk3NzI1OTM1NywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMTAwN2M1YjcxMTRhYmVjNzM0MjA2ZDRmYzYxM2RhNGYzYTBlOTlmNzFmZjk0OWNlZGFkYzk5MDc5MTM1YTBiIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Livid is the boss of Floor 5 of the Catacombs. He is a\",1:\"§7'Master Necromancer' and has only one phase. In this\",2:\"§7phase he makes eight clones of himself. Each with\",3:\"§7different abilities. The player must kill the\",4:\"§7true livid to complete the boss fight.\",5:\"\",6:\"§c❤ Health§8: §c7,000.000\",7:\"§c❤ Health §8(MM): §c600.000.000\"],Name:\"§6Livid (Boss)\"},ench:[]}",
+  "damage": 3,
+  "lore": [
+    "§7Livid is the boss of Floor 5 of the Catacombs. He is a",
+    "§7'Master Necromancer' and has only one phase. In this",
+    "§7phase he makes eight clones of himself. Each with",
+    "§7different abilities. The player must kill the",
+    "§7true livid to complete the boss fight.",
+    "",
+    "§c❤ Health§8: §c7,000.000",
+    "§c❤ Health §8(MM): §c600.000.000"
+  ],
+  "internalname": "LIVID_BOSS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+g19c6b28",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Livid"
+  ],
+  "recipes": [
+    {
+      "name": "§cLivid",
+      "render": "@neurepo:mobs/livid.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DARK_ORB",
+          "chance": "7.874%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §6250,000 coins"
+          ]
+        },
+        {
+          "id": "AOTE_STONE",
+          "chance": "0.525%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §65,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_HELMET",
+          "chance": "2.625%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CHESTPLATE",
+          "chance": "0.525%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §66,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_LEGGINGS",
+          "chance": "1.312%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §64,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_BOOTS",
+          "chance": "3.937%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "LIVID_DAGGER",
+          "chance": "1.050%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_FURY",
+          "chance": "0.262%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §615,000,000 coins"
+          ]
+        },
+        {
+          "id": "LAST_BREATH",
+          "chance": "0.262%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CLOAK",
+          "chance": "1.312%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,500,000 coins"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "§cLivid (Master Mode)",
+      "render": "@neurepo:mobs/livid.json",
+      "panorama": "dungeon",
+      "type": "drops",
+      "drops": [
+        {
+          "id": "DARK_ORB",
+          "chance": "9.231%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §6250,000 coins"
+          ]
+        },
+        {
+          "id": "AOTE_STONE",
+          "chance": "0.615%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §65,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_HELMET",
+          "chance": "3.077%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CHESTPLATE",
+          "chance": "0.615%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §66,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_LEGGINGS",
+          "chance": "1.538%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §64,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_BOOTS",
+          "chance": "4.615%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "LIVID_DAGGER",
+          "chance": "1.231%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_FURY",
+          "chance": "0.308%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §615,000,000 coins"
+          ]
+        },
+        {
+          "id": "LAST_BREATH",
+          "chance": "0.308%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "THIRD_MASTER_STAR",
+          "chance": "0.615%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §67,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_3",
+          "chance": "1.96%",
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
+        },
+        {
+          "id": "MASTER_SKULL_TIER_4",
+          "chance": "2.93%",
+          "extra": [
+            "§e§lChest Price: §68,000,000 coins"
+          ]
+        },
+        {
+          "id": "SHADOW_ASSASSIN_CLOAK",
+          "chance": "1.538%",
+          "extra": [
+            "§e§lFound in: §8Bedrock Chest",
+            "§e§lChest Price: §62,500,000 coins"
+          ]
+        }
+      ]
+    }
+  ]
+}

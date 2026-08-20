@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Alchemist Recipe",
+  "nbttag": "{ExtraAttributes:{edition:466,id:\"ALCHEMIST_RECIPE\",year:2023},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Obtained during the §e2023 §5Alchemist\",1:\"§7experiments!\",2:\"\",3:\"§8Edition #466\",4:\"\",5:\"§7Unlocks the Great Spook Potion in\",6:\"§7the Tyashoi Alchemist's shop.\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§5§lEPIC\"],Name:\"§5Alchemist Recipe\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Obtained during the §e2023 §5Alchemist",
+    "§7experiments!",
+    "",
+    "§8Edition #466",
+    "",
+    "§7Unlocks the Great Spook Potion in",
+    "§7the Tyashoi Alchemist's shop.",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§5§lEPIC"
+  ],
+  "internalname": "ALCHEMIST_RECIPE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Alchemist_Recipe"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:ender_pearl",
+  "displayname": "§aEnchanted Ender Pearl",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_ENDER_PEARL\"},HideFlags:254,ItemModel:\"minecraft:ender_pearl\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Ender Pearl\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_ENDER_PEARL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ender Pearl II",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Ender_Pearl"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "ENDER_PEARL:4",
+    "A3": "",
+    "B1": "ENDER_PEARL:4",
+    "B2": "ENDER_PEARL:4",
+    "B3": "ENDER_PEARL:4",
+    "C1": "",
+    "C2": "ENDER_PEARL:4",
+    "C3": ""
+  }
+}

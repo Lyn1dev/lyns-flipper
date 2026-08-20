@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:ender_eye",
+  "displayname": "§fEye of Ender",
+  "nbttag": "{ExtraAttributes:{id:\"EYE_OF_ENDER\"},HideFlags:254,ItemModel:\"minecraft:ender_eye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEye of Ender\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "EYE_OF_ENDER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "ENDER_PEARL:1",
+    "A2": "BLAZE_POWDER:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

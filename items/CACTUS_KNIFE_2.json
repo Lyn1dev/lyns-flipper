@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:iron_sword",
+  "displayname": "§9Cactus Knife Mk. II",
+  "nbttag": "{ExtraAttributes:{id:\"CACTUS_KNIFE_2\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"hypixel_skyblock:item/jacob/cactus_knife_2\",Unbreakable:1B,display:{Lore:[0:\"§8Farming Tool\",1:\"\",2:\"§7Slices through §acactus§7 instantly!\",3:\"\",4:\"§6Ability: Swift Slicer \",5:\"§7Increases your speed cap by 100\",6:\"§7while in §aThe Garden§7.\",7:\"\",8:\"§eRight-click to view recipes!\",9:\"\",10:\"§7Level §a1 §8-> §62   §8(0/1k)\",11:\"§f§l§m                         §r §e0§6%\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires §aFarming Skill 15§c.\",15:\"§4❣ §cRequires §aGarden Level 7§c.\",16:\"§9§lRARE FARMING TOOL\"],Name:\"§9Cactus Knife Mk. II\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Farming Tool",
+    "",
+    "§7Slices through §acactus§7 instantly!",
+    "",
+    "§6Ability: Swift Slicer ",
+    "§7Increases your speed cap by 100",
+    "§7while in §aThe Garden§7.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 15§c.",
+    "§4❣ §cRequires §aGarden Level 7§c.",
+    "§9§lRARE FARMING TOOL"
+  ],
+  "internalname": "CACTUS_KNIFE_2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Cactus_Knife"
+  ],
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "ENCHANTED_CACTUS:8",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "ENCHANTED_CACTUS:8",
+      "B2": "CACTUS_KNIFE:1",
+      "B3": "ENCHANTED_CACTUS:8",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "ENCHANTED_CACTUS:8",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "CACTUS_KNIFE_2"
+    }
+  ]
+}

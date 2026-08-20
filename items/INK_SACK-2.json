@@ -1,0 +1,17 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§fCactus Green",
+  "nbttag": "{ExtraAttributes:{id:\"INK_SACK-2\"},HideFlags:254,ItemModel:\"minecraft:green_dye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCactus Green\"}}",
+  "damage": 2,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "INK_SACK-2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "",
+  "info": [],
+  "parent": "INK_SACK",
+  "vanilla": true
+}

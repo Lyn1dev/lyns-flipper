@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§aSpectre Dust",
+  "nbttag": "{ExtraAttributes:{id:\"SPECTRE_DUST\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/spectre_dust\",display:{Lore:[0:\"§7A famous Wizard used a wand made\",1:\"§7out of these.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aSpectre Dust\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A famous Wizard used a wand made",
+    "§7out of these.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SPECTRE_DUST",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Spectre_Dust"
+  ]
+}

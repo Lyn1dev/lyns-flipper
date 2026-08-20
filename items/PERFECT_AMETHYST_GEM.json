@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6 Perfect Amethyst Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_AMETHYST_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/amethyst/perfect_amethyst_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §5refined Amethyst§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§a Defense§7.\",7:\"\",8:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6 Perfect Amethyst Gemstone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A perfectly §5refined Amethyst§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§a Defense§7.",
+    "",
+    "§6§lLEGENDARY GEMSTONE"
+  ],
+  "internalname": "PERFECT_AMETHYST_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "AMETHYST_CRYSTAL:1",
+        "FLAWLESS_AMETHYST_GEM:5"
+      ],
+      "count": 1,
+      "overrideOutputId": "PERFECT_AMETHYST_GEM",
+      "duration": 72000
+    }
+  ]
+}

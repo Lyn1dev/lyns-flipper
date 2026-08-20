@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:wooden_pickaxe",
+  "displayname": "§cPioneer Pickaxe",
+  "nbttag": "{ExtraAttributes:{id:\"ALPHA_PICK\",originTag:\"UNKNOWN\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/alpha_pick\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 1\",1:\"\",2:\"§7Mining Speed: §6+1\",3:\"\",4:\"§8§oThe very first pickaxe model!\",5:\"§8§oInvented by the famous Thomas\",6:\"§8§oPickson.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§c§lSPECIAL PICKAXE\"],Name:\"§cPioneer Pickaxe\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Breaking Power 1",
+    "",
+    "§7Mining Speed: §6+1",
+    "",
+    "§8§oThe very first pickaxe model!",
+    "§8§oInvented by the famous Thomas",
+    "§8§oPickson.",
+    "",
+    "§8This item can be reforged!",
+    "§c§lSPECIAL PICKAXE"
+  ],
+  "internalname": "ALPHA_PICK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pioneer_Pickaxe"
+  ]
+}

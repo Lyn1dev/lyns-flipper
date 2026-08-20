@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:glass",
+  "displayname": "§aShowcase Block",
+  "nbttag": "{ExtraAttributes:{id:\"SHOWCASE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:glass\",display:{Lore:[0:\"§7Show off an item in this fancy glass\",1:\"§7display box! §e§lRIGHT CLICK §7to put in\",2:\"§7or swap an item.\",3:\"\",4:\"§4❣ §cRequires §aSocial Skill 10§c.\",5:\"§a§lUNCOMMON\"],Name:\"§aShowcase Block\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Show off an item in this fancy glass",
+    "§7display box! §e§lRIGHT CLICK §7to put in",
+    "§7or swap an item.",
+    "",
+    "§4❣ §cRequires §aSocial Skill 10§c.",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "SHOWCASE_BLOCK",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Showcase_Block"
+  ]
+}

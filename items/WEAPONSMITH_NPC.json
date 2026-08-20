@@ -1,0 +1,86 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Weaponsmith (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"WEAPONSMITH_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"52eea063-d3ab-2140-a914-4d324acd9764\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYzZjdhNjljOWE3YWQ5NWU5MGYyMTJkYTMwNDk5MGM4YmUzNmU5MzE5N2RiODc0YzJiMGZlMDgxMDZlMzIzYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1MmVlYTA2M2QzYWIyMTQwYTkxNDRkMzI0YWNkOTc2NCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTAzMTAwfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Weaponsmith (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "WEAPONSMITH_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Weaponsmith"
+  ],
+  "x": -51,
+  "y": 69,
+  "z": -86,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "UNDEAD_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150"
+      ],
+      "result": "END_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "SPIDER_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:60"
+      ],
+      "result": "DIAMOND_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "ROGUE_SWORD"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "BOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:40"
+      ],
+      "result": "ARROW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:250"
+      ],
+      "result": "WITHER_BOW"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:600"
+      ],
+      "result": "ARTISANAL_SHORTBOW"
+    }
+  ]
+}

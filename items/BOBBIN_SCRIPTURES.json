@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Bobbin' Scriptures",
+  "nbttag": "{ExtraAttributes:{id:\"BOBBIN_SCRIPTURES\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/crimson_isle/bobbin_time/bobbin_scriptures\",display:{Lore:[0:\"§7The sacred ways of bobbin', written\",1:\"§7by a long-forgotten worshipper of\",2:\"§7Kuudra.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Bobbin' Scriptures\"}}",
+  "damage": 0,
+  "lore": [
+    "§7The sacred ways of bobbin', written",
+    "§7by a long-forgotten worshipper of",
+    "§7Kuudra.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BOBBIN_SCRIPTURES",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bobbin%27_Scriptures"
+  ]
+}

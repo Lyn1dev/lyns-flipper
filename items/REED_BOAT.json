@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:boat",
+  "displayname": "§aRift Boat",
+  "nbttag": "{ExtraAttributes:{id:\"REED_BOAT\"},HideFlags:254,ItemModel:\"minecraft:oak_boat\",display:{Lore:[0:\"§7Built by Reed, who turns out to\",1:\"§7be a bit of a scammer.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aRift Boat\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Built by Reed, who turns out to",
+    "§7be a bit of a scammer.",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "REED_BOAT",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Rift_Boat"
+  ]
+}

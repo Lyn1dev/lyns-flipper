@@ -1,0 +1,31 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Bubblegum",
+  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_BUBBLEGUM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"736c8ec3-1f1f-3918-a49a-a6c3a1eb2cc3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"VGbloSziA2w/ODq3QtbELYaGxehFrUvu26/EctIIVjP0+Vj5VcdxZojY4J+vM0HHcGVNVFsjsiRc5qnnv0ThKjo9JC5k/366Jd/QhrVjF83LSVZSD0muUcKUycTkG38VQBa1GnL9oUXhiK5CLEY7R3Q56KvOs0oPbgSSv6j9EjPs6bDLRFDpDiff+FkrB00AE0DupwkPLcMsK3xF84qc2v2bKySDCaiwxmyLvXaLwfM5oNBRJ7J2HLZ2Ag47+TDAPpZPAI0vcEsYSKNwLcKH9QEizKfErJ+oXxl5NHCyehgmgaJkjvqgSJDlG7vBDUGFr2/ryYzF94TpYHRdONUWIvNKaIXG5cUANPkHO1xoR5U7HsuQWIxdYkprvvPVI3DHy1MgVPtHjfDehLTgKUDg970d0DHDFjSz7Hso3ijurFivMDya7FO2walFkKjuYqVF1+nOyxKM4N/yQf0nCeqy4/aX4Wku/nqFPGgSkKpyyJTFVDceU0ij8r3l2IlzmPAzuE62QXQ6pnVSFng6R5UCiMDLXVHgVpgnsm++aPXvI8Jyr5nFb9LUEAY7Y47PCbMhevdXLyXdXQwauTvtYQQbEWW1/OHA21H9ktR13a1fmSZMrgmSoGgEixB2vyWqLc61rsoFaOjJHk82HL9ct8hU4yDGWsDSJ/cWOXmLvf1lYRU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMzA3NDI5ODE3OSwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDU1ODRjNTM5NGViOTBmZjVmYmQxYjI1OTA5MzcxMjU4YjE1MjZlNmE0N2Y3MjQ1NWEzZjg0ZGQ3NjAzYThjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many\",3:\"§7powerful ways! A pet can only hold\",4:\"§7one §aPet Item§7, but you can §eswap §7it at\",5:\"§7any time!\",6:\"§8The pet must be visible to apply the item!\",7:\"\",8:\"§7Your pet fuses its power with placed\",9:\"§9Deployables §7to give them §a2x §7duration.\",10:\"\",11:\"§eRight-click on your summoned pet to\",12:\"§egive it this item!\",13:\"\",14:\"§9§lRARE PET ITEM\"],Name:\"§9Bubblegum\"},ench:[]}",
+  "damage": 3,
+  "lore": [
+    "§8Consumed on use",
+    "",
+    "§aPet Items §7can boost pets in many",
+    "§7powerful ways! A pet can only hold",
+    "§7one §aPet Item§7, but you can §eswap §7it at",
+    "§7any time!",
+    "§8The pet must be visible to apply the item!",
+    "",
+    "§7Your pet fuses its power with placed",
+    "§9Deployables §7to give them §a2x §7duration.",
+    "",
+    "§eRight-click on your summoned pet to",
+    "§egive it this item!",
+    "",
+    "§9§lRARE PET ITEM"
+  ],
+  "internalname": "PET_ITEM_BUBBLEGUM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bubblegum"
+  ]
+}

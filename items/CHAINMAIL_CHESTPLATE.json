@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:chainmail_chestplate",
+  "displayname": "§aChainmail Chestplate",
+  "nbttag": "{ExtraAttributes:{enchantments:{},id:\"CHAINMAIL_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aChainmail Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+30",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON CHESTPLATE"
+  ],
+  "internalname": "CHAINMAIL_CHESTPLATE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc1.21.11+ga2a6cfec",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

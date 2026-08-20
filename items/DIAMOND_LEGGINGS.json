@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:diamond_leggings",
+  "displayname": "§aDiamond Leggings",
+  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aDiamond Leggings\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+30",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON LEGGINGS"
+  ],
+  "internalname": "DIAMOND_LEGGINGS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "DIAMOND:1",
+    "A2": "DIAMOND:1",
+    "A3": "DIAMOND:1",
+    "B1": "DIAMOND:1",
+    "B2": "",
+    "B3": "DIAMOND:1",
+    "C1": "DIAMOND:1",
+    "C2": "",
+    "C3": "DIAMOND:1"
+  },
+  "vanilla": true
+}

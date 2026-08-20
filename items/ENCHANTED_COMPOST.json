@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Compost Bundle",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COMPOST\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/compost_bundle\",display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Compost Bundle\"}}",
+  "damage": 0,
+  "lore": [
+    "§9§lRARE"
+  ],
+  "internalname": "ENCHANTED_COMPOST",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Compost_Bundle"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "COMPOST:32",
+    "A3": "",
+    "B1": "COMPOST:32",
+    "B2": "COMPOST:32",
+    "B3": "COMPOST:32",
+    "C1": "",
+    "C2": "COMPOST:32",
+    "C3": ""
+  }
+}

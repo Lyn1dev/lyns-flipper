@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{smarty_pants:3},id:\"SMARTY_PANTS;3\",originTag:\"UNKNOWN\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Smarty Pants III\",3:\"§7Grants §b+15✎ Intelligence§7.\",4:\"\",5:\"§6Source:\",6:\"§aI-V: §7Enderman Slayer\",7:\"\",8:\"§6Applied To:\",9:\"§7- §fLeggings\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Smarty Pants III",
+    "§7Grants §b+15✎ Intelligence§7.",
+    "",
+    "§6Source:",
+    "§aI-V: §7Enderman Slayer",
+    "",
+    "§6Applied To:",
+    "§7- §fLeggings",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SMARTY_PANTS;3",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Smarty_Pants"
+  ]
+}

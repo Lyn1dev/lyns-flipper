@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{true_protection:1},id:\"TRUE_PROTECTION;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9True Protection I\",3:\"§7Grants §f+5 True Defense§7.\",4:\"\",5:\"§6Source:\",6:\"§aI: §7Bought from the Old Shaman Nyko,\",7:\"§7for 900k.\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fChestplate\",11:\"\",12:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9True Protection I",
+    "§7Grants §f+5 True Defense§7.",
+    "",
+    "§6Source:",
+    "§aI: §7Bought from the Old Shaman Nyko,",
+    "§7for 900k.",
+    "",
+    "§6Applied To:",
+    "§7- §fChestplate",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "TRUE_PROTECTION;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/True_Protection"
+  ],
+  "recipes": [
+    {
+      "type": "trade",
+      "cost": "ENCHANTED_EMERALD:19",
+      "result": "TRUE_PROTECTION;1"
+    }
+  ]
+}

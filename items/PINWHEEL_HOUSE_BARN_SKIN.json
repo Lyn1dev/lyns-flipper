@@ -1,0 +1,23 @@
+{
+  "itemid": "minecraft:planks",
+  "displayname": "§6Pinwheel House Barn Skin",
+  "nbttag": "{ExtraAttributes:{id:\"PINWHEEL_HOUSE_BARN_SKIN\"},HideFlags:254,ItemModel:\"minecraft:oak_planks\",display:{Lore:[0:\"§7Consume this item to unlock the\",1:\"§6Pinwheel House Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§6§lLEGENDARY COSMETIC\"],Name:\"§6Pinwheel House Barn Skin\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Consume this item to unlock the",
+    "§6Pinwheel House Barn Skin §7on §aThe",
+    "§aGarden§7!",
+    "",
+    "§eClick to consume!",
+    "",
+    "§6§lLEGENDARY COSMETIC"
+  ],
+  "internalname": "PINWHEEL_HOUSE_BARN_SKIN",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.0+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Pinwheel_House_Barn_Skin"
+  ]
+}

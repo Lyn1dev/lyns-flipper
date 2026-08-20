@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:piston",
+  "displayname": "§fPiston",
+  "nbttag": "{ExtraAttributes:{id:\"PISTON_BASE\"},HideFlags:254,ItemModel:\"minecraft:piston\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPiston\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "PISTON_BASE",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "",
+  "info": [],
+  "recipe": {
+    "A1": "WOOD:1",
+    "A2": "WOOD:1",
+    "A3": "WOOD:1",
+    "B1": "COBBLESTONE:1",
+    "B2": "IRON_INGOT:1",
+    "B3": "COBBLESTONE:1",
+    "C1": "COBBLESTONE:1",
+    "C2": "REDSTONE:1",
+    "C3": "COBBLESTONE:1"
+  }
+}

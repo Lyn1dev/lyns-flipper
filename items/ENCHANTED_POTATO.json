@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:potato",
+  "displayname": "§aEnchanted Potato",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_POTATO\"},HideFlags:254,ItemModel:\"minecraft:potato\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Potato\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_POTATO",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Potato IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Potato"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "POTATO_ITEM:32",
+    "A3": "",
+    "B1": "POTATO_ITEM:32",
+    "B2": "POTATO_ITEM:32",
+    "B3": "POTATO_ITEM:32",
+    "C1": "",
+    "C2": "POTATO_ITEM:32",
+    "C3": ""
+  }
+}

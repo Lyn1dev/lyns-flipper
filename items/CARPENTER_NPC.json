@@ -1,0 +1,93 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Carpenter (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"CARPENTER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fefabc4f-5286-2040-a612-ad4ded0d4e69\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M4ZDJhNWFmOTc1YzUzY2YwODFiNTMxNTY2MTQ4YmFlMzY2MTQxMzE0YjM1YWE1NzI2ZTk3Y2M5N2VmMTE4YiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmZWZhYmM0ZjUyODYyMDQwYTYxMmFkNGRlZDBkNGU2OSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MDcyOTQwfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Carpenter (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "CARPENTER_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Carpenter"
+  ],
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:120"
+      ],
+      "result": "SCARECROW:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "WEAPON_RACK:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100"
+      ],
+      "result": "ARMOR_SHOWCASE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:150"
+      ],
+      "result": "FANCY_FLOWER_POT:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "ENCHANTING_PLUS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "CRAFTING_PLUS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:15000"
+      ],
+      "result": "FURNACE_PLUS:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:15000"
+      ],
+      "result": "WOOD_CHEST:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:10000"
+      ],
+      "result": "FIREPLACE:1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:15000"
+      ],
+      "result": "CHEST_SHELVES:1"
+    }
+  ],
+  "x": -138,
+  "y": 74,
+  "z": -42,
+  "island": "hub"
+}

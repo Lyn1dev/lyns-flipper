@@ -1,0 +1,18 @@
+{
+  "itemid": "minecraft:prismarine_crystals",
+  "displayname": "§fPrismarine Crystals",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE_CRYSTALS\"},HideFlags:254,ItemModel:\"minecraft:prismarine_crystals\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fPrismarine Crystals\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "PRISMARINE_CRYSTALS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true
+}

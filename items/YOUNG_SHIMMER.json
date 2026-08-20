@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§dShimmer Skin",
+  "nbttag": "{ExtraAttributes:{id:\"YOUNG_SHIMMER\",originTag:\"FIRE_SALE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"498a4693-90e3-36f0-a684-9cccb372d237\",Properties:{textures:[0:{Name:\"textures\",Signature:\"IcAKObbfctBxhQffgQ9UXgeUKOTlHz3mXzDkzjTmNvQiLeR4xfY4emySf9QaePiMJWkFMo6jpY0QhivY8TYeh4ZCsvbKBDusYH4oTofecjC7IM2Y9vnyJURc28bI5QRfHzlbpcQDE6/AoZh8kSLGWngOSMAbL/EeAQzlCnzMhVTbGQxJm6UJmQ9mBPAABAo5B8DQFIPOETIP7XBb4Vqcds4vgs23nLpEAxhubZcMRq+Y3JZi+dnRbeNE5SVVuDianRvu9mniWksr3OiI1B0vWhcZuzzFK2k0mlbkyXqhP6aJOvB4bzE+t4rXbcNvdR85Ha0PNevhFywyBD1BMWbFPWAFh8P+F4QIEi8x7GYm0uKENbC7UZLJclV6SRgw8UK0KwSLZXP75ClWzsrQQ+nRS5ziMcuOYKTgThpnCalLed1bpwPKNHxGYZGpRnDR31gWhcMsMV0UT0LFMVaKW8/uy2RIUe0G3uWD4QrsyiSQci8YnwXhXn/WyExgTmMYqG7YWhE7zHqY9bVZdtX8A6vJudKKj7RIcKZYf9JXpAFFcyqo+JrQc1hQK8gMzklSM54TIwsk98RzQ/PP1xggxUFZmeAEs3p+LjC9P71ay2vEBdg3vrmLBWuq5kxl4wafd32XuaBU2/ezPoWQjXFwaZ8FHg4zp84stFfbYKgt29p4bT4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTk5Njg2ODM5MCwKICAicHJvZmlsZUlkIiA6ICIwNjEzY2I1Y2QxYjg0M2JjYjI4OTk1NWU4N2QzMGEyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJicmVhZGxvYWZzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMWFkNWQ4M2U1NTg5MDI5MGY1MmU0YWQwNmU0MzUxYTJlODc5OThkMWNiM2U3NmNjOTUyYTA3NmRlYjc4ODJiIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §6Young\",7:\"§6Dragon Helmet§7.\",8:\"\",9:\"§aThis skin is animated!\",10:\"\",11:\"§d§lMYTHIC COSMETIC\"],Name:\"§dShimmer Skin\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7Item skins give your gear a fresh",
+    "§7new look! Apply them just like an",
+    "§7enchant book using the anvil.",
+    "",
+    "§7This skin can be applied to §6Young",
+    "§6Dragon Helmet§7.",
+    "",
+    "§aThis skin is animated!",
+    "",
+    "§d§lMYTHIC COSMETIC"
+  ],
+  "internalname": "YOUNG_SHIMMER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Shimmer_Skin"
+  ]
+}

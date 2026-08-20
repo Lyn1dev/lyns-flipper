@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§fFish Bait",
+  "nbttag": "{ExtraAttributes:{id:\"FISH_BAIT\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/bait/fish_bait\",display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Grants §b+45 Fishing Speed§7.\",4:\"\",5:\"§f§lCOMMON BAIT\"],Name:\"§fFish Bait\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Fishing Bait",
+    "§8Consumes on Cast",
+    "",
+    "§7Grants §b+45 Fishing Speed§7.",
+    "",
+    "§f§lCOMMON BAIT"
+  ],
+  "internalname": "FISH_BAIT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Raw Salmon V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Fish_Bait"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "RAW_FISH-1:1",
+    "B2": "RAW_FISH:1",
+    "B3": "",
+    "C1": "RAW_FISH:1",
+    "C2": "",
+    "C3": ""
+  }
+}

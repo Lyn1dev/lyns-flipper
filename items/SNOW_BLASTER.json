@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Frosty the Snow Blaster",
+  "nbttag": "{ExtraAttributes:{id:\"SNOW_BLASTER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"892f5ff0-0146-3574-afb5-792c2d39584f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"DHOlo2/ZLBPIvq+6HG9qKpClsU5fxlDBdHqyHpOnwpHfQIep9lXA5TqeEyksyn1Wc9waNWGx45tHEFxseDMiRbymv8K67T29TJMv5B7C/wYQl6VxwdowYba+awl0ArW82AjNlQTfekWJld/xvxd1U+2R1o/eU7D9mkV015os77HQcVPUA1SyPgh+psw11HsTQOIZo6rhylZzKhwxIx3u2xtBD65qgaLDVCn6BBpekNSRViAat2EJABfvF6ydbBY7KhVYPYNtEkhG6Cd6O3m6NFs6jp+8kQLu0RuWKJCsiHvF1aK1uV+b7Yet90YdRqbiQCHaPeMkG1bAcihOzLgZoPigmI2+Y661FOdv6RPXylMC97lpg9g/fJSeEDEuxEZdEY8iNngD3x66SEJiTYwS4bIE+DkZj1S/lvmKoXB2zBofspqPdlLu53OFe7veI8cnD71ULTkdSvN0r7iviGy24rDsmNUXe60wSPxCHJDweviCyDnhvE+X81VYlTUedVAvI1ToMpqggfvOJOiTP+WkSUoVW1q6UO6bmwWQhLdTNHaXfscztVJib01OvQmwmh1OLWeiA/sSpOQgkTGT9D8hioJv4elrcBoNnlCuH/mkmhFMdNgLD3+ixIAI3XosG2OGOM0iGpzbMpwsCCaNF+0peMAPS6CvvR7Z6/4LSTZZyyc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5Njc3Mzg0NjYzOSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwN2FjM2NkMDU5MWVjMGEzNmY5MjcxYmFmNzQ2MTE2MjRkMzlhZjc1MzBiYjE5NTIyNTI5NTA3YTJlMjFiMjkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holds and shoots Snowballs. When\",1:\"§7you pickup Snowballs, they increase\",2:\"§7the ammo held by this item. Blasts\",3:\"§7Snowballs at a higher velocity than a\",4:\"§7Snow Cannon!\",5:\"\",6:\"§7Snowballs: §f0§7/§f2,000\",7:\"\",8:\"§eRight click to shoot!\",9:\"\",10:\"§5§lEPIC\"],Name:\"§5Frosty the Snow Blaster\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Holds and shoots Snowballs. When",
+    "§7you pickup Snowballs, they increase",
+    "§7the ammo held by this item. Blasts",
+    "§7Snowballs at a higher velocity than a",
+    "§7Snow Cannon!",
+    "",
+    "§7Snowballs: §f0§7/§f2,000",
+    "",
+    "§eRight click to shoot!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "SNOW_BLASTER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.1+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Frosty_the_Snow_Blaster"
+  ]
+}

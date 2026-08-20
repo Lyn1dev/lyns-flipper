@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:wool",
+  "displayname": "§fBlue Wool",
+  "nbttag": "{ExtraAttributes:{id:\"WOOL-11\"},HideFlags:254,ItemModel:\"minecraft:blue_wool\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlue Wool\"}}",
+  "damage": 11,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "WOOL-11",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "WOOL",
+  "vanilla": true,
+  "recipe": {
+    "A1": "INK_SACK-4:1",
+    "A2": "WOOL:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

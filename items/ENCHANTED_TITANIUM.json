@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Enchanted Titanium",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_TITANIUM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/titanium\",display:{Lore:[0:\"§5§lEPIC DWARVEN METAL\"],Name:\"§5Enchanted Titanium\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§5§lEPIC DWARVEN METAL"
+  ],
+  "internalname": "ENCHANTED_TITANIUM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Titanium"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "TITANIUM_ORE:32",
+    "A3": "",
+    "B1": "TITANIUM_ORE:32",
+    "B2": "TITANIUM_ORE:32",
+    "B3": "TITANIUM_ORE:32",
+    "C1": "",
+    "C2": "TITANIUM_ORE:32",
+    "C3": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:wool",
+  "displayname": "§fBlack Wool",
+  "nbttag": "{ExtraAttributes:{id:\"WOOL-15\"},HideFlags:254,ItemModel:\"minecraft:black_wool\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlack Wool\"}}",
+  "damage": 15,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "WOOL-15",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "parent": "WOOL",
+  "vanilla": true,
+  "recipe": {
+    "A1": "INK_SACK:1",
+    "A2": "WOOL:1",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Tarantula Catalyst",
+  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_CATALYST\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/combat_1/tarantula_catalyst\",display:{Lore:[0:\"§7Drops rarely from Tarantula\",1:\"§7Broodfather when you are at least\",2:\"§7Spider Slayer LVL 6.\",3:\"\",4:\"§5Catalysts upgrade other items!\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Tarantula Catalyst\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Drops rarely from Tarantula",
+    "§7Broodfather when you are at least",
+    "§7Spider Slayer LVL 6.",
+    "",
+    "§5Catalysts upgrade other items!",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "TARANTULA_CATALYST",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Tarantula_Catalyst"
+  ]
+}

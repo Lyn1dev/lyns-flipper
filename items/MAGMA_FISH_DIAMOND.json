@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§dDiamond Magmafish",
+  "nbttag": "{ExtraAttributes:{id:\"MAGMA_FISH_DIAMOND\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/fishing/trophy/lava/magmafish_diamond\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§d§lMYTHIC\"],Name:\"§dDiamond Magmafish\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "MAGMA_FISH_DIAMOND",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Magmafish X",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Diamond_Magmafish"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "MAGMA_FISH_GOLD:4",
+    "A3": "",
+    "B1": "MAGMA_FISH_GOLD:4",
+    "B2": "MAGMA_FISH_GOLD:4",
+    "B3": "MAGMA_FISH_GOLD:4",
+    "C1": "",
+    "C2": "MAGMA_FISH_GOLD:4",
+    "C3": ""
+  }
+}

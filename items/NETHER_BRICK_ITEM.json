@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:netherbrick",
+  "displayname": "§fNether Brick",
+  "nbttag": "{ExtraAttributes:{id:\"NETHER_BRICK_ITEM\"},HideFlags:254,ItemModel:\"minecraft:nether_brick\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Brick\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "NETHER_BRICK_ITEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

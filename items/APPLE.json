@@ -1,0 +1,16 @@
+{
+  "itemid": "minecraft:apple",
+  "displayname": "§fApple",
+  "nbttag": "{ExtraAttributes:{id:\"APPLE\"},HideFlags:254,ItemModel:\"minecraft:apple\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fApple\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "APPLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true
+}

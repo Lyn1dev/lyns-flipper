@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:gunpowder",
+  "displayname": "§fGunpowder",
+  "nbttag": "{ExtraAttributes:{id:\"SULPHUR\"},HideFlags:254,ItemModel:\"minecraft:gunpowder\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fGunpowder\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Brewing Ingredient",
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SULPHUR",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gunpowder"
+  ],
+  "vanilla": true
+}

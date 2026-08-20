@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§bGlacite Powder",
+  "nbttag": "{ExtraAttributes:{id:\"SKYBLOCK_POWDER_GLACITE\"},HideFlags:254,ItemModel:\"minecraft:light_blue_dye\",display:{Lore:[0:\"§7Used for NEU NPC-Shops\",1:\"\",2:\"§c§l§ka§r §c§lSPECIAL §c§l§ka\"],Name:\"§bGlacite Powder\"}}",
+  "damage": 12,
+  "lore": [
+    "§7Used for NEU NPC-Shops",
+    "",
+    "§c§l§ka§r §c§lSPECIAL §c§l§ka"
+  ],
+  "internalname": "SKYBLOCK_POWDER_GLACITE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Glacite_Powder"
+  ]
+}

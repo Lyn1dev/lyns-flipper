@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Precursor Apparatus",
+  "nbttag": "{ExtraAttributes:{id:\"PRECURSOR_APPARATUS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/precursor_apparatus\",display:{Lore:[0:\"§7Can be given to §9Professor Robot §7to\",1:\"§7complete the §bSapphire Crystal Quest§7.\",2:\"\",3:\"§8This decaying piece of machinery\",4:\"§8was once a part of a large robot\",5:\"§8known as Automaton Prime. There's\",6:\"§8still a lot of good stuff in here.\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Precursor Apparatus\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Can be given to §9Professor Robot §7to",
+    "§7complete the §bSapphire Crystal Quest§7.",
+    "",
+    "§8This decaying piece of machinery",
+    "§8was once a part of a large robot",
+    "§8known as Automaton Prime. There's",
+    "§8still a lot of good stuff in here.",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "PRECURSOR_APPARATUS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus"
+  ],
+  "recipe": {
+    "A1": "CONTROL_SWITCH:1",
+    "A2": "ELECTRON_TRANSMITTER:1",
+    "A3": "FTX_3070:1",
+    "B1": "ROBOTRON_REFLECTOR:1",
+    "B2": "SUPERLITE_MOTOR:1",
+    "B3": "SYNTHETIC_HEART:1",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

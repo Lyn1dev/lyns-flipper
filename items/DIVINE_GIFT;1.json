@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{divine_gift:1},id:\"DIVINE_GIFT;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Divine Gift I\",3:\"§7Grants §b+2✯ Magic Find.\",4:\"\",5:\"§6Source:\",6:\"§aI-III: §7Shen's Auction\",7:\"\",8:\"§6Applied To:\",9:\"§7 - §fSword\",10:\"§7 - §fFishing Weapon\",11:\"§7 - §fLongsword\",12:\"§7 - §fBow\",13:\"§7 - §fGauntlet\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Divine Gift I",
+    "§7Grants §b+2✯ Magic Find.",
+    "",
+    "§6Source:",
+    "§aI-III: §7Shen's Auction",
+    "",
+    "§6Applied To:",
+    "§7 - §fSword",
+    "§7 - §fFishing Weapon",
+    "§7 - §fLongsword",
+    "§7 - §fBow",
+    "§7 - §fGauntlet",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "DIVINE_GIFT;1",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Divine_Gift"
+  ]
+}

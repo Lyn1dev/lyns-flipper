@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:leather_boots",
+  "displayname": "§fFarmhand Boots",
+  "nbttag": "{ExtraAttributes:{id:\"FARM_SUIT_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+10\",1:\"§7Farming Fortune: §6+5\",2:\"\",3:\"§a⚑ §a§lTIP!\",4:\"§7The more §6 Farming Fortune §7you\",5:\"§7have, the more crops you will drop.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4❣ §cRequires §aFarming Skill 3§c.\",9:\"§f§lCOMMON BOOTS\"],Name:\"§fFarmhand Boots\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+10",
+    "§7Farming Fortune: §6+5",
+    "",
+    "§a⚑ §a§lTIP!",
+    "§7The more §6 Farming Fortune §7you",
+    "§7have, the more crops you will drop.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 3§c.",
+    "§f§lCOMMON BOOTS"
+  ],
+  "internalname": "FARM_SUIT_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Wheat II",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Farmhand_Boots"
+  ],
+  "recipes": [
+    {
+      "A1": "WHEAT:8",
+      "A2": "",
+      "A3": "WHEAT:8",
+      "B1": "WHEAT:8",
+      "B2": "",
+      "B3": "WHEAT:8",
+      "C1": "",
+      "C2": "",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "FARM_SUIT_BOOTS"
+    }
+  ]
+}

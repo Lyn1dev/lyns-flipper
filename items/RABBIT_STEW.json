@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:rabbit_stew",
+  "displayname": "§fRabbit Stew",
+  "nbttag": "{ExtraAttributes:{id:\"RABBIT_STEW\"},HideFlags:254,ItemModel:\"minecraft:rabbit_stew\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRabbit Stew\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "RABBIT_STEW",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "",
+    "A2": "COOKED_RABBIT:1",
+    "A3": "",
+    "B1": "CARROT_ITEM:1",
+    "B2": "BAKED_POTATO:1",
+    "B3": "RED_MUSHROOM:1",
+    "C1": "",
+    "C2": "BOWL:1",
+    "C3": ""
+  }
+}

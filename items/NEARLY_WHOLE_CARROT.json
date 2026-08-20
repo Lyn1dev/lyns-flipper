@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:carrot",
+  "displayname": "§aNearly-Whole Carrot",
+  "nbttag": "{ExtraAttributes:{id:\"NEARLY_WHOLE_CARROT\"},HideFlags:254,ItemModel:\"minecraft:carrot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7The whole is better than the sum of\",3:\"§7its parts...\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aNearly-Whole Carrot\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7The whole is better than the sum of",
+    "§7its parts...",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "NEARLY_WHOLE_CARROT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Half-Eaten Carrot I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Nearly-Whole_Carrot"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "HALF_EATEN_CARROT:16",
+    "A3": "",
+    "B1": "HALF_EATEN_CARROT:16",
+    "B2": "HALF_EATEN_CARROT:16",
+    "B3": "HALF_EATEN_CARROT:16",
+    "C1": "",
+    "C2": "HALF_EATEN_CARROT:16",
+    "C3": ""
+  }
+}

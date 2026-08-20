@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:comparator",
+  "displayname": "§fComparator",
+  "nbttag": "{ExtraAttributes:{id:\"REDSTONE_COMPARATOR\"},HideFlags:254,ItemModel:\"minecraft:comparator\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fComparator\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "REDSTONE_COMPARATOR",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "",
+    "A2": "REDSTONE_TORCH_ON:1",
+    "A3": "",
+    "B1": "REDSTONE_TORCH_ON:1",
+    "B2": "QUARTZ:1",
+    "B3": "REDSTONE_TORCH_ON:1",
+    "C1": "STONE:1",
+    "C2": "STONE:1",
+    "C3": "STONE:1"
+  }
+}

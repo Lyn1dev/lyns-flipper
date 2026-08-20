@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:iron_ingot",
+  "displayname": "§fIron Ingot",
+  "nbttag": "{ExtraAttributes:{id:\"IRON_INGOT\"},HideFlags:254,ItemModel:\"minecraft:iron_ingot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fIron Ingot\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON ORE"
+  ],
+  "internalname": "IRON_INGOT",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "IRON_BLOCK:1",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": "",
+    "count": 9
+  }
+}

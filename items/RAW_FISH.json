@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:fish",
+  "displayname": "§fRaw Cod",
+  "nbttag": "{ExtraAttributes:{id:\"RAW_FISH\"},HideFlags:254,ItemModel:\"minecraft:cod\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fRaw Cod\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "RAW_FISH",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Raw_Cod"
+  ],
+  "vanilla": true
+}

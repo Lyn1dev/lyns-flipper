@@ -1,0 +1,19 @@
+{
+  "itemid": "minecraft:diamond_block",
+  "displayname": "§aCollection Display",
+  "nbttag": "{ExtraAttributes:{id:\"COLLECTION_DISPLAY\"},HideFlags:254,ItemModel:\"minecraft:diamond_block\",display:{Lore:[0:\"§7Show off your collection progress!\",1:\"\",2:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aCollection Display\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Show off your collection progress!",
+    "",
+    "§a§lUNCOMMON COSMETIC"
+  ],
+  "internalname": "COLLECTION_DISPLAY",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Collection_Display"
+  ]
+}

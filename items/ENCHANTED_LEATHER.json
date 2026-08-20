@@ -1,0 +1,35 @@
+{
+  "itemid": "minecraft:leather",
+  "displayname": "§aEnchanted Leather",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_LEATHER\"},HideFlags:254,ItemModel:\"minecraft:leather\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Leather\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "ENCHANTED_LEATHER",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Leather VI",
+  "modver": "Firmament 42.0.0+mc1.21.7",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Leather"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "LEATHER:32",
+      "A3": "",
+      "B1": "LEATHER:32",
+      "B2": "LEATHER:32",
+      "B3": "LEATHER:32",
+      "C1": "",
+      "C2": "LEATHER:32",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ENCHANTED_LEATHER"
+    }
+  ]
+}

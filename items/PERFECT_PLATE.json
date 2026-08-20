@@ -1,0 +1,34 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Perfect Plate",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_PLATE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/glacite/uncategorized/perfect_plate\",display:{Lore:[0:\"§7A plate forged from an assortment\",1:\"§7of the most durable materials found\",2:\"§7in this world.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Perfect Plate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7A plate forged from an assortment",
+    "§7of the most durable materials found",
+    "§7in this world.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "PERFECT_PLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: HotM 10",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Perfect_Plate"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "UMBER_PLATE:1.0",
+        "TUNGSTEN_PLATE:1.0",
+        "MITHRIL_PLATE:1.0"
+      ],
+      "count": 1.0,
+      "duration": 1800,
+      "overrideOutputId": "PERFECT_PLATE"
+    }
+  ]
+}

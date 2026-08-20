@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§2◆ Gem Rune II",
+  "nbttag": "{ExtraAttributes:{id:\"GEM_RUNE;2\",runes:{GEM:2}},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fccca84c-6375-3d3f-b9bc-4ce4a78f632a\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzYTFhZDRmY2M0MmZiNjNjNjgxMzI4ZTQyZDYzYzgzY2ExOTNiMzMzYWYyYTQyNjcyOGEyNWE4Y2M2MDA2OTIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Requires level 4\",1:\"§8Bows\",2:\"\",3:\"§7Create a gem effect behind your\",4:\"§7arrows!\",5:\"\",6:\"§7Apply this rune to bows or fuse\",7:\"§7two together at the Runic\",8:\"§7Pedestal!\",9:\"\",10:\"§f§lCOMMON COSMETIC\"],Name:\"§2◆ Gem Rune II\"}}",
+  "damage": 3,
+  "lore": [
+    "§8Requires level 4",
+    "§8Bows",
+    "",
+    "§7Create a gem effect behind your",
+    "§7arrows!",
+    "",
+    "§7Apply this rune to bows or fuse",
+    "§7two together at the Runic",
+    "§7Pedestal!",
+    "",
+    "§f§lCOMMON COSMETIC"
+  ],
+  "internalname": "GEM_RUNE;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gem_Rune"
+  ]
+}

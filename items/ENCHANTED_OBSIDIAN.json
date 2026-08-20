@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:obsidian",
+  "displayname": "§aEnchanted Obsidian",
+  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_OBSIDIAN\"},HideFlags:254,ItemModel:\"minecraft:obsidian\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Obsidian\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§a§lUNCOMMON BLOCK"
+  ],
+  "internalname": "ENCHANTED_OBSIDIAN",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Obsidian IV",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Enchanted_Obsidian"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "OBSIDIAN:32",
+    "A3": "",
+    "B1": "OBSIDIAN:32",
+    "B2": "OBSIDIAN:32",
+    "B3": "OBSIDIAN:32",
+    "C1": "",
+    "C2": "OBSIDIAN:32",
+    "C3": ""
+  }
+}

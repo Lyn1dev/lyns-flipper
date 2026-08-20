@@ -1,0 +1,41 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§9Sunflower Oil",
+  "nbttag": "{ExtraAttributes:{id:\"SUNFLOWER_OIL\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/greenhouse/sunflower/sunflower_oil\",display:{Lore:[0:\"§8Machine Fuel\",1:\"\",2:\"§7Adds §2+20,000 Fuel §7to a refuelable\",3:\"§7machine.\",4:\"\",5:\"§8§oCan be used in your daily diet or in\",6:\"§8§oheavy machinery.\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Sunflower Oil\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Machine Fuel",
+    "",
+    "§7Adds §2+20,000 Fuel §7to a refuelable",
+    "§7machine.",
+    "",
+    "§8§oCan be used in your daily diet or in",
+    "§8§oheavy machinery.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "SUNFLOWER_OIL",
+  "clickcommand": "",
+  "crafttext": "Requires: Sunflower V",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Sunflower_Oil"
+  ],
+  "recipes": [
+    {
+      "A1": "ENCHANTED_SUNFLOWER:1",
+      "A2": "ENCHANTED_SUNFLOWER:1",
+      "A3": "ENCHANTED_SUNFLOWER:1",
+      "B1": "ENCHANTED_SUNFLOWER:1",
+      "B2": "ENCHANTED_SUNFLOWER:1",
+      "B3": "ENCHANTED_SUNFLOWER:1",
+      "C1": "ENCHANTED_SUNFLOWER:1",
+      "C2": "ENCHANTED_SUNFLOWER:1",
+      "C3": "ENCHANTED_SUNFLOWER:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "SUNFLOWER_OIL"
+    }
+  ]
+}

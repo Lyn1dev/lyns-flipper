@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§6Great White Tooth Meal",
+  "nbttag": "{ExtraAttributes:{id:\"GREAT_WHITE_TOOTH_MEAL\"},HideFlags:254,ItemModel:\"minecraft:bone_meal\",display:{Lore:[0:\"§7It smells like blood and fear.\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Great White Tooth Meal\"}}",
+  "damage": 15,
+  "lore": [
+    "§7It smells like blood and fear.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "GREAT_WHITE_TOOTH_MEAL",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Great_White_Tooth_Meal"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "GREAT_WHITE_SHARK_TOOTH:1",
+    "A3": "",
+    "B1": "GREAT_WHITE_SHARK_TOOTH:1",
+    "B2": "ENCHANTED_BONE:1",
+    "B3": "GREAT_WHITE_SHARK_TOOTH:1",
+    "C1": "",
+    "C2": "GREAT_WHITE_SHARK_TOOTH:1",
+    "C3": ""
+  }
+}

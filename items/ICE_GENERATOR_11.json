@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Ice Minion XI",
+  "nbttag": "{ExtraAttributes:{id:\"ICE_GENERATOR_11\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"10d7aa0e-71b3-3338-86a9-a0c348c744bb\",Properties:{textures:[0:{Name:\"textures\",Signature:\"f9Bu3SIaAbqe+5WgElQihA8eThEtbJ9MCptlvapONMBHpXcvnz5W1Mewhsvzspm0LL/xStffGqeiGnqu6fTeVNNVbFCbm7gaKXwGQ2FObtLGBVwVDXugkzqnWQxs/Zexbr/liVmlWTzd//1Wef97zQxmky6l6DkjP1KJToR8Mhq+LMzDASn1LqhRIs2SNoc/UlLpAtfhh5QLEuqzzgITgFpUC890iWSTklI64GJS7R2vbInrrkkCiDVrINRitE8bL2t7Lr3E0PdfHMmdaorlCXnOUHFNSEkxhxgUS/Ai8eYyO03XHK9qqE+cZ7uwvQwdxUSGva2tEgfVKV/DRaTbvW7sxuYkLSkQU1A+odl7v+l9rO2jhpCc4Z6wzGZkXIPaX6qrd5n7lZ1juxozH4OAqRB1Klf5iNn0W0amrW0ZD7EsqFz05fB6flCAIxpKzhdnsE/qOmtyXMHFac08M73UUbmfWGWHVT3k+s9O6gJQzhI2jU/1n2CBPqELLxbXErAY05lgBndvTdiBhbrF5KYsGj1tIGV5NwuXR+LGkOLrlXaKOm+cncFsybrr0aFfQBWdrlxUbJbDlo56dZI0DkQryqFg45GrNX1+laXbVonUSZmkFOJWw/GK75suvkPi/lRRA+xjfybbdvXk47k3wxUhqjq79HghuPMdZaHyfu/n8w0=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTk2NTk1NjA4NTYsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlZjQwYjc2Y2NhMWU0YmNkMmNiZGE1YmM2MWJjOTgyYTUxOWEyZGY1MTcwNjYyZWE4ODliZjBkOTVhYTJjMWIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining ice! Requires\",2:\"§7an open area to place ice. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a7s\",6:\"§7Max Storage: §e960\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ice Minion XI\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Place this minion and it will start",
+    "§7generating and mining ice! Requires",
+    "§7an open area to place ice. Minions",
+    "§7also work when you are offline!",
+    "",
+    "§7Time Between Actions: §a7s",
+    "§7Max Storage: §e960",
+    "§7Resources Generated: §b0",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "ICE_GENERATOR_11",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Ice I",
+  "modver": "Firmament 3.2.0-dev+mc1.21.5+g0b9d5bd",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Ice_Minion"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_ICE:64",
+    "A2": "ENCHANTED_ICE:64",
+    "A3": "ENCHANTED_ICE:64",
+    "B1": "ENCHANTED_ICE:64",
+    "B2": "ICE_GENERATOR_10:1",
+    "B3": "ENCHANTED_ICE:64",
+    "C1": "ENCHANTED_ICE:64",
+    "C2": "ENCHANTED_ICE:64",
+    "C3": "ENCHANTED_ICE:64"
+  },
+  "useneucraft": true
+}

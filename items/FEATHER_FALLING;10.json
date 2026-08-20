@@ -1,0 +1,32 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§dEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{feather_falling:10},id:\"FEATHER_FALLING;10\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§9Feather Falling X\",3:\"§7Increases how high you can fall\",4:\"§7before taking fall damage by\",5:\"§a10§7 and reduces fall damage\",6:\"§7by §a50%§7.\",7:\"\",8:\"§6Source:\",9:\"§aVI-X: §7Dungeon\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fBoots\",13:\"\",14:\"§d§lMYTHIC\"],Name:\"§dEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§9Feather Falling X",
+    "§7Increases how high you can fall",
+    "§7before taking fall damage by",
+    "§a10§7 and reduces fall damage",
+    "§7by §a50%§7.",
+    "",
+    "§6Source:",
+    "§aVI-X: §7Dungeon",
+    "",
+    "§6Applied To:",
+    "§7- §fBoots",
+    "",
+    "§d§lMYTHIC"
+  ],
+  "internalname": "FEATHER_FALLING;10",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Feather_Falling"
+  ],
+  "parent": "FEATHER_FALLING;4"
+}

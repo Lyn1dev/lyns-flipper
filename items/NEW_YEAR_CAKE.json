@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:cake",
+  "displayname": "§cNew Year Cake (Year 69)",
+  "nbttag": "{ExtraAttributes:{id:\"NEW_YEAR_CAKE\",new_years_cake:69},HideFlags:254,ItemModel:\"minecraft:cake\",display:{Lore:[0:\"§7Given to every player as a\",1:\"§7celebration for the 69th SkyBlock\",2:\"§7year!\",3:\"\",4:\"§c§lSPECIAL\"],Name:\"§cNew Year Cake (Year 69)\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§7Given to every player as a",
+    "§7celebration for the 69th SkyBlock",
+    "§7year!",
+    "",
+    "§c§lSPECIAL"
+  ],
+  "internalname": "NEW_YEAR_CAKE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/New_Year_Cake"
+  ]
+}

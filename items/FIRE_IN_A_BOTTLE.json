@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6Fire in a Bottle",
+  "nbttag": "{ExtraAttributes:{id:\"FIRE_IN_A_BOTTLE\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/fire_in_a_bottle\",display:{Lore:[0:\"§7Can be used at §6Phillip §7to upgrade the\",1:\"§5Mouse Trap §7into the §6Vermin Trap§7.\",2:\"\",3:\"§8§oWho thought to bottle a firefly's\",4:\"§8§oglow? Whoever it was, they certainly\",5:\"§8§oknew what they were doing.\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Fire in a Bottle\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Can be used at §6Phillip §7to upgrade the",
+    "§5Mouse Trap §7into the §6Vermin Trap§7.",
+    "",
+    "§8§oWho thought to bottle a firefly's",
+    "§8§oglow? Whoever it was, they certainly",
+    "§8§oknew what they were doing.",
+    "",
+    "§6§lLEGENDARY"
+  ],
+  "internalname": "FIRE_IN_A_BOTTLE",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "",
+  "info": []
+}

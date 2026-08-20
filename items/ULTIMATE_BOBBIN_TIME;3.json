@@ -1,0 +1,49 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{ultimate_bobbin_time:3},id:\"ULTIMATE_BOBBIN_TIME;3\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§d§lBobbin' Time III\",3:\"§7Increases all §bFishing Stats §7and §b✯ Magic Find §7by\",4:\"§b+0.6% §7per fishing bobber within §a30 blocks§7, up to\",5:\"§b5 §7bobbers.\",6:\"\",7:\"§cYou can only have 1 Ultimate\",8:\"§cEnchantment on an item!\",9:\"\",10:\"§6Source:\",11:\"§aIII-V: §7Fishing\",12:\"\",13:\"§6Applied To:\",14:\"§7- §fArmor\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§d§lBobbin' Time III",
+    "§7Increases all §bFishing Stats §7and §b✯ Magic Find §7by",
+    "§b+0.6% §7per fishing bobber within §a30 blocks§7, up to",
+    "§b5 §7bobbers.",
+    "",
+    "§cYou can only have 1 Ultimate",
+    "§cEnchantment on an item!",
+    "",
+    "§6Source:",
+    "§aIII-V: §7Fishing",
+    "",
+    "§6Applied To:",
+    "§7- §fArmor",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "ULTIMATE_BOBBIN_TIME;3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Bobbin%27_Time"
+  ],
+  "recipes": [
+    {
+      "A1": "BAYOU_WATER_ORB:1",
+      "A2": "WINTER_WATER_ORB:1",
+      "A3": "SPOOKY_WATER_ORB:1",
+      "B1": "",
+      "B2": "BOBBIN_SCRIPTURES:1",
+      "B3": "",
+      "C1": "SHARK_WATER_ORB:1",
+      "C2": "HOTSPOT_WATER_ORB:1",
+      "C3": "LAVA_WATER_ORB:1",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "ULTIMATE_BOBBIN_TIME;3"
+    }
+  ]
+}

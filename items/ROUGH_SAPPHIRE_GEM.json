@@ -1,0 +1,26 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§f Rough Sapphire Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"ROUGH_SAPPHIRE_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/sapphire/rough_sapphire_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Harvested from the plentiful\",3:\"§7gemstone veins in the §5Crystal Hollows§7.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§b Intelligence§7.\",8:\"\",9:\"§f§lCOMMON GEMSTONE\"],Name:\"§f Rough Sapphire Gemstone\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7Harvested from the plentiful",
+    "§7gemstone veins in the §5Crystal Hollows§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§b Intelligence§7.",
+    "",
+    "§f§lCOMMON GEMSTONE"
+  ],
+  "internalname": "ROUGH_SAPPHIRE_GEM",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ]
+}

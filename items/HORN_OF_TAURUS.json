@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Horn of Taurus",
+  "nbttag": "{ExtraAttributes:{id:\"HORN_OF_TAURUS\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/uncategorized/horn_of_taurus\",display:{Lore:[0:\"§7Popular among Piglins, often used as\",1:\"§7a war charm.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Horn of Taurus\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Popular among Piglins, often used as",
+    "§7a war charm.",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "HORN_OF_TAURUS",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Horn_of_Taurus"
+  ]
+}

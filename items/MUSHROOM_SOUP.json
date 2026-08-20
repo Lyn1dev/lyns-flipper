@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:mushroom_stew",
+  "displayname": "§fMushroom Soup",
+  "nbttag": "{ExtraAttributes:{id:\"MUSHROOM_SOUP\"},HideFlags:254,ItemModel:\"minecraft:mushroom_stew\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMushroom Soup\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "MUSHROOM_SOUP",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "BROWN_MUSHROOM:1",
+    "A2": "RED_MUSHROOM:1",
+    "A3": "BOWL:1",
+    "B1": "",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

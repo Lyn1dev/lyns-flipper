@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§6 Perfect Onyx Gemstone",
+  "nbttag": "{ExtraAttributes:{id:\"PERFECT_ONYX_GEM\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/collections/gemstone/onyx/perfect_onyx_gem\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A perfectly §8refined Onyx§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§9 Crit Damage§7; others say it might\",7:\"§7give §ebonus treasures§7.\",8:\"\",9:\"§6§lLEGENDARY GEMSTONE\"],Name:\"§6 Perfect Onyx Gemstone\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Collection Item",
+    "",
+    "§7A perfectly §8refined Onyx§7.",
+    "",
+    "§7Some say that when §eharnessed",
+    "§eproperly§7, it can give its owner extra",
+    "§9 Crit Damage§7; others say it might",
+    "§7give §ebonus treasures§7.",
+    "",
+    "§6§lLEGENDARY GEMSTONE"
+  ],
+  "internalname": "PERFECT_ONYX_GEM",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Gemstone X & HotM 5",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Gemstone"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_ONYX_GEM:5.0",
+        "ONYX_CRYSTAL:1.0"
+      ],
+      "count": 1.0,
+      "overrideOutputId": "PERFECT_ONYX_GEM",
+      "duration": 72000
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:leather_chestplate",
+  "displayname": "§fLeather Chestplate",
+  "nbttag": "{ExtraAttributes:{id:\"LEATHER_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON CHESTPLATE\"],Name:\"§fLeather Chestplate\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Defense: §a+15",
+    "",
+    "§8This item can be reforged!",
+    "§f§lCOMMON CHESTPLATE"
+  ],
+  "internalname": "LEATHER_CHESTPLATE",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.1.0-dev+mc1.21.11+g3b06339",
+  "infoType": "WIKI_URL",
+  "info": [],
+  "recipe": {
+    "A1": "LEATHER:1",
+    "A2": "",
+    "A3": "LEATHER:1",
+    "B1": "LEATHER:1",
+    "B2": "LEATHER:1",
+    "B3": "LEATHER:1",
+    "C1": "LEATHER:1",
+    "C2": "LEATHER:1",
+    "C3": "LEATHER:1"
+  },
+  "vanilla": true
+}

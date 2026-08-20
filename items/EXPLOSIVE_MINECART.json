@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:tnt_minecart",
+  "displayname": "§fMinecart with TNT",
+  "nbttag": "{ExtraAttributes:{id:\"EXPLOSIVE_MINECART\"},HideFlags:254,ItemModel:\"minecraft:tnt_minecart\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart with TNT\"}}",
+  "damage": 0,
+  "lore": [
+    "§f§lCOMMON"
+  ],
+  "internalname": "EXPLOSIVE_MINECART",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+gf8a751d",
+  "infoType": "",
+  "info": [],
+  "vanilla": true,
+  "recipe": {
+    "A1": "TNT:1",
+    "A2": "",
+    "A3": "",
+    "B1": "MINECART:1",
+    "B2": "",
+    "B3": "",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}

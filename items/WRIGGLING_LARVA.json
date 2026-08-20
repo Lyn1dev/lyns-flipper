@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:paper",
+  "displayname": "§5Wriggling Larva",
+  "nbttag": "{ExtraAttributes:{id:\"WRIGGLING_LARVA\"},HideFlags:254,ItemModel:\"hypixel_skyblock:item/island_relevant/garden/pests/wriggling_larva\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume this wriggling, disgusting\",3:\"§7larva to permanently gain §2+2\",4:\"§2Bonus Pest Chance§7.\",5:\"\",6:\"§7You can consume up to §a5 §7larvae\",7:\"§7before the sight of them makes you\",8:\"§7too sick to consume more.\",9:\"\",10:\"§eRight-click to consume!\",11:\"\",12:\"§5§lEPIC\"],Name:\"§5Wriggling Larva\"}}",
+  "damage": 0,
+  "lore": [
+    "§8Consumable",
+    "",
+    "§7Consume this wriggling, disgusting",
+    "§7larva to permanently gain §2+2",
+    "§2Bonus Pest Chance§7.",
+    "",
+    "§7You can consume up to §a5 §7larvae",
+    "§7before the sight of them makes you",
+    "§7too sick to consume more.",
+    "",
+    "§eRight-click to consume!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "WRIGGLING_LARVA",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Wriggling_Larva"
+  ]
+}

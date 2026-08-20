@@ -1,0 +1,39 @@
+{
+  "itemid": "minecraft:book",
+  "displayname": "§5Hot Potato Book",
+  "nbttag": "{ExtraAttributes:{id:\"HOT_POTATO_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to armor, grants §a+2\",3:\"§aDefense §7and §c+4 Health§7.\",4:\"\",5:\"§7When applied to weapons, grants\",6:\"§c+2 Strength §7and §c+2 Damage§7.\",7:\"\",8:\"§7This can be applied to an item up to\",9:\"§a10 §7times!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§8Combinable in Anvil",
+    "",
+    "§7When applied to armor, grants §a+2",
+    "§aDefense §7and §c+4 Health§7.",
+    "",
+    "§7When applied to weapons, grants",
+    "§c+2 Strength §7and §c+2 Damage§7.",
+    "",
+    "§7This can be applied to an item up to",
+    "§a10 §7times!",
+    "",
+    "§5§lEPIC"
+  ],
+  "internalname": "HOT_POTATO_BOOK",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Potato VIII",
+  "modver": "Firmament 44.2.0-dev+mc26.1.2+g00fd3323",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Hot_Potato_Book"
+  ],
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "B1": "",
+    "B2": "PAPER:1",
+    "B3": "PAPER:1",
+    "C1": "",
+    "C2": "PAPER:1",
+    "C3": "ENCHANTED_BAKED_POTATO:1"
+  }
+}

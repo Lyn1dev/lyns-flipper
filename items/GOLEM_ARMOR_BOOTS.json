@@ -1,0 +1,36 @@
+{
+  "itemid": "minecraft:iron_boots",
+  "displayname": "§9Golem Armor Boots",
+  "nbttag": "{ExtraAttributes:{id:\"GOLEM_ARMOR_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:iron_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §c+40\",1:\"§7Defense: §a+40\",2:\"\",3:\"§6Full Set Bonus: Absorption §7(0/4)\",4:\"§7Grants the wearer §aAbsorption 3§7 for\",5:\"§a20 seconds§7 when they kill an enemy.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§9§lRARE BOOTS\"],Name:\"§9Golem Armor Boots\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Health: §c+40",
+    "§7Defense: §a+40",
+    "",
+    "§6Full Set Bonus: Absorption §7(0/4)",
+    "§7Grants the wearer §aAbsorption 3§7 for",
+    "§a20 seconds§7 when they kill an enemy.",
+    "",
+    "§8This item can be reforged!",
+    "§9§lRARE BOOTS"
+  ],
+  "internalname": "GOLEM_ARMOR_BOOTS",
+  "clickcommand": "viewrecipe",
+  "crafttext": "Requires: Iron Ingot VI",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixelskyblock.minecraft.wiki/w/Golem_Armor_Boots"
+  ],
+  "recipe": {
+    "A1": "ENCHANTED_IRON:10",
+    "A2": "",
+    "A3": "ENCHANTED_IRON:10",
+    "B1": "ENCHANTED_IRON:10",
+    "B2": "",
+    "B3": "ENCHANTED_IRON:10",
+    "C1": "",
+    "C2": "",
+    "C3": ""
+  }
+}
