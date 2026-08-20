@@ -204,7 +204,7 @@
             font-size: 13.5px;
             font-weight: 800;
             color: #fff;
-            border-bottom: 1px solid #232a36;
+            border-bottom: 1px solid var(--border);
             padding-bottom: 8px;
             margin-bottom: 12px;
             letter-spacing: .03em;
@@ -557,18 +557,18 @@
             border: 1px solid var(--border);
             text-transform: uppercase;
         }
-        .rar-tag.legendary, .rar-tag.ult { color: var(--orange); border-color: #f0883e55; }
+        .rar-tag.legendary, .rar-tag.ultimate { color: var(--orange); border-color: #f0883e55; }
         .rar-tag.epic { color: var(--purple); border-color: #bc8cff55; }
         .rar-tag.rare, .rar-tag.special { color: var(--blue); border-color: #58a6ff55; }
         .rar-tag.uncommon, .rar-tag.turbo { color: var(--green); border-color: #3fb95055; }
-        .rar-tag.common, .rar-tag.reg { color: var(--text-dim); border-color: #7d859055; }
+        .rar-tag.common, .rar-tag.regular { color: var(--text-dim); border-color: #7d859055; }
 
         .shard-name { font-weight: 700; }
-        .shard-name.legendary, .shard-name.ult { color: var(--orange); }
+        .shard-name.legendary, .shard-name.ultimate { color: var(--orange); }
         .shard-name.epic { color: var(--purple); }
         .shard-name.rare, .shard-name.special { color: var(--blue); }
         .shard-name.uncommon, .shard-name.turbo { color: var(--green); }
-        .shard-name.common, .shard-name.reg { color: #cbd5e1; }
+        .shard-name.common, .shard-name.regular { color: #cbd5e1; }
 
         .vol-stat { margin-left: auto; font-size: 10.5px; color: var(--text-dim); font-weight: 400; }
 
@@ -908,6 +908,40 @@
         let activeFilterCategory = 'all';
 
         const BAZAAR_TAX = 0.01125;
+
+        // Specific Skyblock Enchantment Exceptions
+        const EXPLICIT_LIMITS = {
+            'dedication': 3,       // Dedication 4 is drop-only
+            'small_brain': 5,      // Shortened array (3 items -> true limit 5)
+            'transylvanian': 5,    // Shortened array (2 items -> true limit 5)
+            'the_one': 5,          // Shortened array (2 items -> true limit 5)
+            'habanero_tactics': 5, // Shortened array (2 items -> true limit 5)
+            'big_brain': 5,        // Base level 3 -> limit 5
+            'vicious': 5,          // Base level 3 -> limit 5
+            'bobbin_time': 5,      // Base level 3 -> limit 5
+            'tabasco': 3,          // Base level 2 -> limit 3
+            'divine_gift': 3,
+            'mana_steal': 3,
+            'sugar_rush': 3,
+            // Non-combinable stacking enchants
+            'champion': 1,
+            'hecatomb': 1,
+            'compact': 1,
+            'cultivating': 1,
+            'expertise': 1,
+            'toxophilite': 1
+        };
+
+        const EXPLICIT_BASE_LEVELS = {
+            'big_brain': 3,
+            'vicious': 3,
+            'bobbin_time': 3,
+            'small_brain': 3,
+            'habanero_tactics': 4,
+            'transylvanian': 4,
+            'the_one': 4,
+            'tabasco': 2
+        };
 
         const cfg = {
             inputMode: 'instabuy',
@@ -1568,21 +1602,23 @@
 
         /* ─── Enchanted Book Flipper Algorithms ───────────────────── */
         function getBookCombinableLimit(enchantName, bzLevels) {
+            const rawKey = enchantName.replace(/^ultimate_/, '');
+            if (EXPLICIT_LIMITS[enchantName] !== undefined) return EXPLICIT_LIMITS[enchantName];
+            if (EXPLICIT_LIMITS[rawKey] !== undefined) return EXPLICIT_LIMITS[rawKey];
+
             if (!enchantsData) return Math.max(...Object.keys(bzLevels).map(Number));
             const max_xp = enchantsData.max_xp_table_levels || {};
             const xp_cost = enchantsData.enchants_xp_cost || {};
 
             if (max_xp[enchantName] !== undefined) return max_xp[enchantName];
-            if (enchantName.startsWith('ultimate_') && max_xp[enchantName.slice(9)] !== undefined) {
-                return max_xp[enchantName.slice(9)];
-            }
+            if (max_xp[rawKey] !== undefined) return max_xp[rawKey];
             if (enchantName === 'prosecute' && max_xp['PROSECUTE'] !== undefined) return max_xp['PROSECUTE'];
 
             if (xp_cost[enchantName] && Array.isArray(xp_cost[enchantName])) {
                 return xp_cost[enchantName].length;
             }
-            if (enchantName.startsWith('ultimate_') && xp_cost[enchantName.slice(9)] && Array.isArray(xp_cost[enchantName.slice(9)])) {
-                return xp_cost[enchantName.slice(9)].length;
+            if (xp_cost[rawKey] && Array.isArray(xp_cost[rawKey])) {
+                return xp_cost[rawKey].length;
             }
             if (enchantName === 'prosecute' && xp_cost['PROSECUTE'] && Array.isArray(xp_cost['PROSECUTE'])) {
                 return xp_cost['PROSECUTE'].length;
@@ -1591,6 +1627,13 @@
             if (enchantName.startsWith('turbo_')) return 5;
 
             return Math.max(...Object.keys(bzLevels).map(Number));
+        }
+
+        function getBookBaseLevel(enchantName, bzLevels) {
+            const rawKey = enchantName.replace(/^ultimate_/, '');
+            if (EXPLICIT_BASE_LEVELS[enchantName] !== undefined) return EXPLICIT_BASE_LEVELS[enchantName];
+            if (EXPLICIT_BASE_LEVELS[rawKey] !== undefined) return EXPLICIT_BASE_LEVELS[rawKey];
+            return Math.min(...Object.keys(bzLevels).map(Number));
         }
 
         function formatEnchantName(raw) {
@@ -1612,9 +1655,13 @@
 
             for (const [enchantKey, levels] of Object.entries(bookPrices)) {
                 const lim = getBookCombinableLimit(enchantKey, levels);
+                const baseLvl = getBookBaseLevel(enchantKey, levels);
                 const sortedLvls = Object.keys(levels).map(Number).sort((a, b) => a - b);
                 const category = getEnchantCategory(enchantKey);
                 const displayName = formatEnchantName(enchantKey);
+
+                // Skip non-combinable stacking enchants
+                if (lim <= 1) continue;
 
                 // Dynamic programming: find cheapest path to construct each level
                 const optCost = {};
@@ -1636,7 +1683,8 @@
                     };
 
                     // Check if combining 2x of (lvl - 1) is cheaper
-                    if (lvl > 1 && lvl <= lim && optCost[lvl - 1] !== undefined) {
+                    // Only combine if lvl > baseLvl, lvl <= lim, and (lvl - 1) is reachable!
+                    if (lvl > baseLvl && lvl <= lim && optCost[lvl - 1] !== undefined) {
                         const combineCost = 2 * optCost[lvl - 1];
                         if (combineCost < bestCost) {
                             bestCost = combineCost;
@@ -1732,6 +1780,7 @@
                                             name: displayName,
                                             level: lvl,
                                             category,
+                                            baseLevel: baseLvl,
                                             combinableLimit: lim,
                                             volume: pdata.volume,
                                             totalBatchCost,
@@ -2103,7 +2152,7 @@
                 <div class="tree-block">
                     <div class="tree-title">
                         <span>[ COMBINE TREE // 1 UNIT ]</span>
-                        <span>COMBINABLE LIMIT: L${r.combinableLimit}</span>
+                        <span>BASE: L${r.baseLevel} | LIMIT: L${r.combinableLimit}</span>
                     </div>
                     <div>
                         ${treeHtml}
