@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LYN'S SHARD FLIPPER // HYPIXEL BAZAAR</title>
+    <title>LYN'S FLIPPER // HYPIXEL BAZAAR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -12,6 +12,7 @@
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
             --bg: #090a0f;
+            --sidebar-bg: #0c0e14;
             --surface: #10131a;
             --surface-hover: #161b24;
             --surface-alt: #0c0e14;
@@ -62,12 +63,120 @@
             font-family: var(--mono);
             font-size: 12px;
             line-height: 1.45;
-            padding: 12px;
+            display: flex;
+            min-height: 100vh;
         }
 
-        .container {
-            max-width: 1560px;
-            margin: 0 auto;
+        /* ─── Left Sidebar ────────────────────────────────────────── */
+        .app-sidebar {
+            width: 220px;
+            min-width: 220px;
+            background: var(--sidebar-bg);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            padding: 14px 10px;
+            gap: 12px;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            user-select: none;
+        }
+
+        .sidebar-brand {
+            padding: 4px 8px 12px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .brand-icon {
+            font-size: 16px;
+            color: var(--yellow);
+        }
+        .brand-text {
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: .03em;
+            color: #fff;
+        }
+
+        .sidebar-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex: 1;
+        }
+
+        .sidebar-nav-lbl {
+            font-size: 9.5px;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: .08em;
+            padding: 6px 8px 2px;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-dim);
+            font-family: var(--mono);
+            font-size: 11.5px;
+            font-weight: 600;
+            padding: 8px 10px;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all .12s;
+        }
+        .nav-btn:hover:not(.active) {
+            background: var(--surface-hover);
+            color: var(--text);
+            border-color: var(--border);
+        }
+        .nav-btn.active {
+            background: #1f6feb22;
+            border-color: #388bfd;
+            color: #fff;
+            font-weight: 700;
+        }
+        .nav-btn-main {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .nav-btn-badge {
+            font-size: 10px;
+            background: var(--surface-alt);
+            border: 1px solid var(--border);
+            padding: 1px 5px;
+            color: var(--text-dim);
+        }
+        .nav-btn.active .nav-btn-badge {
+            border-color: #388bfd55;
+            color: var(--blue);
+        }
+
+        .sidebar-foot {
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+            font-size: 10px;
+            color: var(--text-dim);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding-left: 6px;
+        }
+
+        /* ─── Main Content Area ───────────────────────────────────── */
+        .main-wrapper {
+            flex: 1;
+            padding: 12px 16px;
+            max-width: 1600px;
+            overflow-x: hidden;
         }
 
         /* ─── Startup / API Key Modal ─────────────────────────────── */
@@ -439,6 +548,8 @@
         }
         .rank-num { color: var(--text-dim); font-size: 11px; }
         .shard-icon { width: 18px; height: 18px; image-rendering: pixelated; vertical-align: middle; }
+        .book-icon { font-size: 14px; vertical-align: middle; }
+        
         .rar-tag {
             font-size: 10px;
             font-weight: 700;
@@ -446,18 +557,18 @@
             border: 1px solid var(--border);
             text-transform: uppercase;
         }
-        .rar-tag.legendary { color: var(--orange); border-color: #f0883e55; }
+        .rar-tag.legendary, .rar-tag.ult { color: var(--orange); border-color: #f0883e55; }
         .rar-tag.epic { color: var(--purple); border-color: #bc8cff55; }
-        .rar-tag.rare { color: var(--blue); border-color: #58a6ff55; }
-        .rar-tag.uncommon { color: var(--green); border-color: #3fb95055; }
-        .rar-tag.common { color: var(--text-dim); border-color: #7d859055; }
+        .rar-tag.rare, .rar-tag.special { color: var(--blue); border-color: #58a6ff55; }
+        .rar-tag.uncommon, .rar-tag.turbo { color: var(--green); border-color: #3fb95055; }
+        .rar-tag.common, .rar-tag.reg { color: var(--text-dim); border-color: #7d859055; }
 
         .shard-name { font-weight: 700; }
-        .shard-name.legendary { color: var(--orange); }
+        .shard-name.legendary, .shard-name.ult { color: var(--orange); }
         .shard-name.epic { color: var(--purple); }
-        .shard-name.rare { color: var(--blue); }
-        .shard-name.uncommon { color: var(--green); }
-        .shard-name.common { color: #cbd5e1; }
+        .shard-name.rare, .shard-name.special { color: var(--blue); }
+        .shard-name.uncommon, .shard-name.turbo { color: var(--green); }
+        .shard-name.common, .shard-name.reg { color: #cbd5e1; }
 
         .vol-stat { margin-left: auto; font-size: 10.5px; color: var(--text-dim); font-weight: 400; }
 
@@ -576,6 +687,7 @@
         .tree-node.root::before, .tree-node.root::after { display: none; }
 
         .tag-fuse { color: #bc8cff; font-weight: 700; font-size: 9.5px; }
+        .tag-combine { color: #d29922; font-weight: 700; font-size: 9.5px; }
         .tag-buy { color: #3fb950; font-weight: 700; font-size: 9.5px; }
         .tag-insta { color: #58a6ff; font-weight: 700; font-size: 9.5px; }
 
@@ -606,43 +718,77 @@
 </head>
 
 <body>
-    <!-- Startup Modal for API Key -->
-    <div id="api-key-modal" class="modal-overlay" style="display:none">
-        <div class="modal-box">
-            <div class="modal-title">[ HYPIXEL API KEY REQUIRED ]</div>
-            <p class="modal-text">
-                you need a hypixel API key to use this site, you can get one for free at 
-                <a href="https://developer.hypixel.net" target="_blank" class="modal-link">https://developer.hypixel.net</a>,
-                copy paste the key in the box below:
-                <span class="modal-privacy">the api key is saved in your local browsers storage. it is not shared.</span>
-            </p>
-            <div class="modal-label">HYPIXEL API KEY:</div>
-            <div class="modal-input-row">
-                <input type="text" id="api-key-input" class="modal-input" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" autocomplete="off" spellcheck="false" />
-                <button class="modal-btn" onclick="saveApiKey()">[ SAVE & CONTINUE ]</button>
-            </div>
-            <div id="modal-err" class="modal-err"></div>
+    <!-- Left Sidebar -->
+    <aside class="app-sidebar">
+        <div class="sidebar-brand">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-text">LYN'S FLIPPER</span>
         </div>
-    </div>
 
-    <div class="container">
+        <div class="sidebar-menu">
+            <div class="sidebar-nav-lbl">FLIP MODULES</div>
+            
+            <button class="nav-btn active" id="nav-shards" onclick="switchModule('shards')">
+                <div class="nav-btn-main">
+                    <span>⚡</span>
+                    <span>Shard Flipper</span>
+                </div>
+                <span class="nav-btn-badge" id="sb-badge-shards">321</span>
+            </button>
+
+            <button class="nav-btn" id="nav-books" onclick="switchModule('books')">
+                <div class="nav-btn-main">
+                    <span>📖</span>
+                    <span>Book Flipper</span>
+                </div>
+                <span class="nav-btn-badge" id="sb-badge-books">155</span>
+            </button>
+        </div>
+
+        <div class="sidebar-foot">
+            <div>HYPIXEL BAZAAR</div>
+            <div id="sb-time">--:--:--</div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-wrapper">
+        <!-- Startup Modal for API Key -->
+        <div id="api-key-modal" class="modal-overlay" style="display:none">
+            <div class="modal-box">
+                <div class="modal-title">[ HYPIXEL API KEY REQUIRED ]</div>
+                <p class="modal-text">
+                    you need a hypixel API key to use this site, you can get one for free at 
+                    <a href="https://developer.hypixel.net" target="_blank" class="modal-link">https://developer.hypixel.net</a>,
+                    copy paste the key in the box below:
+                    <span class="modal-privacy">the api key is saved in your local browsers storage. it is not shared.</span>
+                </p>
+                <div class="modal-label">HYPIXEL API KEY:</div>
+                <div class="modal-input-row">
+                    <input type="text" id="api-key-input" class="modal-input" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" autocomplete="off" spellcheck="false" />
+                    <button class="modal-btn" onclick="saveApiKey()">[ SAVE & CONTINUE ]</button>
+                </div>
+                <div id="modal-err" class="modal-err"></div>
+            </div>
+        </div>
+
         <!-- Banner -->
         <div class="banner">
             <div class="banner-title">
-                <span>⚡</span>
-                <span>LYN'S SHARD FLIPPER</span>
+                <span id="banner-icon">⚡</span>
+                <span id="banner-title-text">LYN'S FLIPPER // SHARD OPTIMIZER</span>
             </div>
             <div class="banner-meta">
-                <span id="stat-shards">Shards: <b>Loading...</b></span>
+                <span id="stat-meta1">Items: <b>Loading...</b></span>
                 <span>|</span>
-                <span id="stat-recipes">Recipes: <b>Loading...</b></span>
+                <span id="stat-meta2">Combinations: <b>Loading...</b></span>
                 <span>|</span>
                 <span id="stat-batch">Target: <b id="stat-batch-val">10 units</b></span>
                 <span>|</span>
                 <button class="key-btn" onclick="openApiKeyModal()">🔑 API KEY</button>
                 <span>|</span>
                 <div class="star-container">
-                    <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="github-star-btn">★ Star this repo on GitHub</a>
+                    <a href="https://github.com/Lyn1dev/lyns-flipper" target="_blank" rel="noopener noreferrer" class="github-star-btn">★ Star this repo on GitHub</a>
                     
                     <!-- Star Callout Popup -->
                     <div id="star-popup" class="star-callout" style="display:none">
@@ -654,7 +800,7 @@
                             if this tracker helps you make coins, drop a quick star on github to support the project!
                         </p>
                         <div class="sc-actions">
-                            <a href="https://github.com/Lyn1dev/shard-flipper" target="_blank" rel="noopener noreferrer" class="sc-btn-star" onclick="closeStarPopup()">★ Star on GitHub</a>
+                            <a href="https://github.com/Lyn1dev/lyns-flipper" target="_blank" rel="noopener noreferrer" class="sc-btn-star" onclick="closeStarPopup()">★ Star on GitHub</a>
                             <button class="sc-btn-dismiss" onclick="closeStarPopup()">[ Dismiss ]</button>
                         </div>
                     </div>
@@ -698,23 +844,34 @@
                 <div class="btn-group">
                     <button class="btn active" id="btn-percent" onclick="setSortBy('percent')">ROI%</button>
                     <button class="btn" id="btn-profit" onclick="setSortBy('profit')">Profit</button>
-                    <button class="btn" id="btn-fusions" onclick="setSortBy('fusions')">Fewest Fusions</button>
+                    <button class="btn" id="btn-fusions" onclick="setSortBy('fusions')">Fewest Steps</button>
                     <button class="btn" id="btn-time" onclick="setSortBy('time')">Fastest</button>
                 </div>
             </div>
 
-            <div class="ctrl-group">
+            <!-- Filter Categories -->
+            <div class="ctrl-group" id="filter-group-shards">
                 <span class="ctrl-lbl">Rarity:</span>
                 <div class="btn-group">
-                    <button class="btn active" onclick="setRarityFilter('all', this)">All</button>
-                    <button class="btn" onclick="setRarityFilter('legendary', this)">Leg</button>
-                    <button class="btn" onclick="setRarityFilter('epic', this)">Epic</button>
-                    <button class="btn" onclick="setRarityFilter('rare', this)">Rare</button>
+                    <button class="btn active" onclick="setFilterCategory('all', this)">All</button>
+                    <button class="btn" onclick="setFilterCategory('legendary', this)">Leg</button>
+                    <button class="btn" onclick="setFilterCategory('epic', this)">Epic</button>
+                    <button class="btn" onclick="setFilterCategory('rare', this)">Rare</button>
+                </div>
+            </div>
+
+            <div class="ctrl-group" id="filter-group-books" style="display:none">
+                <span class="ctrl-lbl">Category:</span>
+                <div class="btn-group">
+                    <button class="btn active" onclick="setFilterCategory('all', this)">All</button>
+                    <button class="btn" onclick="setFilterCategory('ultimate', this)">Ultimate</button>
+                    <button class="btn" onclick="setFilterCategory('turbo', this)">Turbo</button>
+                    <button class="btn" onclick="setFilterCategory('regular', this)">Regular</button>
                 </div>
             </div>
 
             <div class="ctrl-group">
-                <input type="text" id="fi" class="search-input" placeholder="Filter shard name (e.g. Starborn)..." oninput="renderResults()" />
+                <input type="text" id="fi" class="search-input" placeholder="Filter by name..." oninput="renderCurrentModule()" />
             </div>
 
             <button class="refresh-btn" id="rbtn" onclick="refreshPrices()">[ ↻ REFRESH BAZAAR ]</button>
@@ -729,22 +886,27 @@
         <!-- Results Grid -->
         <div id="area">
             <div style="padding:40px;text-align:center;color:var(--text-dim)">
-                [ LOADING RECIPES & ORDER BOOKS... ]
+                [ LOADING DATA & ORDER BOOKS... ]
             </div>
         </div>
     </div>
 
     <script>
+        let currentModule = 'shards'; // 'shards' | 'books'
         let fusionData = null;
+        let enchantsData = null;
         let productsData = {};
-        let prices = {};
-        let optCost = {};
-        let optRecipe = {};
-        let allResults = [];
+        let shardPrices = {};
+        let bookPrices = {};
+        
+        let optShardCost = {};
+        let optShardRecipe = {};
+        let allShardResults = [];
+        let allBookResults = [];
+        
         let lastUpdated = null;
-        let activeRarityFilter = 'all';
+        let activeFilterCategory = 'all';
 
-        const MIN_VOL = 50;
         const BAZAAR_TAX = 0.01125;
 
         const cfg = {
@@ -810,35 +972,85 @@
             localStorage.setItem('has_dismissed_star_popup', 'true');
         }
 
+        function switchModule(mod) {
+            currentModule = mod;
+            activeFilterCategory = 'all';
+            document.getElementById('fi').value = '';
+
+            document.getElementById('nav-shards').className = 'nav-btn' + (mod === 'shards' ? ' active' : '');
+            document.getElementById('nav-books').className = 'nav-btn' + (mod === 'books' ? ' active' : '');
+
+            document.getElementById('filter-group-shards').style.display = (mod === 'shards' ? 'flex' : 'none');
+            document.getElementById('filter-group-books').style.display = (mod === 'books' ? 'flex' : 'none');
+
+            document.querySelectorAll('.ctrl-group .btn').forEach(btn => {
+                if (btn.textContent === 'All') btn.classList.add('active');
+                else if (['Leg', 'Epic', 'Rare', 'Ultimate', 'Turbo', 'Regular'].includes(btn.textContent)) btn.classList.remove('active');
+            });
+
+            if (mod === 'shards') {
+                document.getElementById('banner-icon').textContent = '⚡';
+                document.getElementById('banner-title-text').textContent = "LYN'S FLIPPER // SHARD OPTIMIZER";
+                document.getElementById('fi').placeholder = "Filter shard name (e.g. Starborn)...";
+                updateShardStats();
+            } else {
+                document.getElementById('banner-icon').textContent = '📖';
+                document.getElementById('banner-title-text').textContent = "LYN'S FLIPPER // ENCHANTED BOOK OPTIMIZER";
+                document.getElementById('fi').placeholder = "Filter book name (e.g. Ultimate Wise, Sharpness)...";
+                updateBookStats();
+            }
+
+            renderCurrentModule();
+            setStatus(statusText());
+        }
+
+        function updateShardStats() {
+            if (!fusionData) return;
+            const ns = Object.keys(fusionData.shards).length;
+            const totalCombos = Object.values(fusionData.recipes).reduce((acc, q) => 
+                acc + Object.values(q).reduce((a2, p) => a2 + p.length, 0), 0);
+            document.getElementById('stat-meta1').innerHTML = `Shards: <b>${ns}</b>`;
+            document.getElementById('stat-meta2').innerHTML = `Recipes: <b>${totalCombos.toLocaleString()}</b>`;
+        }
+
+        function updateBookStats() {
+            const nb = Object.keys(bookPrices).length;
+            document.getElementById('stat-meta1').innerHTML = `Enchants: <b>${nb || '155'}</b>`;
+            document.getElementById('stat-meta2').innerHTML = `Type: <b>Anvil Combiner</b>`;
+        }
+
         async function init() {
             const currentKey = getApiKey();
             if (!currentKey) {
                 openApiKeyModal();
             }
 
-            setStatus('Loading fusion-data.json...');
+            setStatus('Loading fusion-data.json and enchants.json...');
             try {
-                const resp = await fetch('./fusion-data.json');
-                if (!resp.ok) throw new Error('HTTP ' + resp.status);
-                fusionData = await resp.json();
-                const ns = Object.keys(fusionData.shards).length;
-                const totalCombos = Object.values(fusionData.recipes).reduce((acc, q) => 
-                    acc + Object.values(q).reduce((a2, p) => a2 + p.length, 0), 0);
+                const [fResp, eResp] = await Promise.all([
+                    fetch('./fusion-data.json'),
+                    fetch('./enchants.json')
+                ]);
 
-                document.getElementById('stat-shards').innerHTML = `Shards: <b>${ns}</b>`;
-                document.getElementById('stat-recipes').innerHTML = `Recipes: <b>${totalCombos.toLocaleString()}</b>`;
+                if (!fResp.ok) throw new Error('Could not load fusion-data.json');
+                fusionData = await fResp.json();
+                
+                if (eResp.ok) {
+                    enchantsData = await eResp.json();
+                }
 
+                updateShardStats();
                 applyPreset('insta');
                 setBatchQty(10);
 
                 if (getApiKey()) {
-                    setStatus(`Loaded <b>${ns}</b> shards · Fetching Bazaar live order books...`);
+                    setStatus(`Loaded static databases · Fetching live Bazaar order books...`);
                     await refreshPrices();
                 } else {
                     setStatus(`<span class="r">Awaiting Hypixel API Key from startup modal...</span>`);
                 }
             } catch (e) {
-                setStatus(`<span class="r">ERROR: Could not load fusion-data.json (${esc(e.message)})</span>`);
+                setStatus(`<span class="r">ERROR: Could not load data files (${esc(e.message)})</span>`);
                 document.getElementById('area').innerHTML = `<div style="padding:30px;color:var(--red);border:1px solid var(--border)">
                     [!] FAILED TO LOAD DATA: Ensure this folder is served via http.server (e.g. python -m http.server 8000)
                 </div>`;
@@ -852,8 +1064,7 @@
                 return;
             }
 
-            if (!fusionData) { init(); return; }
-            setStatus('Fetching live Bazaar order books and moving volume...');
+            setStatus('Fetching live Bazaar order books and market volume...');
             try {
                 const headers = {};
                 if (apiKey) {
@@ -869,11 +1080,16 @@
                 }
                 const data = await resp.json();
                 productsData = data.products || {};
-                prices = buildPriceMap(productsData);
+                
+                shardPrices = buildShardPriceMap(productsData);
+                bookPrices = buildBookPriceMap(productsData);
+
                 lastUpdated = new Date();
-                computeOptimalCrafts();
-                computeFlips();
-                renderResults();
+                
+                computeShardFlips();
+                computeBookFlips();
+
+                renderCurrentModule();
                 setStatus(statusText());
                 updateTs();
                 triggerStarPopupIfNeeded();
@@ -882,46 +1098,72 @@
             }
         }
 
-        function buildPriceMap(products) {
+        /* ─── Price Builders ──────────────────────────────────────── */
+        function parseOrderBook(prod) {
+            const qs = prod.quick_status || {};
+            const ss = prod.sell_summary || [];
+            const bs = prod.buy_summary || [];
+
+            const buy_order_p = ss.length > 0 ? ss[0].pricePerUnit : (qs.sellPrice || 0);
+            const sell_offer_p = bs.length > 0 ? bs[0].pricePerUnit : (qs.buyPrice || 0);
+
+            const buy_moving_week = qs.buyMovingWeek || 0;
+            const sell_moving_week = qs.sellMovingWeek || 0;
+
+            const hourly_instasell = sell_moving_week > 0 ? (sell_moving_week / 168.0) : 1.0;
+            const hourly_instabuy  = buy_moving_week > 0 ? (buy_moving_week / 168.0) : 1.0;
+
+            const buy_queue_depth = ss.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+            const sell_queue_depth = bs.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
+
+            const total_buy_avail = bs.reduce((acc, o) => acc + (o.amount || 0), 0);
+            const total_sell_avail = ss.reduce((acc, o) => acc + (o.amount || 0), 0);
+
+            return {
+                buy_order_p,
+                sell_offer_p,
+                buy_summary: bs,
+                sell_summary: ss,
+                total_buy_avail,
+                total_sell_avail,
+                buy_moving_week,
+                sell_moving_week,
+                hourly_instasell,
+                hourly_instabuy,
+                buy_queue_depth,
+                sell_queue_depth,
+                volume: sell_moving_week + buy_moving_week
+            };
+        }
+
+        function buildShardPriceMap(products) {
             const map = {};
             for (const [id, prod] of Object.entries(products)) {
                 if (!id.startsWith('SHARD_')) continue;
-                const qs = prod.quick_status || {};
-                const ss = prod.sell_summary || [];
-                const bs = prod.buy_summary || [];
+                const p = parseOrderBook(prod);
+                if (p.buy_order_p > 0 || p.sell_offer_p > 0) {
+                    map[id] = p;
+                }
+            }
+            return map;
+        }
 
-                const buy_order_p = ss.length > 0 ? ss[0].pricePerUnit : (qs.sellPrice || 0);
-                const sell_offer_p = bs.length > 0 ? bs[0].pricePerUnit : (qs.buyPrice || 0);
+        function buildBookPriceMap(products) {
+            const map = {};
+            for (const [id, prod] of Object.entries(products)) {
+                if (!id.startsWith('ENCHANTMENT_')) continue;
+                const parts = id.replace('ENCHANTMENT_', '').split('_');
+                const lvlStr = parts[parts.length - 1];
+                if (!/^\d+$/.test(lvlStr)) continue;
 
-                const buy_moving_week = qs.buyMovingWeek || 0;
-                const sell_moving_week = qs.sellMovingWeek || 0;
+                const lvl = parseInt(lvlStr, 10);
+                const enchantKey = parts.slice(0, -1).join('_').toLowerCase();
 
-                const hourly_instasell = sell_moving_week > 0 ? (sell_moving_week / 168.0) : 1.0;
-                const hourly_instabuy  = buy_moving_week > 0 ? (buy_moving_week / 168.0) : 1.0;
-
-                const buy_queue_depth = ss.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
-                const sell_queue_depth = bs.slice(0, 3).reduce((acc, o) => acc + (o.amount || 0), 0);
-
-                const total_buy_avail = bs.reduce((acc, o) => acc + (o.amount || 0), 0);
-                const total_sell_avail = ss.reduce((acc, o) => acc + (o.amount || 0), 0);
-
-                if (buy_order_p <= 0 && sell_offer_p <= 0) continue;
-
-                map[id] = {
-                    buy_order_p,
-                    sell_offer_p,
-                    buy_summary: bs,
-                    sell_summary: ss,
-                    total_buy_avail,
-                    total_sell_avail,
-                    buy_moving_week,
-                    sell_moving_week,
-                    hourly_instasell,
-                    hourly_instabuy,
-                    buy_queue_depth,
-                    sell_queue_depth,
-                    volume: sell_moving_week + buy_moving_week
-                };
+                if (!map[enchantKey]) map[enchantKey] = {};
+                const p = parseOrderBook(prod);
+                p.pid = id;
+                p.level = lvl;
+                map[enchantKey][lvl] = p;
             }
             return map;
         }
@@ -970,22 +1212,23 @@
             };
         }
 
-        function computeOptimalCrafts() {
-            if (!fusionData || !Object.keys(prices).length) return;
+        /* ─── Shard Fusion Algorithms ─────────────────────────────── */
+        function computeShardOptimalCrafts() {
+            if (!fusionData || !Object.keys(shardPrices).length) return;
             const { shards, recipes } = fusionData;
             const isInsta = (cfg.inputMode === 'instabuy');
 
-            optCost = {};
-            optRecipe = {};
+            optShardCost = {};
+            optShardRecipe = {};
 
             for (const [code, s] of Object.entries(shards)) {
-                const p = prices[s.internal_id];
+                const p = shardPrices[s.internal_id];
                 if (!p) continue;
                 const directCost = isInsta ? p.sell_offer_p : p.buy_order_p;
                 if (directCost > 0) {
-                    optCost[code] = directCost;
+                    optShardCost[code] = directCost;
                 }
-                optRecipe[code] = null;
+                optShardRecipe[code] = null;
             }
 
             for (let iter = 0; iter < 10; iter++) {
@@ -994,15 +1237,15 @@
                     for (const [qtyStr, pairs] of Object.entries(qtyMap)) {
                         const outQty = parseInt(qtyStr, 10);
                         for (const [in1Code, in2Code] of pairs) {
-                            if (optCost[in1Code] !== undefined && optCost[in2Code] !== undefined) {
+                            if (optShardCost[in1Code] !== undefined && optShardCost[in2Code] !== undefined) {
                                 const q1 = shards[in1Code].fuse_amount;
                                 const q2 = shards[in2Code].fuse_amount;
-                                const fusionCost = (q1 * optCost[in1Code] + q2 * optCost[in2Code]) / outQty;
-                                const currentCost = optCost[outCode] !== undefined ? optCost[outCode] : Infinity;
+                                const fusionCost = (q1 * optShardCost[in1Code] + q2 * optShardCost[in2Code]) / outQty;
+                                const currentCost = optShardCost[outCode] !== undefined ? optShardCost[outCode] : Infinity;
 
                                 if (fusionCost < currentCost - 1e-4) {
-                                    optCost[outCode] = fusionCost;
-                                    optRecipe[outCode] = {
+                                    optShardCost[outCode] = fusionCost;
+                                    optShardRecipe[outCode] = {
                                         in1: in1Code, q1,
                                         in2: in2Code, q2,
                                         outQty,
@@ -1018,11 +1261,11 @@
             }
         }
 
-        function buildIntegerCraftTree(shardCode, depth = 0, visited = new Set()) {
+        function buildShardCraftTree(shardCode, depth = 0, visited = new Set()) {
             const { shards } = fusionData;
             const s = shards[shardCode];
-            const rec = optRecipe[shardCode];
-            const p = prices[s.internal_id];
+            const rec = optShardRecipe[shardCode];
+            const p = shardPrices[s.internal_id];
             const isInsta = (cfg.inputMode === 'instabuy');
             const directUnitCost = p ? (isInsta ? p.sell_offer_p : p.buy_order_p) : 0;
 
@@ -1041,10 +1284,10 @@
             const newVisited = new Set(visited);
             newVisited.add(shardCode);
 
-            const child1 = buildIntegerCraftTree(rec.in1, depth + 1, newVisited);
+            const child1 = buildShardCraftTree(rec.in1, depth + 1, newVisited);
             child1.req_qty = rec.q1;
 
-            const child2 = buildIntegerCraftTree(rec.in2, depth + 1, newVisited);
+            const child2 = buildShardCraftTree(rec.in2, depth + 1, newVisited);
             child2.req_qty = rec.q2;
 
             return {
@@ -1059,11 +1302,11 @@
             };
         }
 
-        function calculateBatchTreeAndFusions(shardCode, neededUnits, depth = 0, visited = new Set(), accBaseMats = {}, accFusions = { total: 0, steps: {} }) {
+        function calculateShardBatchTreeAndFusions(shardCode, neededUnits, depth = 0, visited = new Set(), accBaseMats = {}, accFusions = { total: 0, steps: {} }) {
             const { shards } = fusionData;
             const s = shards[shardCode];
-            const rec = optRecipe[shardCode];
-            const p = prices[s.internal_id];
+            const rec = optShardRecipe[shardCode];
+            const p = shardPrices[s.internal_id];
             const isInsta = (cfg.inputMode === 'instabuy');
             const directUnitCost = p ? (isInsta ? p.sell_offer_p : p.buy_order_p) : 0;
 
@@ -1095,69 +1338,13 @@
             const in1Needed = craftCycles * rec.q1;
             const in2Needed = craftCycles * rec.q2;
 
-            calculateBatchTreeAndFusions(rec.in1, in1Needed, depth + 1, newVisited, accBaseMats, accFusions);
-            calculateBatchTreeAndFusions(rec.in2, in2Needed, depth + 1, newVisited, accBaseMats, accFusions);
+            calculateShardBatchTreeAndFusions(rec.in1, in1Needed, depth + 1, newVisited, accBaseMats, accFusions);
+            calculateShardBatchTreeAndFusions(rec.in2, in2Needed, depth + 1, newVisited, accBaseMats, accFusions);
         }
 
-        function calculateDurations(baseMats, outInternalId, outQty) {
-            const isInsta = (cfg.inputMode === 'instabuy');
-            const isInstaSell = (cfg.outputMode === 'instasell');
-
-            if (isInsta && isInstaSell) {
-                return {
-                    buyHours: 0,
-                    sellHours: 0,
-                    totalHours: 0,
-                    buyStr: 'Instant',
-                    sellStr: 'Instant',
-                    totalStr: '< 5s'
-                };
-            }
-
-            let maxBuyHours = 0;
-            if (!isInsta) {
-                for (const mat of Object.values(baseMats)) {
-                    const p = prices[mat.internal_id];
-                    if (!p) continue;
-                    const queueDelay = p.buy_queue_depth / Math.max(1.0, p.hourly_instasell);
-                    const fillHours = (mat.total_qty / Math.max(0.5, p.hourly_instasell * 0.10)) + queueDelay;
-                    if (fillHours > maxBuyHours) maxBuyHours = fillHours;
-                }
-            }
-
-            let sellHours = 0;
-            if (!isInstaSell) {
-                const p = prices[outInternalId];
-                if (p) {
-                    const queueDelay = p.sell_queue_depth / Math.max(1.0, p.hourly_instabuy);
-                    sellHours = (outQty / Math.max(0.5, p.hourly_instabuy * 0.10)) + queueDelay;
-                }
-            }
-
-            const totalHours = maxBuyHours + sellHours;
-            return {
-                buyHours: maxBuyHours,
-                sellHours: sellHours,
-                totalHours: totalHours,
-                buyStr: formatDuration(maxBuyHours),
-                sellStr: formatDuration(sellHours),
-                totalStr: formatDuration(totalHours)
-            };
-        }
-
-        function formatDuration(hours) {
-            if (hours <= 0) return 'Instant';
-            const totalMins = Math.round(hours * 60);
-            if (totalMins < 1) return '< 1m';
-            if (totalMins < 60) return `~${totalMins}m`;
-            const h = Math.floor(totalMins / 60);
-            const m = totalMins % 60;
-            if (m === 0) return `~${h}h`;
-            return `~${h}h ${m}m`;
-        }
-
-        function computeFlips() {
-            if (!fusionData || !Object.keys(prices).length) return;
+        function computeShardFlips() {
+            if (!fusionData || !Object.keys(shardPrices).length) return;
+            computeShardOptimalCrafts();
             const { shards, recipes } = fusionData;
             const userTargetQty = Math.max(1, parseInt(cfg.batchQty, 10) || 1);
             const isInstaBuy = (cfg.inputMode === 'instabuy');
@@ -1168,7 +1355,7 @@
                 const outShard = shards[outCode];
                 if (!outShard) continue;
                 const outId = outShard.internal_id;
-                const pOut = prices[outId];
+                const pOut = shardPrices[outId];
                 if (!pOut) continue;
 
                 const outVol = pOut.volume;
@@ -1181,8 +1368,8 @@
 
                         const q1 = s1.fuse_amount;
                         const q2 = s2.fuse_amount;
-                        const cost1 = optCost[in1Code] !== undefined ? optCost[in1Code] : (prices[s1.internal_id] ? prices[s1.internal_id].buy_order_p : Infinity);
-                        const cost2 = optCost[in2Code] !== undefined ? optCost[in2Code] : (prices[s2.internal_id] ? prices[s2.internal_id].buy_order_p : Infinity);
+                        const cost1 = optShardCost[in1Code] !== undefined ? optShardCost[in1Code] : (shardPrices[s1.internal_id] ? shardPrices[s1.internal_id].buy_order_p : Infinity);
+                        const cost2 = optShardCost[in2Code] !== undefined ? optShardCost[in2Code] : (shardPrices[s2.internal_id] ? shardPrices[s2.internal_id].buy_order_p : Infinity);
 
                         if (!isFinite(cost1) || !isFinite(cost2)) continue;
 
@@ -1197,8 +1384,8 @@
                             rarity: outShard.rarity,
                             out_qty: minYield,
                             children: [
-                                { ...buildIntegerCraftTree(in1Code, 1, new Set([outCode])), req_qty: q1 },
-                                { ...buildIntegerCraftTree(in2Code, 1, new Set([outCode])), req_qty: q2 }
+                                { ...buildShardCraftTree(in1Code, 1, new Set([outCode])), req_qty: q1 },
+                                { ...buildShardCraftTree(in2Code, 1, new Set([outCode])), req_qty: q2 }
                             ]
                         };
 
@@ -1206,8 +1393,8 @@
                         const accFusions = { total: craftCycles, steps: { [outCode]: { name: outShard.name, count: craftCycles } } };
                         const in1Needed = craftCycles * q1;
                         const in2Needed = craftCycles * q2;
-                        calculateBatchTreeAndFusions(in1Code, in1Needed, 1, new Set([outCode]), baseMats, accFusions);
-                        calculateBatchTreeAndFusions(in2Code, in2Needed, 1, new Set([outCode]), baseMats, accFusions);
+                        calculateShardBatchTreeAndFusions(in1Code, in1Needed, 1, new Set([outCode]), baseMats, accFusions);
+                        calculateShardBatchTreeAndFusions(in2Code, in2Needed, 1, new Set([outCode]), baseMats, accFusions);
 
                         const totalFusions = accFusions.total;
                         const fusionStepsList = Object.values(accFusions.steps);
@@ -1220,7 +1407,7 @@
                         const batchMatBreakdown = {};
 
                         for (const [matCode, matInfo] of Object.entries(baseMats)) {
-                            const pMat = prices[matInfo.internal_id];
+                            const pMat = shardPrices[matInfo.internal_id];
                             if (!pMat) continue;
                             const totalMatNeeded = matInfo.total_qty;
 
@@ -1283,7 +1470,7 @@
                         const unitProfit = totalBatchProfit / actualProducedUnits;
                         const roiPct = totalBatchMatCost > 0 ? (totalBatchProfit / totalBatchMatCost * 100.0) : 0;
 
-                        const durations = calculateDurations(baseMats, outId, actualProducedUnits);
+                        const durations = calculateShardDurations(baseMats, outId, actualProducedUnits);
 
                         out.push({
                             outCode,
@@ -1336,25 +1523,341 @@
                 deduped.sort((a, b) => b.totalBatchProfit - a.totalBatchProfit);
             }
 
-            allResults = deduped;
+            allShardResults = deduped;
+            document.getElementById('sb-badge-shards').textContent = allShardResults.length;
         }
 
-        function renderResults() {
+        function calculateShardDurations(baseMats, outInternalId, outQty) {
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+
+            if (isInsta && isInstaSell) {
+                return { buyHours: 0, sellHours: 0, totalHours: 0, buyStr: 'Instant', sellStr: 'Instant', totalStr: '< 5s' };
+            }
+
+            let maxBuyHours = 0;
+            if (!isInsta) {
+                for (const mat of Object.values(baseMats)) {
+                    const p = shardPrices[mat.internal_id];
+                    if (!p) continue;
+                    const queueDelay = p.buy_queue_depth / Math.max(1.0, p.hourly_instasell);
+                    const fillHours = (mat.total_qty / Math.max(0.5, p.hourly_instasell * 0.10)) + queueDelay;
+                    if (fillHours > maxBuyHours) maxBuyHours = fillHours;
+                }
+            }
+
+            let sellHours = 0;
+            if (!isInstaSell) {
+                const p = shardPrices[outInternalId];
+                if (p) {
+                    const queueDelay = p.sell_queue_depth / Math.max(1.0, p.hourly_instabuy);
+                    sellHours = (outQty / Math.max(0.5, p.hourly_instabuy * 0.10)) + queueDelay;
+                }
+            }
+
+            const totalHours = maxBuyHours + sellHours;
+            return {
+                buyHours: maxBuyHours,
+                sellHours: sellHours,
+                totalHours: totalHours,
+                buyStr: formatDuration(maxBuyHours),
+                sellStr: formatDuration(sellHours),
+                totalStr: formatDuration(totalHours)
+            };
+        }
+
+        /* ─── Enchanted Book Flipper Algorithms ───────────────────── */
+        function getBookCombinableLimit(enchantName, bzLevels) {
+            if (!enchantsData) return Math.max(...Object.keys(bzLevels).map(Number));
+            const max_xp = enchantsData.max_xp_table_levels || {};
+            const xp_cost = enchantsData.enchants_xp_cost || {};
+
+            if (max_xp[enchantName] !== undefined) return max_xp[enchantName];
+            if (enchantName.startsWith('ultimate_') && max_xp[enchantName.slice(9)] !== undefined) {
+                return max_xp[enchantName.slice(9)];
+            }
+            if (enchantName === 'prosecute' && max_xp['PROSECUTE'] !== undefined) return max_xp['PROSECUTE'];
+
+            if (xp_cost[enchantName] && Array.isArray(xp_cost[enchantName])) {
+                return xp_cost[enchantName].length;
+            }
+            if (enchantName.startsWith('ultimate_') && xp_cost[enchantName.slice(9)] && Array.isArray(xp_cost[enchantName.slice(9)])) {
+                return xp_cost[enchantName.slice(9)].length;
+            }
+            if (enchantName === 'prosecute' && xp_cost['PROSECUTE'] && Array.isArray(xp_cost['PROSECUTE'])) {
+                return xp_cost['PROSECUTE'].length;
+            }
+
+            if (enchantName.startsWith('turbo_')) return 5;
+
+            return Math.max(...Object.keys(bzLevels).map(Number));
+        }
+
+        function formatEnchantName(raw) {
+            return raw.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        }
+
+        function getEnchantCategory(enchantKey) {
+            if (enchantKey.startsWith('ultimate_')) return 'ultimate';
+            if (enchantKey.startsWith('turbo_')) return 'turbo';
+            return 'regular';
+        }
+
+        function computeBookFlips() {
+            if (!Object.keys(bookPrices).length) return;
+            const isInstaBuy = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+            const userTargetQty = Math.max(1, parseInt(cfg.batchQty, 10) || 1);
+            const out = [];
+
+            for (const [enchantKey, levels] of Object.entries(bookPrices)) {
+                const lim = getBookCombinableLimit(enchantKey, levels);
+                const sortedLvls = Object.keys(levels).map(Number).sort((a, b) => a - b);
+                const category = getEnchantCategory(enchantKey);
+                const displayName = formatEnchantName(enchantKey);
+
+                // Dynamic programming: find cheapest path to construct each level
+                const optCost = {};
+                const optTree = {};
+
+                for (const lvl of sortedLvls) {
+                    const pdata = levels[lvl];
+                    const directBuyCost = isInstaBuy ? pdata.sell_offer_p : pdata.buy_order_p;
+                    
+                    let bestCost = directBuyCost > 0 ? directBuyCost : Infinity;
+                    let bestTree = {
+                        type: isInstaBuy ? 'insta' : 'buy_order',
+                        enchant: enchantKey,
+                        name: displayName,
+                        level: lvl,
+                        unit_cost: directBuyCost,
+                        pid: pdata.pid,
+                        children: []
+                    };
+
+                    // Check if combining 2x of (lvl - 1) is cheaper
+                    if (lvl > 1 && lvl <= lim && optCost[lvl - 1] !== undefined) {
+                        const combineCost = 2 * optCost[lvl - 1];
+                        if (combineCost < bestCost) {
+                            bestCost = combineCost;
+                            bestTree = {
+                                type: 'combine',
+                                enchant: enchantKey,
+                                name: displayName,
+                                level: lvl,
+                                unit_cost: combineCost,
+                                pid: pdata.pid,
+                                children: [optTree[lvl - 1], optTree[lvl - 1]]
+                            };
+                        }
+                    }
+
+                    if (bestCost < Infinity) {
+                        optCost[lvl] = bestCost;
+                        optTree[lvl] = bestTree;
+
+                        // Evaluate flip for selling target level
+                        if (pdata.volume >= 20) {
+                            const rawSalePrice = isInstaSell ? pdata.buy_order_p : pdata.sell_offer_p;
+                            if (rawSalePrice > 0) {
+                                // Calculate total batch breakdown
+                                const baseBooks = {};
+                                const accCombines = { total: 0, steps: {} };
+                                
+                                calculateBookBatchTree(bestTree, userTargetQty, baseBooks, accCombines);
+
+                                // Check if combining is actually utilized
+                                if (accCombines.total > 0) {
+                                    let totalBatchCost = 0.0;
+                                    let maxExecutable = Infinity;
+
+                                    for (const [matLvl, matInfo] of Object.entries(baseBooks)) {
+                                        const pMat = levels[matLvl];
+                                        if (!pMat) continue;
+                                        const neededQty = matInfo.total_qty;
+                                        let unitPrice = pMat.sell_offer_p;
+                                        let filled = neededQty;
+
+                                        if (isInstaBuy) {
+                                            const buyRes = calculateWeightedInstaBuy(pMat.buy_summary, neededQty);
+                                            if (buyRes.filledQty > 0) {
+                                                unitPrice = buyRes.avgPrice;
+                                                filled = buyRes.filledQty;
+                                            }
+                                            const ratio = Math.max(1, neededQty / userTargetQty);
+                                            const supported = Math.floor(pMat.total_buy_avail / ratio);
+                                            if (supported < maxExecutable) maxExecutable = supported;
+                                        } else {
+                                            unitPrice = pMat.buy_order_p;
+                                        }
+
+                                        const costTotal = unitPrice * neededQty;
+                                        totalBatchCost += costTotal;
+                                        matInfo.avg_unit_price = unitPrice;
+                                        matInfo.total_cost = costTotal;
+                                        matInfo.filled_qty = filled;
+                                        matInfo.total_avail = pMat.total_buy_avail;
+                                    }
+
+                                    let avgSalePrice = pdata.sell_offer_p;
+                                    if (isInstaSell) {
+                                        const sellRes = calculateWeightedInstaSell(pdata.sell_summary, userTargetQty);
+                                        if (sellRes.filledQty > 0) avgSalePrice = sellRes.avgPrice;
+                                        if (pdata.total_sell_avail < maxExecutable) maxExecutable = pdata.total_sell_avail;
+                                    } else {
+                                        avgSalePrice = pdata.sell_offer_p;
+                                    }
+
+                                    if (maxExecutable === Infinity) maxExecutable = 999;
+
+                                    const totalGrossRev = avgSalePrice * userTargetQty;
+                                    const totalTax = totalGrossRev * BAZAAR_TAX;
+                                    const totalNetRev = totalGrossRev - totalTax;
+                                    const totalProfit = totalNetRev - totalBatchCost;
+
+                                    if (totalProfit > 0) {
+                                        const unitCost = totalBatchCost / userTargetQty;
+                                        const unitProfit = totalProfit / userTargetQty;
+                                        const roiPct = totalBatchCost > 0 ? (totalProfit / totalBatchCost * 100) : 0;
+
+                                        const durations = calculateBookDurations(baseBooks, pdata, userTargetQty);
+
+                                        const combineStepsList = Object.values(accCombines.steps);
+                                        const combineBreakdownStr = combineStepsList.length > 1
+                                            ? combineStepsList.map(st => `${st.count}x L${st.level}`).join(' + ')
+                                            : '';
+
+                                        out.push({
+                                            enchantKey,
+                                            name: displayName,
+                                            level: lvl,
+                                            category,
+                                            combinableLimit: lim,
+                                            volume: pdata.volume,
+                                            totalBatchCost,
+                                            totalGrossRev,
+                                            totalTax,
+                                            totalProfit,
+                                            unitCost,
+                                            avgSalePrice,
+                                            unitProfit,
+                                            pct: roiPct,
+                                            totalCombines: accCombines.total,
+                                            combineBreakdownStr,
+                                            actualProducedUnits: userTargetQty,
+                                            maxExecutable,
+                                            isOrderBookFullyAvailable: (maxExecutable >= userTargetQty),
+                                            tree: bestTree,
+                                            baseMats: baseBooks,
+                                            durations
+                                        });
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (cfg.sortBy === 'percent') {
+                out.sort((a, b) => b.pct - a.pct);
+            } else if (cfg.sortBy === 'time') {
+                out.sort((a, b) => a.durations.totalHours - b.durations.totalHours);
+            } else if (cfg.sortBy === 'fusions') {
+                out.sort((a, b) => a.totalCombines - b.totalCombines);
+            } else {
+                out.sort((a, b) => b.totalProfit - a.totalProfit);
+            }
+
+            allBookResults = out;
+            document.getElementById('sb-badge-books').textContent = allBookResults.length;
+        }
+
+        function calculateBookBatchTree(node, neededUnits, baseBooks, accCombines) {
+            if (node.type !== 'combine') {
+                if (!baseBooks[node.level]) {
+                    baseBooks[node.level] = {
+                        level: node.level,
+                        name: `${node.name} ${node.level}`,
+                        total_qty: 0,
+                        unit_price: node.unit_cost
+                    };
+                }
+                baseBooks[node.level].total_qty += neededUnits;
+                return;
+            }
+
+            accCombines.total += neededUnits;
+            if (!accCombines.steps[node.level]) {
+                accCombines.steps[node.level] = { level: node.level, count: 0 };
+            }
+            accCombines.steps[node.level].count += neededUnits;
+
+            const child1 = node.children[0];
+            const child2 = node.children[1];
+            calculateBookBatchTree(child1, neededUnits, baseBooks, accCombines);
+            calculateBookBatchTree(child2, neededUnits, baseBooks, accCombines);
+        }
+
+        function calculateBookDurations(baseBooks, outProd, outQty) {
+            const isInsta = (cfg.inputMode === 'instabuy');
+            const isInstaSell = (cfg.outputMode === 'instasell');
+
+            if (isInsta && isInstaSell) {
+                return { buyHours: 0, sellHours: 0, totalHours: 0, buyStr: 'Instant', sellStr: 'Instant', totalStr: '< 5s' };
+            }
+
+            let maxBuyHours = 0;
+            if (!isInsta) {
+                for (const [lvl, mat] of Object.entries(baseBooks)) {
+                    const queueDelay = (outProd.buy_queue_depth || 0) / Math.max(1.0, outProd.hourly_instasell);
+                    const fillHours = (mat.total_qty / Math.max(0.5, outProd.hourly_instasell * 0.10)) + queueDelay;
+                    if (fillHours > maxBuyHours) maxBuyHours = fillHours;
+                }
+            }
+
+            let sellHours = 0;
+            if (!isInstaSell) {
+                const queueDelay = (outProd.sell_queue_depth || 0) / Math.max(1.0, outProd.hourly_instabuy);
+                sellHours = (outQty / Math.max(0.5, outProd.hourly_instabuy * 0.10)) + queueDelay;
+            }
+
+            const totalHours = maxBuyHours + sellHours;
+            return {
+                buyHours: maxBuyHours,
+                sellHours: sellHours,
+                totalHours: totalHours,
+                buyStr: formatDuration(maxBuyHours),
+                sellStr: formatDuration(sellHours),
+                totalStr: formatDuration(totalHours)
+            };
+        }
+
+        /* ─── Rendering ───────────────────────────────────────────── */
+        function renderCurrentModule() {
+            if (currentModule === 'shards') {
+                renderShardResults();
+            } else {
+                renderBookResults();
+            }
+        }
+
+        function renderShardResults() {
             const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
             const area = document.getElementById('area');
 
-            if (!allResults.length && Object.keys(prices).length) {
+            if (!allShardResults.length && Object.keys(shardPrices).length) {
                 area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
-                    [!] No profitable fusions found for ${cfg.batchQty} units at current market prices.
+                    [!] No profitable shard fusions found for ${cfg.batchQty} units at current market prices.
                 </div>`;
                 return;
             }
-            if (!allResults.length) return;
+            if (!allShardResults.length) return;
 
-            let list = allResults;
+            let list = allShardResults;
 
-            if (activeRarityFilter !== 'all') {
-                list = list.filter(r => r.outRarity.toLowerCase() === activeRarityFilter);
+            if (activeFilterCategory !== 'all') {
+                list = list.filter(r => r.outRarity.toLowerCase() === activeFilterCategory);
             }
 
             if (filter) {
@@ -1370,24 +1873,24 @@
 
             if (shown.length === 0) {
                 area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
-                    [!] No results matching "${esc(filter)}"
+                    [!] No shard results matching "${esc(filter)}"
                 </div>`;
                 return;
             }
 
             const grid = document.createElement('div');
             grid.className = 'grid';
-            shown.forEach((r, i) => grid.appendChild(makeCard(r, i + 1)));
+            shown.forEach((r, i) => grid.appendChild(makeShardCard(r, i + 1)));
             area.innerHTML = '';
             area.appendChild(grid);
         }
 
-        function makeCard(r, rank) {
+        function makeShardCard(r, rank) {
             const el = document.createElement('div');
             el.className = 'card';
             const rar = r.outRarity.toLowerCase();
             const rarLbl = rar.slice(0, 3).toUpperCase();
-            const treeHtml = renderTreeHtml(r.tree, true);
+            const treeHtml = renderShardTreeHtml(r.tree, true);
 
             const baseListStr = Object.values(r.baseMats)
                 .map(m => `<img src="./shardIcons/${m.code}.png" class="shard-icon" onerror="this.style.display='none'" /> <b>${Math.round(m.total_qty).toLocaleString()}x</b> ${esc(m.name)} (@ ${fmt(m.avg_unit_price)})`)
@@ -1467,7 +1970,7 @@
             return el;
         }
 
-        function renderTreeHtml(node, isRoot = false) {
+        function renderShardTreeHtml(node, isRoot = false) {
             const rar = (node.rarity || 'common').toLowerCase();
             let tagClass = 'tag-fuse';
             let tagText = '[FUSE]';
@@ -1489,7 +1992,7 @@
 
             if (node.children && node.children.length > 0) {
                 for (const child of node.children) {
-                    html += renderTreeHtml(child, false);
+                    html += renderShardTreeHtml(child, false);
                 }
             }
 
@@ -1497,6 +2000,164 @@
             return html;
         }
 
+        function renderBookResults() {
+            const filter = (document.getElementById('fi')?.value || '').toLowerCase().trim();
+            const area = document.getElementById('area');
+
+            if (!allBookResults.length && Object.keys(bookPrices).length) {
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
+                    [!] No profitable book combine flips found for ${cfg.batchQty} units at current market prices.
+                </div>`;
+                return;
+            }
+            if (!allBookResults.length) return;
+
+            let list = allBookResults;
+
+            if (activeFilterCategory !== 'all') {
+                list = list.filter(r => r.category === activeFilterCategory);
+            }
+
+            if (filter) {
+                list = list.filter(r =>
+                    r.name.toLowerCase().includes(filter) ||
+                    r.enchantKey.toLowerCase().includes(filter)
+                );
+            }
+
+            const shown = list.slice(0, cfg.topN);
+
+            if (shown.length === 0) {
+                area.innerHTML = `<div style="padding:40px;text-align:center;color:var(--text-dim)">
+                    [!] No book results matching "${esc(filter)}"
+                </div>`;
+                return;
+            }
+
+            const grid = document.createElement('div');
+            grid.className = 'grid';
+            shown.forEach((r, i) => grid.appendChild(makeBookCard(r, i + 1)));
+            area.innerHTML = '';
+            area.appendChild(grid);
+        }
+
+        function makeBookCard(r, rank) {
+            const el = document.createElement('div');
+            el.className = 'card';
+            const cat = r.category;
+            const treeHtml = renderBookTreeHtml(r.tree, true);
+
+            const baseListStr = Object.values(r.baseMats)
+                .map(m => `<b>${Math.round(m.total_qty).toLocaleString()}x</b> ${esc(m.name)} (@ ${fmt(m.avg_unit_price)})`)
+                .join(' &nbsp;|&nbsp; ');
+
+            let obBadgeHtml = '';
+            if (cfg.inputMode === 'instabuy' && cfg.outputMode === 'instasell') {
+                if (r.isOrderBookFullyAvailable) {
+                    obBadgeHtml = `<div class="ob-badge ok">
+                        <span>[OK] ORDER BOOK: <b>${r.actualProducedUnits}/${r.actualProducedUnits} READY</b></span>
+                        <span style="opacity:0.75">MAX EXECUTABLE: ${r.maxExecutable} UNITS</span>
+                    </div>`;
+                } else {
+                    obBadgeHtml = `<div class="ob-badge warn">
+                        <span>[!] PARTIAL DEPTH: <b>ONLY ${r.maxExecutable}/${r.actualProducedUnits} AVAILABLE RIGHT NOW</b></span>
+                    </div>`;
+                }
+            }
+
+            el.innerHTML = `
+                <!-- Card Header -->
+                <div class="card-header">
+                    <span class="rank-num">#${rank}</span>
+                    <span class="book-icon">📖</span>
+                    <span class="rar-tag ${cat}">${cat.toUpperCase()}</span>
+                    <span class="shard-name ${cat}">${esc(r.name)} ${r.level}</span>
+                    <span class="vol-stat">vol: ${fmt(r.volume)}/wk</span>
+                </div>
+
+                ${obBadgeHtml}
+
+                <!-- Batch Metrics Box -->
+                <div class="metrics-block">
+                    <div class="mb-top">
+                        <span style="color:var(--text-dim);font-weight:700">BATCH [ ${r.actualProducedUnits}x UNITS // ⚡ ${r.totalCombines} COMBINES ]</span>
+                        <span class="mb-roi">+${r.pct.toFixed(1)}% ROI</span>
+                    </div>
+                    <div class="mb-top">
+                        <span style="color:var(--text-dim)">Cost: ${fmt(r.totalBatchCost)} → Rev: ${fmt(r.totalGrossRev)} (Tax: ${fmt(r.totalTax)})</span>
+                        <span class="mb-profit">+${fmt(r.totalProfit)}</span>
+                    </div>
+                    ${r.combineBreakdownStr ? `<div style="font-size:10px;color:var(--text-dim);margin-top:1px">↳ ${esc(r.combineBreakdownStr)}</div>` : ''}
+                </div>
+
+                <!-- Timers Row -->
+                <div class="timers-block">
+                    <span>IN: <b>${r.durations.buyStr}</b></span>
+                    <span>|</span>
+                    <span>OUT: <b>${r.durations.sellStr}</b></span>
+                    <span>|</span>
+                    <span>TOTAL: <b class="hl">${r.durations.totalStr}</b></span>
+                </div>
+
+                <!-- Craft Tree -->
+                <div class="tree-block">
+                    <div class="tree-title">
+                        <span>[ COMBINE TREE // 1 UNIT ]</span>
+                        <span>COMBINABLE LIMIT: L${r.combinableLimit}</span>
+                    </div>
+                    <div>
+                        ${treeHtml}
+                    </div>
+                </div>
+
+                <!-- Raw Shopping List -->
+                <div class="mats-list">
+                    <span style="color:var(--text-dim);font-weight:700;display:block;margin-bottom:2px">[RAW BOOKS TO BUY]:</span>
+                    ${baseListStr}
+                </div>
+
+                <!-- Unit Bar -->
+                <div class="unit-bar">
+                    <span>PER UNIT: Cost <b>${fmt(r.unitCost)}</b> → Sell <b>${fmt(r.avgSalePrice)}</b></span>
+                    <span>PROFIT: <b class="p">+${fmt(r.unitProfit)}</b></span>
+                </div>
+            `;
+            return el;
+        }
+
+        function renderBookTreeHtml(node, isRoot = false) {
+            let tagClass = 'tag-combine';
+            let tagText = '[COMBINE]';
+            if (node.type === 'buy_order') { tagClass = 'tag-buy'; tagText = '[BUY]'; }
+            if (node.type === 'insta') { tagClass = 'tag-insta'; tagText = '[INSTA]'; }
+
+            let html = `
+                <div class="tree-node ${isRoot ? 'root' : ''}">
+                    <div class="tree-row">
+                        <span style="color:var(--yellow);font-weight:700">[L${node.level}]</span>
+                        <span style="font-size:11.5px;color:var(--text)">${esc(node.name)}</span>
+                        <span class="${tagClass}">${tagText}</span>
+                        ${node.type !== 'combine' ? `<span style="color:var(--text-dim);font-size:10px">@ ${fmt(node.unit_cost)}</span>` : ''}
+                    </div>
+            `;
+
+            if (node.children && node.children.length > 0) {
+                // Group duplicates if both children are identical
+                if (node.children.length === 2 && node.children[0].level === node.children[1].level) {
+                    html += `<div style="padding-left:12px;color:var(--text-dim);font-size:10px">↳ 2x [L${node.children[0].level}] ${esc(node.children[0].name)}</div>`;
+                    html += renderBookTreeHtml(node.children[0], false);
+                } else {
+                    for (const child of node.children) {
+                        html += renderBookTreeHtml(child, false);
+                    }
+                }
+            }
+
+            html += `</div>`;
+            return html;
+        }
+
+        /* ─── Helpers ─────────────────────────────────────────────── */
         function fmt(n) {
             if (n === undefined || n === null || isNaN(n)) return '0';
             const a = Math.abs(n);
@@ -1515,14 +2176,22 @@
         }
 
         function statusText() {
-            const pc = Object.keys(prices).length;
-            const pf = allResults.length;
-            return `[BAZAAR LIVE] <b>${pc}</b> shards active | <span class="g">${pf.toLocaleString()}</span> profitable flips verified for <b>${cfg.batchQty} units</b>`;
+            if (currentModule === 'shards') {
+                const pc = Object.keys(shardPrices).length;
+                const pf = allShardResults.length;
+                return `[BAZAAR LIVE] <b>${pc}</b> shards active | <span class="g">${pf.toLocaleString()}</span> profitable flips verified for <b>${cfg.batchQty} units</b>`;
+            } else {
+                const pc = Object.keys(bookPrices).length;
+                const pf = allBookResults.length;
+                return `[BAZAAR LIVE] <b>${pc}</b> enchants active | <span class="g">${pf.toLocaleString()}</span> profitable combines verified for <b>${cfg.batchQty} units</b>`;
+            }
         }
 
         function updateTs() {
             if (!lastUpdated) return;
-            document.getElementById('sts').textContent = lastUpdated.toLocaleTimeString();
+            const ts = lastUpdated.toLocaleTimeString();
+            document.getElementById('sts').textContent = ts;
+            document.getElementById('sb-time').textContent = ts;
         }
 
         function setBatchQty(qty) {
@@ -1584,21 +2253,31 @@
             recompute();
         }
 
-        function setRarityFilter(rarity, btn) {
-            activeRarityFilter = rarity;
-            document.querySelectorAll('.ctrl-group .btn').forEach(p => {
-                if (['All', 'Leg', 'Epic', 'Rare'].includes(p.textContent)) p.classList.remove('active');
-            });
+        function setFilterCategory(cat, btn) {
+            activeFilterCategory = cat;
+            const container = (currentModule === 'shards') ? document.getElementById('filter-group-shards') : document.getElementById('filter-group-books');
+            container.querySelectorAll('.btn').forEach(p => p.classList.remove('active'));
             btn.classList.add('active');
-            renderResults();
+            renderCurrentModule();
         }
 
         function recompute() {
-            if (!fusionData || !Object.keys(prices).length) return;
-            computeOptimalCrafts();
-            computeFlips();
-            renderResults();
+            if (!Object.keys(productsData).length) return;
+            computeShardFlips();
+            computeBookFlips();
+            renderCurrentModule();
             setStatus(statusText());
+        }
+
+        function formatDuration(hours) {
+            if (hours <= 0) return 'Instant';
+            const totalMins = Math.round(hours * 60);
+            if (totalMins < 1) return '< 1m';
+            if (totalMins < 60) return `~${totalMins}m`;
+            const h = Math.floor(totalMins / 60);
+            const m = totalMins % 60;
+            if (m === 0) return `~${h}h`;
+            return `~${h}h ${m}m`;
         }
 
         init();
